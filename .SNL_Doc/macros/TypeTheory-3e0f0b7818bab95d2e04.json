@@ -39,6 +39,17 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.Expr"
+    "name": "Lambda.Expr",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_Expr_7a4bcbfc97",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_Expr_7a4bcbfc97 = (children, style: none) => optionLink(\"Lambda.Expr\", snl-render-macro-template(\"TypeTheory\", \"Lambda.Expr\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_Expr_7a4bcbfc97 = (children, style: none) => optionLink(\"Lambda.Expr\", snl-render-macro-template(\"TypeTheory\", \"Lambda.Expr\", children, style: style))"
+        }
+      }
+    }
   }
 }

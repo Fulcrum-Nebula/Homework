@@ -39,6 +39,17 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Lambda.K"
+    "name": "Lambda.K",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_K_8c7350d78c",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_K_8c7350d78c = (children, style: none) => optionLink(\"Lambda.K\", snl-render-macro-template(\"TypeTheory\", \"Lambda.K\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_K_8c7350d78c = (children, style: none) => optionLink(\"Lambda.K\", snl-render-macro-template(\"TypeTheory\", \"Lambda.K\", children, style: style))"
+        }
+      }
+    }
   }
 }

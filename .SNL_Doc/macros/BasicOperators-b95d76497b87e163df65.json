@@ -37,6 +37,17 @@
       }
     ],
     "tags": [],
-    "name": "parentheses"
+    "name": "parentheses",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_BasicOperators_parentheses_6a085b853d",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_BasicOperators_parentheses_6a085b853d = (children, style: none) => optionLink(\"parentheses\", snl-render-macro-template(\"BasicOperators\", \"parentheses\", children, style: style))",
+          "en": "#let snl_macro_BasicOperators_parentheses_6a085b853d = (children, style: none) => optionLink(\"parentheses\", snl-render-macro-template(\"BasicOperators\", \"parentheses\", children, style: style))"
+        }
+      }
+    }
   }
 }

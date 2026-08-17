@@ -39,6 +39,17 @@
       }
     ],
     "tags": [],
-    "name": "Eq"
+    "name": "Eq",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_BasicOperators_Eq_d0946abc51",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_BasicOperators_Eq_d0946abc51 = (children, style: none) => optionLink(\"Eq\", snl-render-macro-template(\"BasicOperators\", \"Eq\", children, style: style))",
+          "en": "#let snl_macro_BasicOperators_Eq_d0946abc51 = (children, style: none) => optionLink(\"Eq\", snl-render-macro-template(\"BasicOperators\", \"Eq\", children, style: style))"
+        }
+      }
+    }
   }
 }

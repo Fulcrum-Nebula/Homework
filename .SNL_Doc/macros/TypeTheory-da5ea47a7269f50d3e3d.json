@@ -38,6 +38,17 @@
     ],
     "tags": [],
     "kind": "sub",
-    "name": "cases"
+    "name": "cases",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_cases_d3a9db791e",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_cases_d3a9db791e = (children, style: none) => optionLink(\"cases\", snl-render-macro-template(\"TypeTheory\", \"cases\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_cases_d3a9db791e = (children, style: none) => optionLink(\"cases\", snl-render-macro-template(\"TypeTheory\", \"cases\", children, style: style))"
+        }
+      }
+    }
   }
 }

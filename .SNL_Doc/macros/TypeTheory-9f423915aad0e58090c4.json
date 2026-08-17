@@ -38,6 +38,17 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.apply"
+    "name": "Lambda.apply",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_apply_9ab107277a",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_apply_9ab107277a = (children, style: none) => optionLink(\"Lambda.apply\", snl-render-macro-template(\"TypeTheory\", \"Lambda.apply\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_apply_9ab107277a = (children, style: none) => optionLink(\"Lambda.apply\", snl-render-macro-template(\"TypeTheory\", \"Lambda.apply\", children, style: style))"
+        }
+      }
+    }
   }
 }

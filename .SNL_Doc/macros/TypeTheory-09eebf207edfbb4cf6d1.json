@@ -63,6 +63,17 @@
       }
     ],
     "tags": [],
-    "name": "Type.Term"
+    "name": "Type.Term",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_Term_debdccf623",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_Term_debdccf623 = (children, style: none) => optionLink(\"Type.Term\", snl-render-macro-template(\"TypeTheory\", \"Type.Term\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_Term_debdccf623 = (children, style: none) => optionLink(\"Type.Term\", snl-render-macro-template(\"TypeTheory\", \"Type.Term\", children, style: style))"
+        }
+      }
+    }
   }
 }

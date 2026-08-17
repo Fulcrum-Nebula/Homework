@@ -38,6 +38,17 @@
       }
     ],
     "tags": [],
-    "name": "ctors"
+    "name": "ctors",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_ctors_0edbeb9f80",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_ctors_0edbeb9f80 = (children, style: none) => optionLink(\"ctors\", snl-render-macro-template(\"TypeTheory\", \"ctors\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_ctors_0edbeb9f80 = (children, style: none) => optionLink(\"ctors\", snl-render-macro-template(\"TypeTheory\", \"ctors\", children, style: style))"
+        }
+      }
+    }
   }
 }

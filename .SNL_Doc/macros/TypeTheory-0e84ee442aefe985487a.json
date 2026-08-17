@@ -66,6 +66,17 @@
       }
     ],
     "tags": [],
-    "name": "deBruijnIndex"
+    "name": "deBruijnIndex",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_deBruijnIndex_7d0a31704a",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_deBruijnIndex_7d0a31704a = (children, style: none) => optionLink(\"deBruijnIndex\", snl-render-macro-template(\"TypeTheory\", \"deBruijnIndex\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_deBruijnIndex_7d0a31704a = (children, style: none) => optionLink(\"deBruijnIndex\", snl-render-macro-template(\"TypeTheory\", \"deBruijnIndex\", children, style: style))"
+        }
+      }
+    }
   }
 }

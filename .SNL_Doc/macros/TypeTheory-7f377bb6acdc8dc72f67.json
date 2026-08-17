@@ -66,6 +66,17 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.defeq.trans"
+    "name": "Lambda.defeq.trans",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_defeq_trans_e59501a954",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_defeq_trans_e59501a954 = (children, style: none) => optionLink(\"Lambda.defeq.trans\", snl-render-macro-template(\"TypeTheory\", \"Lambda.defeq.trans\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_defeq_trans_e59501a954 = (children, style: none) => optionLink(\"Lambda.defeq.trans\", snl-render-macro-template(\"TypeTheory\", \"Lambda.defeq.trans\", children, style: style))"
+        }
+      }
+    }
   }
 }

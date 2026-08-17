@@ -40,6 +40,17 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.eta"
+    "name": "Lambda.eta",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_eta_1343a7b301",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_eta_1343a7b301 = (children, style: none) => optionLink(\"Lambda.eta\", snl-render-macro-template(\"TypeTheory\", \"Lambda.eta\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_eta_1343a7b301 = (children, style: none) => optionLink(\"Lambda.eta\", snl-render-macro-template(\"TypeTheory\", \"Lambda.eta\", children, style: style))"
+        }
+      }
+    }
   }
 }

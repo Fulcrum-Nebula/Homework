@@ -138,6 +138,17 @@
       }
     ],
     "tags": [],
-    "name": "Type.apply"
+    "name": "Type.apply",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_apply_0c2825aef4",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_apply_0c2825aef4 = (children, style: none) => optionLink(\"Type.apply\", snl-render-macro-template(\"TypeTheory\", \"Type.apply\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_apply_0c2825aef4 = (children, style: none) => optionLink(\"Type.apply\", snl-render-macro-template(\"TypeTheory\", \"Type.apply\", children, style: style))"
+        }
+      }
+    }
   }
 }

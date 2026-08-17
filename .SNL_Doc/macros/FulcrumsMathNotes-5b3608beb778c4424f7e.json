@@ -114,6 +114,17 @@
       }
     ],
     "tags": [],
-    "name": "thm-hyp"
+    "name": "thm-hyp",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_FulcrumsMathNotes_thm_hyp_9bcabb3997",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_FulcrumsMathNotes_thm_hyp_9bcabb3997 = (children, style: none) => optionLink(\"thm-hyp\", snl-render-macro-template(\"FulcrumsMathNotes\", \"thm-hyp\", children, style: style))",
+          "en": "#let snl_macro_FulcrumsMathNotes_thm_hyp_9bcabb3997 = (children, style: none) => optionLink(\"thm-hyp\", snl-render-macro-template(\"FulcrumsMathNotes\", \"thm-hyp\", children, style: style))"
+        }
+      }
+    }
   }
 }

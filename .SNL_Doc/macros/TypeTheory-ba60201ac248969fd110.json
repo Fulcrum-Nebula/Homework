@@ -66,6 +66,17 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.defeq.lam-cong"
+    "name": "Lambda.defeq.lam-cong",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_defeq_lam_cong_9c21051a29",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_defeq_lam_cong_9c21051a29 = (children, style: none) => optionLink(\"Lambda.defeq.lam-cong\", snl-render-macro-template(\"TypeTheory\", \"Lambda.defeq.lam-cong\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_defeq_lam_cong_9c21051a29 = (children, style: none) => optionLink(\"Lambda.defeq.lam-cong\", snl-render-macro-template(\"TypeTheory\", \"Lambda.defeq.lam-cong\", children, style: style))"
+        }
+      }
+    }
   }
 }

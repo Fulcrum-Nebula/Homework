@@ -63,6 +63,17 @@
       }
     ],
     "tags": [],
-    "name": "Type.Expr"
+    "name": "Type.Expr",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_Expr_070e3a68c6",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_Expr_070e3a68c6 = (children, style: none) => optionLink(\"Type.Expr\", snl-render-macro-template(\"TypeTheory\", \"Type.Expr\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_Expr_070e3a68c6 = (children, style: none) => optionLink(\"Type.Expr\", snl-render-macro-template(\"TypeTheory\", \"Type.Expr\", children, style: style))"
+        }
+      }
+    }
   }
 }

@@ -89,6 +89,17 @@
       }
     ],
     "tags": [],
-    "name": "Logic.false"
+    "name": "Logic.false",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_Logic_Logic_false_2077968b4c",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_Logic_Logic_false_2077968b4c = (children, style: none) => optionLink(\"Logic.false\", snl-render-macro-template(\"Logic\", \"Logic.false\", children, style: style))",
+          "en": "#let snl_macro_Logic_Logic_false_2077968b4c = (children, style: none) => optionLink(\"Logic.false\", snl-render-macro-template(\"Logic\", \"Logic.false\", children, style: style))"
+        }
+      }
+    }
   }
 }

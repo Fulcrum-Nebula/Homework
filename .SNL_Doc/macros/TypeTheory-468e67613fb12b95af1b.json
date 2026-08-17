@@ -39,6 +39,17 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Lambda.Omega"
+    "name": "Lambda.Omega",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_Omega_fe32f4a88f",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_Omega_fe32f4a88f = (children, style: none) => optionLink(\"Lambda.Omega\", snl-render-macro-template(\"TypeTheory\", \"Lambda.Omega\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_Omega_fe32f4a88f = (children, style: none) => optionLink(\"Lambda.Omega\", snl-render-macro-template(\"TypeTheory\", \"Lambda.Omega\", children, style: style))"
+        }
+      }
+    }
   }
 }

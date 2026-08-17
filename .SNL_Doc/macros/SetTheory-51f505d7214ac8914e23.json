@@ -39,6 +39,17 @@
         }
       }
     ],
-    "name": "Set.sep-typed"
+    "name": "Set.sep-typed",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_SetTheory_Set_sep_typed_b2305aaca3",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_SetTheory_Set_sep_typed_b2305aaca3 = (children, style: none) => optionLink(\"Set.sep-typed\", snl-render-macro-template(\"SetTheory\", \"Set.sep-typed\", children, style: style))",
+          "en": "#let snl_macro_SetTheory_Set_sep_typed_b2305aaca3 = (children, style: none) => optionLink(\"Set.sep-typed\", snl-render-macro-template(\"SetTheory\", \"Set.sep-typed\", children, style: style))"
+        }
+      }
+    }
   }
 }

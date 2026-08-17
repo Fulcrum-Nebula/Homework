@@ -90,6 +90,17 @@
       }
     ],
     "tags": [],
-    "name": "Type.Expr-UTLC.bvar"
+    "name": "Type.Expr-UTLC.bvar",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_Expr_UTLC_bvar_1c46fce26d",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_Expr_UTLC_bvar_1c46fce26d = (children, style: none) => optionLink(\"Type.Expr-UTLC.bvar\", snl-render-macro-template(\"TypeTheory\", \"Type.Expr-UTLC.bvar\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_Expr_UTLC_bvar_1c46fce26d = (children, style: none) => optionLink(\"Type.Expr-UTLC.bvar\", snl-render-macro-template(\"TypeTheory\", \"Type.Expr-UTLC.bvar\", children, style: style))"
+        }
+      }
+    }
   }
 }

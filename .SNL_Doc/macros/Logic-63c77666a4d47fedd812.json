@@ -63,6 +63,17 @@
       }
     ],
     "tags": [],
-    "name": "Logic.and"
+    "name": "Logic.and",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_Logic_Logic_and_5c04fcde8c",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_Logic_Logic_and_5c04fcde8c = (children, style: none) => optionLink(\"Logic.and\", snl-render-macro-template(\"Logic\", \"Logic.and\", children, style: style))",
+          "en": "#let snl_macro_Logic_Logic_and_5c04fcde8c = (children, style: none) => optionLink(\"Logic.and\", snl-render-macro-template(\"Logic\", \"Logic.and\", children, style: style))"
+        }
+      }
+    }
   }
 }

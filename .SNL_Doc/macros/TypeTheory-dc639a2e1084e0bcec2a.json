@@ -138,6 +138,17 @@
       }
     ],
     "tags": [],
-    "name": "Type.Expr-UTLC.lambda"
+    "name": "Type.Expr-UTLC.lambda",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_Expr_UTLC_lambda_618deda6d5",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_Expr_UTLC_lambda_618deda6d5 = (children, style: none) => optionLink(\"Type.Expr-UTLC.lambda\", snl-render-macro-template(\"TypeTheory\", \"Type.Expr-UTLC.lambda\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_Expr_UTLC_lambda_618deda6d5 = (children, style: none) => optionLink(\"Type.Expr-UTLC.lambda\", snl-render-macro-template(\"TypeTheory\", \"Type.Expr-UTLC.lambda\", children, style: style))"
+        }
+      }
+    }
   }
 }

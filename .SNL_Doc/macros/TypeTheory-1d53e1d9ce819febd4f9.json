@@ -39,6 +39,17 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.beta"
+    "name": "Lambda.beta",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_beta_c053d33638",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_beta_c053d33638 = (children, style: none) => optionLink(\"Lambda.beta\", snl-render-macro-template(\"TypeTheory\", \"Lambda.beta\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_beta_c053d33638 = (children, style: none) => optionLink(\"Lambda.beta\", snl-render-macro-template(\"TypeTheory\", \"Lambda.beta\", children, style: style))"
+        }
+      }
+    }
   }
 }

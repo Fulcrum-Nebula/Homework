@@ -40,6 +40,17 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.LegalExpr"
+    "name": "Lambda.LegalExpr",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_LegalExpr_0136ab9d52",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_LegalExpr_0136ab9d52 = (children, style: none) => optionLink(\"Lambda.LegalExpr\", snl-render-macro-template(\"TypeTheory\", \"Lambda.LegalExpr\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_LegalExpr_0136ab9d52 = (children, style: none) => optionLink(\"Lambda.LegalExpr\", snl-render-macro-template(\"TypeTheory\", \"Lambda.LegalExpr\", children, style: style))"
+        }
+      }
+    }
   }
 }

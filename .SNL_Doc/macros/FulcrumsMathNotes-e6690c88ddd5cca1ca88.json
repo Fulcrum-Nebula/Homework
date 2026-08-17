@@ -113,6 +113,17 @@
       }
     ],
     "tags": [],
-    "name": "def-inductive-hyp"
+    "name": "def-inductive-hyp",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_FulcrumsMathNotes_def_inductive_hyp_82df916caa",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_FulcrumsMathNotes_def_inductive_hyp_82df916caa = (children, style: none) => optionLink(\"def-inductive-hyp\", snl-render-macro-template(\"FulcrumsMathNotes\", \"def-inductive-hyp\", children, style: style))",
+          "en": "#let snl_macro_FulcrumsMathNotes_def_inductive_hyp_82df916caa = (children, style: none) => optionLink(\"def-inductive-hyp\", snl-render-macro-template(\"FulcrumsMathNotes\", \"def-inductive-hyp\", children, style: style))"
+        }
+      }
+    }
   }
 }

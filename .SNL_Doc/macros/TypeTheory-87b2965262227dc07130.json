@@ -39,6 +39,17 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Church.add"
+    "name": "Church.add",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Church_add_2f43950f18",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Church_add_2f43950f18 = (children, style: none) => optionLink(\"Church.add\", snl-render-macro-template(\"TypeTheory\", \"Church.add\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Church_add_2f43950f18 = (children, style: none) => optionLink(\"Church.add\", snl-render-macro-template(\"TypeTheory\", \"Church.add\", children, style: style))"
+        }
+      }
+    }
   }
 }

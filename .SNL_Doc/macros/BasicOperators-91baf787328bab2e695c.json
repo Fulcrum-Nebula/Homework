@@ -39,6 +39,17 @@
         }
       }
     ],
-    "name": "Nat"
+    "name": "Nat",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_BasicOperators_Nat_9970b93bc9",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_BasicOperators_Nat_9970b93bc9 = (children, style: none) => optionLink(\"NaturalNumber\", snl-render-macro-template(\"BasicOperators\", \"Nat\", children, style: style))",
+          "en": "#let snl_macro_BasicOperators_Nat_9970b93bc9 = (children, style: none) => optionLink(\"NaturalNumber\", snl-render-macro-template(\"BasicOperators\", \"Nat\", children, style: style))"
+        }
+      }
+    }
   }
 }

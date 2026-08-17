@@ -64,6 +64,17 @@
       }
     ],
     "tags": [],
-    "name": "def-hyp-opq"
+    "name": "def-hyp-opq",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_FulcrumsMathNotes_def_hyp_opq_61db188720",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_FulcrumsMathNotes_def_hyp_opq_61db188720 = (children, style: none) => optionLink(\"def-hyp-opq\", snl-render-macro-template(\"FulcrumsMathNotes\", \"def-hyp-opq\", children, style: style))",
+          "en": "#let snl_macro_FulcrumsMathNotes_def_hyp_opq_61db188720 = (children, style: none) => optionLink(\"def-hyp-opq\", snl-render-macro-template(\"FulcrumsMathNotes\", \"def-hyp-opq\", children, style: style))"
+        }
+      }
+    }
   }
 }
