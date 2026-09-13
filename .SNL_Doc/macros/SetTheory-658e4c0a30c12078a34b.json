@@ -1,0 +1,75 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Type.forall",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\Pi (#0 : #1), #2"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\Pi #0, #2"
+        },
+        "tags": [],
+        "style_name": "untyped"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\forall (#0 : #1), #2"
+        },
+        "tags": [],
+        "style_name": "forall"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\forall #0, #2"
+        },
+        "tags": [],
+        "style_name": "forallUntyped"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1 \\to #2"
+        },
+        "tags": [],
+        "style_name": "arrow"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\Pi (#1), #2"
+        },
+        "tags": [],
+        "style_name": "nameless"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\forall (#1), #2"
+        },
+        "tags": [],
+        "style_name": "forallNameless"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "rule",
+    "dynamic_arity": false,
+    "description": "Dependent function type"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "RelIso",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "关系同构",
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u_5+1%)),Type.annotation[default](@$β$,Type.Sort(%u_6+1%)),Type.annotation[default](@$r$,Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$α$@#0.0.0,Type.Sort[prop](%0%)))),Type.annotation[default](@$s$,Type.forall[arrow](@$a$,$β$@#0.1.0,Type.forall[arrow](@$a\\_1$@a_1,$β$@#0.1.0,Type.Sort[prop](%0%))))),structure[default](RelIso($α$@#0.0.0,$β$@#0.1.0,$r$@#0.2.0,$s$@#0.3.0),__enum__[num](member[native_colon](@$\\mathsf{toEquiv}$@toEquiv,Equiv($α$@#0.0.0,$β$@#0.1.0)),member[native_colon](@$\\mathsf{map\\_rel\\_iff\\text{\\char\"27}}$,Type.forall[forall](__list__[native_formula](@$a$,@$b$),$α$@#0.0.0,Iff(Type.app($s$@#0.3.0,__list__[native_formula]($\\mathsf{DFunLike\\text{\\char\"2e}coe}(#0, #1, #2, #3, #4, #5)$(Equiv($α$@#0.0.0,$β$@#0.1.0),$α$@#0.0.0,Type.lambda[untyped](@$x$,$α$@#0.0.0,$β$@#0.1.0),$\\mathsf{EquivLike\\text{\\char\"2e}toFunLike}(#0, #1, #2, #3)$(Equiv($α$@#0.0.0,$β$@#0.1.0),$α$@#0.0.0,$β$@#0.1.0,$\\mathsf{Equiv\\text{\\char\"2e}instEquivLike}(#0, #1)$($α$@#0.0.0,$β$@#0.1.0)),$\\mathsf{toEquiv}$@#1.1.0.0,$a$@#1.1.1.1.0.0),$\\mathsf{DFunLike\\text{\\char\"2e}coe}(#0, #1, #2, #3, #4, #5)$(Equiv($α$@#0.0.0,$β$@#0.1.0),$α$@#0.0.0,Type.lambda[untyped](@$x$,$α$@#0.0.0,$β$@#0.1.0),$\\mathsf{EquivLike\\text{\\char\"2e}toFunLike}(#0, #1, #2, #3)$(Equiv($α$@#0.0.0,$β$@#0.1.0),$α$@#0.0.0,$β$@#0.1.0,$\\mathsf{Equiv\\text{\\char\"2e}instEquivLike}(#0, #1)$($α$@#0.0.0,$β$@#0.1.0)),$\\mathsf{toEquiv}$@#1.1.0.0,$b$@#1.1.1.1.0.1))),Type.app($r$@#0.2.0,__list__[native_formula]($a$@#1.1.1.1.0.0,$b$@#1.1.1.1.0.1))))))))",
+      "markdown": "A relation isomorphism includes a bijective equivalence of carriers and preservation/reflection of the relation. Preservation/reflection alone, without bijectivity, is insufficient."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Order/RelIso/Basic.lean",
+      "mode": "lines",
+      "line": 539,
+      "endLine": 542,
+      "column": 1,
+      "endColumn": 60
+    }
+  }
+}

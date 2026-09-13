@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Rel",
+    "package": "SetTheory",
+    "title": "Rel",
+    "kind": "def",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_6+1%)),Type.annotation[default](@$β$,Type.Sort(%u_7+1%))),def[default](Rel($α$@#0.0.0,$β$@#0.1.0),Type.Sort(%(max u_6 u_7)+1%),Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$β$@#0.1.0,Type.Sort[prop](%0%)))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Rel.lean",
+      "mode": "lines",
+      "line": 606,
+      "endLine": 609,
+      "column": 1,
+      "endColumn": 50
+    }
+  }
+}

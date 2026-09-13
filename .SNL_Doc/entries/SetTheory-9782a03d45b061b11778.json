@@ -1,0 +1,25 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "IsStrictOrder",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "严格偏序关系",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1%)),Type.annotation[default](@$r$,Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$α$@#0.0.0,Type.Sort[prop](%0%))))),structure[native_prop](IsStrictOrder($α$@#0.0.0,$r$@#0.1.0),__enum__[num](member[native_colon](@$\\mathsf{toIrrefl}$@toIrrefl,Std.Irrefl($α$@#0.0.0,$r$@#0.1.0)),member[native_colon](@$\\mathsf{toIsTrans}$@toIsTrans,IsTrans($α$@#0.0.0,$r$@#0.1.0)))))",
+      "markdown": "\n\nThis proposition-valued class asserts irreflexivity and transitivity of a relation. It is not a `PartialOrder α` structure; `partialOrderOfSO` constructs the corresponding non-strict order.\n"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Order/Defs/Unbundled.lean",
+      "mode": "lines",
+      "line": 79,
+      "endLine": 81,
+      "column": 1,
+      "endColumn": 92
+    }
+  }
+}

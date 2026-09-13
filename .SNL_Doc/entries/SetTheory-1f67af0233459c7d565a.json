@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Set",
+        "zh-CN": "集合"
+      }
+    },
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%))),def[default](Set($α$@#0.0.0),Type.Sort(%u+1%),Type.forall[arrow](@$a$,$α$@#0.0.0,Type.Sort[prop](%0%))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Defs.lean",
+      "mode": "lines",
+      "line": 41,
+      "endLine": 47,
+      "column": 1,
+      "endColumn": 33
+    },
+    "package": "SetTheory"
+  }
+}

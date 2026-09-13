@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "nonempty_denumerable_iff",
+    "package": "SetTheory",
+    "title": "nonempty_denumerable_iff",
+    "kind": "thm",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_3+1%))),theorem[native_default](Iff(Nonempty(Denumerable($α$@#0.0.0)),And(Countable($α$@#0.0.0),$\\mathsf{Infinite}(#0)$($α$@#0.0.0)))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Logic/Denumerable.lean",
+      "mode": "lines",
+      "line": 326,
+      "endLine": 328,
+      "column": 1,
+      "endColumn": 82
+    }
+  }
+}

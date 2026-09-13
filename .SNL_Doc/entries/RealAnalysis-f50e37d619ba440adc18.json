@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "Type.annotation(@D, Set($\\mathbb{R}$))"
+      "snl": "Type.annotation(@D,Set[text]($\\mathbb{R}$))"
     },
     "contribution_info": null,
     "pointer": null,

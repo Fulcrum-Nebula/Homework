@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@xs,FP.List(A)),theorem(Eq(FP.bind(FP.List,xs,@f),FP.concat(FP.map(FP.List,xs,f)))))"
+      "snl": "variable(Type.annotation(@xs,FP.List(A)),theorem(Eq(,FP.bind(FP.List,xs,@f),FP.concat(FP.map(FP.List,xs,f)))))"
     },
     "contribution_info": null,
     "pointer": null,

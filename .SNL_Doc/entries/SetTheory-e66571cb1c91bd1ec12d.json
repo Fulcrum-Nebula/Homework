@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "IsLUB",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "上确界",
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0)),Type.annotation[default](@$a$,$α$@#0.0.0)),def[prop](IsLUB($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0,$a$@#0.3.0),Type.Sort[prop](%0%),IsLeast($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,upperBounds($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0),$a$@#0.3.0)))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Order/Bounds/Defs.lean",
+      "mode": "lines",
+      "line": 49,
+      "endLine": 53,
+      "column": 1,
+      "endColumn": 26
+    }
+  }
+}

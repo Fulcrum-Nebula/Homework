@@ -1,0 +1,29 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Equiv",
+    "description": "Native Lean declaration.",
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "style_name": "default",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#0\\simeq #1"
+        }
+      }
+    ],
+    "source": {
+      "entries": [
+        "Equiv"
+      ],
+      "urls": []
+    },
+    "tags": []
+  }
+}

@@ -16,7 +16,7 @@
       }
     },
     "content": {
-      "snl": "structure(\r\n    Algebra.IntegralDomain(R@Algebra.ctxt.ring, $+$@Algebra.ctxt.ring, $\\cdot$@Algebra.ctxt.ring),\r\n    __enum__(\r\n        Algebra.UnitalRing(R@Algebra.ctxt.ring, $+$@Algebra.ctxt.ring, $\\cdot$@Algebra.ctxt.ring),\r\n        Algebra.CommRing(R@Algebra.ctxt.ring, $+$@Algebra.ctxt.ring, $\\cdot$@Algebra.ctxt.ring),\r\n        Logic.forall-typed(\r\n            @a,\r\n            R@Algebra.ctxt.ring,\r\n            Logic.forall-typed(\r\n                @b,\r\n                R@Algebra.ctxt.ring,\r\n                Logic.implies(Logic.and(Neq(a, Algebra.Zero(R@Algebra.ctxt.ring)), Neq(b, Algebra.Zero(R@Algebra.ctxt.ring))), Neq(Bop.apply($\\cdot$@Algebra.ctxt.ring, a, b), Algebra.Zero(R@Algebra.ctxt.ring)))\r\n            )\r\n        )\r\n    )\r\n)"
+      "snl": "structure(Algebra.IntegralDomain(R@Algebra.ctxt.ring,$+$@Algebra.ctxt.ring,$\\cdot$@Algebra.ctxt.ring),__enum__(Algebra.UnitalRing(R@Algebra.ctxt.ring,$+$@Algebra.ctxt.ring,$\\cdot$@Algebra.ctxt.ring),Algebra.CommRing(R@Algebra.ctxt.ring,$+$@Algebra.ctxt.ring,$\\cdot$@Algebra.ctxt.ring),Logic.forall-typed(@a,R@Algebra.ctxt.ring,Logic.forall-typed(@b,R@Algebra.ctxt.ring,Logic.implies(Logic.and(Neq(a,Algebra.Zero(R@Algebra.ctxt.ring)),Neq(b,Algebra.Zero(R@Algebra.ctxt.ring))),Neq(Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.ring,a,b),Algebra.Zero(R@Algebra.ctxt.ring)))))))"
     },
     "contribution_info": null,
     "pointer": null

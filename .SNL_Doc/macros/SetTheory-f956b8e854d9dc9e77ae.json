@@ -1,0 +1,78 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Fulcrum.BinaryOperation.apply",
+    "description": "",
+    "source": {
+      "entries": [
+        "Syntax.def.expression-UTLC.ctor.application",
+        "Fulcrum.BinaryOperation.apply"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "style_name": "default",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#2#1#3"
+        }
+      },
+      {
+        "style_name": "conj",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#2#1#3",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
+      },
+      {
+        "style_name": "paren",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left(#2#1#3\\right)",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
+      }
+    ],
+    "tags": []
+  }
+}

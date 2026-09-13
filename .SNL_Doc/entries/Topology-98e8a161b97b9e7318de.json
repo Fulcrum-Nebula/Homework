@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "__list__(Type.annotation(@τ,Set(Set(T@Set.ctxt.T))), Set.subset(τ@Topology.ctxt.tau, Set.powerset(S@Topology.ctxt.S)))"
+      "snl": "__list__(Type.annotation(@τ,Set[text](Set[text](T@Fulcrum.SetTheory.T))),Set.Subset[infix](,τ@Topology.ctxt.tau,Set.powerset[script](,S@Topology.ctxt.S)))"
     },
     "contribution_info": null,
     "pointer": null,

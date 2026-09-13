@@ -1,0 +1,37 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Maximal",
+    "description": "Native Lean predicate or bound set, not a choice of an extremal element.",
+    "source": {
+      "entries": [
+        "Maximal"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "style_name": "default",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#3\\text{ is maximal in }#2"
+        }
+      },
+      {
+        "style_name": "full",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#3\\text{ is maximal in }#2"
+        }
+      }
+    ],
+    "tags": []
+  }
+}

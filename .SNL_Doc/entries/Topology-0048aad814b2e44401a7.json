@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(\r\n    __list__(\r\n        Type.annotation(@A, Set(T@Set.ctxt.T)),\r\n        Type.annotation(@x, T@Set.ctxt.T),\r\n        Set.mem(x, S@Topology.ctxt.S)\r\n    ),def(\r\n    Topology.limitPoint(x, A), ,\r\n    Logic.forall-typed(\r\n        @U,\r\n        Set(T@Set.ctxt.T),\r\n        Logic.implies(\r\n            Topology.deletedNeighborhood(U, x),\r\n            Neq(Set.inter(U, A), Set.emptyset)\r\n        )\r\n    )\r\n))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def(Topology.limitPoint(x,A),,Logic.forall-typed(@U,Set[text](T@Fulcrum.SetTheory.T),Logic.implies(Topology.deletedNeighborhood(U,x),Neq(Set.inter[authored](,U,A),EmptyCollection.emptyCollection[round](,))))))"
     },
     "contribution_info": null,
     "pointer": null,

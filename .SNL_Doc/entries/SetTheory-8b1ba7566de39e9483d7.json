@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set.powerset",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Power Set",
+        "zh-CN": "幂集"
+      }
+    },
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def[default](Set.powerset($α$@#0.0.0,$s$@#0.1.0),Set(Set($α$@#0.0.0)),setOf[typedBuilder](@$t$,Set($α$@#0.0.0),HasSubset.Subset(Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instHasSubset}(#0)$($α$@#0.0.0),$t$@#1.2.0,$s$@#0.1.0))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Defs.lean",
+      "mode": "lines",
+      "line": 243,
+      "endLine": 244,
+      "column": 1,
+      "endColumn": 54
+    },
+    "package": "SetTheory"
+  }
+}

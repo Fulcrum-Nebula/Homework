@@ -1,0 +1,29 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Fulcrum.SetTheory.Operations",
+    "kind": "subsection",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Operations",
+        "zh-CN": "运算"
+      }
+    },
+    "content": {},
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Set Theory/SetTheory.lean",
+      "mode": "lines",
+      "line": 98,
+      "endLine": 98,
+      "column": 1,
+      "endColumn": 19
+    },
+    "package": "SetTheory"
+  }
+}

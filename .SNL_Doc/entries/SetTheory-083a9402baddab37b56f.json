@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set.graphOn",
+    "package": "SetTheory",
+    "title": "Set.graphOn",
+    "kind": "def",
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$β$,Type.Sort(%v+1%)),Type.annotation[default](@$f$,Type.forall[arrow](@$a$,$α$@#0.0.0,$β$@#0.1.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def[default](Set.graphOn($α$@#0.0.0,$β$@#0.1.0,$f$@#0.2.0,$s$@#0.3.0),Set(Prod($α$@#0.0.0,$β$@#0.1.0)),Set.image($α$@#0.0.0,Prod($α$@#0.0.0,$β$@#0.1.0),Type.lambda[untyped](@$x$,$α$@#0.0.0,Prod.mk($α$@#0.0.0,$β$@#0.1.0,$x$@#1.2.2.0,Type.app($f$@#0.2.0,__list__[native_formula]($x$@#1.2.2.0)))),$s$@#0.3.0)))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Operations.lean",
+      "mode": "lines",
+      "line": 298,
+      "endLine": 299,
+      "column": 1,
+      "endColumn": 77
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Set.insert",
+    "description": "Native Lean declaration.",
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "style_name": "default",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left\\{#1\\right\\}\\cup #2"
+        }
+      },
+      {
+        "style_name": "enumOuter",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left\\{#1,#2\\right\\}"
+        }
+      },
+      {
+        "style_name": "enumInner",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1,#2"
+        }
+      }
+    ],
+    "source": {
+      "entries": [
+        "Set.insert"
+      ],
+      "urls": []
+    },
+    "tags": []
+  }
+}

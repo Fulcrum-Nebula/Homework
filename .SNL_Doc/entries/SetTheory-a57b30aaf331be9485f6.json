@@ -1,0 +1,25 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Denumerable",
+    "package": "SetTheory",
+    "title": "Denumerable",
+    "kind": "def",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_3+1%))),structure[default](Denumerable($α$@#0.0.0),__enum__[num](member[native_colon](@$\\mathsf{toEncodable}$@toEncodable,$\\mathsf{Encodable}(#0)$($α$@#0.0.0)),member[native_colon](@$\\mathsf{decode\\_inv}$@decode_inv,Type.forall[forall](@$n$,Nat[native_default],Exists[binder](@$a$,$α$@#0.0.0,And(Membership.mem($α$@#0.0.0,Option($α$@#0.0.0),$\\mathsf{Option\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$\\mathsf{Encodable\\text{\\char\"2e}decode}(#0, #1, #2)$($α$@#0.0.0,$\\mathsf{toEncodable}$@#1.1.0.0,$n$@#1.1.1.1.0),$a$@#1.1.1.1.2.0),Eq(Nat[native_default],$\\mathsf{Encodable\\text{\\char\"2e}encode}(#0, #1, #2)$($α$@#0.0.0,$\\mathsf{toEncodable}$@#1.1.0.0,$a$@#1.1.1.1.2.0),$n$@#1.1.1.1.0))))))))",
+      "markdown": "`Denumerable α` carries an equivalence with ℕ. `Nonempty (Denumerable α)` expresses countable infinitude; this differs from `Countable α`."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Logic/Denumerable.lean",
+      "mode": "lines",
+      "line": 32,
+      "endLine": 35,
+      "column": 1,
+      "endColumn": 49
+    }
+  }
+}

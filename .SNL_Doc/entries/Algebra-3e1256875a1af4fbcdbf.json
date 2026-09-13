@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(\r\n    __list__(\r\n        Type.annotation(@e, G@Algebra.ctxt.G),\r\n        Logic.and(\r\n            Logic.forall-typed(@a, G@Algebra.ctxt.G, Eq(Bop.apply($\\cdot$@Algebra.ctxt.mul, e, a), a)),\r\n            Logic.forall-typed(@a, G@Algebra.ctxt.G, Eq(Bop.apply($\\cdot$@Algebra.ctxt.mul, a, e), a))\r\n        )\r\n    ),theorem(\r\n    Eq(e, Algebra.Id(G))\r\n))"
+      "snl": "variable(__list__(Type.annotation(@e,G@Algebra.ctxt.G),Logic.and(Logic.forall-typed(@a,G@Algebra.ctxt.G,Eq(,Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,e,a),a)),Logic.forall-typed(@a,G@Algebra.ctxt.G,Eq(,Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,a,e),a)))),theorem(Eq(,e,Algebra.Id(G))))"
     },
     "contribution_info": null,
     "pointer": null,

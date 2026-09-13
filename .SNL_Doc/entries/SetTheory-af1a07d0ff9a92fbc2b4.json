@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Fulcrum.SetTheory.f",
+    "package": "SetTheory",
+    "kind": "context",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "$f$",
+        "zh-CN": "$f$"
+      }
+    },
+    "content": {
+      "snl": "Type.annotation(@f,Type.to(D@Fulcrum.SetTheory.D ,A@Fulcrum.SetTheory.AB))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Set Theory/SetTheory.lean",
+      "mode": "lines",
+      "line": 63,
+      "endLine": 63,
+      "column": 1,
+      "endColumn": 21
+    }
+  }
+}

@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Nat.succ",
     "description": "",
     "source": {
       "entries": [],
@@ -17,27 +18,18 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "\\mathsf{succ}(#0)",
-          "typst": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "latex": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "markdown": "",
-          "text": ""
+          "body": "\\operatorname{succ}(#0)"
+        }
+      },
+      {
+        "style_name": "function",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{succ}"
         }
       }
     ],
-    "tags": [],
-    "name": "Nat.succ"
+    "tags": []
   }
 }

@@ -26,6 +26,7 @@ Lean4/
 ├── Functions/
 │   └── term_macros.lean
 ├── Set Theory/
+│   ├── SetTheory.lean
 │   └── term_macros.lean
 ├── Basic Algebra/
 │   ├── BasicAlgebra.lean
@@ -39,7 +40,9 @@ Lean4/
 - `Basics` holds elementary material not yet assigned a narrower subject: law-free operation interfaces, primitive operations, elementary types, pairs and projections, numeric conversions and finite index types. Here `[n]` means `Fin n`, with zero-based indices and an empty type at `n = 0`.
 - `Logic` covers logical predicates, decidability, emptiness and uniqueness.
 - `Functions` covers function properties, inverses, equivalences, composition, identity and constant functions.
-- `Set Theory` covers finiteness, restricted maps, pairwise predicates, products and graphs.
+- `Set Theory` has a [native declaration companion](Lean4/Set%20Theory/SetTheory.lean) for sets, functions, cardinality, relations and orders. Its Entry/constant names follow the pinned Lean declarations, not a separate `Set.def.*` or `Set.map.*` vocabulary. Mathlib Pointers target the original declaration ranges. Machine-specific Lean-core sources use the companion's `#print` navigation bridge: reverse SNL lookup is supported at that bridge, not asserted for arbitrary files in the global toolchain directory. `Fulcrum.BinaryOperation` and the set-function domain/codomain accessors are small local definitions, not purported Mathlib APIs.
+
+  Countable sets and denumerable types are separate notions. A `RelIso` includes bijectivity; preserving and reflecting a relation alone does not establish an isomorphism. `Maximal`/`Minimal` are predicates, not functions choosing extrema. `PSet.ofNat` supplies the von Neumann example; it is not the inductive type `Nat`.
 - `Basic Algebra` reuses native algebraic structures. `BasicAlgebra.lean` prints Mathlib's Semigroup rather than redefining it.
 - `Linear Algebra` contains the textbook `Fulcrum.VectorSpace` (only `Add`, `Zero` and `SMul` parents, with all eight laws declared locally), its operation-preserving Mathlib bridges and the finite-family development. The scalar-field binder is written `𝕂` throughout these notes.
 
@@ -76,9 +79,13 @@ lake build Lean4.Basics.term_macros
 lake build Lean4.Logic.term_macros
 lake build Lean4.Functions.term_macros
 lake build 'Lean4.«Set Theory».term_macros'
+lake build 'Lean4.«Set Theory».term_macros_CN'
 lake build 'Lean4.«Basic Algebra».term_macros'
+lake build 'Lean4.«Basic Algebra».term_macros_CN'
 lake build 'Lean4.«Linear Algebra».term_macros'
-lake env lean 'Lean4/Basic Algebra/BasicAlgebra.lean'
-lake env lean 'Lean4/Linear Algebra/LinearAlgebra.lean'
+lake build 'Lean4.«Linear Algebra».term_macros_CN'
+lake env lean -j 2 'Lean4/Set Theory/SetTheory.lean'
+lake env lean -j 2 'Lean4/Basic Algebra/BasicAlgebra.lean'
+lake env lean -j 2 'Lean4/Linear Algebra/LinearAlgebra.lean'
 snl validate --root . --json
 ```

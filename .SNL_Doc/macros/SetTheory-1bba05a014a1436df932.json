@@ -1,0 +1,43 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Type.lambda",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\lambda (#0 : #1) \\mapsto #2"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\lambda #0 \\mapsto #2"
+        },
+        "tags": [],
+        "style_name": "untyped"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\lambda (#1) \\mapsto #2"
+        },
+        "tags": [],
+        "style_name": "nameless"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "rule",
+    "dynamic_arity": false,
+    "description": "Lambda abstraction"
+  }
+}

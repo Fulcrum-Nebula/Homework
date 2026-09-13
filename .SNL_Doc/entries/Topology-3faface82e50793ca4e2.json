@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(\r\n    Type.annotation(@B, Set(Set(T@Set.ctxt.T))),def[predicate](\r\n    Topology.topologicalBasis(B, τ@Topology.ctxt.tau), ,\r\n    Logic.and(Set.subset(B, τ@Topology.ctxt.tau), Eq(Topology.generatedTopology(B), τ@Topology.ctxt.tau))\r\n))"
+      "snl": "variable(Type.annotation(@B,Set[text](Set[text](T@Fulcrum.SetTheory.T))),def[predicate](Topology.topologicalBasis(B,τ@Topology.ctxt.tau),,Logic.and(Set.Subset[infix](,B,τ@Topology.ctxt.tau),Eq(,Topology.generatedTopology(B),τ@Topology.ctxt.tau))))"
     },
     "contribution_info": null,
     "pointer": null,

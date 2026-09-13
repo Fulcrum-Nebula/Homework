@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(\r\n    __list__(\r\n        Type.annotation(@A, Set(T@Set.ctxt.T)),\r\n        Set.subset(A, S@Topology.ctxt.S)\r\n    ),def(\r\n    Topology.interior(A), ,\r\n    Set.sep-typed(\r\n        @x,\r\n        T@Set.ctxt.T,\r\n        Logic.exists-typed(\r\n            @O,\r\n            Set(T@Set.ctxt.T),\r\n            Logic.and(Logic.and(Set.mem(O, τ@Topology.ctxt.tau), Set.subset(O, A)), Set.mem(x, O))\r\n        )\r\n    )\r\n))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Set.Subset[infix](,A,S@Topology.ctxt.S)),def(Topology.interior(A),,setOf[typedBuilder](@x,T@Fulcrum.SetTheory.T,Logic.exists-typed(@O,Set[text](T@Fulcrum.SetTheory.T),Logic.and(Logic.and(Set.Mem[authored](,τ@Topology.ctxt.tau,O),Set.Subset[infix](,O,A)),Set.Mem[authored](,O,x))))))"
     },
     "contribution_info": null,
     "pointer": null,

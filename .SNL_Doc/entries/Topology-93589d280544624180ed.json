@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "Type.annotation(@S,Set(T@Set.ctxt.T))"
+      "snl": "Type.annotation(@S,Set[text](T@Fulcrum.SetTheory.T))"
     },
     "contribution_info": null,
     "pointer": null,

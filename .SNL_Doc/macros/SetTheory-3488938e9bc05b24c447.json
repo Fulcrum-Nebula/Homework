@@ -4,16 +4,25 @@
   "schema_version": 1,
   "package": "SetTheory",
   "macro": {
+    "name": "Set.univ",
     "description": "Universal set on type T",
     "source": {
       "entries": [
-        "Set.def.univ"
+        "Set.univ"
       ],
       "urls": []
     },
     "kind": "const",
     "dynamic_arity": false,
     "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{U}"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
       {
         "style_name": "typed",
         "tags": [],
@@ -37,9 +46,16 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "style_name": "untyped",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathcal{U}"
+        }
       }
     ],
-    "tags": [],
-    "name": "Set.univ"
+    "tags": []
   }
 }

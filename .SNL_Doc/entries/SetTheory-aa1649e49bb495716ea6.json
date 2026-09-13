@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "symmDiff",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Symmetric Difference",
+        "zh-CN": "对称差"
+      }
+    },
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u_2+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,$\\mathsf{Max}(#0)$($α$@#0.0.0)),Type.annotation[nameless](@$\\mathsf{inst\\_1}$@inst_1,$\\mathsf{SDiff}(#0)$($α$@#0.0.0)),Type.annotation[default](@$a$,$α$@#0.0.0),Type.annotation[default](@$b$,$α$@#0.0.0)),def[default](symmDiff($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$\\mathsf{inst\\_1}$@#0.2.0,$a$@#0.3.0,$b$@#0.4.0),$α$@#0.0.0,$\\mathsf{Max\\text{\\char\"2e}max}(#0, #1, #2, #3)$($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,SDiff.sdiff($α$@#0.0.0,$\\mathsf{inst\\_1}$@#0.2.0,$a$@#0.3.0,$b$@#0.4.0),SDiff.sdiff($α$@#0.0.0,$\\mathsf{inst\\_1}$@#0.2.0,$b$@#0.4.0,$a$@#0.3.0))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Order/SymmDiff.lean",
+      "mode": "lines",
+      "line": 62,
+      "endLine": 64,
+      "column": 1,
+      "endColumn": 16
+    },
+    "package": "SetTheory"
+  }
+}

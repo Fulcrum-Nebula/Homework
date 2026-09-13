@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(\r\n    __list__(\r\n        Type.annotation(@x, T@Set.ctxt.T),\r\n        Set.mem(x, S@Topology.ctxt.S),\r\n        Type.annotation(@U, Set(T@Set.ctxt.T)),\r\n        Set.subset(U, S@Topology.ctxt.S)\r\n    ),def(\r\n    Topology.deletedNeighborhood(U, x), ,\r\n    Logic.and(\r\n        Topology.neighborhood(\r\n            Set.union(U, Set.sep-typed(@y, T@Set.ctxt.T, Eq(y, x))),\r\n            x\r\n        ),\r\n        Set.nmem(x, U)\r\n    )\r\n))"
+      "snl": "variable(__list__(Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x),Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),Set.Subset[infix](,U,S@Topology.ctxt.S)),def(Topology.deletedNeighborhood(U,x),,Logic.and(Topology.neighborhood(Set.union[authored](,U,setOf[typedBuilder](@y,T@Fulcrum.SetTheory.T,Eq(,y,x))),x),Not(Set.Mem(,U,x)))))"
     },
     "contribution_info": null,
     "pointer": null,

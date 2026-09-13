@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(\r\n    __list__(\r\n        Type.annotation(@K, Set(T@Set.ctxt.T)),\r\n        Set.subset(K, S@Topology.ctxt.S),\r\n        Topology.T2(S@Topology.ctxt.S)\r\n    ),theorem(\r\n    Logic.implies(\r\n        Topology.compact(K), Topology.openSet(Set.compl(K, S@Topology.ctxt.S), τ@Topology.ctxt.tau)\r\n    )\r\n))"
+      "snl": "variable(__list__(Type.annotation(@K,Set[text](T@Fulcrum.SetTheory.T)),Set.Subset[infix](,K,S@Topology.ctxt.S),Topology.T2(S@Topology.ctxt.S)),theorem(Logic.implies(Topology.compact(K),Topology.openSet(Set.diff[relative_sup](,S@Topology.ctxt.S,K),τ@Topology.ctxt.tau))))"
     },
     "contribution_info": null,
     "pointer": null,

@@ -9,7 +9,7 @@
     "kind": "remark",
     "title": "环的乘法运算优先于加法运算",
     "content": {
-      "snl": "variable(\r\n    Algebra.Ring(\r\n        R@Algebra.ctxt.ring, $+$@Algebra.ctxt.ring, $\\cdot$@Algebra.ctxt.ring\r\n    ),theorem(\r\n    Eq(\r\n        Bop.apply($+$@Algebra.ctxt.ring, Bop.apply($\\cdot$@Algebra.ctxt.ring, a, b), Bop.apply($\\cdot$@Algebra.ctxt.ring, a, c)),\r\n        Bop.apply($+$@Algebra.ctxt.ring, Bop.apply[paren]($\\cdot$@Algebra.ctxt.ring, a, b), Bop.apply[paren]($\\cdot$@Algebra.ctxt.ring, a, c)),\r\n    )\r\n))"
+      "snl": "variable(Algebra.Ring(R@Algebra.ctxt.ring,$+$@Algebra.ctxt.ring,$\\cdot$@Algebra.ctxt.ring),theorem(Eq(,Fulcrum.BinaryOperation.apply[conj](,$+$@Algebra.ctxt.ring,Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.ring,a,b),Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.ring,a,c)),Fulcrum.BinaryOperation.apply[conj](,$+$@Algebra.ctxt.ring,Fulcrum.BinaryOperation.apply[paren](,$\\cdot$@Algebra.ctxt.ring,a,b),Fulcrum.BinaryOperation.apply[paren](,$\\cdot$@Algebra.ctxt.ring,a,c)))))"
     },
     "contribution_info": null,
     "pointer": null

@@ -1,0 +1,37 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "upperBounds",
+    "description": "Native Lean predicate or bound set, not a choice of an extremal element.",
+    "source": {
+      "entries": [
+        "upperBounds"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "style_name": "default",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{upperBounds}(#2)"
+        }
+      },
+      {
+        "style_name": "simple",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{upperBounds}(#2)"
+        }
+      }
+    ],
+    "tags": []
+  }
+}

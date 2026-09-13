@@ -1,0 +1,71 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Function.Injective",
+    "description": "单映射（性质）",
+    "source": {
+      "entries": [
+        "Function.Injective"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{Injective}(#2)"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "style_name": "authored",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#2\\text{ 是单射}",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "#2 是单射"
+            },
+            "en": {
+              "mode": "text",
+              "body": "#2 is injective"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "english"
+      }
+    ],
+    "tags": []
+  }
+}

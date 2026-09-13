@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Equiv",
+    "package": "SetTheory",
+    "title": "Equiv",
+    "kind": "def",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1%)),Type.annotation[default](@$β$,Type.Sort(%u_2%))),structure[default](Equiv($α$@#0.0.0,$β$@#0.1.0),__enum__[num](member[native_colon](@$\\mathsf{toFun}$@toFun,Type.forall[arrow](@$a$,$α$@#0.0.0,$β$@#0.1.0)),member[native_colon](@$\\mathsf{invFun}$@invFun,Type.forall[arrow](@$a$,$β$@#0.1.0,$α$@#0.0.0)),member[native_colon](@$\\mathsf{left\\_inv}$@left_inv,autoParam(Function.LeftInverse($α$@#0.0.0,$β$@#0.1.0,$\\mathsf{invFun}$@#1.1.1.0,$\\mathsf{toFun}$@#1.1.0.0),$\\mathsf{Equiv\\text{\\char\"2e}left\\_inv\\text{\\char\"2e}\\_autoParam}$)),member[native_colon](@$\\mathsf{right\\_inv}$@right_inv,autoParam(Function.RightInverse($α$@#0.0.0,$β$@#0.1.0,$\\mathsf{invFun}$@#1.1.1.0,$\\mathsf{toFun}$@#1.1.0.0),$\\mathsf{Equiv\\text{\\char\"2e}right\\_inv\\text{\\char\"2e}\\_autoParam}$)))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Logic/Equiv/Defs.lean",
+      "mode": "lines",
+      "line": 68,
+      "endLine": 79,
+      "column": 1,
+      "endColumn": 89
+    }
+  }
+}

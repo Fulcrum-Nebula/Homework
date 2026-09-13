@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@U,Set(T@Set.ctxt.T)),def[predicate](Topology.openSet[text](U,τ@Topology.ctxt.tau), ,Set.mem(U,τ@Topology.ctxt.tau)))"
+      "snl": "variable(Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),def[predicate](Topology.openSet[text](U,τ@Topology.ctxt.tau),,Set.Mem[authored](,τ@Topology.ctxt.tau,U)))"
     },
     "contribution_info": null,
     "pointer": null,

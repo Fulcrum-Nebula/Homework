@@ -4,357 +4,560 @@
       "id": "n_sec",
       "label": "Entry",
       "props": {
-        "entryId": "Set.sec.set"
+        "entryId": "Fulcrum.SetTheory"
       }
     },
     {
       "id": "n_ctx1",
       "label": "Entry",
       "props": {
-        "entryId": "Set.ctxt.1"
+        "entryId": "Fulcrum.SetTheory.Context"
       }
     },
     {
       "id": "n_ctxT",
       "label": "Entry",
       "props": {
-        "entryId": "Set.ctxt.T"
+        "entryId": "Fulcrum.SetTheory.T"
       }
     },
     {
       "id": "n_ctxAB",
       "label": "Entry",
       "props": {
-        "entryId": "Set.ctxt.AB"
+        "entryId": "Fulcrum.SetTheory.AB"
       }
     },
     {
       "id": "n_sub_basic",
       "label": "Entry",
       "props": {
-        "entryId": "Set.subsec.basic"
+        "entryId": "Fulcrum.SetTheory.Basics"
       }
     },
     {
       "id": "n_sub_rel",
       "label": "Entry",
       "props": {
-        "entryId": "Set.subsec.relations"
+        "entryId": "Fulcrum.SetTheory.Relations"
       }
     },
     {
       "id": "n_sub_ops",
       "label": "Entry",
       "props": {
-        "entryId": "Set.subsec.operations"
+        "entryId": "Fulcrum.SetTheory.Operations"
       }
     },
     {
       "id": "n_set",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.set"
+        "entryId": "Set"
       }
     },
     {
       "id": "n_mem",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.mem"
+        "entryId": "Set.Mem"
       }
     },
     {
       "id": "n_sep",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.sep"
+        "entryId": "setOf"
       }
     },
     {
       "id": "n_empty",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.emptyset"
+        "entryId": "Set.instEmptyCollection"
       }
     },
     {
       "id": "n_univ",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.univ"
+        "entryId": "Set.univ"
       }
     },
     {
       "id": "n_subset",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.subset"
+        "entryId": "Set.Subset"
       }
     },
     {
       "id": "n_ext",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.ext"
+        "entryId": "Set.ext_iff"
       }
     },
     {
       "id": "n_nmem",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.nmem"
+        "entryId": "Fulcrum.SetTheory.not_mem_iff"
       }
     },
     {
       "id": "n_union",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.union"
+        "entryId": "Set.union"
       }
     },
     {
       "id": "n_inter",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.inter"
+        "entryId": "Set.inter"
       }
     },
     {
       "id": "n_diff",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.diff"
+        "entryId": "Set.diff"
       }
     },
     {
       "id": "n_compl",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.compl"
+        "entryId": "Set.compl"
       }
     },
     {
       "id": "n_power",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.powerset"
+        "entryId": "Set.powerset"
       }
     },
     {
       "id": "n_symdiff",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.symmetric_difference"
+        "entryId": "symmDiff"
       }
     },
     {
       "id": "n_1",
       "label": "Entry",
       "props": {
-        "entryId": "Set.subsec.map"
+        "entryId": "Fulcrum.SetTheory.Functions"
       }
     },
     {
       "id": "n_2",
       "label": "Entry",
       "props": {
-        "entryId": "Set.ctxt.S"
+        "entryId": "Fulcrum.SetTheory.S"
       }
     },
     {
       "id": "n_3",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.domain"
+        "entryId": "Fulcrum.SetFunction.domain"
       }
     },
     {
       "id": "n_4",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.codomain"
+        "entryId": "Fulcrum.SetFunction.codomain"
       }
     },
     {
       "id": "n_5",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.image"
+        "entryId": "Set.range"
       }
     },
     {
       "id": "n_6",
       "label": "Entry",
       "props": {
-        "entryId": "Set.ctxt.D"
+        "entryId": "Fulcrum.SetTheory.D"
       }
     },
     {
       "id": "n_7",
       "label": "Entry",
       "props": {
-        "entryId": "Set.ctxt.f"
+        "entryId": "Fulcrum.SetTheory.f"
       }
     },
     {
       "id": "n_8",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.imageAsApplyed"
+        "entryId": "Set.image"
       }
     },
     {
       "id": "n_9",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.surjective"
+        "entryId": "Function.Surjective"
       }
     },
     {
       "id": "n_10",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.injective"
+        "entryId": "Function.Injective"
       }
     },
     {
       "id": "n_11",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.bijective"
+        "entryId": "Function.Bijective"
       }
     },
     {
       "id": "n_12",
       "label": "Entry",
       "props": {
-        "entryId": "Set.subsec.ordinal"
+        "entryId": "Fulcrum.SetTheory.Order"
       }
     },
     {
       "id": "n_13",
       "label": "Entry",
       "props": {
-        "entryId": "Set.subsec.cardinal"
+        "entryId": "Fulcrum.SetTheory.Cardinality"
       }
     },
     {
       "id": "n_14",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.cardinality"
+        "entryId": "Cardinal.eq"
       }
     },
     {
       "id": "n_15",
       "label": "Entry",
       "props": {
-        "entryId": "Set.remark.countability"
+        "entryId": "Countable"
       }
     },
     {
       "id": "n_16",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.countable"
+        "entryId": "Set.Countable"
       }
     },
     {
       "id": "n_17",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.preimage"
+        "entryId": "Set.preimage"
       }
     },
     {
       "id": "n_18",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.inv"
+        "entryId": "Equiv.symm"
       }
     },
     {
       "id": "n_19",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.fun_graph"
+        "entryId": "Function.graph"
       }
     },
     {
       "id": "n_20",
       "label": "Entry",
       "props": {
-        "entryId": "Set.prop.inverse"
+        "entryId": "Equiv.apply_eq_iff_eq_symm_apply"
       }
     },
     {
       "id": "n_21",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.partial"
+        "entryId": "IsStrictOrder"
       }
     },
     {
       "id": "n_22",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.maximal"
+        "entryId": "Maximal"
       }
     },
     {
       "id": "n_23",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.minimal"
+        "entryId": "Minimal"
       }
     },
     {
       "id": "n_24",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.greatest"
+        "entryId": "IsGreatest"
       }
     },
     {
       "id": "n_25",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.least"
+        "entryId": "IsLeast"
       }
     },
     {
       "id": "n_26",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.upperBound"
+        "entryId": "upperBounds"
       }
     },
     {
       "id": "n_27",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.lowerBound"
+        "entryId": "lowerBounds"
       }
     },
     {
       "id": "n_28",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.supremum"
+        "entryId": "IsLUB"
       }
     },
     {
       "id": "n_29",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.infimum"
+        "entryId": "IsGLB"
       }
     },
     {
       "id": "n_30",
       "label": "Entry",
       "props": {
-        "entryId": "Set.def.order.linear"
+        "entryId": "IsStrictTotalOrder"
+      }
+    },
+    {
+      "id": "native_Set.prod",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.prod"
+      }
+    },
+    {
+      "id": "native_SetRel",
+      "label": "Entry",
+      "props": {
+        "entryId": "SetRel"
+      }
+    },
+    {
+      "id": "native_Set.Finite",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.Finite"
+      }
+    },
+    {
+      "id": "native_Cardinal.cantor",
+      "label": "Entry",
+      "props": {
+        "entryId": "Cardinal.cantor"
+      }
+    },
+    {
+      "id": "native_RelIso",
+      "label": "Entry",
+      "props": {
+        "entryId": "RelIso"
+      }
+    },
+    {
+      "id": "native_PSet.ofNat",
+      "label": "Entry",
+      "props": {
+        "entryId": "PSet.ofNat"
+      }
+    },
+    {
+      "id": "native_Nat.instLinearOrder",
+      "label": "Entry",
+      "props": {
+        "entryId": "Nat.instLinearOrder"
+      }
+    },
+    {
+      "id": "native_Cardinal",
+      "label": "Entry",
+      "props": {
+        "entryId": "Cardinal"
+      }
+    },
+    {
+      "id": "native_Cardinal.mk",
+      "label": "Entry",
+      "props": {
+        "entryId": "Cardinal.mk"
+      }
+    },
+    {
+      "id": "native_Cardinal.mk_powerset",
+      "label": "Entry",
+      "props": {
+        "entryId": "Cardinal.mk_powerset"
+      }
+    },
+    {
+      "id": "native_Denumerable",
+      "label": "Entry",
+      "props": {
+        "entryId": "Denumerable"
+      }
+    },
+    {
+      "id": "native_Equiv",
+      "label": "Entry",
+      "props": {
+        "entryId": "Equiv"
+      }
+    },
+    {
+      "id": "native_Equiv.ofInjective",
+      "label": "Entry",
+      "props": {
+        "entryId": "Equiv.ofInjective"
+      }
+    },
+    {
+      "id": "native_finite_iff_exists_equiv_fin",
+      "label": "Entry",
+      "props": {
+        "entryId": "finite_iff_exists_equiv_fin"
+      }
+    },
+    {
+      "id": "native_Nat",
+      "label": "Entry",
+      "props": {
+        "entryId": "Nat"
+      }
+    },
+    {
+      "id": "native_Nat.succ",
+      "label": "Entry",
+      "props": {
+        "entryId": "Nat.succ"
+      }
+    },
+    {
+      "id": "native_Nat.zero",
+      "label": "Entry",
+      "props": {
+        "entryId": "Nat.zero"
+      }
+    },
+    {
+      "id": "native_nonempty_denumerable_iff",
+      "label": "Entry",
+      "props": {
+        "entryId": "nonempty_denumerable_iff"
+      }
+    },
+    {
+      "id": "native_partialOrderOfSO",
+      "label": "Entry",
+      "props": {
+        "entryId": "partialOrderOfSO"
+      }
+    },
+    {
+      "id": "native_Rel",
+      "label": "Entry",
+      "props": {
+        "entryId": "Rel"
+      }
+    },
+    {
+      "id": "native_Set.countable_iff_exists_injective",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.countable_iff_exists_injective"
+      }
+    },
+    {
+      "id": "native_Set.ext",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.ext"
+      }
+    },
+    {
+      "id": "native_Set.graphOn",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.graphOn"
+      }
+    },
+    {
+      "id": "native_Set.insert",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.insert"
+      }
+    },
+    {
+      "id": "native_Set.Nonempty",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.Nonempty"
+      }
+    },
+    {
+      "id": "native_Set.singleton",
+      "label": "Entry",
+      "props": {
+        "entryId": "Set.singleton"
+      }
+    },
+    {
+      "id": "native_subset_antisymm_iff",
+      "label": "Entry",
+      "props": {
+        "entryId": "subset_antisymm_iff"
+      }
+    },
+    {
+      "id": "native_Fulcrum.BinaryOperation",
+      "label": "Entry",
+      "props": {
+        "entryId": "Fulcrum.BinaryOperation"
+      }
+    },
+    {
+      "id": "native_Fulcrum.BinaryOperation.apply",
+      "label": "Entry",
+      "props": {
+        "entryId": "Fulcrum.BinaryOperation.apply"
       }
     }
   ],
@@ -607,6 +810,151 @@
     {
       "from": "n_12",
       "to": "n_29",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_ops",
+      "to": "native_Set.prod",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_rel",
+      "to": "native_SetRel",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_Set.Finite",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_Cardinal.cantor",
+      "label": "branch"
+    },
+    {
+      "from": "n_12",
+      "to": "native_RelIso",
+      "label": "branch"
+    },
+    {
+      "from": "n_12",
+      "to": "native_PSet.ofNat",
+      "label": "branch"
+    },
+    {
+      "from": "n_12",
+      "to": "native_Nat.instLinearOrder",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_Cardinal",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_Cardinal.mk",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_Cardinal.mk_powerset",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_Denumerable",
+      "label": "branch"
+    },
+    {
+      "from": "n_1",
+      "to": "native_Equiv",
+      "label": "branch"
+    },
+    {
+      "from": "n_1",
+      "to": "native_Equiv.ofInjective",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_finite_iff_exists_equiv_fin",
+      "label": "branch"
+    },
+    {
+      "from": "n_12",
+      "to": "native_Nat",
+      "label": "branch"
+    },
+    {
+      "from": "n_12",
+      "to": "native_Nat.succ",
+      "label": "branch"
+    },
+    {
+      "from": "n_12",
+      "to": "native_Nat.zero",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_nonempty_denumerable_iff",
+      "label": "branch"
+    },
+    {
+      "from": "n_12",
+      "to": "native_partialOrderOfSO",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_rel",
+      "to": "native_Rel",
+      "label": "branch"
+    },
+    {
+      "from": "n_13",
+      "to": "native_Set.countable_iff_exists_injective",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_rel",
+      "to": "native_Set.ext",
+      "label": "branch"
+    },
+    {
+      "from": "n_1",
+      "to": "native_Set.graphOn",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_ops",
+      "to": "native_Set.insert",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_ops",
+      "to": "native_Set.Nonempty",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_ops",
+      "to": "native_Set.singleton",
+      "label": "branch"
+    },
+    {
+      "from": "n_sub_rel",
+      "to": "native_subset_antisymm_iff",
+      "label": "branch"
+    },
+    {
+      "from": "n_1",
+      "to": "native_Fulcrum.BinaryOperation",
+      "label": "branch"
+    },
+    {
+      "from": "n_1",
+      "to": "native_Fulcrum.BinaryOperation.apply",
       "label": "branch"
     }
   ]

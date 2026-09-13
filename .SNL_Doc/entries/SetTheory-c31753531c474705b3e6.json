@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set.preimage",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "映射的原像集",
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$β$,Type.Sort(%v+1%)),Type.annotation[default](@$f$,Type.forall[arrow](@$a$,$α$@#0.0.0,$β$@#0.1.0)),Type.annotation[default](@$s$,Set($β$@#0.1.0))),def[default](Set.preimage($α$@#0.0.0,$β$@#0.1.0,$f$@#0.2.0,$s$@#0.3.0),Set($α$@#0.0.0),setOf[typedBuilder](@$x$,$α$@#0.0.0,Membership.mem($β$@#0.1.0,Set($β$@#0.1.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($β$@#0.1.0),$s$@#0.3.0,Type.app($f$@#0.2.0,__list__[native_formula]($x$@#1.2.0))))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Operations.lean",
+      "mode": "lines",
+      "line": 118,
+      "endLine": 120,
+      "column": 1,
+      "endColumn": 62
+    }
+  }
+}

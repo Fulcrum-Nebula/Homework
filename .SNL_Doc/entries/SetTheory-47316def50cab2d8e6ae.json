@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Cardinal.mk",
+    "package": "SetTheory",
+    "title": "Cardinal.mk",
+    "kind": "def",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Type.Sort(%u+1%))),def[default](Cardinal.mk($a$@#0.0.0),Cardinal,$\\mathsf{Quotient\\text{\\char\"2e}mk\\text{\\char\"27}}(#0, #1, #2)$(Type.Sort(%u+1%),$\\mathsf{Cardinal\\text{\\char\"2e}isEquivalent}$,$a$@#0.0.0)))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/SetTheory/Cardinal/Defs.lean",
+      "mode": "lines",
+      "line": 84,
+      "endLine": 86,
+      "column": 1,
+      "endColumn": 15
+    }
+  }
+}

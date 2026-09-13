@@ -9,7 +9,7 @@
     "kind": "definition",
     "title": "Abelian Group / Commutative Group",
     "content": {
-      "snl": "structure(\r\n    Algebra.Abelian(G@Algebra.ctxt.G, $\\cdot$@Algebra.ctxt.mul),\r\n    __enum__(\r\n        Algebra.Group(G@Algebra.ctxt.G, $\\cdot$@Algebra.ctxt.mul),\r\n        Logic.forall-typed(\r\n            @a,\r\n            G@Algebra.ctxt.G,\r\n            Logic.forall-typed(\r\n                @b,\r\n                G@Algebra.ctxt.G,\r\n                Eq(Bop.apply($\\cdot$@Algebra.ctxt.mul, a, b), Bop.apply($\\cdot$@Algebra.ctxt.mul, b, a))\r\n            )\r\n        )\r\n    )\r\n)"
+      "snl": "structure(Algebra.Abelian(G@Algebra.ctxt.G,$\\cdot$@Algebra.ctxt.mul),__enum__(Algebra.Group(G@Algebra.ctxt.G,$\\cdot$@Algebra.ctxt.mul),Logic.forall-typed(@a,G@Algebra.ctxt.G,Logic.forall-typed(@b,G@Algebra.ctxt.G,Eq(,Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,a,b),Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,b,a))))))"
     },
     "contribution_info": null,
     "pointer": null

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Eq(Set.inter(A,B),Set.emptyset[slim]),theorem(Measure.additive($\\mu$,A,B)))"
+      "snl": "variable(Eq(,Set.inter[authored](,A,B),EmptyCollection.emptyCollection[slim](,)),theorem(Measure.additive($\\mu$,A,B)))"
     },
     "contribution_info": null,
     "pointer": null,

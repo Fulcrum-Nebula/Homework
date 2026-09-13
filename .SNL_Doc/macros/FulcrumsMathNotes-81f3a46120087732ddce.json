@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "FulcrumsMathNotes",
   "macro": {
+    "name": "inductive",
     "description": "Inductive type definition by constructors",
     "source": {
       "entries": [],
@@ -111,9 +112,44 @@
             }
           }
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "定义类型【#0】可由以下构造子之一构造元素：\n#1"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Define type “#0” to consist of inhabitants provided by any of the following constructors:\n#1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "定义【#0】可由以下构造子之一证明：\n#1"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Define “#0” to hold if and only if it is derivable using the following constructors:\n#1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_prop"
       }
     ],
-    "tags": [],
-    "name": "inductive"
+    "tags": []
   }
 }

@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "FulcrumsMathNotes",
   "macro": {
+    "name": "structure",
     "description": "Structure definition without hypotheses",
     "source": {
       "entries": [],
@@ -261,9 +262,44 @@
             }
           }
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "定义结构类型【#0】包含以下信息：\n#1"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Define structure “#0” consisting of the following data:\n#1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "定义【#0】当且仅当提供以下全部信息：\n#1"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Define “#0” to hold if and only if the following conditions are jointly satisfied:\n#1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_prop"
       }
     ],
-    "tags": [],
-    "name": "structure"
+    "tags": []
   }
 }

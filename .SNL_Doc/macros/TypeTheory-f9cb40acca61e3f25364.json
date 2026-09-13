@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "ctors",
     "description": "",
     "source": {
       "entries": [],
@@ -36,9 +37,25 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "separator": "\\\\ |\\;",
+          "mode": "formula_display",
+          "body": "\\begin{array}{l}|\\;#*\\end{array}"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#*"
+        },
+        "tags": [],
+        "style_name": "empty"
       }
     ],
-    "tags": [],
-    "name": "ctors"
+    "tags": []
   }
 }

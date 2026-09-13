@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Nat.instLinearOrder",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "自然数具有线性序结构",
+    "content": {
+      "snl": "def[default]($\\mathsf{Nat\\text{\\char\"2e}instLinearOrder}$,LinearOrder(Nat[native_default]),$\\mathsf{LinearOrder\\text{\\char\"2e}mk}(#0, #1, #2, #3, #4, #5, #6, #7, #8, #9, #10, #11)$(Nat[native_default],$\\mathsf{PartialOrder\\text{\\char\"2e}mk}(#0, #1, #2)$(Nat[native_default],$\\mathsf{Preorder\\text{\\char\"2e}mk}(#0, #1, #2, #3, #4, #5)$(Nat[native_default],$\\mathsf{LE\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}le}$),$\\mathsf{LT\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}lt}$),$\\mathsf{Nat\\text{\\char\"2e}le\\_refl}$,$\\mathsf{Nat\\text{\\char\"2e}le\\_trans}$,$\\mathsf{Nat\\text{\\char\"2e}lt\\_iff\\_le\\_not\\_le}$),$\\mathsf{Nat\\text{\\char\"2e}le\\_antisymm}$),$\\mathsf{instMinNat}$,$\\mathsf{Nat\\text{\\char\"2e}instMax}$,$\\mathsf{instOrdNat}$,$\\mathsf{Nat\\text{\\char\"2e}le\\_total}$,$\\mathsf{inferInstance}(#0, #1)$($\\mathsf{DecidableLE}(#0, #1)$(Nat[native_default],$\\mathsf{LE\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}le}$)),$\\mathsf{Nat\\text{\\char\"2e}decLe}$),$\\mathsf{inferInstance}(#0, #1)$(DecidableEq(Nat[native_default]),$\\mathsf{instDecidableEqNat}$),$\\mathsf{inferInstance}(#0, #1)$($\\mathsf{DecidableLT}(#0, #1)$(Nat[native_default],$\\mathsf{LT\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}lt}$)),$\\mathsf{Nat\\text{\\char\"2e}decLt}$),$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_1}$,$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_2}$,$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_3}$))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Nat/Basic.lean",
+      "mode": "lines",
+      "line": 34,
+      "endLine": 44,
+      "column": 1,
+      "endColumn": 33
+    }
+  }
+}

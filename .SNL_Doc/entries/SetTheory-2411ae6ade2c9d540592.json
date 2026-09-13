@@ -1,0 +1,25 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Countable",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "至多可数类型",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u%))),structure[native_prop](Countable($α$@#0.0.0),__enum__[num](member[native_colon](@$\\mathsf{exists\\_injective\\_nat\\text{\\char\"27}}$,Exists[binder](@$f$,Type.forall[arrow](@$a$,$α$@#0.0.0,Nat[native_default]),Function.Injective($α$@#0.0.0,Nat[native_default],$f$@#1.1.0.1.0))))))",
+      "markdown": "`Countable α` is a proposition asserting an injection into ℕ; it does not assert infinitude."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Countable/Defs.lean",
+      "mode": "lines",
+      "line": 38,
+      "endLine": 42,
+      "column": 1,
+      "endColumn": 51
+    }
+  }
+}

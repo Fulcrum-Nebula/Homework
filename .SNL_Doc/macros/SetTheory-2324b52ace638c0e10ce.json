@@ -1,0 +1,53 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Set.image",
+    "description": "映射的像集",
+    "source": {
+      "entries": [
+        "Set.image"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#2 '' #3"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "style_name": "authored",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#2(#3)",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
+      }
+    ],
+    "tags": []
+  }
+}

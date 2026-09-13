@@ -30,9 +30,7 @@
       "file": "Lean4/Linear Algebra/LinearAlgebra.lean",
       "mode": "regex",
       "pattern": "^namespace Fulcrum(?=\\r?\\n\\r?\\n/--)",
-      "flags": "m",
-      "beforeLines": 0,
-      "afterLines": 0
+      "flags": "m"
     }
   }
 }

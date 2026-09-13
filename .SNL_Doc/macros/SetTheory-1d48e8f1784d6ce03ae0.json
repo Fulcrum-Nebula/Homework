@@ -4,10 +4,11 @@
   "schema_version": 1,
   "package": "SetTheory",
   "macro": {
+    "name": "Set.powerset",
     "description": "𝒫(s)",
     "source": {
       "entries": [
-        "Set.def.powerset"
+        "Set.powerset"
       ],
       "urls": []
     },
@@ -16,11 +17,19 @@
     "tags": [],
     "styles": [
       {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathcal{P}(#1)"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
         "style_name": "script",
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "\\mathcal{P}(#0)",
+          "body": "\\mathcal{P}(#1)",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -44,7 +53,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "2^{#0}",
+          "body": "2^{#1}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -63,7 +72,6 @@
           "text": ""
         }
       }
-    ],
-    "name": "Set.powerset"
+    ]
   }
 }

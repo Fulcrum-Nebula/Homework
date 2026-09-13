@@ -1,0 +1,71 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Set.Subset",
+    "description": "s ⊆ t",
+    "source": {
+      "entries": [
+        "Set.Subset"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1 \\subseteq #2"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "style_name": "infix",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1 \\subseteq #2",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "#1 是 #2 的子集"
+            },
+            "en": {
+              "mode": "text",
+              "body": "#1 is a subset of #2"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "english"
+      }
+    ]
+  }
+}

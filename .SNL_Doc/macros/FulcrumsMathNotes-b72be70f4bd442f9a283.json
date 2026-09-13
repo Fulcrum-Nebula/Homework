@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "FulcrumsMathNotes",
   "macro": {
+    "name": "def",
     "description": "Definition syntax with exactly three operands: #0 defined-object statement, #1 type, #2 content. Explicit empty operands record information not yet supplied.",
     "source": {
       "entries": [
@@ -363,9 +364,44 @@
             }
           }
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "定义【#0】$:$ #1 为 #2。"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Define “#0” (type: #1) to be #2. "
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "定义【#0】当且仅当 #2。"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Define “#0” (type: #1) if and only if #2. "
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "prop"
       }
     ],
-    "tags": [],
-    "name": "def"
+    "tags": []
   }
 }

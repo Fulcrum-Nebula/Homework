@@ -63,6 +63,42 @@
             }
           }
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "设 #0。#1"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Let #0. #1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "设：\n#0\n#1"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Let:\n#0\n#1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "enumerated"
       }
     ]
   }

@@ -115,6 +115,16 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "separator": "\n",
+          "mode": "block",
+          "body": "#*",
+          "block_template_name": "enumerate"
+        },
+        "tags": [],
+        "style_name": "native_enumerate"
       }
     ],
     "tags": []

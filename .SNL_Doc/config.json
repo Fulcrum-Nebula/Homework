@@ -265,6 +265,39 @@
       },
       "defaultCounterName": "ctor",
       "style": "ctor"
+    },
+    {
+      "id": "def",
+      "name": "Definition",
+      "coloring": {
+        "light": {
+          "stroke": "#009C27",
+          "background": "#D6FEE0"
+        },
+        "dark": {
+          "stroke": "#4ADE80",
+          "background": "#313131"
+        }
+      },
+      "defaultCounterName": "",
+      "style": ""
+    },
+    {
+      "id": "thm",
+      "name": "Theorem",
+      "description": "",
+      "coloring": {
+        "light": {
+          "stroke": "#005B9C",
+          "background": "#DAF0FF"
+        },
+        "dark": {
+          "stroke": "#60A5FA",
+          "background": "#313131"
+        }
+      },
+      "defaultCounterName": "",
+      "style": ""
     }
   ],
   "macro_kinds": [

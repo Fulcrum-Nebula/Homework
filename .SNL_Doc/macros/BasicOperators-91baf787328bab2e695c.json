@@ -4,11 +4,12 @@
   "schema_version": 1,
   "package": "BasicOperators",
   "macro": {
+    "name": "Nat",
     "description": "Natural numbers",
     "source": {
       "entries": [
         "Type.def.nat",
-        "Set.example.nat"
+        "PSet.ofNat"
       ],
       "urls": []
     },
@@ -63,8 +64,15 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathbb{N}"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
-    ],
-    "name": "Nat"
+    ]
   }
 }

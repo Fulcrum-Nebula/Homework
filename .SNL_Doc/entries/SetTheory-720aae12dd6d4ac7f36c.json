@@ -1,0 +1,25 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "IsGreatest",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "最大元",
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0)),Type.annotation[default](@$a$,$α$@#0.0.0)),def[prop](IsGreatest($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0,$a$@#0.3.0),Type.Sort[prop](%0%),And(Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$s$@#0.2.0,$a$@#0.3.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),upperBounds($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0),$a$@#0.3.0))))",
+      "markdown": "A greatest element belongs to the set and bounds every member above. This is a predicate, not a chosen maximum function."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Order/Bounds/Defs.lean",
+      "mode": "lines",
+      "line": 44,
+      "endLine": 45,
+      "column": 3,
+      "endColumn": 92
+    }
+  }
+}

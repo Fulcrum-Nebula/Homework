@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "FulcrumsMathNotes",
   "macro": {
+    "name": "theorem",
     "description": "State the proposition #0; variables and assumptions are supplied by an enclosing variable macro. This does not certify a Lean proof.",
     "source": {
       "entries": [
@@ -113,9 +114,26 @@
             }
           }
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "#0。"
+            },
+            "en": {
+              "mode": "text",
+              "body": "#0."
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
     ],
-    "tags": [],
-    "name": "theorem"
+    "tags": []
   }
 }

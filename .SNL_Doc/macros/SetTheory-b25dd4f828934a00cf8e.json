@@ -4,10 +4,11 @@
   "schema_version": 1,
   "package": "SetTheory",
   "macro": {
+    "name": "Set.compl",
     "description": "",
     "source": {
       "entries": [
-        "Set.def.compl"
+        "Set.compl"
       ],
       "urls": []
     },
@@ -16,11 +17,19 @@
     "tags": [],
     "styles": [
       {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1^{\\mathsf c}"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
         "style_name": "sup",
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0^{\\mathrm{C}}",
+          "body": "#1^{\\mathrm{C}}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -44,7 +53,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "\\complement #0",
+          "body": "\\complement #1",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -68,7 +77,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "\\overline{#0}",
+          "body": "\\overline{#1}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -87,7 +96,6 @@
           "text": ""
         }
       }
-    ],
-    "name": "Set.compl"
+    ]
   }
 }

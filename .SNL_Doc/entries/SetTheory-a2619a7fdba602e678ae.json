@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Equiv.apply_eq_iff_eq_symm_apply",
+    "package": "SetTheory",
+    "kind": "thm",
+    "title": "逆映射的像是原像",
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u%)),Type.annotation[default](@$β$,Type.Sort(%v%)),Type.annotation[default](@$x$,$α$@#0.0.0),Type.annotation[default](@$y$,$β$@#0.1.0),Type.annotation[default](@$f$,Equiv($α$@#0.0.0,$β$@#0.1.0))),theorem[native_default](Iff(Eq($β$@#0.1.0,$\\mathsf{DFunLike\\text{\\char\"2e}coe}(#0, #1, #2, #3, #4, #5)$(Equiv($α$@#0.0.0,$β$@#0.1.0),$α$@#0.0.0,Type.lambda[untyped](@$x\\_1$@x_1,$α$@#0.0.0,$β$@#0.1.0),$\\mathsf{EquivLike\\text{\\char\"2e}toFunLike}(#0, #1, #2, #3)$(Equiv($α$@#0.0.0,$β$@#0.1.0),$α$@#0.0.0,$β$@#0.1.0,$\\mathsf{Equiv\\text{\\char\"2e}instEquivLike}(#0, #1)$($α$@#0.0.0,$β$@#0.1.0)),$f$@#0.4.0,$x$@#0.2.0),$y$@#0.3.0),Eq($α$@#0.0.0,$x$@#0.2.0,$\\mathsf{DFunLike\\text{\\char\"2e}coe}(#0, #1, #2, #3, #4, #5)$(Equiv($β$@#0.1.0,$α$@#0.0.0),$β$@#0.1.0,Type.lambda[untyped](@$x\\_1$@x_1,$β$@#0.1.0,$α$@#0.0.0),$\\mathsf{EquivLike\\text{\\char\"2e}toFunLike}(#0, #1, #2, #3)$(Equiv($β$@#0.1.0,$α$@#0.0.0),$β$@#0.1.0,$α$@#0.0.0,$\\mathsf{Equiv\\text{\\char\"2e}instEquivLike}(#0, #1)$($β$@#0.1.0,$α$@#0.0.0)),Equiv.symm($α$@#0.0.0,$β$@#0.1.0,$f$@#0.4.0),$y$@#0.3.0)))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Logic/Equiv/Defs.lean",
+      "mode": "lines",
+      "line": 279,
+      "endLine": 279,
+      "column": 1,
+      "endColumn": 100
+    }
+  }
+}

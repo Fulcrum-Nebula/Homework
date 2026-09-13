@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Function.Surjective",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Surjective Map",
+        "zh-CN": "满映射"
+      }
+    },
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1%)),Type.annotation[default](@$β$,Type.Sort(%u_2%)),Type.annotation[default](@$f$,Type.forall[arrow](@$a$,$α$@#0.0.0,$β$@#0.1.0))),def[prop](Function.Surjective($α$@#0.0.0,$β$@#0.1.0,$f$@#0.2.0),Type.Sort[prop](%0%),Type.forall[forall](@$b$,$β$@#0.1.0,Exists[binder](@$a$,$α$@#0.0.0,Eq($β$@#0.1.0,Type.app($f$@#0.2.0,__list__[native_formula]($a$@#1.2.2.0)),$b$@#1.2.0)))))",
+      "markdown": "\n\nPointer boundary: this Entry navigates to the local `#print Function.Surjective` command. The declaration itself belongs to `Init.Data.Function` in Lean core; its system-wide source is intentionally not addressed across the workspace boundary."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Set Theory/SetTheory.lean",
+      "mode": "lines",
+      "line": 132,
+      "endLine": 132,
+      "column": 1,
+      "endColumn": 27
+    }
+  }
+}

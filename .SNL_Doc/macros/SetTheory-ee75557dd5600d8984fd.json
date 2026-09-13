@@ -4,10 +4,11 @@
   "schema_version": 1,
   "package": "SetTheory",
   "macro": {
+    "name": "Set",
     "description": "",
     "source": {
       "entries": [
-        "Set.def.set"
+        "Set"
       ],
       "urls": []
     },
@@ -15,6 +16,14 @@
     "dynamic_arity": false,
     "tags": [],
     "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{Set} #0"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
       {
         "style_name": "text",
         "tags": [],
@@ -63,7 +72,6 @@
           "text": ""
         }
       }
-    ],
-    "name": "Set"
+    ]
   }
 }

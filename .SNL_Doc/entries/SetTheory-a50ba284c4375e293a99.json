@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Fulcrum.SetFunction.codomain",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Codomain",
+        "zh-CN": "余定义域/陪域/到域/达域"
+      }
+    },
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$S$,Type.Sort(%u+1%)),Type.annotation[default](@$T$,Type.Sort(%v+1%)),Type.annotation[default](@$D$,Set($S$@#0.0.0)),Type.annotation[default](@$A$,Set($T$@#0.1.0)),Type.annotation[default](@$\\_f$@_f,Type.forall[arrow](@$a$,Set.Elem[default]($S$@#0.0.0,$D$@#0.2.0),Set.Elem[default]($T$@#0.1.0,$A$@#0.3.0)))),def[default](Fulcrum.SetFunction.codomain($S$@#0.0.0,$T$@#0.1.0,$D$@#0.2.0,$A$@#0.3.0,$\\_f$@#0.4.0),Set($T$@#0.1.0),$A$@#0.3.0))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Set Theory/SetTheory.lean",
+      "mode": "lines",
+      "line": 38,
+      "endLine": 39,
+      "column": 1,
+      "endColumn": 30
+    }
+  }
+}

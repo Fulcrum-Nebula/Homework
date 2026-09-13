@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Equiv.symm",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "等价映射的逆",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u%)),Type.annotation[default](@$β$,Type.Sort(%v%)),Type.annotation[default](@$e$,Equiv($α$@#0.0.0,$β$@#0.1.0))),def[default](Equiv.symm($α$@#0.0.0,$β$@#0.1.0,$e$@#0.2.0),Equiv($β$@#0.1.0,$α$@#0.0.0),Equiv.mk($β$@#0.1.0,$α$@#0.0.0,Equiv.invFun($α$@#0.0.0,$β$@#0.1.0,$e$@#0.2.0),Equiv.toFun($α$@#0.0.0,$β$@#0.1.0,$e$@#0.2.0),Equiv.right_inv($α$@#0.0.0,$β$@#0.1.0,$e$@#0.2.0),Equiv.left_inv($α$@#0.0.0,$β$@#0.1.0,$e$@#0.2.0))))"
+    },
+    "contribution_info": "Dedicatia",
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Logic/Equiv/Defs.lean",
+      "mode": "lines",
+      "line": 145,
+      "endLine": 147,
+      "column": 1,
+      "endColumn": 87
+    }
+  }
+}

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@U,Set(T@Set.ctxt.T)),def(Topology.closedSet[text](U,τ@Topology.ctxt.tau,S@Topology.ctxt.S), ,Set.mem(Set.compl[sup](U,S@Topology.ctxt.S),τ)))"
+      "snl": "variable(Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.closedSet[text](U,τ@Topology.ctxt.tau,S@Topology.ctxt.S),,Set.Mem[authored](,τ,Set.diff[relative_sup](,S@Topology.ctxt.S,U))))"
     },
     "contribution_info": null,
     "pointer": null,

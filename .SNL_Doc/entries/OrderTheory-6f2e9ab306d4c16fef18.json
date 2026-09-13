@@ -9,7 +9,7 @@
     "kind": "definition",
     "title": "偏序关系",
     "content": {
-      "snl": "variable(\r\n    Type.annotation(@$\\lt$, Rl(T@Order.ctxt.T, T@Order.ctxt.T)),structure( \r\n    Order.partial(T@Order.ctxt.T, $\\lt$),\r\n    __enum__(\r\n        Logic.forall-typed(@t, T@Order.ctxt.T, Logic.neg(Rl.apply($\\lt$, t, t))),\r\n        Logic.forall-typed(@q, T@Order.ctxt.T, Logic.forall-typed(@r, T@Order.ctxt.T, Logic.forall-typed(@s, T@Order.ctxt.T, Logic.implies(Logic.and(Rl.apply($\\lt$, q, r), Rl.apply($\\lt$, r, s)), Rl.apply($\\lt$, q, s)))))\r\n    )\r\n))"
+      "snl": "variable(Type.annotation(@$\\lt$,SetRel[authored](T@Order.ctxt.T,T@Order.ctxt.T)),structure(Order.partial(T@Order.ctxt.T,$\\lt$),__enum__(Logic.forall-typed(@t,T@Order.ctxt.T,Logic.neg(Set.Mem(,$\\lt$,Prod.mk(,,t,t)))),Logic.forall-typed(@q,T@Order.ctxt.T,Logic.forall-typed(@r,T@Order.ctxt.T,Logic.forall-typed(@s,T@Order.ctxt.T,Logic.implies(Logic.and(Set.Mem(,$\\lt$,Prod.mk(,,q,r)),Set.Mem(,$\\lt$,Prod.mk(,,r,s))),Set.Mem(,$\\lt$,Prod.mk(,,q,s)))))))))"
     },
     "contribution_info": null,
     "pointer": null

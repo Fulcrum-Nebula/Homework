@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Type.annotation",
     "description": "",
     "source": {
       "entries": [
@@ -211,9 +212,24 @@
             }
           }
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#0 : #1"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1"
+        },
+        "tags": [],
+        "style_name": "nameless"
       }
     ],
-    "tags": [],
-    "name": "Type.annotation"
+    "tags": []
   }
 }

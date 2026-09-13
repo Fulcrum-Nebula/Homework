@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(\r\n    __list__(\r\n        Type.annotation(@A, Set(S@Set.ctxt.T)),\r\n        Type.annotation(@x, T@Set.ctxt.T)\r\n    ),theorem(\r\n    Logic.iff(Set.mem(x, Topology.interior(A)), Topology.neighborhood(A, x))\r\n))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](S@Fulcrum.SetTheory.T)),Type.annotation(@x,T@Fulcrum.SetTheory.T)),theorem(Logic.iff(Set.Mem[authored](,Topology.interior(A),x),Topology.neighborhood(A,x))))"
     },
     "contribution_info": null,
     "pointer": null,

@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Cardinal.cantor",
+    "package": "SetTheory",
+    "kind": "thm",
+    "title": "Cantor's Power Set",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Cardinal)),theorem[native_default](LT.lt(Cardinal,$\\mathsf{Preorder\\text{\\char\"2e}toLT}(#0, #1)$(Cardinal,$\\mathsf{PartialOrder\\text{\\char\"2e}toPreorder}(#0, #1)$(Cardinal,$\\mathsf{Cardinal\\text{\\char\"2e}partialOrder}$)),$a$@#0.0.0,HPow.hPow(Cardinal,Cardinal,Cardinal,$\\mathsf{instHPow}(#0, #1, #2)$(Cardinal,Cardinal,$\\mathsf{Cardinal\\text{\\char\"2e}instPowCardinal}$),OfNat.ofNat(Cardinal,%2%,$\\mathsf{instOfNatAtLeastTwo}(#0, #1, #2, #3)$(Cardinal,%2%,$\\mathsf{Cardinal\\text{\\char\"2e}instNatCast}$,$\\mathsf{Nat\\text{\\char\"2e}instAtLeastTwoHAddOfNat}(#0, #1)$(OfNat.ofNat(Nat[native_default],%1%,$\\mathsf{instOfNatNat}(#0)$(%1%)),$\\mathsf{Nat\\text{\\char\"2e}instNeZeroSucc}(#0)$(OfNat.ofNat(Nat[native_default],%0%,$\\mathsf{instOfNatNat}(#0)$(%0%)))))),$a$@#0.0.0))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/SetTheory/Cardinal/Order.lean",
+      "mode": "lines",
+      "line": 336,
+      "endLine": 342,
+      "column": 1,
+      "endColumn": 30
+    }
+  }
+}

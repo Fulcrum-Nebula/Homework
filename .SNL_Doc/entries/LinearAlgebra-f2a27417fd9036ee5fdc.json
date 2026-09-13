@@ -31,9 +31,7 @@
       "file": "Lean4/Linear Algebra/LinearAlgebra.lean",
       "mode": "regex",
       "pattern": "^variable \\{𝕂 : Type u\\} \\{V : Type v\\} \\[Field 𝕂\\] \\[s : VectorSpace 𝕂 V\\](?=\\r?$)",
-      "flags": "m",
-      "beforeLines": 0,
-      "afterLines": 0
+      "flags": "m"
     }
   }
 }

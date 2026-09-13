@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Cardinal.eq",
+    "package": "SetTheory",
+    "kind": "thm",
+    "title": "集合等势",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$β$,Type.Sort(%u+1%))),theorem[native_default](Iff(Eq(Cardinal,Cardinal.mk($α$@#0.0.0),Cardinal.mk($β$@#0.1.0)),Nonempty(Equiv($α$@#0.0.0,$β$@#0.1.0)))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/SetTheory/Cardinal/Defs.lean",
+      "mode": "lines",
+      "line": 112,
+      "endLine": 113,
+      "column": 1,
+      "endColumn": 15
+    }
+  }
+}

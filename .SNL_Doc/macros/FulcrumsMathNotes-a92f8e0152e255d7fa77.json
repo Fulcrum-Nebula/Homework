@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "FulcrumsMathNotes",
   "macro": {
+    "name": "member",
     "description": "Structure member",
     "source": {
       "entries": [],
@@ -59,9 +60,24 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#0 : #1"
+        },
+        "tags": [],
+        "style_name": "native_colon"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1"
+        },
+        "tags": [],
+        "style_name": "nameless"
       }
     ],
-    "tags": [],
-    "name": "member"
+    "tags": []
   }
 }

@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "BasicOperators",
   "macro": {
+    "name": "parentheses",
     "description": "",
     "source": {
       "entries": [],
@@ -35,9 +36,16 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left(#0\\right)"
+        },
+        "tags": [],
+        "style_name": "default"
       }
     ],
-    "tags": [],
-    "name": "parentheses"
+    "tags": []
   }
 }

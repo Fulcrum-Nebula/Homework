@@ -4,10 +4,11 @@
   "schema_version": 1,
   "package": "SetTheory",
   "macro": {
+    "name": "Set.inter",
     "description": "",
     "source": {
       "entries": [
-        "Set.def.inter"
+        "Set.inter"
       ],
       "urls": []
     },
@@ -16,11 +17,19 @@
     "tags": [],
     "styles": [
       {
-        "style_name": "default",
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1 \\cap #2"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "style_name": "authored",
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0 \\cap #1",
+          "body": "#1 \\cap #2",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -39,7 +48,6 @@
           "text": ""
         }
       }
-    ],
-    "name": "Set.inter"
+    ]
   }
 }

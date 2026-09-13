@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "BasicOperators",
   "macro": {
+    "name": "Eq",
     "description": "",
     "source": {
       "entries": [
@@ -19,7 +20,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0 = #1",
+          "body": "#1 = #2",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -39,7 +40,6 @@
         }
       }
     ],
-    "tags": [],
-    "name": "Eq"
+    "tags": []
   }
 }

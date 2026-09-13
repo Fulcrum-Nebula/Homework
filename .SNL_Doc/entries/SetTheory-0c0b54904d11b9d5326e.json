@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set.prod",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "集合的笛卡尔积",
+    "content": {
+      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$β$,Type.Sort(%v+1%)),Type.annotation[default](@$s$,Set($α$@#0.0.0)),Type.annotation[default](@$t$,Set($β$@#0.1.0))),def[default](Set.prod($α$@#0.0.0,$β$@#0.1.0,$s$@#0.2.0,$t$@#0.3.0),Set(Prod($α$@#0.0.0,$β$@#0.1.0)),setOf[typedBuilder](@$p$,Prod($α$@#0.0.0,$β$@#0.1.0),And(Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$s$@#0.2.0,Prod.fst($α$@#0.0.0,$β$@#0.1.0,$p$@#1.2.0)),Membership.mem($β$@#0.1.0,Set($β$@#0.1.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($β$@#0.1.0),$t$@#0.3.0,Prod.snd($α$@#0.0.0,$β$@#0.1.0,$p$@#1.2.0))))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Operations.lean",
+      "mode": "lines",
+      "line": 206,
+      "endLine": 207,
+      "column": 1,
+      "endColumn": 74
+    }
+  }
+}

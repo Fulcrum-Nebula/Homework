@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set.instEmptyCollection",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Empty-set instance",
+        "zh-CN": "集合的空集实例"
+      }
+    },
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%))),def[default]($\\mathsf{Set\\text{\\char\"2e}instEmptyCollection}(#0)$($α$@#0.0.0),$\\mathsf{EmptyCollection}(#0)$(Set($α$@#0.0.0)),$\\mathsf{EmptyCollection\\text{\\char\"2e}mk}(#0, #1)$(Set($α$@#0.0.0),Type.lambda[untyped](@$x$,$α$@#0.0.0,False))))",
+      "markdown": "\n\nThis declaration is the `EmptyCollection (Set α)` instance providing `∅ : Set α`, not the set value itself. Its `emptyCollection` field is the empty set.\n"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Defs.lean",
+      "mode": "lines",
+      "line": 82,
+      "endLine": 83,
+      "column": 1,
+      "endColumn": 18
+    },
+    "package": "SetTheory"
+  }
+}

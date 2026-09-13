@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "upperBounds",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "上界",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def[default](upperBounds($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0),Set($α$@#0.0.0),setOf[typedBuilder](@$x$,$α$@#0.0.0,Type.forall[forall](@$a$,$α$@#0.0.0,Type.forall[forallNameless](@$a\\_1$@a_1,Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$s$@#0.2.0,$a$@#1.2.2.0),LE.le($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$a$@#1.2.2.0,$x$@#1.2.0))))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Order/Bounds/Defs.lean",
+      "mode": "lines",
+      "line": 33,
+      "endLine": 36,
+      "column": 1,
+      "endColumn": 31
+    }
+  }
+}

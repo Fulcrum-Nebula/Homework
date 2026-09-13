@@ -31,9 +31,7 @@
       "file": "Lean4/Linear Algebra/LinearAlgebra.lean",
       "mode": "regex",
       "pattern": "^#snl_print VectorSpace\\.toZero(?=\\r?$)",
-      "flags": "m",
-      "beforeLines": 0,
-      "afterLines": 0
+      "flags": "m"
     }
   }
 }

@@ -20,6 +20,7 @@ lean_lib «FulcrumNotesSNL» where
     `Lean4.Functions.term_macros_CN,
     `Lean4.«Set Theory».term_macros,
     `Lean4.«Set Theory».term_macros_CN,
+    `Lean4.«Set Theory».SetTheory,
     `Lean4.«Basic Algebra».term_macros,
     `Lean4.«Basic Algebra».term_macros_CN,
     `Lean4.«Basic Algebra».BasicAlgebra,

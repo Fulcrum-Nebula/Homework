@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set.univ",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Universal Set",
+        "zh-CN": "全集"
+      }
+    },
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%))),def[default](Set.univ($α$@#0.0.0),Set($α$@#0.0.0),setOf[typedBuilder](@$\\_a$@_a,$α$@#0.0.0,True)))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Defs.lean",
+      "mode": "lines",
+      "line": 195,
+      "endLine": 200,
+      "column": 1,
+      "endColumn": 32
+    },
+    "package": "SetTheory"
+  }
+}

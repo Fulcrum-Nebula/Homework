@@ -1,0 +1,25 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "IsStrictTotalOrder",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "严格全序关系",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1%)),Type.annotation[default](@$\\mathsf{lt}$@lt,Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$α$@#0.0.0,Type.Sort[prop](%0%))))),structure[native_prop](IsStrictTotalOrder($α$@#0.0.0,$\\mathsf{lt}$@#0.1.0),__enum__[num](member[native_colon](@$\\mathsf{toTrichotomous}$@toTrichotomous,$\\mathsf{Std\\text{\\char\"2e}Trichotomous}(#0, #1)$($α$@#0.0.0,$\\mathsf{lt}$@#0.1.0)),member[native_colon](@$\\mathsf{toIsStrictOrder}$@toIsStrictOrder,IsStrictOrder($α$@#0.0.0,$\\mathsf{lt}$@#0.1.0)))))",
+      "markdown": "\n\nThis proposition-valued class asserts a strict order with trichotomy. It is not itself the non-strict `LinearOrder α` structure.\n"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Order/Defs/Unbundled.lean",
+      "mode": "lines",
+      "line": 93,
+      "endLine": 96,
+      "column": 1,
+      "endColumn": 52
+    }
+  }
+}

@@ -215,6 +215,67 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "style_name": "native_default",
+        "tags": [],
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "#*",
+              "separator": "，",
+              "typst": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "latex": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "markdown": "",
+              "text": ""
+            },
+            "en": {
+              "mode": "text",
+              "body": "#*",
+              "separator": ", ",
+              "typst": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "latex": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "markdown": "",
+              "text": ""
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        }
+      },
+      {
+        "template": {
+          "separator": ",",
+          "mode": "formula_inline",
+          "body": "#*"
+        },
+        "tags": [],
+        "style_name": "native_formula"
       }
     ],
     "tags": []

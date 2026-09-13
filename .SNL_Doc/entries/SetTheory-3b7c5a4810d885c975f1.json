@@ -1,0 +1,25 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "PSet.ofNat",
+    "package": "SetTheory",
+    "kind": "def",
+    "title": "自然数的集合表示",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Nat[native_default])),def[default](PSet.ofNat($a$@#0.0.0),$\\mathsf{PSet}$,$\\mathsf{Nat\\text{\\char\"2e}brecOn}(#0, #1, #2)$(Type.lambda[untyped](@$x$,Nat[native_default],$\\mathsf{PSet}$),$a$@#0.0.0,Type.lambda[untyped](@$x$,Nat[native_default],Type.lambda[untyped](@$f$,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],$\\mathsf{PSet}$),$x$@#1.2.2.0),$\\mathsf{PSet\\text{\\char\"2e}ofNat\\text{\\char\"2e}match\\_1}(#0, #1, #2, #3, #4)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],Type.forall[arrow](@$x\\_2$@x_2,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_2$@x_2,Nat[native_default],$\\mathsf{PSet}$),$x\\_1$@#1.2.2.2.2.0.0),$\\mathsf{PSet}$)),$x$@#1.2.2.0,Type.lambda[untyped](@$\\_$@_,Unit,Type.lambda[untyped](@$x\\_1$@x_1,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],$\\mathsf{PSet}$),OfNat.ofNat(Nat[native_default],%0%,$\\mathsf{instOfNatNat}(#0)$(%0%))),EmptyCollection.emptyCollection($\\mathsf{PSet}$,$\\mathsf{PSet\\text{\\char\"2e}instEmptyCollection}$))),Type.lambda[untyped](@$n$,Nat[native_default],Type.lambda[untyped](@$x\\_1$@x_1,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],$\\mathsf{PSet}$),Nat.succ($n$@#1.2.2.2.2.3.0)),Insert.insert($\\mathsf{PSet}$,$\\mathsf{PSet}$,$\\mathsf{PSet\\text{\\char\"2e}instInsert}$,Lean.proj(%PProd%,%0%,$x\\_1$@#1.2.2.2.2.3.2.0),Lean.proj(%PProd%,%0%,$x\\_1$@#1.2.2.2.2.3.2.0)))),$f$@#1.2.2.2.0))))))",
+      "markdown": "`PSet.ofNat : ℕ → PSet` is the von Neumann set representation. It is not Lean’s inductive type `Nat`, nor its constructors or order instance."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/SetTheory/ZFC/PSet.lean",
+      "mode": "lines",
+      "line": 372,
+      "endLine": 375,
+      "column": 1,
+      "endColumn": 40
+    }
+  }
+}

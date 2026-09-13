@@ -16,7 +16,7 @@
       }
     },
     "content": {
-      "snl": "structure(\r\n    Algebra.CommRing(R@Algebra.ctxt.ring, $+$@Algebra.ctxt.ring, $\\cdot$@Algebra.ctxt.ring),\r\n    __enum__(\r\n        Algebra.Ring(R@Algebra.ctxt.ring, $+$@Algebra.ctxt.ring, $\\cdot$@Algebra.ctxt.ring),\r\n        Logic.forall-typed(\r\n            @x, \r\n            R@Algebra.ctxt.ring,\r\n            Logic.forall-typed(\r\n                @y,\r\n                R@Algebra.ctxt.ring,\r\n                Eq(\r\n                    Bop.apply($\\cdot$, a, b),\r\n                    Bop.apply($\\cdot$, b, a)\r\n                )\r\n            )\r\n        )\r\n    )\r\n)"
+      "snl": "structure(Algebra.CommRing(R@Algebra.ctxt.ring,$+$@Algebra.ctxt.ring,$\\cdot$@Algebra.ctxt.ring),__enum__(Algebra.Ring(R@Algebra.ctxt.ring,$+$@Algebra.ctxt.ring,$\\cdot$@Algebra.ctxt.ring),Logic.forall-typed(@x,R@Algebra.ctxt.ring,Logic.forall-typed(@y,R@Algebra.ctxt.ring,Eq(,Fulcrum.BinaryOperation.apply[conj](,$\\cdot$,a,b),Fulcrum.BinaryOperation.apply[conj](,$\\cdot$,b,a))))))"
     },
     "contribution_info": null,
     "pointer": null

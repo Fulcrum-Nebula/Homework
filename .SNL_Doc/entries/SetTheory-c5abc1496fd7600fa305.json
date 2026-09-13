@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "entry": {
+    "id": "Set.insert",
+    "package": "SetTheory",
+    "title": "Set.insert",
+    "kind": "def",
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$a$,$α$@#0.0.0),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def[default](Set.insert($α$@#0.0.0,$a$@#0.1.0,$s$@#0.2.0),Set($α$@#0.0.0),setOf[typedBuilder](@$b$,$α$@#0.0.0,Or(Eq($α$@#0.0.0,$b$@#1.2.0,$a$@#0.1.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$s$@#0.2.0,$b$@#1.2.0)))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Data/Set/Defs.lean",
+      "mode": "lines",
+      "line": 202,
+      "endLine": 206,
+      "column": 1,
+      "endColumn": 72
+    }
+  }
+}
