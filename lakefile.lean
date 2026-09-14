@@ -16,6 +16,7 @@ lean_lib «FulcrumNotesSNL» where
     `Lean4.Basics.term_macros_CN,
     `Lean4.Logic.term_macros,
     `Lean4.Logic.term_macros_CN,
+    `Lean4.Logic.Logic,
     `Lean4.Functions.term_macros,
     `Lean4.Functions.term_macros_CN,
     `Lean4.«Set Theory».term_macros,

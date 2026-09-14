@@ -1,0 +1,55 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "True.intro",
+    "package": "Logic",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "True Constructor",
+        "zh-CN": "真命题构造子"
+      }
+    },
+    "content": {
+      "snl": "True"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 27,
+      "endLine": 27,
+      "column": 1,
+      "endColumn": 18
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "True",
+        "kind": "const",
+        "children": []
+      },
+      "name": "True.intro",
+      "members": [],
+      "kind": "constructor",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": []
+      },
+      "doc": "`True` is true, and `True.intro` (or more commonly, `trivial`)\nis the proof. ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "True",
+        "kind": "const",
+        "children": []
+      }
+    }
+  }
+}

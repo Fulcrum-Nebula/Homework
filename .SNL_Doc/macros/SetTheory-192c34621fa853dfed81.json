@@ -1,0 +1,53 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "instHPow",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "text",
+          "body": "The heterogeneous-power structure obtained from the power structure #2"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{instHPow}"
+        },
+        "tags": [],
+        "style_name": "function"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "由幂运算结构 #2 得到的异质幂运算结构"
+            },
+            "en": {
+              "mode": "text",
+              "body": "The heterogeneous-power structure obtained from the power structure #2"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

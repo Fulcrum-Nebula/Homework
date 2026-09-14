@@ -9,7 +9,7 @@
     "title": "Cardinal",
     "kind": "def",
     "content": {
-      "snl": "def[default](Cardinal,Type.Sort(%u+2%),$\\mathsf{Quotient}(#0, #1)$(Type.Sort(%u+1%),$\\mathsf{Cardinal\\text{\\char\"2e}isEquivalent}$))"
+      "snl": "def[default](Cardinal,Type.Sort(%u+2%),Quotient(Type.Sort(%u+1%),Cardinal.isEquivalent[native_default]))"
     },
     "contribution_info": null,
     "pointer": {
@@ -19,6 +19,109 @@
       "endLine": 80,
       "column": 1,
       "endColumn": 33
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": null,
+        "macro_name": "Quotient",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.Sort",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "u+1",
+                "kind": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Cardinal.isEquivalent",
+            "kind": "const",
+            "children": []
+          }
+        ]
+      },
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "u+2",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "Cardinal",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": []
+      },
+      "doc": "`Cardinal.{u}` is the type of cardinal numbers in `Type u`,\ndefined as the quotient of `Type u` by existence of an equivalence\n(a bijection with explicit inverse). ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "def",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Cardinal",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.Sort",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "u+2",
+                "kind": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Quotient",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Cardinal.isEquivalent",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

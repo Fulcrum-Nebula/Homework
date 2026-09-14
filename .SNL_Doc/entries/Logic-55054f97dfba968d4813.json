@@ -1,0 +1,842 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Or.rec",
+    "package": "Logic",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Disjunction Recursor",
+        "zh-CN": "析取递归子"
+      }
+    },
+    "content": {
+      "snl": "Type.forall[forall](__list__[native_formula](@$a$,@$b$),Type.Sort[prop](%0%),Type.forall[forall](@$\\mathsf{motive}$@motive,Type.forall[nameless](@$t$,Or($a$@#0.0,$b$@#0.1),Type.Sort[prop](%0%)),Type.forall[forallNameless](@$\\mathsf{inl}$@inl,Type.forall[forallNameless](@$h$,$a$@#0.0,Type.app($\\mathsf{motive}$@#2.0,__list__[native_formula](Or.inl($a$@#0.0,$b$@#0.1,$h$@#2.2.1.0)))),Type.forall[forallNameless](@$\\mathsf{inr}$@inr,Type.forall[forallNameless](@$h$,$b$@#0.1,Type.app($\\mathsf{motive}$@#2.0,__list__[native_formula](Or.inr($a$@#0.0,$b$@#0.1,$h$@#2.2.2.1.0)))),Type.forall[forallNameless](@$t$,Or($a$@#0.0,$b$@#0.1),Type.app($\\mathsf{motive}$@#2.0,__list__[native_formula]($t$@#2.2.2.2.0)))))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 65,
+      "endLine": 65,
+      "column": 1,
+      "endColumn": 14
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Type.app",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": {
+              "bindRef": "b3"
+            },
+            "macro_name": "motive",
+            "kind": "bvar",
+            "children": []
+          },
+          {
+            "style_name": "formula",
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b8"
+                },
+                "macro_name": "t",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "name": "Or.rec",
+      "members": [],
+      "kind": "recursor",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__enum__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "b",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b3"
+                },
+                "macro_name": "motive",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "nameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b2"
+                    },
+                    "macro_name": "t",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Or",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "b",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "prop",
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "0",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "nameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b5"
+                },
+                "macro_name": "inl",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "forallNameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b4"
+                    },
+                    "macro_name": "h",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.app",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "motive",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "style_name": "formula",
+                        "mdata": null,
+                        "macro_name": "__list__",
+                        "kind": "sub",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Or.inl",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "a",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b1"
+                                },
+                                "macro_name": "b",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b4"
+                                },
+                                "macro_name": "h",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "nameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b7"
+                },
+                "macro_name": "inr",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "forallNameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b6"
+                    },
+                    "macro_name": "h",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.app",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "motive",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "style_name": "formula",
+                        "mdata": null,
+                        "macro_name": "__list__",
+                        "kind": "sub",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Or.inr",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "a",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b1"
+                                },
+                                "macro_name": "b",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b6"
+                                },
+                                "macro_name": "h",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "nameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b8"
+                },
+                "macro_name": "t",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Or",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "declarationTree": {
+        "style_name": "forall",
+        "mdata": null,
+        "macro_name": "Type.forall",
+        "kind": "rule",
+        "children": [
+          {
+            "style_name": "formula",
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "b",
+                "kind": "binder",
+                "children": []
+              }
+            ]
+          },
+          {
+            "style_name": "prop",
+            "mdata": null,
+            "macro_name": "Type.Sort",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "0",
+                "kind": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "style_name": "forall",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b3"
+                },
+                "macro_name": "motive",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "nameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b2"
+                    },
+                    "macro_name": "t",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Or",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "b",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "prop",
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "0",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style_name": "forallNameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b5"
+                    },
+                    "macro_name": "inl",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "style_name": "forallNameless",
+                    "mdata": {
+                      "leanOmitBinderName": true
+                    },
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b4"
+                        },
+                        "macro_name": "h",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Type.app",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b3"
+                            },
+                            "macro_name": "motive",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "style_name": "formula",
+                            "mdata": null,
+                            "macro_name": "__list__",
+                            "kind": "sub",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "Or.inl",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "a",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b1"
+                                    },
+                                    "macro_name": "b",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b4"
+                                    },
+                                    "macro_name": "h",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "forallNameless",
+                    "mdata": {
+                      "leanOmitBinderName": true
+                    },
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b7"
+                        },
+                        "macro_name": "inr",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "style_name": "forallNameless",
+                        "mdata": {
+                          "leanOmitBinderName": true
+                        },
+                        "macro_name": "Type.forall",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b6"
+                            },
+                            "macro_name": "h",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b1"
+                            },
+                            "macro_name": "b",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Type.app",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b3"
+                                },
+                                "macro_name": "motive",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "style_name": "formula",
+                                "mdata": null,
+                                "macro_name": "__list__",
+                                "kind": "sub",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Or.inr",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b0"
+                                        },
+                                        "macro_name": "a",
+                                        "kind": "bvar",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b1"
+                                        },
+                                        "macro_name": "b",
+                                        "kind": "bvar",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b6"
+                                        },
+                                        "macro_name": "h",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "style_name": "forallNameless",
+                        "mdata": {
+                          "leanOmitBinderName": true
+                        },
+                        "macro_name": "Type.forall",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b8"
+                            },
+                            "macro_name": "t",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Or",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "a",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b1"
+                                },
+                                "macro_name": "b",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Type.app",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b3"
+                                },
+                                "macro_name": "motive",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "style_name": "formula",
+                                "mdata": null,
+                                "macro_name": "__list__",
+                                "kind": "sub",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b8"
+                                    },
+                                    "macro_name": "t",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

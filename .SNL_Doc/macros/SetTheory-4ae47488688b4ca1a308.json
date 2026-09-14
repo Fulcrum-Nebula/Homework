@@ -1,0 +1,53 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Option.instMembership",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "text",
+          "body": "The membership structure for values of #0 in optional values"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Option.instMembership}"
+        },
+        "tags": [],
+        "style_name": "function"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "#0 的元素与可选值之间的成员关系结构"
+            },
+            "en": {
+              "mode": "text",
+              "body": "The membership structure for values of #0 in optional values"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

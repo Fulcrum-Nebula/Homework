@@ -1,0 +1,45 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Cardinal.isEquivalent",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "text",
+          "body": "The setoid of types identified by existence of an equivalence"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "以存在等价为关系的类型上的 Setoid 结构"
+            },
+            "en": {
+              "mode": "text",
+              "body": "The setoid of types identified by existence of an equivalence"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

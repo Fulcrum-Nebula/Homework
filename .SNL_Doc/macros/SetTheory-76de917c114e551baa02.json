@@ -1,0 +1,37 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "#2 对 #1 中每一对不同元素组成的有序对成立"
+            },
+            "en": {
+              "mode": "text",
+              "body": "#2 holds for every ordered pair of distinct elements of #1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "name": "Set.Pairwise",
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_notation"
+  }
+}

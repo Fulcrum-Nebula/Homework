@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Logic.and(Type.annotation(@f, Type.to(D@real-analysis.ctxt.D, $\\mathbb{R}$)), $f \\text{ is continuous}$),theorem( RealAnalysis.measurable(f)))"
+      "snl": "variable(And[authored_Logic_and_infix](Type.annotation(@f,Type.to(D@real-analysis.ctxt.D,$\\mathbb{R}$)),$f \\text{ is continuous}$),theorem(RealAnalysis.measurable(f)))"
     },
     "contribution_info": null,
     "pointer": null,

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@K,Set[text](S@Topology.ctxt.S)),Type.annotation(@C,Set[text](S@Topology.ctxt.S)),Type.annotation(@τ,Set[text](Set[text](S@Topology.ctxt.S)))),theorem(Logic.implies(Logic.and(Topology.compact(K),Logic.and(Set.Subset[infix](,C,K),Set.Mem[authored](,τ,Set.diff[relative_sup](,S@Topology.ctxt.S,C)))),Topology.compact(C))))"
+      "snl": "variable(__list__(Type.annotation(@K,Set[text](S@Topology.ctxt.S)),Type.annotation(@C,Set[text](S@Topology.ctxt.S)),Type.annotation(@τ,Set[text](Set[text](S@Topology.ctxt.S)))),theorem(Logic.implies(And[authored_Logic_and_infix](Topology.compact(K),And[authored_Logic_and_infix](Set.Subset[infix](,C,K),Set.Mem[authored](,τ,Set.diff[relative_sup](,S@Topology.ctxt.S,C)))),Topology.compact(C))))"
     },
     "contribution_info": null,
     "pointer": null,

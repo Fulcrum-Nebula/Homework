@@ -30,6 +30,24 @@
           "mode": "formula_inline",
           "body": "#3\\text{ is a least upper bound of }#2"
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "formula_inline",
+              "body": "#3\\text{ 是下列集合的上确界：}#2"
+            },
+            "en": {
+              "mode": "formula_inline",
+              "body": "#3\\text{ is a least upper bound of }#2"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
     ],
     "tags": []

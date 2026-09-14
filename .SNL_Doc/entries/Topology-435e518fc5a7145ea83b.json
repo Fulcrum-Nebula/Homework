@@ -9,7 +9,7 @@
     "kind": "definition",
     "title": "第二可数空间 / C2 空间 / 完全可分空间",
     "content": {
-      "snl": "def[predicate](Topology.C2(S@Topology.ctxt.S),,Logic.exists-typed(@U,Set[text](Set[text](T@Fulcrum.SetTheory.T)),Logic.and(Topology.topologicalBasis(U,S@Topology.ctxt.S),Set.Countable[text](,U))))"
+      "snl": "def[predicate](Topology.C2(S@Topology.ctxt.S),,Logic.exists-typed(@U,Set[text](Set[text](T@Fulcrum.SetTheory.T)),And[authored_Logic_and_infix](Topology.topologicalBasis(U,S@Topology.ctxt.S),Set.Countable[text](,U))))"
     },
     "contribution_info": null,
     "pointer": null

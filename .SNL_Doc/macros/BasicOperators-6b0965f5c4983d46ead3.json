@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "BasicOperators",
   "macro": {
+    "name": "let",
     "description": "",
     "source": {
       "entries": [],
@@ -85,9 +86,24 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#0 : #1 := #2"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1 := #2"
+        },
+        "tags": [],
+        "style_name": "nameless"
       }
     ],
-    "tags": [],
-    "name": "let"
+    "tags": []
   }
 }

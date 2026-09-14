@@ -9,7 +9,7 @@
     "kind": "definition",
     "title": "可分集合",
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](S@Topology.ctxt.S)),def[predicate](Topology.separable(A),,Logic.exists-typed(@E,Set[text](S@Topology.ctxt.S),Logic.and(Logic.and(Set.Subset[infix](,E,A),Topology.dense(E,A)),Set.Countable[text](,E)))))"
+      "snl": "variable(Type.annotation(@A,Set[text](S@Topology.ctxt.S)),def[predicate](Topology.separable(A),,Logic.exists-typed(@E,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Subset[infix](,E,A),Topology.dense(E,A)),Set.Countable[text](,E)))))"
     },
     "contribution_info": null,
     "pointer": null

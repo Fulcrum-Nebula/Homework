@@ -1,0 +1,37 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "macro": {
+    "name": "Exists.intro",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left\\langle #2, #3 \\right\\rangle_{\\exists}"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Exists.intro}"
+        },
+        "tags": [],
+        "style_name": "function"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": [
+        "Exists.intro"
+      ]
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_notation"
+  }
+}

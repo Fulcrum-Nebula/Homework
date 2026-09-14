@@ -1,0 +1,402 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Exists.intro",
+    "package": "Logic",
+    "kind": "def",
+    "title": "Existential Introduction",
+    "content": {
+      "snl": "Type.forall[forall](@$α$,Type.Sort(%u%),Type.forall[forall](@$p$,Type.forall[arrow](@$a$,$α$@#0,Type.Sort[prop](%0%)),Type.forall[forall](@$w$,$α$@#0,Type.forall[forallNameless](@$h$,Type.app($p$@#2.0,__list__[native_formula]($w$@#2.2.0)),Exists($α$@#0,$p$@#2.0)))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 91,
+      "endLine": 91,
+      "column": 1,
+      "endColumn": 20
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Exists",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": {
+              "bindRef": "b0"
+            },
+            "macro_name": "α",
+            "kind": "bvar",
+            "children": []
+          },
+          {
+            "mdata": {
+              "bindRef": "b2"
+            },
+            "macro_name": "p",
+            "kind": "bvar",
+            "children": []
+          }
+        ]
+      },
+      "name": "Exists.intro",
+      "members": [],
+      "kind": "constructor",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__enum__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b2"
+                },
+                "macro_name": "p",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "arrow",
+                "mdata": null,
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "style_name": "prop",
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "0",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b3"
+                },
+                "macro_name": "w",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          },
+          {
+            "style_name": "nameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b4"
+                },
+                "macro_name": "h",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.app",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b2"
+                    },
+                    "macro_name": "p",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "style_name": "formula",
+                    "mdata": null,
+                    "macro_name": "__list__",
+                    "kind": "sub",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "w",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "Existential introduction. If `a : α` and `h : p a`,\nthen `⟨a, h⟩` is a proof that `∃ x : α, p x`. ",
+      "declarationTree": {
+        "style_name": "forall",
+        "mdata": null,
+        "macro_name": "Type.forall",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": {
+              "binderInfo": "implicit",
+              "bindId": "b0"
+            },
+            "macro_name": "α",
+            "kind": "binder",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.Sort",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "u",
+                "kind": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "style_name": "forall",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b2"
+                },
+                "macro_name": "p",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "arrow",
+                "mdata": null,
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "style_name": "prop",
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "0",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style_name": "forall",
+                "mdata": null,
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b3"
+                    },
+                    "macro_name": "w",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "style_name": "forallNameless",
+                    "mdata": {
+                      "leanOmitBinderName": true
+                    },
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b4"
+                        },
+                        "macro_name": "h",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Type.app",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b2"
+                            },
+                            "macro_name": "p",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "style_name": "formula",
+                            "mdata": null,
+                            "macro_name": "__list__",
+                            "kind": "sub",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b3"
+                                },
+                                "macro_name": "w",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Exists",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b2"
+                            },
+                            "macro_name": "p",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

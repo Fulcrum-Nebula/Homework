@@ -1,0 +1,53 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "macro": {
+    "name": "Iff",
+    "description": "Logical equivalence",
+    "source": {
+      "entries": [
+        "Iff"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "style_name": "authored_Logic_iff_long",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#0 \\iff #1",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#0 \\leftrightarrow #1"
+        },
+        "tags": [],
+        "style_name": "default"
+      }
+    ],
+    "tags": []
+  }
+}

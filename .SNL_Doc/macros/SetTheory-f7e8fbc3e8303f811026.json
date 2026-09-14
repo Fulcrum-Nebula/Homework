@@ -1,0 +1,53 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Function.leftInverse_invFun",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "text",
+          "body": "The left-inverse proof for the choice inverse of #3, from injectivity proof #4"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Function.leftInverse\\_invFun}"
+        },
+        "tags": [],
+        "style_name": "function"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "由单射证明 #4 得到的、#3 的选择函数 invFun 构成左逆的证明"
+            },
+            "en": {
+              "mode": "text",
+              "body": "The left-inverse proof for the choice inverse of #3, from injectivity proof #4"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

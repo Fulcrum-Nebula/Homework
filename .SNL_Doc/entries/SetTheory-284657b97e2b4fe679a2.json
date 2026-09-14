@@ -26,6 +26,452 @@
       "endLine": 56,
       "column": 1,
       "endColumn": 29
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": null,
+        "macro_name": "And",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Function.Injective",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b1"
+                },
+                "macro_name": "β",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b3"
+                },
+                "macro_name": "f",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Function.Surjective",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b1"
+                },
+                "macro_name": "β",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b3"
+                },
+                "macro_name": "f",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "typeTree": {
+        "style_name": "prop",
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "0",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "Function.Bijective",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u₁",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "β",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u₂",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b3"
+                },
+                "macro_name": "f",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "arrow",
+                "mdata": null,
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b2"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "β",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "A function is called bijective if it is both injective and surjective. ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u₁",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "β",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u₂",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b3"
+                    },
+                    "macro_name": "f",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "style_name": "arrow",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b2"
+                        },
+                        "macro_name": "a",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "β",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "prop",
+            "mdata": null,
+            "macro_name": "def",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Function.Bijective",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "β",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "f",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "And",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Function.Injective",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "β",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "f",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Function.Surjective",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "β",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "f",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

@@ -1,0 +1,47 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "macro": {
+    "name": "Exists.rec",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "在 #0 上对谓词 #1 作存在消去，动机为 #2，见证及其证明的分支为 #3，存在证明为 #4"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Existential elimination on #0 for predicate #1 with motive #2, witness-and-proof case #3 and existential proof #4"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Exists.rec}"
+        },
+        "tags": [],
+        "style_name": "function"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": [
+        "Exists.rec"
+      ]
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_notation"
+  }
+}

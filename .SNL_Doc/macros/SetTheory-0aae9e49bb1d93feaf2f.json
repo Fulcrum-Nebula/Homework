@@ -38,6 +38,24 @@
           "mode": "formula_inline",
           "body": "#3\\text{ is least in }#2"
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "formula_inline",
+              "body": "#3\\text{ 是下列集合中的最小元：}#2"
+            },
+            "en": {
+              "mode": "formula_inline",
+              "body": "#3\\text{ is least in }#2"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
     ],
     "tags": []

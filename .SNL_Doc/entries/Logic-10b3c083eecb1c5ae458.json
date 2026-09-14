@@ -1,0 +1,252 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Or.inl",
+    "package": "Logic",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Left Disjunction Constructor",
+        "zh-CN": "析取左构造子"
+      }
+    },
+    "content": {
+      "snl": "Type.forall[forall](__list__[native_formula](@$a$,@$b$),Type.Sort[prop](%0%),Type.forall[forallNameless](@$h$,$a$@#0.0,Or($a$@#0.0,$b$@#0.1)))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 61,
+      "endLine": 61,
+      "column": 1,
+      "endColumn": 14
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Or",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": {
+              "bindRef": "b0"
+            },
+            "macro_name": "a",
+            "kind": "bvar",
+            "children": []
+          },
+          {
+            "mdata": {
+              "bindRef": "b1"
+            },
+            "macro_name": "b",
+            "kind": "bvar",
+            "children": []
+          }
+        ]
+      },
+      "name": "Or.inl",
+      "members": [],
+      "kind": "constructor",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "b",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "nameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b2"
+                },
+                "macro_name": "h",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "a",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "`Or.inl` is \"left injection\" into an `Or`. If `h : a` then `Or.inl h : a ∨ b`. ",
+      "declarationTree": {
+        "style_name": "forall",
+        "mdata": null,
+        "macro_name": "Type.forall",
+        "kind": "rule",
+        "children": [
+          {
+            "style_name": "formula",
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "b",
+                "kind": "binder",
+                "children": []
+              }
+            ]
+          },
+          {
+            "style_name": "prop",
+            "mdata": null,
+            "macro_name": "Type.Sort",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "0",
+                "kind": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "style_name": "forallNameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b2"
+                },
+                "macro_name": "h",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "a",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Or",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "#2 在 #4 上是 #3 的右逆"
+            },
+            "en": {
+              "mode": "text",
+              "body": "#2 is a right inverse of #3 on #4"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "name": "Set.RightInvOn",
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_notation"
+  }
+}

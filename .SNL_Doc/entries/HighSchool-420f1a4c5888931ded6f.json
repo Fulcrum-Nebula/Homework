@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "def(Ioo(a,b),,setOf[typedBuilder](@x,Real,Logic.and($#0 < #1$(a,x),$#0 < #1$(x,b))))"
+      "snl": "def(Ioo(a,b),,setOf[typedBuilder](@x,Real,And[authored_Logic_and_infix]($#0 < #1$(a,x),$#0 < #1$(x,b))))"
     },
     "contribution_info": null,
     "pointer": null,

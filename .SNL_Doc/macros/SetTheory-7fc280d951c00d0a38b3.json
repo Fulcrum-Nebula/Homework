@@ -1,0 +1,43 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "DFunLike.coe",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#4"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#4(#5)"
+        },
+        "tags": [],
+        "style_name": "applied"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{DFunLike.coe}"
+        },
+        "tags": [],
+        "style_name": "function"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_notation"
+  }
+}

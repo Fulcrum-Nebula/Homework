@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@x,X@Topology.ctxt.X),Type.annotation(@y,Y@Topology.ctxt.Y),Type.annotation(@x_0,X@Topology.ctxt.X)),def(Topology.mapLimit(x,x_0,f@Topology.ctxt.f,y),,Logic.forall-typed(@V,Set[text](Y@Topology.ctxt.Y),Logic.implies(Set.Mem[authored](,τ_Y@Topology.ctxt.tauY,V),Logic.and(Set.Mem[authored](,V,y),Logic.exists-typed(@U,Set[text](X@Topology.ctxt.X),Logic.and(Topology.deletedNeighborhood(U,x_0),Set.Subset[infix](,Set.fun(f@Topology.ctxt.f,U),V))))))))"
+      "snl": "variable(__list__(Type.annotation(@x,X@Topology.ctxt.X),Type.annotation(@y,Y@Topology.ctxt.Y),Type.annotation(@x_0,X@Topology.ctxt.X)),def(Topology.mapLimit(x,x_0,f@Topology.ctxt.f,y),,Logic.forall-typed(@V,Set[text](Y@Topology.ctxt.Y),Logic.implies(Set.Mem[authored](,τ_Y@Topology.ctxt.tauY,V),And[authored_Logic_and_infix](Set.Mem[authored](,V,y),Logic.exists-typed(@U,Set[text](X@Topology.ctxt.X),And[authored_Logic_and_infix](Topology.deletedNeighborhood(U,x_0),Set.Subset[infix](,Set.fun(f@Topology.ctxt.f,U),V))))))))"
     },
     "contribution_info": null,
     "pointer": null,

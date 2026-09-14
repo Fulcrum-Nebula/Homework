@@ -9,7 +9,7 @@
     "kind": "def",
     "title": "自然数具有线性序结构",
     "content": {
-      "snl": "def[default]($\\mathsf{Nat\\text{\\char\"2e}instLinearOrder}$,LinearOrder(Nat[native_default]),$\\mathsf{LinearOrder\\text{\\char\"2e}mk}(#0, #1, #2, #3, #4, #5, #6, #7, #8, #9, #10, #11)$(Nat[native_default],$\\mathsf{PartialOrder\\text{\\char\"2e}mk}(#0, #1, #2)$(Nat[native_default],$\\mathsf{Preorder\\text{\\char\"2e}mk}(#0, #1, #2, #3, #4, #5)$(Nat[native_default],$\\mathsf{LE\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}le}$),$\\mathsf{LT\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}lt}$),$\\mathsf{Nat\\text{\\char\"2e}le\\_refl}$,$\\mathsf{Nat\\text{\\char\"2e}le\\_trans}$,$\\mathsf{Nat\\text{\\char\"2e}lt\\_iff\\_le\\_not\\_le}$),$\\mathsf{Nat\\text{\\char\"2e}le\\_antisymm}$),$\\mathsf{instMinNat}$,$\\mathsf{Nat\\text{\\char\"2e}instMax}$,$\\mathsf{instOrdNat}$,$\\mathsf{Nat\\text{\\char\"2e}le\\_total}$,$\\mathsf{inferInstance}(#0, #1)$($\\mathsf{DecidableLE}(#0, #1)$(Nat[native_default],$\\mathsf{LE\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}le}$)),$\\mathsf{Nat\\text{\\char\"2e}decLe}$),$\\mathsf{inferInstance}(#0, #1)$(DecidableEq(Nat[native_default]),$\\mathsf{instDecidableEqNat}$),$\\mathsf{inferInstance}(#0, #1)$($\\mathsf{DecidableLT}(#0, #1)$(Nat[native_default],$\\mathsf{LT\\text{\\char\"2e}mk}(#0, #1)$(Nat[native_default],$\\mathsf{Nat\\text{\\char\"2e}lt}$)),$\\mathsf{Nat\\text{\\char\"2e}decLt}$),$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_1}$,$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_2}$,$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_3}$))"
+      "snl": "def[default](Nat.instLinearOrder[native_default],LinearOrder(Nat[native_default]),LinearOrder.mk(Nat[native_default],PartialOrder.mk(Nat[native_default],Preorder.mk(Nat[native_default],LE.mk(Nat[native_default],Nat.le[function]),LT.mk(Nat[native_default],Nat.lt[function]),Nat.le_refl[function],Nat.le_trans[function],Nat.lt_iff_le_not_le[function]),Nat.le_antisymm[function]),instMinNat[native_default],Nat.instMax[native_default],instOrdNat[native_default],Nat.le_total[function],inferInstance(DecidableLE[native_default](Nat[native_default],LE.mk(Nat[native_default],Nat.le[function])),Nat.decLe[function]),inferInstance(DecidableEq(Nat[native_default]),instDecidableEqNat[native_default]),inferInstance(DecidableLT[native_default](Nat[native_default],LT.mk(Nat[native_default],Nat.lt[function])),Nat.decLt[function]),$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_1}$,$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_2}$,$\\mathsf{Nat\\text{\\char\"2e}instLinearOrder\\text{\\char\"2e}\\_proof\\_3}$))"
     },
     "contribution_info": null,
     "pointer": {
@@ -19,6 +19,750 @@
       "endLine": 44,
       "column": 1,
       "endColumn": 33
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": null,
+        "macro_name": "LinearOrder.mk",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Nat",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "PartialOrder.mk",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Preorder.mk",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "LE.mk",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "function",
+                            "mdata": null,
+                            "macro_name": "Nat.le",
+                            "kind": "const",
+                            "children": []
+                          }
+                        },
+                        "macro_name": "Nat.le",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "LT.mk",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "function",
+                            "mdata": null,
+                            "macro_name": "Nat.lt",
+                            "kind": "const",
+                            "children": []
+                          }
+                        },
+                        "macro_name": "Nat.lt",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": {
+                      "leanDelabView": {
+                        "style_name": "function",
+                        "mdata": null,
+                        "macro_name": "Nat.le_refl",
+                        "kind": "const",
+                        "children": []
+                      }
+                    },
+                    "macro_name": "Nat.le_refl",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "leanDelabView": {
+                        "style_name": "function",
+                        "mdata": null,
+                        "macro_name": "Nat.le_trans",
+                        "kind": "const",
+                        "children": []
+                      }
+                    },
+                    "macro_name": "Nat.le_trans",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "leanDelabView": {
+                        "style_name": "function",
+                        "mdata": null,
+                        "macro_name": "Nat.lt_iff_le_not_le",
+                        "kind": "const",
+                        "children": []
+                      }
+                    },
+                    "macro_name": "Nat.lt_iff_le_not_le",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "leanDelabView": {
+                    "style_name": "function",
+                    "mdata": null,
+                    "macro_name": "Nat.le_antisymm",
+                    "kind": "const",
+                    "children": []
+                  }
+                },
+                "macro_name": "Nat.le_antisymm",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "instMinNat",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Nat.instMax",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "instOrdNat",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": {
+              "leanDelabView": {
+                "style_name": "function",
+                "mdata": null,
+                "macro_name": "Nat.le_total",
+                "kind": "const",
+                "children": []
+              }
+            },
+            "macro_name": "Nat.le_total",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "inferInstance",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "DecidableLE",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "LE.mk",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "function",
+                            "mdata": null,
+                            "macro_name": "Nat.le",
+                            "kind": "const",
+                            "children": []
+                          }
+                        },
+                        "macro_name": "Nat.le",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "leanDelabView": {
+                    "style_name": "function",
+                    "mdata": null,
+                    "macro_name": "Nat.decLe",
+                    "kind": "const",
+                    "children": []
+                  }
+                },
+                "macro_name": "Nat.decLe",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "inferInstance",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "DecidableEq",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "instDecidableEqNat",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "inferInstance",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "DecidableLT",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "LT.mk",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "function",
+                            "mdata": null,
+                            "macro_name": "Nat.lt",
+                            "kind": "const",
+                            "children": []
+                          }
+                        },
+                        "macro_name": "Nat.lt",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "leanDelabView": {
+                    "style_name": "function",
+                    "mdata": null,
+                    "macro_name": "Nat.decLt",
+                    "kind": "const",
+                    "children": []
+                  }
+                },
+                "macro_name": "Nat.decLt",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Nat.instLinearOrder._proof_1",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Nat.instLinearOrder._proof_2",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Nat.instLinearOrder._proof_3",
+            "kind": "const",
+            "children": []
+          }
+        ]
+      },
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "LinearOrder",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Nat",
+            "kind": "const",
+            "children": []
+          }
+        ]
+      },
+      "name": "Nat.instLinearOrder",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": []
+      },
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "def",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Nat.instLinearOrder",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "LinearOrder",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "LinearOrder.mk",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "PartialOrder.mk",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Preorder.mk",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "LE.mk",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "leanDelabView": {
+                                "style_name": "function",
+                                "mdata": null,
+                                "macro_name": "Nat.le",
+                                "kind": "const",
+                                "children": []
+                              }
+                            },
+                            "macro_name": "Nat.le",
+                            "kind": "const",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "LT.mk",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "leanDelabView": {
+                                "style_name": "function",
+                                "mdata": null,
+                                "macro_name": "Nat.lt",
+                                "kind": "const",
+                                "children": []
+                              }
+                            },
+                            "macro_name": "Nat.lt",
+                            "kind": "const",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "function",
+                            "mdata": null,
+                            "macro_name": "Nat.le_refl",
+                            "kind": "const",
+                            "children": []
+                          }
+                        },
+                        "macro_name": "Nat.le_refl",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "function",
+                            "mdata": null,
+                            "macro_name": "Nat.le_trans",
+                            "kind": "const",
+                            "children": []
+                          }
+                        },
+                        "macro_name": "Nat.le_trans",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "function",
+                            "mdata": null,
+                            "macro_name": "Nat.lt_iff_le_not_le",
+                            "kind": "const",
+                            "children": []
+                          }
+                        },
+                        "macro_name": "Nat.lt_iff_le_not_le",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": {
+                      "leanDelabView": {
+                        "style_name": "function",
+                        "mdata": null,
+                        "macro_name": "Nat.le_antisymm",
+                        "kind": "const",
+                        "children": []
+                      }
+                    },
+                    "macro_name": "Nat.le_antisymm",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "instMinNat",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat.instMax",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "instOrdNat",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "leanDelabView": {
+                    "style_name": "function",
+                    "mdata": null,
+                    "macro_name": "Nat.le_total",
+                    "kind": "const",
+                    "children": []
+                  }
+                },
+                "macro_name": "Nat.le_total",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "inferInstance",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "DecidableLE",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "LE.mk",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "leanDelabView": {
+                                "style_name": "function",
+                                "mdata": null,
+                                "macro_name": "Nat.le",
+                                "kind": "const",
+                                "children": []
+                              }
+                            },
+                            "macro_name": "Nat.le",
+                            "kind": "const",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": {
+                      "leanDelabView": {
+                        "style_name": "function",
+                        "mdata": null,
+                        "macro_name": "Nat.decLe",
+                        "kind": "const",
+                        "children": []
+                      }
+                    },
+                    "macro_name": "Nat.decLe",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "inferInstance",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "DecidableEq",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "instDecidableEqNat",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "inferInstance",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "DecidableLT",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "LT.mk",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "leanDelabView": {
+                                "style_name": "function",
+                                "mdata": null,
+                                "macro_name": "Nat.lt",
+                                "kind": "const",
+                                "children": []
+                              }
+                            },
+                            "macro_name": "Nat.lt",
+                            "kind": "const",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": {
+                      "leanDelabView": {
+                        "style_name": "function",
+                        "mdata": null,
+                        "macro_name": "Nat.decLt",
+                        "kind": "const",
+                        "children": []
+                      }
+                    },
+                    "macro_name": "Nat.decLt",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat.instLinearOrder._proof_1",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat.instLinearOrder._proof_2",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat.instLinearOrder._proof_3",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

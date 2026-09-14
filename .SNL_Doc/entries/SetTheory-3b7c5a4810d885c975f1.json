@@ -9,7 +9,7 @@
     "kind": "def",
     "title": "自然数的集合表示",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Nat[native_default])),def[default](PSet.ofNat($a$@#0.0.0),$\\mathsf{PSet}$,$\\mathsf{Nat\\text{\\char\"2e}brecOn}(#0, #1, #2)$(Type.lambda[untyped](@$x$,Nat[native_default],$\\mathsf{PSet}$),$a$@#0.0.0,Type.lambda[untyped](@$x$,Nat[native_default],Type.lambda[untyped](@$f$,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],$\\mathsf{PSet}$),$x$@#1.2.2.0),$\\mathsf{PSet\\text{\\char\"2e}ofNat\\text{\\char\"2e}match\\_1}(#0, #1, #2, #3, #4)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],Type.forall[arrow](@$x\\_2$@x_2,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_2$@x_2,Nat[native_default],$\\mathsf{PSet}$),$x\\_1$@#1.2.2.2.2.0.0),$\\mathsf{PSet}$)),$x$@#1.2.2.0,Type.lambda[untyped](@$\\_$@_,Unit,Type.lambda[untyped](@$x\\_1$@x_1,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],$\\mathsf{PSet}$),OfNat.ofNat(Nat[native_default],%0%,$\\mathsf{instOfNatNat}(#0)$(%0%))),EmptyCollection.emptyCollection($\\mathsf{PSet}$,$\\mathsf{PSet\\text{\\char\"2e}instEmptyCollection}$))),Type.lambda[untyped](@$n$,Nat[native_default],Type.lambda[untyped](@$x\\_1$@x_1,$\\mathsf{Nat\\text{\\char\"2e}below}(#0, #1)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],$\\mathsf{PSet}$),Nat.succ($n$@#1.2.2.2.2.3.0)),Insert.insert($\\mathsf{PSet}$,$\\mathsf{PSet}$,$\\mathsf{PSet\\text{\\char\"2e}instInsert}$,Lean.proj(%PProd%,%0%,$x\\_1$@#1.2.2.2.2.3.2.0),Lean.proj(%PProd%,%0%,$x\\_1$@#1.2.2.2.2.3.2.0)))),$f$@#1.2.2.2.0))))))",
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Nat[native_default])),def[default](PSet.ofNat($a$@#0.0.0),PSet,Nat.brecOn[native_default](Type.lambda[untyped](@$x$,Nat[native_default],PSet),$a$@#0.0.0,Type.lambda[untyped](@$x$,Nat[native_default],Type.lambda[untyped](@$f$,Nat.below[native_default](Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],PSet),$x$@#1.2.2.0),$\\mathsf{PSet\\text{\\char\"2e}ofNat\\text{\\char\"2e}match\\_1}(#0, #1, #2, #3, #4)$(Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],Type.forall[arrow](@$x\\_2$@x_2,Nat.below[native_default](Type.lambda[untyped](@$x\\_2$@x_2,Nat[native_default],PSet),$x\\_1$@#1.2.2.2.2.0.0),PSet)),$x$@#1.2.2.0,Type.lambda[untyped](@$\\_$@_,Unit,Type.lambda[untyped](@$x\\_1$@x_1,Nat.below[native_default](Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],PSet),OfNat.ofNat(Nat[native_default],%0%,instOfNatNat[native_default](%0%))),EmptyCollection.emptyCollection(PSet,PSet.instEmptyCollection[native_default]))),Type.lambda[untyped](@$n$,Nat[native_default],Type.lambda[untyped](@$x\\_1$@x_1,Nat.below[native_default](Type.lambda[untyped](@$x\\_1$@x_1,Nat[native_default],PSet),Nat.succ($n$@#1.2.2.2.2.3.0)),Insert.insert(PSet,PSet,PSet.instInsert[native_default],Lean.proj(%PProd%,%0%,$x\\_1$@#1.2.2.2.2.3.2.0),Lean.proj(%PProd%,%0%,$x\\_1$@#1.2.2.2.2.3.2.0)))),$f$@#1.2.2.2.0))))))",
       "markdown": "`PSet.ofNat : ℕ → PSet` is the von Neumann set representation. It is not Lean’s inductive type `Nat`, nor its constructors or order instance."
     },
     "contribution_info": null,
@@ -20,6 +20,1187 @@
       "endLine": 375,
       "column": 1,
       "endColumn": 40
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": null,
+        "macro_name": "Nat.brecOn",
+        "kind": "const",
+        "children": [
+          {
+            "style_name": "untyped",
+            "mdata": null,
+            "macro_name": "Type.lambda",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "x",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "PSet",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": {
+              "bindRef": "b0"
+            },
+            "macro_name": "a",
+            "kind": "bvar",
+            "children": []
+          },
+          {
+            "style_name": "untyped",
+            "mdata": null,
+            "macro_name": "Type.lambda",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b2"
+                },
+                "macro_name": "x",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "style_name": "untyped",
+                "mdata": null,
+                "macro_name": "Type.lambda",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b4"
+                    },
+                    "macro_name": "f",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat.below",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "style_name": "untyped",
+                        "mdata": null,
+                        "macro_name": "Type.lambda",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b3"
+                            },
+                            "macro_name": "x_1",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "PSet",
+                            "kind": "const",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b2"
+                        },
+                        "macro_name": "x",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "PSet.ofNat.match_1",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "style_name": "untyped",
+                        "mdata": null,
+                        "macro_name": "Type.lambda",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b5"
+                            },
+                            "macro_name": "x_1",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "style_name": "arrow",
+                            "mdata": null,
+                            "macro_name": "Type.forall",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "explicit",
+                                  "bindId": "b7"
+                                },
+                                "macro_name": "x_2",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Nat.below",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "style_name": "untyped",
+                                    "mdata": null,
+                                    "macro_name": "Type.lambda",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "binderInfo": "explicit",
+                                          "bindId": "b6"
+                                        },
+                                        "macro_name": "x_2",
+                                        "kind": "binder",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat",
+                                        "kind": "const",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "PSet",
+                                        "kind": "const",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b5"
+                                    },
+                                    "macro_name": "x_1",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "PSet",
+                                "kind": "const",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b2"
+                        },
+                        "macro_name": "x",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "style_name": "untyped",
+                        "mdata": null,
+                        "macro_name": "Type.lambda",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b8"
+                            },
+                            "macro_name": "_",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Unit",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "style_name": "untyped",
+                            "mdata": null,
+                            "macro_name": "Type.lambda",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "explicit",
+                                  "bindId": "b10"
+                                },
+                                "macro_name": "x_1",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Nat.below",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "style_name": "untyped",
+                                    "mdata": null,
+                                    "macro_name": "Type.lambda",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "binderInfo": "explicit",
+                                          "bindId": "b9"
+                                        },
+                                        "macro_name": "x_1",
+                                        "kind": "binder",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat",
+                                        "kind": "const",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "PSet",
+                                        "kind": "const",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "OfNat.ofNat",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat",
+                                        "kind": "const",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "0",
+                                        "kind": "",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "instOfNatNat",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "0",
+                                            "kind": "",
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "EmptyCollection.emptyCollection",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "PSet",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "PSet.instEmptyCollection",
+                                    "kind": "const",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "style_name": "untyped",
+                        "mdata": null,
+                        "macro_name": "Type.lambda",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b11"
+                            },
+                            "macro_name": "n",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "style_name": "untyped",
+                            "mdata": null,
+                            "macro_name": "Type.lambda",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "explicit",
+                                  "bindId": "b13"
+                                },
+                                "macro_name": "x_1",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Nat.below",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "style_name": "untyped",
+                                    "mdata": null,
+                                    "macro_name": "Type.lambda",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "binderInfo": "explicit",
+                                          "bindId": "b12"
+                                        },
+                                        "macro_name": "x_1",
+                                        "kind": "binder",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat",
+                                        "kind": "const",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "PSet",
+                                        "kind": "const",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Nat.succ",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b11"
+                                        },
+                                        "macro_name": "n",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Insert.insert",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "PSet",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "PSet",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "PSet.instInsert",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Lean.proj",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "PProd",
+                                        "kind": "",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "0",
+                                        "kind": "",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b13"
+                                        },
+                                        "macro_name": "x_1",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Lean.proj",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "PProd",
+                                        "kind": "",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "0",
+                                        "kind": "",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b13"
+                                        },
+                                        "macro_name": "x_1",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b4"
+                        },
+                        "macro_name": "f",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "PSet",
+        "kind": "const",
+        "children": []
+      },
+      "name": "PSet.ofNat",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "The n-th von Neumann ordinal ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "def",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "PSet.ofNat",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "PSet",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat.brecOn",
+                "kind": "const",
+                "children": [
+                  {
+                    "style_name": "untyped",
+                    "mdata": null,
+                    "macro_name": "Type.lambda",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b1"
+                        },
+                        "macro_name": "x",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "PSet",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "style_name": "untyped",
+                    "mdata": null,
+                    "macro_name": "Type.lambda",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b2"
+                        },
+                        "macro_name": "x",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "style_name": "untyped",
+                        "mdata": null,
+                        "macro_name": "Type.lambda",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b4"
+                            },
+                            "macro_name": "f",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat.below",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "style_name": "untyped",
+                                "mdata": null,
+                                "macro_name": "Type.lambda",
+                                "kind": "rule",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "binderInfo": "explicit",
+                                      "bindId": "b3"
+                                    },
+                                    "macro_name": "x_1",
+                                    "kind": "binder",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Nat",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "PSet",
+                                    "kind": "const",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b2"
+                                },
+                                "macro_name": "x",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "PSet.ofNat.match_1",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "style_name": "untyped",
+                                "mdata": null,
+                                "macro_name": "Type.lambda",
+                                "kind": "rule",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "binderInfo": "explicit",
+                                      "bindId": "b5"
+                                    },
+                                    "macro_name": "x_1",
+                                    "kind": "binder",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Nat",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "style_name": "arrow",
+                                    "mdata": null,
+                                    "macro_name": "Type.forall",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "binderInfo": "explicit",
+                                          "bindId": "b7"
+                                        },
+                                        "macro_name": "x_2",
+                                        "kind": "binder",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat.below",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "style_name": "untyped",
+                                            "mdata": null,
+                                            "macro_name": "Type.lambda",
+                                            "kind": "rule",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "binderInfo": "explicit",
+                                                  "bindId": "b6"
+                                                },
+                                                "macro_name": "x_2",
+                                                "kind": "binder",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "Nat",
+                                                "kind": "const",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "PSet",
+                                                "kind": "const",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b5"
+                                            },
+                                            "macro_name": "x_1",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "PSet",
+                                        "kind": "const",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b2"
+                                },
+                                "macro_name": "x",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "style_name": "untyped",
+                                "mdata": null,
+                                "macro_name": "Type.lambda",
+                                "kind": "rule",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "binderInfo": "explicit",
+                                      "bindId": "b8"
+                                    },
+                                    "macro_name": "_",
+                                    "kind": "binder",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Unit",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "style_name": "untyped",
+                                    "mdata": null,
+                                    "macro_name": "Type.lambda",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "binderInfo": "explicit",
+                                          "bindId": "b10"
+                                        },
+                                        "macro_name": "x_1",
+                                        "kind": "binder",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat.below",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "style_name": "untyped",
+                                            "mdata": null,
+                                            "macro_name": "Type.lambda",
+                                            "kind": "rule",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "binderInfo": "explicit",
+                                                  "bindId": "b9"
+                                                },
+                                                "macro_name": "x_1",
+                                                "kind": "binder",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "Nat",
+                                                "kind": "const",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "PSet",
+                                                "kind": "const",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "OfNat.ofNat",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "Nat",
+                                                "kind": "const",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "0",
+                                                "kind": "",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "instOfNatNat",
+                                                "kind": "const",
+                                                "children": [
+                                                  {
+                                                    "mdata": null,
+                                                    "macro_name": "0",
+                                                    "kind": "",
+                                                    "children": []
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "EmptyCollection.emptyCollection",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "PSet",
+                                            "kind": "const",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "PSet.instEmptyCollection",
+                                            "kind": "const",
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "style_name": "untyped",
+                                "mdata": null,
+                                "macro_name": "Type.lambda",
+                                "kind": "rule",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "binderInfo": "explicit",
+                                      "bindId": "b11"
+                                    },
+                                    "macro_name": "n",
+                                    "kind": "binder",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Nat",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "style_name": "untyped",
+                                    "mdata": null,
+                                    "macro_name": "Type.lambda",
+                                    "kind": "rule",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "binderInfo": "explicit",
+                                          "bindId": "b13"
+                                        },
+                                        "macro_name": "x_1",
+                                        "kind": "binder",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat.below",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "style_name": "untyped",
+                                            "mdata": null,
+                                            "macro_name": "Type.lambda",
+                                            "kind": "rule",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "binderInfo": "explicit",
+                                                  "bindId": "b12"
+                                                },
+                                                "macro_name": "x_1",
+                                                "kind": "binder",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "Nat",
+                                                "kind": "const",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "PSet",
+                                                "kind": "const",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Nat.succ",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b11"
+                                                },
+                                                "macro_name": "n",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Insert.insert",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "PSet",
+                                            "kind": "const",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "PSet",
+                                            "kind": "const",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "PSet.instInsert",
+                                            "kind": "const",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Lean.proj",
+                                            "kind": "rule",
+                                            "children": [
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "PProd",
+                                                "kind": "",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "0",
+                                                "kind": "",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b13"
+                                                },
+                                                "macro_name": "x_1",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Lean.proj",
+                                            "kind": "rule",
+                                            "children": [
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "PProd",
+                                                "kind": "",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "0",
+                                                "kind": "",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b13"
+                                                },
+                                                "macro_name": "x_1",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b4"
+                                },
+                                "macro_name": "f",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

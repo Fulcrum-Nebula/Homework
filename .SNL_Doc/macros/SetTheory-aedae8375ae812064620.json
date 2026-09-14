@@ -1,0 +1,35 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{const}_{#1 \\to #0}(#2)"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{const}_{#1 \\to #0}(#2)(#3)"
+        },
+        "tags": [],
+        "style_name": "applied"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "name": "Function.const",
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_notation"
+  }
+}

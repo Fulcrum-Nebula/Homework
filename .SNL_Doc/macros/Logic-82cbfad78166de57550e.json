@@ -4,9 +4,12 @@
   "schema_version": 1,
   "package": "Logic",
   "macro": {
+    "name": "Eq.refl",
     "description": "",
     "source": {
-      "entries": [],
+      "entries": [
+        "Eq.refl"
+      ],
       "urls": []
     },
     "kind": "const",
@@ -61,9 +64,24 @@
             }
           }
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{refl}_{#0}(#1)"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Eq.refl}"
+        },
+        "tags": [],
+        "style_name": "function"
       }
     ],
-    "tags": [],
-    "name": "Eq.refl"
+    "tags": []
   }
 }

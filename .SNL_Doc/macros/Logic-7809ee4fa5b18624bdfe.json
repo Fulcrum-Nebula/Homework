@@ -1,0 +1,35 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "macro": {
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathbf{let}\\ #0:#1:=#2\\ \\mathbf{in}\\ #3"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathbf{let}\\ #1:=#2\\ \\mathbf{in}\\ #3"
+        },
+        "tags": [],
+        "style_name": "nameless"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "name": "Lean.let",
+    "kind": "rule",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

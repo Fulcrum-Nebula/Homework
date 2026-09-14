@@ -1,0 +1,35 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "LinearOrder.mk",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left\\{\\begin{array}{ll}\\mathsf{partialOrder}:&#1\\\\\\mathsf{min}:&#2\\\\\\mathsf{max}:&#3\\\\\\mathsf{compare}:&#4\\\\\\mathsf{total}:&#5\\\\\\mathsf{decLe}:&#6\\\\\\mathsf{decEq}:&#7\\\\\\mathsf{decLt}:&#8\\\\\\mathsf{min\\_def}:&#9\\\\\\mathsf{max\\_def}:&#10\\\\\\mathsf{compare\\_def}:&#11\\end{array}\\right\\}"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{LinearOrder.mk}"
+        },
+        "tags": [],
+        "style_name": "function"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

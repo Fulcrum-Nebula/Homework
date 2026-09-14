@@ -1,0 +1,47 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "macro": {
+    "name": "Eq.subst",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "在 #0 上的谓词 #1 中，利用等式 #4 和证明 #5 将 #2 代换为 #3"
+            },
+            "en": {
+              "mode": "text",
+              "body": "Substitute #3 for #2 in the predicate #1 on #0, using equality #4 and proof #5"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Eq.subst}"
+        },
+        "tags": [],
+        "style_name": "function"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": [
+        "Eq.subst"
+      ]
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_notation"
+  }
+}

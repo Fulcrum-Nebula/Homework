@@ -9,7 +9,7 @@
     "title": "partialOrderOfSO",
     "kind": "def",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$r$,Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$α$@#0.0.0,Type.Sort[prop](%0%)))),Type.annotation[nameless](@$\\mathsf{inst}$@inst,IsStrictOrder($α$@#0.0.0,$r$@#0.1.0))),def[default]($\\mathsf{partialOrderOfSO}(#0, #1, #2)$($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0),PartialOrder($α$@#0.0.0),$\\mathsf{PartialOrder\\text{\\char\"2e}mk}(#0, #1, #2)$($α$@#0.0.0,$\\mathsf{Preorder\\text{\\char\"2e}mk}(#0, #1, #2, #3, #4, #5)$($α$@#0.0.0,$\\mathsf{LE\\text{\\char\"2e}mk}(#0, #1)$($α$@#0.0.0,Type.lambda[untyped](@$x$,$α$@#0.0.0,Type.lambda[untyped](@$y$,$α$@#0.0.0,Or(Eq($α$@#0.0.0,$x$@#1.2.1.1.1.0,$y$@#1.2.1.1.1.2.0),Type.app($r$@#0.1.0,__list__[native_formula]($x$@#1.2.1.1.1.0,$y$@#1.2.1.1.1.2.0)))))),$\\mathsf{LT\\text{\\char\"2e}mk}(#0, #1)$($α$@#0.0.0,$r$@#0.1.0),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_1}(#0, #1)$($α$@#0.0.0,$r$@#0.1.0),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_2}(#0, #1, #2)$($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_3}(#0, #1, #2)$($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0)),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_4}(#0, #1, #2)$($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$r$,Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$α$@#0.0.0,Type.Sort[prop](%0%)))),Type.annotation[nameless](@$\\mathsf{inst}$@inst,IsStrictOrder($α$@#0.0.0,$r$@#0.1.0))),def[default](partialOrderOfSO[native_default]($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0),PartialOrder($α$@#0.0.0),PartialOrder.mk($α$@#0.0.0,Preorder.mk($α$@#0.0.0,LE.mk($α$@#0.0.0,Type.lambda[untyped](@$x$,$α$@#0.0.0,Type.lambda[untyped](@$y$,$α$@#0.0.0,Or(Eq($α$@#0.0.0,$x$@#1.2.1.1.1.0,$y$@#1.2.1.1.1.2.0),Type.app($r$@#0.1.0,__list__[native_formula]($x$@#1.2.1.1.1.0,$y$@#1.2.1.1.1.2.0)))))),LT.mk($α$@#0.0.0,$r$@#0.1.0),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_1}(#0, #1)$($α$@#0.0.0,$r$@#0.1.0),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_2}(#0, #1, #2)$($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_3}(#0, #1, #2)$($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0)),$\\mathsf{partialOrderOfSO\\text{\\char\"2e}\\_proof\\_4}(#0, #1, #2)$($α$@#0.0.0,$r$@#0.1.0,$\\mathsf{inst}$@#0.2.0))))"
     },
     "contribution_info": null,
     "pointer": {
@@ -19,6 +19,1025 @@
       "endLine": 87,
       "column": 1,
       "endColumn": 69
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": null,
+        "macro_name": "PartialOrder.mk",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": {
+              "bindRef": "b0"
+            },
+            "macro_name": "α",
+            "kind": "bvar",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Preorder.mk",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "LE.mk",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "style_name": "untyped",
+                    "mdata": null,
+                    "macro_name": "Type.lambda",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b5"
+                        },
+                        "macro_name": "x",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "style_name": "untyped",
+                        "mdata": null,
+                        "macro_name": "Type.lambda",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b6"
+                            },
+                            "macro_name": "y",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Or",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "Eq",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b5"
+                                    },
+                                    "macro_name": "x",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b6"
+                                    },
+                                    "macro_name": "y",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Type.app",
+                                "kind": "rule",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b3"
+                                    },
+                                    "macro_name": "r",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "style_name": "formula",
+                                    "mdata": null,
+                                    "macro_name": "__list__",
+                                    "kind": "sub",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b5"
+                                        },
+                                        "macro_name": "x",
+                                        "kind": "bvar",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b6"
+                                        },
+                                        "macro_name": "y",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "LT.mk",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "r",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "partialOrderOfSO._proof_1",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "r",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "partialOrderOfSO._proof_2",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "r",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b4"
+                    },
+                    "macro_name": "inst",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "partialOrderOfSO._proof_3",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "r",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b4"
+                    },
+                    "macro_name": "inst",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "partialOrderOfSO._proof_4",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b3"
+                },
+                "macro_name": "r",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b4"
+                },
+                "macro_name": "inst",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "PartialOrder",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": {
+              "bindRef": "b0"
+            },
+            "macro_name": "α",
+            "kind": "bvar",
+            "children": []
+          }
+        ]
+      },
+      "name": "partialOrderOfSO",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b3"
+                },
+                "macro_name": "r",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "arrow",
+                "mdata": null,
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "style_name": "arrow",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b2"
+                        },
+                        "macro_name": "a_1",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "style_name": "prop",
+                        "mdata": null,
+                        "macro_name": "Type.Sort",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "0",
+                            "kind": "",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "nameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "instImplicit",
+                  "bindId": "b4"
+                },
+                "macro_name": "inst",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "IsStrictOrder",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "r",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "Construct a partial order from an `isStrictOrder` relation.\n\nSee note [reducible non-instances]. ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u+1",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b3"
+                    },
+                    "macro_name": "r",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "style_name": "arrow",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b1"
+                        },
+                        "macro_name": "a",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "style_name": "arrow",
+                        "mdata": null,
+                        "macro_name": "Type.forall",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b2"
+                            },
+                            "macro_name": "a_1",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "style_name": "prop",
+                            "mdata": null,
+                            "macro_name": "Type.Sort",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "0",
+                                "kind": "",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style_name": "nameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "instImplicit",
+                      "bindId": "b4"
+                    },
+                    "macro_name": "inst",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "IsStrictOrder",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "r",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "def",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "partialOrderOfSO",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "r",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b4"
+                    },
+                    "macro_name": "inst",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "PartialOrder",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "PartialOrder.mk",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Preorder.mk",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "LE.mk",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "style_name": "untyped",
+                            "mdata": null,
+                            "macro_name": "Type.lambda",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "explicit",
+                                  "bindId": "b5"
+                                },
+                                "macro_name": "x",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "style_name": "untyped",
+                                "mdata": null,
+                                "macro_name": "Type.lambda",
+                                "kind": "rule",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "binderInfo": "explicit",
+                                      "bindId": "b6"
+                                    },
+                                    "macro_name": "y",
+                                    "kind": "binder",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Or",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Eq",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b5"
+                                            },
+                                            "macro_name": "x",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b6"
+                                            },
+                                            "macro_name": "y",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Type.app",
+                                        "kind": "rule",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b3"
+                                            },
+                                            "macro_name": "r",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "style_name": "formula",
+                                            "mdata": null,
+                                            "macro_name": "__list__",
+                                            "kind": "sub",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b5"
+                                                },
+                                                "macro_name": "x",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b6"
+                                                },
+                                                "macro_name": "y",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "LT.mk",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b3"
+                            },
+                            "macro_name": "r",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "partialOrderOfSO._proof_1",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b3"
+                            },
+                            "macro_name": "r",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "partialOrderOfSO._proof_2",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b3"
+                            },
+                            "macro_name": "r",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b4"
+                            },
+                            "macro_name": "inst",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "partialOrderOfSO._proof_3",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b3"
+                            },
+                            "macro_name": "r",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b4"
+                            },
+                            "macro_name": "inst",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "partialOrderOfSO._proof_4",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "r",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b4"
+                        },
+                        "macro_name": "inst",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

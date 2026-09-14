@@ -1,0 +1,45 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Cardinal.partialOrder",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "text",
+          "body": "The partial-order structure on cardinals"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "基数上的偏序结构"
+            },
+            "en": {
+              "mode": "text",
+              "body": "The partial-order structure on cardinals"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

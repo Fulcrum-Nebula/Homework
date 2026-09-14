@@ -9,7 +9,7 @@
     "kind": "def",
     "title": "Fulcrum.BinaryOperation.apply",
     "content": {
-      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$\\mathsf{op}$@op,Fulcrum.BinaryOperation($α$@#0.0.0)),Type.annotation[default](@$a$,$α$@#0.0.0),Type.annotation[default](@$b$,$α$@#0.0.0)),def[default](Fulcrum.BinaryOperation.apply($α$@#0.0.0,$\\mathsf{op}$@#0.1.0,$a$@#0.2.0,$b$@#0.3.0),$α$@#0.0.0,Type.app($\\mathsf{op}$@#0.1.0,__list__[native_formula]($a$@#0.2.0,$b$@#0.3.0))))"
+      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$\\mathsf{op}$@op,Fulcrum.BinaryOperation($α$@#0.0.0)),Type.annotation[default](@$a$,$α$@#0.0.0),Type.annotation[default](@$b$,$α$@#0.0.0)),def[default](Fulcrum.BinaryOperation.apply($α$@#0.0.0,$\\mathsf{op}$@#0.1.0,$a$@#0.2.0,$b$@#0.3.0),$α$@#0.0.0,Type.app($\\mathsf{op}$@#0.1.0,__list__[native_formula]($a$@#0.2.0,$b$@#0.3.0))))"
     },
     "contribution_info": null,
     "pointer": {

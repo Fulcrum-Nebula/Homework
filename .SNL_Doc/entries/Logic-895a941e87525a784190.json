@@ -1,0 +1,78 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "False",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "False",
+        "zh-CN": "假"
+      }
+    },
+    "content": {
+      "snl": "inductive[native_prop](False[default],ctors[empty])"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 35,
+      "endLine": 35,
+      "column": 1,
+      "endColumn": 13
+    },
+    "package": "Logic",
+    "lean": {
+      "typeTree": {
+        "style_name": "prop",
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "0",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "False",
+      "members": [],
+      "kind": "inductive",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": []
+      },
+      "doc": "`False` is the empty proposition. Thus, it has no introduction rules.\nIt represents a contradiction. `False` elimination rule, `False.rec`,\nexpresses the fact that anything follows from a contradiction.\nThis rule is sometimes called ex falso (short for ex falso sequitur quodlibet),\nor the principle of explosion.\nFor more information: [Propositional Logic](https://lean-lang.org/theorem_proving_in_lean4/propositions_and_proofs.html#propositional-logic)\n",
+      "declarationTree": {
+        "style_name": "prop",
+        "mdata": null,
+        "macro_name": "inductive",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "False",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "style_name": "empty",
+            "mdata": null,
+            "macro_name": "ctors",
+            "kind": "sub",
+            "children": []
+          }
+        ]
+      }
+    }
+  }
+}

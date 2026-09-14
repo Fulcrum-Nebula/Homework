@@ -9,7 +9,7 @@
     "kind": "def",
     "title": "可数集合",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def[prop](Set.Countable($α$@#0.0.0,$s$@#0.1.0),Type.Sort[prop](%0%),Countable(Set.Elem[default]($α$@#0.0.0,$s$@#0.1.0))))",
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def[prop](Set.Countable[native_default]($α$@#0.0.0,$s$@#0.1.0),Type.Sort[prop](%0%),Countable[native_default](Set.Elem[default]($α$@#0.0.0,$s$@#0.1.0))))",
       "markdown": "`Set.Countable s` means at most countable, including finite sets. Countable infinitude is instead captured by existence of `Denumerable ↥s`."
     },
     "contribution_info": null,
@@ -20,6 +20,272 @@
       "endLine": 49,
       "column": 1,
       "endColumn": 58
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": null,
+        "macro_name": "Countable",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Set.Elem",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b1"
+                },
+                "macro_name": "s",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "typeTree": {
+        "style_name": "prop",
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "0",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "Set.Countable",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "s",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "A set `s` is countable if the corresponding subtype is countable,\ni.e., there exists an injective map `f : s → ℕ`.\n\nNote that this is an abbreviation, so `hs : Set.Countable s` in the proof context\nis the same as an instance `Countable s`.\nFor a constructive version, see `Encodable`.\n",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u+1",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "s",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Set",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "prop",
+            "mdata": null,
+            "macro_name": "def",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Set.Countable",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "s",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Countable",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Set.Elem",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "s",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

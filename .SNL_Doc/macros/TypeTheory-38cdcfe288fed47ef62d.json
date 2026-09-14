@@ -7,7 +7,9 @@
     "name": "Nat.succ",
     "description": "",
     "source": {
-      "entries": [],
+      "entries": [
+        "Nat.succ"
+      ],
       "urls": []
     },
     "kind": "const",

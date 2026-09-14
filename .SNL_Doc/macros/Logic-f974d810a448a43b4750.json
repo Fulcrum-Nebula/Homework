@@ -1,0 +1,28 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "macro": {
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "block",
+          "body": "#0#1#2",
+          "block_template_name": "collapsible"
+        },
+        "tags": [],
+        "style_name": "default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "name": "proof-app",
+    "kind": "rule",
+    "dynamic_arity": false,
+    "description": "registered by snl_block_macro"
+  }
+}

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$a$,Set($α$@#0.0.0)),Type.annotation[default](@$b$,Set($α$@#0.0.0))),theorem[native_default](Iff(Eq(Set($α$@#0.0.0),$a$@#0.1.0,$b$@#0.2.0),parentheses[default](Type.forall[forall](@$x$,$α$@#0.0.0,Iff(Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$a$@#0.1.0,$x$@#1.0.1.0.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$b$@#0.2.0,$x$@#1.0.1.0.0)))))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$a$,Set($α$@#0.0.0)),Type.annotation[default](@$b$,Set($α$@#0.0.0))),theorem[native_default](Iff[default](Eq(Set($α$@#0.0.0),$a$@#0.1.0,$b$@#0.2.0),parentheses[default](Type.forall[forall](@$x$,$α$@#0.0.0,Iff[default](Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),$a$@#0.1.0,$x$@#1.0.1.0.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),$b$@#0.2.0,$x$@#1.0.1.0.0)))))))"
     },
     "contribution_info": null,
     "pointer": {
@@ -26,6 +26,619 @@
       "column": 18,
       "endColumn": 21
     },
-    "package": "SetTheory"
+    "package": "SetTheory",
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Iff",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Eq",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Set",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "bindRef": "b1"
+                },
+                "macro_name": "a",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b2"
+                },
+                "macro_name": "b",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          },
+          {
+            "style_name": "forall",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b3"
+                },
+                "macro_name": "x",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Iff",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Membership.mem",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set.instMembership",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "x",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Membership.mem",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set.instMembership",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b2"
+                        },
+                        "macro_name": "b",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "x",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "name": "Set.ext_iff",
+      "members": [],
+      "kind": "theorem",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b2"
+                },
+                "macro_name": "b",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u+1",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Set",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b2"
+                    },
+                    "macro_name": "b",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Set",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "theorem",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Iff",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Eq",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Set",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b2"
+                        },
+                        "macro_name": "b",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "forall",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b3"
+                        },
+                        "macro_name": "x",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Iff",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Membership.mem",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Set",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Set.instMembership",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b1"
+                                },
+                                "macro_name": "a",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b3"
+                                },
+                                "macro_name": "x",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Membership.mem",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Set",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Set.instMembership",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b2"
+                                },
+                                "macro_name": "b",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b3"
+                                },
+                                "macro_name": "x",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
   }
 }

@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Logic.Reflexivity",
+    "kind": "theorem",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Reflexivity of =",
+        "zh-CN": "等号的自反性"
+      }
+    },
+    "content": {
+      "snl": "theorem(Logic.forall-typed(@a,T@Logic.Context.T,Eq(T@Logic.Context.T,a,a)))",
+      "md": "Reflexivity as a universally quantified statement. `Eq.refl a` is its native proof at each endpoint; the separate constructor Entry retains that constructor’s identity."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 99,
+      "endLine": 99,
+      "column": 1,
+      "endColumn": 15
+    },
+    "package": "Logic"
+  }
+}

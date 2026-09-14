@@ -9,7 +9,7 @@
     "kind": "def",
     "title": "最小元",
     "content": {
-      "snl": "variable[enumerated](__enum__[num](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0)),Type.annotation[default](@$a$,$α$@#0.0.0)),def[prop](IsLeast($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0,$a$@#0.3.0),Type.Sort[prop](%0%),And(Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$s$@#0.2.0,$a$@#0.3.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),$\\mathsf{Set\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),lowerBounds($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0),$a$@#0.3.0))))",
+      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0)),Type.annotation[default](@$a$,$α$@#0.0.0)),def[prop](IsLeast[native_default]($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0,$a$@#0.3.0),Type.Sort[prop](%0%),And(Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),$s$@#0.2.0,$a$@#0.3.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),lowerBounds($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0),$a$@#0.3.0))))",
       "markdown": "A least element belongs to the set and bounds every member below. This is a predicate, not a chosen minimum function."
     },
     "contribution_info": null,
@@ -20,6 +20,649 @@
       "endLine": 47,
       "column": 1,
       "endColumn": 28
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": null,
+        "macro_name": "And",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Membership.mem",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set.instMembership",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "bindRef": "b2"
+                },
+                "macro_name": "s",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b3"
+                },
+                "macro_name": "a",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Membership.mem",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set.instMembership",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "lowerBounds",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "inst",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b2"
+                    },
+                    "macro_name": "s",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "bindRef": "b3"
+                },
+                "macro_name": "a",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "typeTree": {
+        "style_name": "prop",
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "0",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "IsLeast",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__enum__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u_1+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "nameless",
+            "mdata": {
+              "leanOmitBinderName": true
+            },
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "instImplicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "inst",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "LE",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b2"
+                },
+                "macro_name": "s",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Set",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b3"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "α",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "`a` is a least element of a set `s`; for a partial order, it is unique if exists. ",
+      "declarationTree": {
+        "style_name": "enumerated",
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__enum__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u_1+1",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "style_name": "nameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "instImplicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "inst",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "LE",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b2"
+                    },
+                    "macro_name": "s",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Set",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b3"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "prop",
+            "mdata": null,
+            "macro_name": "def",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "IsLeast",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "inst",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b2"
+                    },
+                    "macro_name": "s",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b3"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "And",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Membership.mem",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set.instMembership",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b2"
+                        },
+                        "macro_name": "s",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Membership.mem",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Set.instMembership",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "lowerBounds",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b1"
+                            },
+                            "macro_name": "inst",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "bindRef": "b2"
+                            },
+                            "macro_name": "s",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b3"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

@@ -14,11 +14,37 @@
         },
         "tags": [],
         "style_name": "default"
+      },
+      {
+        "style_name": "authored_Logic_neg_prefix",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\neg #0",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
       }
     ],
     "source": {
       "urls": [],
-      "entries": []
+      "entries": [
+        "Not"
+      ]
     },
     "kind": "const",
     "dynamic_arity": false,

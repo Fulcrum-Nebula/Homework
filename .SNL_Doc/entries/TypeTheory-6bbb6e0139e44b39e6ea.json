@@ -16,7 +16,7 @@
       }
     },
     "content": {
-      "snl": "inductive(%Bad%,ctors(Type.declaration(%mk%,Type.to(parentheses(Type.to(%Bad%,Logic.false)),%Bad%))))"
+      "snl": "inductive(%Bad%,ctors(Type.declaration(%mk%,Type.to(parentheses(Type.to(%Bad%,False[authored_Logic_false_bot])),%Bad%))))"
     },
     "contribution_info": null,
     "pointer": null

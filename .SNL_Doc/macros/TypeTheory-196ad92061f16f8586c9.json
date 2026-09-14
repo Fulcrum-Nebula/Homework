@@ -4,14 +4,14 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
-    "description": "",
+    "description": "Author Sort syntax view Prop (= Sort 0), not a Lean native constant named Proposition. This macro preserves author notation and does not migrate the TypeTheory universe convention.",
     "source": {
       "entries": [
-        "Logic.def.proposition"
+        "Logic.Proposition"
       ],
       "urls": []
     },
-    "kind": "const",
+    "kind": "rule",
     "dynamic_arity": false,
     "styles": [
       {

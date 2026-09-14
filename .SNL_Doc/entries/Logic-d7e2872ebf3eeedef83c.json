@@ -1,0 +1,663 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Or",
+    "kind": "def",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Disjunction",
+        "zh-CN": "析取"
+      }
+    },
+    "content": {
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Type.Sort[prop](%0%)),Type.annotation[default](@$b$,Type.Sort[prop](%0%))),inductive[native_prop](Or($a$@#0.0.0,$b$@#0.1.0),ctors[native_default](Type.annotation[default]($\\mathsf{Or\\text{\\char\"2e}inl}$,Type.forall[forall](__list__[native_formula](@$a$,@$b$),Type.Sort[prop](%0%),Type.forall[forallNameless](@$h$,$a$@#1.1.0.1.0.0,Or($a$@#1.1.0.1.0.0,$b$@#1.1.0.1.0.1)))),Type.annotation[default]($\\mathsf{Or\\text{\\char\"2e}inr}$,Type.forall[forall](__list__[native_formula](@$a$,@$b$),Type.Sort[prop](%0%),Type.forall[forallNameless](@$h$,$b$@#1.1.1.1.0.1,Or($a$@#1.1.1.1.0.0,$b$@#1.1.1.1.0.1)))))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 59,
+      "endLine": 59,
+      "column": 1,
+      "endColumn": 10
+    },
+    "package": "Logic",
+    "lean": {
+      "typeTree": {
+        "style_name": "prop",
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "0",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "Or",
+      "members": [
+        {
+          "typeTree": {
+            "style_name": "forall",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "style_name": "formula",
+                "mdata": null,
+                "macro_name": "__list__",
+                "kind": "sub",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "binder",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "forallNameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b2"
+                    },
+                    "macro_name": "h",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Or",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "b",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "name": "Or.inl"
+        },
+        {
+          "typeTree": {
+            "style_name": "forall",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "style_name": "formula",
+                "mdata": null,
+                "macro_name": "__list__",
+                "kind": "sub",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "binderInfo": "implicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "binder",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "forallNameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b2"
+                    },
+                    "macro_name": "h",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Or",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b1"
+                        },
+                        "macro_name": "b",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "name": "Or.inr"
+        }
+      ],
+      "kind": "inductive",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b1"
+                },
+                "macro_name": "b",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "style_name": "prop",
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "0",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "`Or a b`, or `a ∨ b`, is the disjunction of propositions. There are two\nconstructors for `Or`, called `Or.inl : a → a ∨ b` and `Or.inr : b → a ∨ b`,\nand you can use `match` or `cases` to destruct an `Or` assumption into the\ntwo cases.\n\n\nConventions for notations in identifiers:\n\n * The recommended spelling of `∨` in identifiers is `or`.\n\n * The recommended spelling of `\\/` in identifiers is `or` (prefer `∨` over `\\/`).",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "style_name": "prop",
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "0",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "style_name": "prop",
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "0",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "style_name": "prop",
+            "mdata": null,
+            "macro_name": "inductive",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Or",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b1"
+                    },
+                    "macro_name": "b",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "ctors",
+                "kind": "sub",
+                "children": [
+                  {
+                    "mdata": {
+                      "leanConstructorDeclaration": true
+                    },
+                    "macro_name": "Type.annotation",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "leanDelabOrigin": "Or.inl"
+                        },
+                        "macro_name": "Or.inl",
+                        "kind": "declaration-name",
+                        "children": []
+                      },
+                      {
+                        "style_name": "forall",
+                        "mdata": null,
+                        "macro_name": "Type.forall",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "style_name": "formula",
+                            "mdata": null,
+                            "macro_name": "__list__",
+                            "kind": "sub",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "implicit",
+                                  "bindId": "b0"
+                                },
+                                "macro_name": "a",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "binderInfo": "implicit",
+                                  "bindId": "b1"
+                                },
+                                "macro_name": "b",
+                                "kind": "binder",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "style_name": "prop",
+                            "mdata": null,
+                            "macro_name": "Type.Sort",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "0",
+                                "kind": "",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "style_name": "forallNameless",
+                            "mdata": {
+                              "leanOmitBinderName": true
+                            },
+                            "macro_name": "Type.forall",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "explicit",
+                                  "bindId": "b2"
+                                },
+                                "macro_name": "h",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "a",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Or",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "a",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b1"
+                                    },
+                                    "macro_name": "b",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": {
+                      "leanConstructorDeclaration": true
+                    },
+                    "macro_name": "Type.annotation",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "leanDelabOrigin": "Or.inr"
+                        },
+                        "macro_name": "Or.inr",
+                        "kind": "declaration-name",
+                        "children": []
+                      },
+                      {
+                        "style_name": "forall",
+                        "mdata": null,
+                        "macro_name": "Type.forall",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "style_name": "formula",
+                            "mdata": null,
+                            "macro_name": "__list__",
+                            "kind": "sub",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "implicit",
+                                  "bindId": "b0"
+                                },
+                                "macro_name": "a",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "binderInfo": "implicit",
+                                  "bindId": "b1"
+                                },
+                                "macro_name": "b",
+                                "kind": "binder",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "style_name": "prop",
+                            "mdata": null,
+                            "macro_name": "Type.Sort",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "0",
+                                "kind": "",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "style_name": "forallNameless",
+                            "mdata": {
+                              "leanOmitBinderName": true
+                            },
+                            "macro_name": "Type.forall",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "explicit",
+                                  "bindId": "b2"
+                                },
+                                "macro_name": "h",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b1"
+                                },
+                                "macro_name": "b",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Or",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "a",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b1"
+                                    },
+                                    "macro_name": "b",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -16,7 +16,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.judge(Type.emptyContext,@P,Proposition),theorem(Logic.or(P,Logic.neg(P))))",
+      "snl": "variable(Type.judge(Type.emptyContext,@P,Proposition),theorem(Or[authored_Logic_or_infix](P,Not[authored_Logic_neg_prefix](P))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",

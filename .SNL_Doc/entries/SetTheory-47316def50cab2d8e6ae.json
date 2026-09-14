@@ -9,7 +9,7 @@
     "title": "Cardinal.mk",
     "kind": "def",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Type.Sort(%u+1%))),def[default](Cardinal.mk($a$@#0.0.0),Cardinal,$\\mathsf{Quotient\\text{\\char\"2e}mk\\text{\\char\"27}}(#0, #1, #2)$(Type.Sort(%u+1%),$\\mathsf{Cardinal\\text{\\char\"2e}isEquivalent}$,$a$@#0.0.0)))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Type.Sort(%u+1%))),def[default](Cardinal.mk($a$@#0.0.0),Cardinal,Quotient.mk(Type.Sort(%u+1%),Cardinal.isEquivalent[native_default],$a$@#0.0.0)))"
     },
     "contribution_info": null,
     "pointer": {
@@ -19,6 +19,285 @@
       "endLine": 86,
       "column": 1,
       "endColumn": 15
+    },
+    "lean": {
+      "valueTree": {
+        "mdata": {
+          "leanDelabView": {
+            "mdata": null,
+            "macro_name": "Quotient.mk",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": {
+                  "leanSourcePath": [
+                    0
+                  ]
+                },
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "leanSourcePath": [
+                    1
+                  ]
+                },
+                "macro_name": "Cardinal.isEquivalent",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "leanSourcePath": [
+                    2
+                  ],
+                  "bindRef": "b0"
+                },
+                "macro_name": "a",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        },
+        "macro_name": "Quotient.mk'",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.Sort",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "u+1",
+                "kind": "",
+                "children": []
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "Cardinal.isEquivalent",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": {
+              "bindRef": "b0"
+            },
+            "macro_name": "a",
+            "kind": "bvar",
+            "children": []
+          }
+        ]
+      },
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Cardinal",
+        "kind": "const",
+        "children": []
+      },
+      "name": "Cardinal.mk",
+      "members": [],
+      "kind": "definition",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "The cardinal number of a type ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u+1",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "def",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Cardinal.mk",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "Cardinal",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": {
+                  "leanDelabView": {
+                    "mdata": null,
+                    "macro_name": "Quotient.mk",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "leanSourcePath": [
+                            0
+                          ]
+                        },
+                        "macro_name": "Type.Sort",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "u+1",
+                            "kind": "",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "leanSourcePath": [
+                            1
+                          ]
+                        },
+                        "macro_name": "Cardinal.isEquivalent",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanSourcePath": [
+                            2
+                          ],
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                },
+                "macro_name": "Quotient.mk'",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u+1",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal.isEquivalent",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

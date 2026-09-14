@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "FunctionalProgramming",
   "macro": {
+    "name": "Option.some",
     "description": "",
     "source": {
       "entries": [],
@@ -35,9 +36,24 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\operatorname{some}(#1)"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Option.some}"
+        },
+        "tags": [],
+        "style_name": "function"
       }
     ],
-    "tags": [],
-    "name": "Option.some"
+    "tags": []
   }
 }

@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Logic.Implication",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Implication",
+        "zh-CN": "蕴含"
+      }
+    },
+    "content": {
+      "snl": "def(Logic.implies(p@Logic.Context.PQ,q@Logic.Context.PQ),Proposition,Type.to(p@Logic.Context.PQ,q@Logic.Context.PQ))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 125,
+      "endLine": 125,
+      "column": 1,
+      "endColumn": 42
+    },
+    "package": "Logic"
+  }
+}

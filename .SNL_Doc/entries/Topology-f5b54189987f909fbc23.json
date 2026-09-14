@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def[predicate](Topology.isolatedPoint(x,A),,Logic.and(Set.Mem[authored](,A,x),Logic.neg(Set.Mem[authored](,Topology.derivedSet(A),x)))))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def[predicate](Topology.isolatedPoint(x,A),,And[authored_Logic_and_infix](Set.Mem[authored](,A,x),Not[authored_Logic_neg_prefix](Set.Mem[authored](,Topology.derivedSet(A),x)))))"
     },
     "contribution_info": null,
     "pointer": null,

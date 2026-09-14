@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@S,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.trivialTopology(S),,Topology.topology(setOf[typedBuilder](@U,Set[text](S@Topology.ctxt.S),Logic.or(Eq(,U,EmptyCollection.emptyCollection[round](,)),Eq(,U,S@Topology.ctxt.S))),S@Topology.ctxt.S)))"
+      "snl": "variable(Type.annotation(@S,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.trivialTopology(S),,Topology.topology(setOf[typedBuilder](@U,Set[text](S@Topology.ctxt.S),Or[authored_Logic_or_infix](Eq(,U,EmptyCollection.emptyCollection[round](,)),Eq(,U,S@Topology.ctxt.S))),S@Topology.ctxt.S)))"
     },
     "contribution_info": null,
     "pointer": null,

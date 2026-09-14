@@ -9,7 +9,7 @@
     "title": "Denumerable",
     "kind": "def",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_3+1%))),structure[default](Denumerable($α$@#0.0.0),__enum__[num](member[native_colon](@$\\mathsf{toEncodable}$@toEncodable,$\\mathsf{Encodable}(#0)$($α$@#0.0.0)),member[native_colon](@$\\mathsf{decode\\_inv}$@decode_inv,Type.forall[forall](@$n$,Nat[native_default],Exists[binder](@$a$,$α$@#0.0.0,And(Membership.mem($α$@#0.0.0,Option($α$@#0.0.0),$\\mathsf{Option\\text{\\char\"2e}instMembership}(#0)$($α$@#0.0.0),$\\mathsf{Encodable\\text{\\char\"2e}decode}(#0, #1, #2)$($α$@#0.0.0,$\\mathsf{toEncodable}$@#1.1.0.0,$n$@#1.1.1.1.0),$a$@#1.1.1.1.2.0),Eq(Nat[native_default],$\\mathsf{Encodable\\text{\\char\"2e}encode}(#0, #1, #2)$($α$@#0.0.0,$\\mathsf{toEncodable}$@#1.1.0.0,$a$@#1.1.1.1.2.0),$n$@#1.1.1.1.0))))))))",
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_3+1%))),structure[default](Denumerable($α$@#0.0.0),__enum__[native_enumerate](member[native_colon](@$\\mathsf{toEncodable}$@toEncodable,Encodable[native_default]($α$@#0.0.0)),member[native_colon](@$\\mathsf{decode\\_inv}$@decode_inv,Type.forall[forall](@$n$,Nat[native_default],Exists[binder](@$a$,$α$@#0.0.0,And(Membership.mem($α$@#0.0.0,Option($α$@#0.0.0),Option.instMembership[native_default]($α$@#0.0.0),Encodable.decode($α$@#0.0.0,$\\mathsf{toEncodable}$@#1.1.0.0,$n$@#1.1.1.1.0),$a$@#1.1.1.1.2.0),Eq(Nat[native_default],Encodable.encode($α$@#0.0.0,$\\mathsf{toEncodable}$@#1.1.0.0,$a$@#1.1.1.1.2.0),$n$@#1.1.1.1.0))))))))",
       "markdown": "`Denumerable α` carries an equivalence with ℕ. `Nonempty (Denumerable α)` expresses countable infinitude; this differs from `Countable α`."
     },
     "contribution_info": null,
@@ -20,6 +20,1504 @@
       "endLine": 35,
       "column": 1,
       "endColumn": 49
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "u_3+1",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "Denumerable",
+      "members": [
+        {
+          "typeTree": {
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u_1+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "nameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "instImplicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "self",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Encodable",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "arrow",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b2"
+                        },
+                        "macro_name": "a",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "name": "Encodable.encode"
+        },
+        {
+          "typeTree": {
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u_1+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "nameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "instImplicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "self",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Encodable",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "arrow",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b2"
+                        },
+                        "macro_name": "a",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Option",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "name": "Encodable.decode"
+        },
+        {
+          "typeTree": {
+            "style_name": "forall",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u_1+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "forallNameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "instImplicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "self",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Encodable",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "forall",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b2"
+                        },
+                        "macro_name": "a",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Eq",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Option",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Encodable.decode",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b1"
+                                },
+                                "macro_name": "self",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Encodable.encode",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b1"
+                                    },
+                                    "macro_name": "self",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b2"
+                                    },
+                                    "macro_name": "a",
+                                    "kind": "bvar",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Option.some",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b2"
+                                },
+                                "macro_name": "a",
+                                "kind": "bvar",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "name": "Encodable.encodek"
+        },
+        {
+          "typeTree": {
+            "style_name": "forall",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "implicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u_3+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "style_name": "forallNameless",
+                "mdata": {
+                  "leanOmitBinderName": true
+                },
+                "macro_name": "Type.forall",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "instImplicit",
+                      "bindId": "b1"
+                    },
+                    "macro_name": "self",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Denumerable",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "α",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "forall",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b2"
+                        },
+                        "macro_name": "n",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": {
+                          "leanDelabView": {
+                            "style_name": "binder",
+                            "mdata": {
+                              "leanDelabOrigin": "Exists",
+                              "leanBinderScope": {
+                                "bodies": [
+                                  2
+                                ],
+                                "binder": 0
+                              }
+                            },
+                            "macro_name": "Exists",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "leanSourcePath": [
+                                    1,
+                                    0
+                                  ],
+                                  "binderInfo": "explicit",
+                                  "bindId": "b3"
+                                },
+                                "macro_name": "a",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "leanSourcePath": [
+                                    1,
+                                    1
+                                  ],
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "leanSourcePath": [
+                                    1,
+                                    2
+                                  ]
+                                },
+                                "macro_name": "And",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Membership.mem",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b0"
+                                        },
+                                        "macro_name": "α",
+                                        "kind": "bvar",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Option",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Option.instMembership",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Encodable.decode",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Denumerable.toEncodable",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b1"
+                                                },
+                                                "macro_name": "self",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b2"
+                                            },
+                                            "macro_name": "n",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b3"
+                                        },
+                                        "macro_name": "a",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Eq",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat",
+                                        "kind": "const",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Encodable.encode",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Denumerable.toEncodable",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b1"
+                                                },
+                                                "macro_name": "self",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b3"
+                                            },
+                                            "macro_name": "a",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b2"
+                                        },
+                                        "macro_name": "n",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        "macro_name": "Exists",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          },
+                          {
+                            "style_name": "untyped",
+                            "mdata": null,
+                            "macro_name": "Type.lambda",
+                            "kind": "rule",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "binderInfo": "explicit",
+                                  "bindId": "b3"
+                                },
+                                "macro_name": "a",
+                                "kind": "binder",
+                                "children": []
+                              },
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "And",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Membership.mem",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b0"
+                                        },
+                                        "macro_name": "α",
+                                        "kind": "bvar",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Option",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Option.instMembership",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Encodable.decode",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Denumerable.toEncodable",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b1"
+                                                },
+                                                "macro_name": "self",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b2"
+                                            },
+                                            "macro_name": "n",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b3"
+                                        },
+                                        "macro_name": "a",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Eq",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat",
+                                        "kind": "const",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Encodable.encode",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Denumerable.toEncodable",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b1"
+                                                },
+                                                "macro_name": "self",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b3"
+                                            },
+                                            "macro_name": "a",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": {
+                                          "bindRef": "b2"
+                                        },
+                                        "macro_name": "n",
+                                        "kind": "bvar",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "name": "Denumerable.decode_inv"
+        }
+      ],
+      "kind": "class",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "α",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Type.Sort",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "u_3+1",
+                    "kind": "",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "A denumerable type is (constructively) bijective with `ℕ`. Typeclass equivalent of `α ≃ ℕ`. ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Type.Sort",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "u_3+1",
+                        "kind": "",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "structure",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Denumerable",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "α",
+                    "kind": "bvar",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "leanFieldContext": true
+                },
+                "macro_name": "__enum__",
+                "kind": "sub",
+                "children": [
+                  {
+                    "style_name": "colon",
+                    "mdata": {
+                      "leanSharedContext": true,
+                      "leanFieldProjection": "Denumerable.toEncodable",
+                      "leanFieldDeclaration": true
+                    },
+                    "macro_name": "member",
+                    "kind": "sub",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "instImplicit",
+                          "bindId": "b5"
+                        },
+                        "macro_name": "toEncodable",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Encodable",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": {
+                              "bindRef": "b0"
+                            },
+                            "macro_name": "α",
+                            "kind": "bvar",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "style_name": "colon",
+                    "mdata": {
+                      "leanSharedContext": true,
+                      "leanFieldProjection": "Denumerable.decode_inv",
+                      "leanFieldDeclaration": true
+                    },
+                    "macro_name": "member",
+                    "kind": "sub",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b8"
+                        },
+                        "macro_name": "decode_inv",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "style_name": "forall",
+                        "mdata": null,
+                        "macro_name": "Type.forall",
+                        "kind": "rule",
+                        "children": [
+                          {
+                            "mdata": {
+                              "binderInfo": "explicit",
+                              "bindId": "b6"
+                            },
+                            "macro_name": "n",
+                            "kind": "binder",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": {
+                              "leanDelabView": {
+                                "style_name": "binder",
+                                "mdata": {
+                                  "leanDelabOrigin": "Exists",
+                                  "leanBinderScope": {
+                                    "bodies": [
+                                      2
+                                    ],
+                                    "binder": 0
+                                  }
+                                },
+                                "macro_name": "Exists",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "leanSourcePath": [
+                                        1,
+                                        0
+                                      ],
+                                      "binderInfo": "explicit",
+                                      "bindId": "b7"
+                                    },
+                                    "macro_name": "a",
+                                    "kind": "binder",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "leanSourcePath": [
+                                        1,
+                                        1
+                                      ],
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "leanSourcePath": [
+                                        1,
+                                        2
+                                      ]
+                                    },
+                                    "macro_name": "And",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Membership.mem",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Option",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Option.instMembership",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Encodable.decode",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b5"
+                                                },
+                                                "macro_name": "toEncodable",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b6"
+                                                },
+                                                "macro_name": "n",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b7"
+                                            },
+                                            "macro_name": "a",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Eq",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Nat",
+                                            "kind": "const",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Encodable.encode",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b5"
+                                                },
+                                                "macro_name": "toEncodable",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b7"
+                                                },
+                                                "macro_name": "a",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b6"
+                                            },
+                                            "macro_name": "n",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            },
+                            "macro_name": "Exists",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": {
+                                  "bindRef": "b0"
+                                },
+                                "macro_name": "α",
+                                "kind": "bvar",
+                                "children": []
+                              },
+                              {
+                                "style_name": "untyped",
+                                "mdata": null,
+                                "macro_name": "Type.lambda",
+                                "kind": "rule",
+                                "children": [
+                                  {
+                                    "mdata": {
+                                      "binderInfo": "explicit",
+                                      "bindId": "b7"
+                                    },
+                                    "macro_name": "a",
+                                    "kind": "binder",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": {
+                                      "bindRef": "b0"
+                                    },
+                                    "macro_name": "α",
+                                    "kind": "bvar",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "And",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Membership.mem",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b0"
+                                            },
+                                            "macro_name": "α",
+                                            "kind": "bvar",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Option",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Option.instMembership",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Encodable.decode",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b5"
+                                                },
+                                                "macro_name": "toEncodable",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b6"
+                                                },
+                                                "macro_name": "n",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b7"
+                                            },
+                                            "macro_name": "a",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Eq",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Nat",
+                                            "kind": "const",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Encodable.encode",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b0"
+                                                },
+                                                "macro_name": "α",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b5"
+                                                },
+                                                "macro_name": "toEncodable",
+                                                "kind": "bvar",
+                                                "children": []
+                                              },
+                                              {
+                                                "mdata": {
+                                                  "bindRef": "b7"
+                                                },
+                                                "macro_name": "a",
+                                                "kind": "bvar",
+                                                "children": []
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "mdata": {
+                                              "bindRef": "b6"
+                                            },
+                                            "macro_name": "n",
+                                            "kind": "bvar",
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

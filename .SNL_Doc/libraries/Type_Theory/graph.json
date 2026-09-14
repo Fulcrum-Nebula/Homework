@@ -428,7 +428,7 @@
       "id": "n_55",
       "label": "Entry",
       "props": {
-        "entryId": "Logic.def.eq",
+        "entryId": "Eq",
         "counterId": "b50a2867-c72f-4e33-8732-487d12db20a4"
       }
     },
@@ -532,7 +532,7 @@
       "id": "n_sub_1875c9facf56",
       "label": "Entry",
       "props": {
-        "entryId": "Logic.def.eq.ctor.refl",
+        "entryId": "Eq.refl",
         "counterId": "7bbb54ea-f0d5-4c3e-9fd9-b7f18be337f6"
       }
     },
@@ -540,7 +540,7 @@
       "id": "n_sub_44dd30f95854",
       "label": "Entry",
       "props": {
-        "entryId": "Logic.def.eq.recursor",
+        "entryId": "Eq.rec",
         "counterId": "7bbb54ea-f0d5-4c3e-9fd9-b7f18be337f6"
       }
     },
@@ -1140,7 +1140,7 @@
       "id": "n_83",
       "label": "Entry",
       "props": {
-        "entryId": "Logic.def.and",
+        "entryId": "And",
         "counterId": "b50a2867-c72f-4e33-8732-487d12db20a4"
       }
     },
@@ -1148,7 +1148,7 @@
       "id": "n_84",
       "label": "Entry",
       "props": {
-        "entryId": "Logic.def.or",
+        "entryId": "Or",
         "counterId": "b50a2867-c72f-4e33-8732-487d12db20a4"
       }
     },
@@ -1156,7 +1156,7 @@
       "id": "n_85",
       "label": "Entry",
       "props": {
-        "entryId": "Logic.def.implies",
+        "entryId": "Logic.Implication",
         "counterId": "b50a2867-c72f-4e33-8732-487d12db20a4"
       }
     },

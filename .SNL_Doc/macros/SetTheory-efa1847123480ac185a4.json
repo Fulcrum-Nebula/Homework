@@ -1,0 +1,35 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Preorder.mk",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left\\{\\begin{array}{ll}\\mathsf{le}:&#1\\\\\\mathsf{lt}:&#2\\\\\\mathsf{refl}:&#3\\\\\\mathsf{trans}:&#4\\\\\\mathsf{lt\\_iff}:&#5\\end{array}\\right\\}"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Preorder.mk}"
+        },
+        "tags": [],
+        "style_name": "function"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

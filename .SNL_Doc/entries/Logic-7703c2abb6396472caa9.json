@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Logic.Proposition",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Proposition",
+        "zh-CN": "命题"
+      }
+    },
+    "content": {
+      "snl": "def(Proposition,Type.Sort(%1%),$\\mathsf{Sort}\\,0$)",
+      "md": "Lean’s proposition universe is `Prop`, which is kernel `Sort 0`. It is not a constant named `Proposition`, and Lean `Type 0` is `Sort 1`."
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 121,
+      "endLine": 121,
+      "column": 1,
+      "endColumn": 17
+    },
+    "package": "Logic"
+  }
+}

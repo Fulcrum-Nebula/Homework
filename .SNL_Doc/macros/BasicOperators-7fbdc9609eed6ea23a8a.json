@@ -1,0 +1,54 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "BasicOperators",
+  "macro": {
+    "name": "Ne",
+    "description": "",
+    "source": {
+      "entries": [
+        "Eq",
+        "Not"
+      ],
+      "urls": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "styles": [
+      {
+        "style_name": "authored_Neq_default",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1 \\neq #2",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#1 \\ne #2"
+        },
+        "tags": [],
+        "style_name": "default"
+      }
+    ],
+    "tags": []
+  }
+}

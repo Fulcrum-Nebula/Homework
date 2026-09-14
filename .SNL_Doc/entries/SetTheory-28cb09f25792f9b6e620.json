@@ -9,7 +9,7 @@
     "kind": "thm",
     "title": "Cantor's Power Set",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Cardinal)),theorem[native_default](LT.lt(Cardinal,$\\mathsf{Preorder\\text{\\char\"2e}toLT}(#0, #1)$(Cardinal,$\\mathsf{PartialOrder\\text{\\char\"2e}toPreorder}(#0, #1)$(Cardinal,$\\mathsf{Cardinal\\text{\\char\"2e}partialOrder}$)),$a$@#0.0.0,HPow.hPow(Cardinal,Cardinal,Cardinal,$\\mathsf{instHPow}(#0, #1, #2)$(Cardinal,Cardinal,$\\mathsf{Cardinal\\text{\\char\"2e}instPowCardinal}$),OfNat.ofNat(Cardinal,%2%,$\\mathsf{instOfNatAtLeastTwo}(#0, #1, #2, #3)$(Cardinal,%2%,$\\mathsf{Cardinal\\text{\\char\"2e}instNatCast}$,$\\mathsf{Nat\\text{\\char\"2e}instAtLeastTwoHAddOfNat}(#0, #1)$(OfNat.ofNat(Nat[native_default],%1%,$\\mathsf{instOfNatNat}(#0)$(%1%)),$\\mathsf{Nat\\text{\\char\"2e}instNeZeroSucc}(#0)$(OfNat.ofNat(Nat[native_default],%0%,$\\mathsf{instOfNatNat}(#0)$(%0%)))))),$a$@#0.0.0))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Cardinal)),theorem[native_default](LT.lt(Cardinal,Preorder.toLT[native_default](Cardinal,PartialOrder.toPreorder[native_default](Cardinal,Cardinal.partialOrder[native_default])),$a$@#0.0.0,HPow.hPow(Cardinal,Cardinal,Cardinal,instHPow[native_default](Cardinal,Cardinal,Cardinal.instPowCardinal[native_default]),OfNat.ofNat(Cardinal,%2%,instOfNatAtLeastTwo[native_default](Cardinal,%2%,Cardinal.instNatCast[native_default],Nat.instAtLeastTwoHAddOfNat[native_default](OfNat.ofNat(Nat[native_default],%1%,instOfNatNat[native_default](%1%)),Nat.instNeZeroSucc[native_default](OfNat.ofNat(Nat[native_default],%0%,instOfNatNat[native_default](%0%)))))),$a$@#0.0.0))))"
     },
     "contribution_info": null,
     "pointer": {
@@ -19,6 +19,550 @@
       "endLine": 342,
       "column": 1,
       "endColumn": 30
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "LT.lt",
+        "kind": "const",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Cardinal",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Preorder.toLT",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Cardinal",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "PartialOrder.toPreorder",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal.partialOrder",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": {
+              "bindRef": "b0"
+            },
+            "macro_name": "a",
+            "kind": "bvar",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "HPow.hPow",
+            "kind": "const",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Cardinal",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Cardinal",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Cardinal",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "instHPow",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal.instPowCardinal",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": null,
+                "macro_name": "OfNat.ofNat",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "2",
+                    "kind": "",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "instOfNatAtLeastTwo",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Cardinal",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "2",
+                        "kind": "",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Cardinal.instNatCast",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat.instAtLeastTwoHAddOfNat",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "OfNat.ofNat",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "Nat",
+                                "kind": "const",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "1",
+                                "kind": "",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "instOfNatNat",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "1",
+                                    "kind": "",
+                                    "children": []
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Nat.instNeZeroSucc",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "OfNat.ofNat",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Nat",
+                                    "kind": "const",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "0",
+                                    "kind": "",
+                                    "children": []
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "instOfNatNat",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "0",
+                                        "kind": "",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "bindRef": "b0"
+                },
+                "macro_name": "a",
+                "kind": "bvar",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "name": "Cardinal.cantor",
+      "members": [],
+      "kind": "theorem",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "a",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Cardinal",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "**Cantor's theorem** ",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "variable",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "__list__",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "binderInfo": "explicit",
+                      "bindId": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "binder",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "mdata": null,
+            "macro_name": "theorem",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": null,
+                "macro_name": "LT.lt",
+                "kind": "const",
+                "children": [
+                  {
+                    "mdata": null,
+                    "macro_name": "Cardinal",
+                    "kind": "const",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Preorder.toLT",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Cardinal",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "PartialOrder.toPreorder",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Cardinal",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Cardinal.partialOrder",
+                            "kind": "const",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "mdata": {
+                      "bindRef": "b0"
+                    },
+                    "macro_name": "a",
+                    "kind": "bvar",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "HPow.hPow",
+                    "kind": "const",
+                    "children": [
+                      {
+                        "mdata": null,
+                        "macro_name": "Cardinal",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Cardinal",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Cardinal",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "instHPow",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Cardinal",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Cardinal",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "Cardinal.instPowCardinal",
+                            "kind": "const",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "OfNat.ofNat",
+                        "kind": "const",
+                        "children": [
+                          {
+                            "mdata": null,
+                            "macro_name": "Cardinal",
+                            "kind": "const",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "2",
+                            "kind": "",
+                            "children": []
+                          },
+                          {
+                            "mdata": null,
+                            "macro_name": "instOfNatAtLeastTwo",
+                            "kind": "const",
+                            "children": [
+                              {
+                                "mdata": null,
+                                "macro_name": "Cardinal",
+                                "kind": "const",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "2",
+                                "kind": "",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Cardinal.instNatCast",
+                                "kind": "const",
+                                "children": []
+                              },
+                              {
+                                "mdata": null,
+                                "macro_name": "Nat.instAtLeastTwoHAddOfNat",
+                                "kind": "const",
+                                "children": [
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "OfNat.ofNat",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "Nat",
+                                        "kind": "const",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "1",
+                                        "kind": "",
+                                        "children": []
+                                      },
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "instOfNatNat",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "1",
+                                            "kind": "",
+                                            "children": []
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "mdata": null,
+                                    "macro_name": "Nat.instNeZeroSucc",
+                                    "kind": "const",
+                                    "children": [
+                                      {
+                                        "mdata": null,
+                                        "macro_name": "OfNat.ofNat",
+                                        "kind": "const",
+                                        "children": [
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "Nat",
+                                            "kind": "const",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "0",
+                                            "kind": "",
+                                            "children": []
+                                          },
+                                          {
+                                            "mdata": null,
+                                            "macro_name": "instOfNatNat",
+                                            "kind": "const",
+                                            "children": [
+                                              {
+                                                "mdata": null,
+                                                "macro_name": "0",
+                                                "kind": "",
+                                                "children": []
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "mdata": {
+                          "bindRef": "b0"
+                        },
+                        "macro_name": "a",
+                        "kind": "bvar",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

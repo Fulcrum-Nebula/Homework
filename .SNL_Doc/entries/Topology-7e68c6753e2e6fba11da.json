@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.countablyCompact(A),,Logic.forall-typed(@C,Set[text](Set[text](T@Fulcrum.SetTheory.T)),Logic.implies(Topology.openCover(C,A),Logic.exists-typed(@F,Set[text](Set[text](T@Fulcrum.SetTheory.T)),Logic.and(Set.Subset[infix](,F,C),Logic.and(Topology.openCover(F,A),Set.Countable[text](,F))))))))"
+      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.countablyCompact(A),,Logic.forall-typed(@C,Set[text](Set[text](T@Fulcrum.SetTheory.T)),Logic.implies(Topology.openCover(C,A),Logic.exists-typed(@F,Set[text](Set[text](T@Fulcrum.SetTheory.T)),And[authored_Logic_and_infix](Set.Subset[infix](,F,C),And[authored_Logic_and_infix](Topology.openCover(F,A),Set.Countable[text](,F))))))))"
     },
     "contribution_info": null,
     "pointer": null,

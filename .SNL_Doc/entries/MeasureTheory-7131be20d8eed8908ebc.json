@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(__list__(@P,@Q),Type.to(X@Measure.ctxt.X,Proposition)),theorem(Logic.iff(Measure.almostEverywhere(@x,Logic.and(P(x),Q(x)),mu@Measure.ctxt.mu),Logic.and(Measure.almostEverywhere(@x,P(x),mu@Measure.ctxt.mu),Measure.almostEverywhere(@x,Q(x),mu@Measure.ctxt.mu)))))"
+      "snl": "variable(Type.annotation(__list__(@P,@Q),Type.to(X@Measure.ctxt.X,Proposition)),theorem(Iff[authored_Logic_iff_long](Measure.almostEverywhere(@x,And[authored_Logic_and_infix](P(x),Q(x)),mu@Measure.ctxt.mu),And[authored_Logic_and_infix](Measure.almostEverywhere(@x,P(x),mu@Measure.ctxt.mu),Measure.almostEverywhere(@x,Q(x),mu@Measure.ctxt.mu)))))"
     },
     "contribution_info": null,
     "pointer": null,

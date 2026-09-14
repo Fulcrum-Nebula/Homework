@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@F,Analysis.PFun),Type.annotation(@A,Analysis.Seq)),def(__list__(Analysis.bounded(F),Analysis.boundedAbove(F),Analysis.boundedBelow(F)),,Logic.exists-typed(@M,Real,Logic.and($#0 > 0$(M),Logic.forall-typed(@x,Real,Logic.implies(Set.Mem[authored](,Analysis.domain(F),x),$\\left|#0\\right| < #1$(Type.apply(Analysis.map(F),x),M)))))))",
+      "snl": "variable(__list__(Type.annotation(@F,Analysis.PFun),Type.annotation(@A,Analysis.Seq)),def(__list__(Analysis.bounded(F),Analysis.boundedAbove(F),Analysis.boundedBelow(F)),,Logic.exists-typed(@M,Real,And[authored_Logic_and_infix]($#0 > 0$(M),Logic.forall-typed(@x,Real,Logic.implies(Set.Mem[authored](,Analysis.domain(F),x),$\\left|#0\\right| < #1$(Type.apply(Analysis.map(F),x),M)))))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",

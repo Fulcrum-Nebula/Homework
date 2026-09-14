@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@A,Type),Type.annotation(@B,Type),Type.annotation(@X,Set[text](A)),Type.annotation(@τ_X,Set[text](Set[text](A))),Type.annotation(@Y,Set[text](B)),Type.annotation(@τ_Y,Set[text](Set[text](B))),Topology.topology(X,τ_X),Topology.topology(Y,τ_Y)),def(Topology.productTopology,,setOf[typedBuilder](@U,Set[text](Set.prod[authored](,,A,B)),Logic.forall-typed(@p,Set.prod[authored](,,A,B),Logic.implies(Set.Mem[authored](,U,p),Logic.exists-typed(@U_X,Set[text](A),Logic.exists-typed(@U_Y,Set[text](B),Logic.and(Logic.and(Set.Mem[authored](,τ_X,U_X),Set.Mem[authored](,τ_Y,U_Y)),Logic.and(Set.Mem[authored](,Set.prod[authored](,,U_X,U_Y),p),Set.Subset[infix](,Set.prod[authored](,,U_X,U_Y),U))))))))))"
+      "snl": "variable(__list__(Type.annotation(@A,Type),Type.annotation(@B,Type),Type.annotation(@X,Set[text](A)),Type.annotation(@τ_X,Set[text](Set[text](A))),Type.annotation(@Y,Set[text](B)),Type.annotation(@τ_Y,Set[text](Set[text](B))),Topology.topology(X,τ_X),Topology.topology(Y,τ_Y)),def(Topology.productTopology,,setOf[typedBuilder](@U,Set[text](Set.prod[authored](,,A,B)),Logic.forall-typed(@p,Set.prod[authored](,,A,B),Logic.implies(Set.Mem[authored](,U,p),Logic.exists-typed(@U_X,Set[text](A),Logic.exists-typed(@U_Y,Set[text](B),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Mem[authored](,τ_X,U_X),Set.Mem[authored](,τ_Y,U_Y)),And[authored_Logic_and_infix](Set.Mem[authored](,Set.prod[authored](,,U_X,U_Y),p),Set.Subset[infix](,Set.prod[authored](,,U_X,U_Y),U))))))))))"
     },
     "contribution_info": "待修改：此处的积类型与积集合需要其他定义",
     "pointer": null,

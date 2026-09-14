@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Logic",
+  "entry": {
+    "id": "Logic.Context.T",
+    "kind": "context",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "$T$",
+        "zh-CN": "$T$"
+      }
+    },
+    "content": {
+      "snl": "variable(Type.annotation(@T,Type),)"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": "Lean4/Logic/Logic.lean",
+      "mode": "lines",
+      "line": 114,
+      "endLine": 114,
+      "column": 1,
+      "endColumn": 22
+    },
+    "package": "Logic"
+  }
+}

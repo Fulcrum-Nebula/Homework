@@ -20,6 +20,30 @@
       "endLine": 246,
       "column": 1,
       "endColumn": 16
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Nat",
+        "kind": "const",
+        "children": []
+      },
+      "name": "Nat.zero",
+      "members": [],
+      "kind": "constructor",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": []
+      },
+      "doc": "Zero, the smallest natural number.\n\nUsing `Nat.zero` explicitly should usually be avoided in favor of the literal `0`, which is the\n[simp normal form](https://lean-lang.org/doc/reference/4.28.0/find/?domain=Verso.Genre.Manual.section&name=simp-normal-forms).\n",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "Nat",
+        "kind": "const",
+        "children": []
+      }
     }
   }
 }

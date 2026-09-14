@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@a,Real),theorem(Logic.iff(Lt(neg(a),0),Gt(a,0))))",
+      "snl": "variable(Type.annotation(@a,Real),theorem(Iff[authored_Logic_iff_long](Lt(neg(a),0),Gt(a,0))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",

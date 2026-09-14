@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@phi, Type.to(D@real-analysis.ctxt.D, EReal)),def( RealAnalysis.simple(phi), , Logic.and(RealAnalysis.measurable(phi), Logic.neg(Logic.iff($|\\phi(D)|$, $\\infty$)))))"
+      "snl": "variable(Type.annotation(@phi,Type.to(D@real-analysis.ctxt.D,EReal)),def(RealAnalysis.simple(phi),,And[authored_Logic_and_infix](RealAnalysis.measurable(phi),Not[authored_Logic_neg_prefix](Iff[authored_Logic_iff_long]($|\\phi(D)|$,$\\infty$)))))"
     },
     "contribution_info": null,
     "pointer": null,

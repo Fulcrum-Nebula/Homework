@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "Logic.and(Type.annotation(@τ_Y,Set[text](Y@Topology.ctxt.Y)),Topology.topology(τ_Y,Y@Topology.ctxt.Y))"
+      "snl": "And[authored_Logic_and_infix](Type.annotation(@τ_Y,Set[text](Y@Topology.ctxt.Y)),Topology.topology(τ_Y,Y@Topology.ctxt.Y))"
     },
     "contribution_info": null,
     "pointer": null,

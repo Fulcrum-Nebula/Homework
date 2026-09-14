@@ -4,14 +4,14 @@
   "schema_version": 1,
   "package": "Logic",
   "macro": {
-    "description": "",
+    "description": "Author syntax view p → q: nondependent function/Pi syntax between propositions, not a Lean native constant named implies.",
     "source": {
       "entries": [
-        "Logic.def.implies"
+        "Logic.Implication"
       ],
       "urls": []
     },
-    "kind": "const",
+    "kind": "rule",
     "dynamic_arity": false,
     "styles": [
       {

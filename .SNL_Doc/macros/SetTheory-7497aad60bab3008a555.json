@@ -1,0 +1,53 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "instOfNatAtLeastTwo",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "text",
+          "body": "The OfNat instance interpreting the literal #1 in #0, supplied by the natural-number-cast structure #2 and the at-least-two proof #3"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{instOfNatAtLeastTwo}"
+        },
+        "tags": [],
+        "style_name": "function"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "由自然数转换结构 #2 和至少为二的证明 #3 提供、在 #0 中解释字面量 #1 的 OfNat 实例"
+            },
+            "en": {
+              "mode": "text",
+              "body": "The OfNat instance interpreting the literal #1 in #0, supplied by the natural-number-cast structure #2 and the at-least-two proof #3"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

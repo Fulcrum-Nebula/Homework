@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@X,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.subspaceTopology(X),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Logic.exists-typed(@V,Set[text](T@Fulcrum.SetTheory.T),Logic.and(Set.Mem[authored](,τ@Topology.ctxt.tau,V),Eq(,U,Set.inter[authored](,V,X)))))))"
+      "snl": "variable(Type.annotation(@X,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.subspaceTopology(X),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Logic.exists-typed(@V,Set[text](T@Fulcrum.SetTheory.T),And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,V),Eq(,U,Set.inter[authored](,V,X)))))))"
     },
     "contribution_info": null,
     "pointer": null,

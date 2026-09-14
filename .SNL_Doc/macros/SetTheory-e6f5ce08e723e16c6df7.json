@@ -32,6 +32,14 @@
           "mode": "formula_inline",
           "body": "#1,#2"
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\left\\{#1\\right\\} \\cup #2"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
     ],
     "source": {

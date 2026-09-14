@@ -9,7 +9,8 @@
     "source": {
       "entries": [
         "Type.def.nat",
-        "PSet.ofNat"
+        "PSet.ofNat",
+        "Nat"
       ],
       "urls": []
     },

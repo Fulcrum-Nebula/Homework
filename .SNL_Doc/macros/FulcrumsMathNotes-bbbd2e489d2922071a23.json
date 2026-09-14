@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "FulcrumsMathNotes",
   "macro": {
+    "name": "constructor",
     "description": "Constructor declaration",
     "source": {
       "entries": [],
@@ -35,9 +36,26 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "| #0 : #1"
+            },
+            "en": {
+              "mode": "text",
+              "body": "| #0 : #1"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
     ],
-    "tags": [],
-    "name": "constructor"
+    "tags": []
   }
 }

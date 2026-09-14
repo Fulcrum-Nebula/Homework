@@ -16,6 +16,24 @@
           "mode": "formula_inline",
           "body": "#0\\text{ is at most countable}"
         }
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "formula_inline",
+              "body": "#0\\text{ 至多可数}"
+            },
+            "en": {
+              "mode": "formula_inline",
+              "body": "#0\\text{ is at most countable}"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
     ],
     "source": {

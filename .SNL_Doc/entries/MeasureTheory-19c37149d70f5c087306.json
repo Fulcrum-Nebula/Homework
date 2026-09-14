@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Logic.and(Measure.BorelMeasure(@nu),Measure.BorelMeasure(@rho)),theorem(Eq(,nu,rho)))"
+      "snl": "variable(And[authored_Logic_and_infix](Measure.BorelMeasure(@nu),Measure.BorelMeasure(@rho)),theorem(Eq(,nu,rho)))"
     },
     "contribution_info": null,
     "pointer": null,

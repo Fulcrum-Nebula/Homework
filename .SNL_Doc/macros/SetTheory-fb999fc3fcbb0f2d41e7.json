@@ -1,0 +1,53 @@
+{
+  "format": "snl-macro",
+  "version": 1,
+  "schema_version": 1,
+  "package": "SetTheory",
+  "macro": {
+    "name": "Equiv.ofLeftInverse",
+    "tags": [],
+    "styles": [
+      {
+        "template": {
+          "mode": "text",
+          "body": "The equivalence from #0 to the range of #2 induced by the family #3 of functions indexed by proofs of nonemptiness of #0, with left-inverse laws #4 for every index"
+        },
+        "tags": [],
+        "style_name": "default"
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "\\mathsf{Equiv.ofLeftInverse}"
+        },
+        "tags": [],
+        "style_name": "function"
+      },
+      {
+        "template": {
+          "values": {
+            "zh-CN": {
+              "mode": "text",
+              "body": "由以 #0 的非空证明为参数的函数族 #3 及对每个参数成立的左逆证明 #4 构造的从 #0 到 #2 的值域的等价"
+            },
+            "en": {
+              "mode": "text",
+              "body": "The equivalence from #0 to the range of #2 induced by the family #3 of functions indexed by proofs of nonemptiness of #0, with left-inverse laws #4 for every index"
+            }
+          },
+          "type": "i18n",
+          "default_language": "en"
+        },
+        "tags": [],
+        "style_name": "native_default"
+      }
+    ],
+    "source": {
+      "urls": [],
+      "entries": []
+    },
+    "kind": "const",
+    "dynamic_arity": false,
+    "description": "registered by snl_macro"
+  }
+}

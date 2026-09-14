@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Topology.T2(S@Topology.ctxt.S),Type.annotation(@n,Nat),Type.annotation(@x_1,S@Topology.ctxt.S),Type.annotation(@x_2,S@Topology.ctxt.S)),theorem(Logic.forall-typed(@x_n,Type.to(Nat,S@Topology.ctxt.S),Logic.implies(Logic.and(Topology.seqConv(n,x_n,x_1),Topology.seqConv(n,x_n,x_2)),Eq(,x_1,x_2)))))"
+      "snl": "variable(__list__(Topology.T2(S@Topology.ctxt.S),Type.annotation(@n,Nat),Type.annotation(@x_1,S@Topology.ctxt.S),Type.annotation(@x_2,S@Topology.ctxt.S)),theorem(Logic.forall-typed(@x_n,Type.to(Nat,S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](Topology.seqConv(n,x_n,x_1),Topology.seqConv(n,x_n,x_2)),Eq(,x_1,x_2)))))"
     },
     "contribution_info": null,
     "pointer": null,

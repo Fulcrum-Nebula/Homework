@@ -9,7 +9,7 @@
     "title": "Nat",
     "kind": "def",
     "content": {
-      "snl": "inductive[default](Nat[native_default],ctors[native_default](Type.annotation[default](Nat.zero,Nat[native_default]),Type.annotation[default](Nat.succ,Type.forall[arrow](@$n$,Nat[native_default],Nat[native_default]))))",
+      "snl": "inductive[default](Nat[native_default],ctors[native_default](Type.annotation[default]($\\mathsf{Nat\\text{\\char\"2e}zero}$,Nat[native_default]),Type.annotation[default]($\\mathsf{Nat\\text{\\char\"2e}succ}$,Type.forall[arrow](@$n$,Nat[native_default],Nat[native_default]))))",
       "markdown": "\n\nPointer boundary: this Entry navigates to the local `#print Nat` command. The declaration itself belongs to `Init.Prelude` in Lean core; its system-wide source is intentionally not addressed across the workspace boundary."
     },
     "contribution_info": null,
@@ -20,6 +20,162 @@
       "endLine": 244,
       "column": 1,
       "endColumn": 11
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Type.Sort",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "1",
+            "kind": "",
+            "children": []
+          }
+        ]
+      },
+      "name": "Nat",
+      "members": [
+        {
+          "typeTree": {
+            "mdata": null,
+            "macro_name": "Nat",
+            "kind": "const",
+            "children": []
+          },
+          "name": "Nat.zero"
+        },
+        {
+          "typeTree": {
+            "style_name": "arrow",
+            "mdata": null,
+            "macro_name": "Type.forall",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "n",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          },
+          "name": "Nat.succ"
+        }
+      ],
+      "kind": "inductive",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": []
+      },
+      "doc": "The natural numbers, starting at zero.\n\nThis type is special-cased by both the kernel and the compiler, and overridden with an efficient\nimplementation. Both use a fast arbitrary-precision arithmetic library (usually\n[GMP](https://gmplib.org/)); at runtime, `Nat` values that are sufficiently small are unboxed.\n",
+      "declarationTree": {
+        "mdata": null,
+        "macro_name": "inductive",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Nat",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "ctors",
+            "kind": "sub",
+            "children": [
+              {
+                "mdata": {
+                  "leanConstructorDeclaration": true
+                },
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "leanDelabOrigin": "Nat.zero"
+                    },
+                    "macro_name": "Nat.zero",
+                    "kind": "declaration-name",
+                    "children": []
+                  },
+                  {
+                    "mdata": null,
+                    "macro_name": "Nat",
+                    "kind": "const",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "mdata": {
+                  "leanConstructorDeclaration": true
+                },
+                "macro_name": "Type.annotation",
+                "kind": "rule",
+                "children": [
+                  {
+                    "mdata": {
+                      "leanDelabOrigin": "Nat.succ"
+                    },
+                    "macro_name": "Nat.succ",
+                    "kind": "declaration-name",
+                    "children": []
+                  },
+                  {
+                    "style_name": "arrow",
+                    "mdata": null,
+                    "macro_name": "Type.forall",
+                    "kind": "rule",
+                    "children": [
+                      {
+                        "mdata": {
+                          "binderInfo": "explicit",
+                          "bindId": "b0"
+                        },
+                        "macro_name": "n",
+                        "kind": "binder",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      },
+                      {
+                        "mdata": null,
+                        "macro_name": "Nat",
+                        "kind": "const",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     }
   }
 }

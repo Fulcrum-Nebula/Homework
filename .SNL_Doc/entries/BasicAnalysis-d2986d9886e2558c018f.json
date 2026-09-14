@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@A,Analysis.Seq),Type.annotation(@L,Real)),def(Analysis.seqLim(A,L),,Logic.and(Eq(,Analysis.final(A),FP.none),Logic.forall-typed(@epsilon,Real,Logic.implies($#0 > 0$(epsilon),Logic.exists-typed(@N,Nat,Logic.forall-typed(@n,Nat,Logic.implies($#0 > #1$(n,N),Set.Mem[authored](,Analysis.nbh(L,epsilon),Type.apply(Analysis.map(A),n))))))))))",
+      "snl": "variable(__list__(Type.annotation(@A,Analysis.Seq),Type.annotation(@L,Real)),def(Analysis.seqLim(A,L),,And[authored_Logic_and_infix](Eq(,Analysis.final(A),FP.none),Logic.forall-typed(@epsilon,Real,Logic.implies($#0 > 0$(epsilon),Logic.exists-typed(@N,Nat,Logic.forall-typed(@n,Nat,Logic.implies($#0 > #1$(n,N),Set.Mem[authored](,Analysis.nbh(L,epsilon),Type.apply(Analysis.map(A),n))))))))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",

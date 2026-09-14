@@ -16,6 +16,14 @@
           "mode": "formula_inline",
           "body": "#0\\simeq #1"
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#0 \\simeq #1"
+        },
+        "tags": [],
+        "style_name": "native_default"
       }
     ],
     "source": {

@@ -20,6 +20,76 @@
       "endLine": 248,
       "column": 1,
       "endColumn": 16
+    },
+    "lean": {
+      "typeTree": {
+        "mdata": null,
+        "macro_name": "Nat",
+        "kind": "const",
+        "children": []
+      },
+      "name": "Nat.succ",
+      "members": [],
+      "kind": "constructor",
+      "hypothesesTree": {
+        "mdata": null,
+        "macro_name": "__list__",
+        "kind": "sub",
+        "children": [
+          {
+            "mdata": null,
+            "macro_name": "Type.annotation",
+            "kind": "rule",
+            "children": [
+              {
+                "mdata": {
+                  "binderInfo": "explicit",
+                  "bindId": "b0"
+                },
+                "macro_name": "n",
+                "kind": "binder",
+                "children": []
+              },
+              {
+                "mdata": null,
+                "macro_name": "Nat",
+                "kind": "const",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      "doc": "The successor of a natural number `n`.\n\nUsing `Nat.succ n` should usually be avoided in favor of `n + 1`, which is the [simp normal\nform](https://lean-lang.org/doc/reference/4.28.0/find/?domain=Verso.Genre.Manual.section&name=simp-normal-forms).\n",
+      "declarationTree": {
+        "style_name": "arrow",
+        "mdata": null,
+        "macro_name": "Type.forall",
+        "kind": "rule",
+        "children": [
+          {
+            "mdata": {
+              "binderInfo": "explicit",
+              "bindId": "b0"
+            },
+            "macro_name": "n",
+            "kind": "binder",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Nat",
+            "kind": "const",
+            "children": []
+          },
+          {
+            "mdata": null,
+            "macro_name": "Nat",
+            "kind": "const",
+            "children": []
+          }
+        ]
+      }
     }
   }
 }

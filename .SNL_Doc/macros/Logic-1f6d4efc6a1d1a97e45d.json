@@ -4,14 +4,14 @@
   "schema_version": 1,
   "package": "Logic",
   "macro": {
-    "description": "Typed universal ∀ x : T, P(x)",
+    "description": "Author syntax view ∀ x : T, P(x): dependent-function/Pi notation with binder, domain, body slots; not a Lean native constant.",
     "source": {
       "entries": [
-        "Logic.def.forall"
+        "Logic.Forall"
       ],
       "urls": []
     },
-    "kind": "const",
+    "kind": "rule",
     "dynamic_arity": false,
     "styles": [
       {

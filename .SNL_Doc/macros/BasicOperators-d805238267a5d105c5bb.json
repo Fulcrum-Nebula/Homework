@@ -8,7 +8,7 @@
     "description": "",
     "source": {
       "entries": [
-        "Logic.def.eq"
+        "Eq"
       ],
       "urls": []
     },

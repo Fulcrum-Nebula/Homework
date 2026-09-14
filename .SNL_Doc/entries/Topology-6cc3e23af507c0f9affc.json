@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@$\\mathcal{C}$,Set[text](Set[text](T@Fulcrum.SetTheory.T))),Set.Subset[infix](,A,S@Topology.ctxt.S)),structure(Topology.openCover($\\mathcal{C}$,A),__enum__(member[colon](%开集族%,Set.Subset[infix](,$\\mathcal{C}$,τ@Topology.ctxt.tau)),member[colon](%覆盖性%,Set.Subset[infix](,A,setOf[typedBuilder](@x,T@Fulcrum.SetTheory.T,Logic.exists-typed(@U,Set[text](T@Fulcrum.SetTheory.T),Logic.and(Set.Mem[authored](,$\\mathcal{C}$,U),Set.Mem[authored](,U,x)))))))))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@$\\mathcal{C}$,Set[text](Set[text](T@Fulcrum.SetTheory.T))),Set.Subset[infix](,A,S@Topology.ctxt.S)),structure(Topology.openCover($\\mathcal{C}$,A),__enum__(member[colon](%开集族%,Set.Subset[infix](,$\\mathcal{C}$,τ@Topology.ctxt.tau)),member[colon](%覆盖性%,Set.Subset[infix](,A,setOf[typedBuilder](@x,T@Fulcrum.SetTheory.T,Logic.exists-typed(@U,Set[text](T@Fulcrum.SetTheory.T),And[authored_Logic_and_infix](Set.Mem[authored](,$\\mathcal{C}$,U),Set.Mem[authored](,U,x)))))))))"
     },
     "contribution_info": null,
     "pointer": null,

@@ -22,6 +22,7 @@ Lean4/
 ├── Basics/
 │   └── term_macros.lean
 ├── Logic/
+│   ├── Logic.lean
 │   └── term_macros.lean
 ├── Functions/
 │   └── term_macros.lean
@@ -38,7 +39,7 @@ Lean4/
 ```
 
 - `Basics` holds elementary material not yet assigned a narrower subject: law-free operation interfaces, primitive operations, elementary types, pairs and projections, numeric conversions and finite index types. Here `[n]` means `Fin n`, with zero-based indices and an empty type at `n = 0`.
-- `Logic` covers logical predicates, decidability, emptiness and uniqueness.
+- `Logic` has a [native declaration companion](Lean4/Logic/Logic.lean) for True/False, negation, conjunction, disjunction, biconditional, existential quantification and equality, including their constructors, fields and recursors. `Prop`, implication and universal quantification are Sort/forall syntax, not invented constants. `Not p` is `p → False`; `Exists` is inductive, with no general data-valued witness projection. The final section shows actual expressions. Lean-core navigation uses the adjacent `#print` bridge, as for the set-theory companion.
 - `Functions` covers function properties, inverses, equivalences, composition, identity and constant functions.
 - `Set Theory` has a [native declaration companion](Lean4/Set%20Theory/SetTheory.lean) for sets, functions, cardinality, relations and orders. Its Entry/constant names follow the pinned Lean declarations, not a separate `Set.def.*` or `Set.map.*` vocabulary. Mathlib Pointers target the original declaration ranges. Machine-specific Lean-core sources use the companion's `#print` navigation bridge: reverse SNL lookup is supported at that bridge, not asserted for arbitrary files in the global toolchain directory. `Fulcrum.BinaryOperation` and the set-function domain/codomain accessors are small local definitions, not purported Mathlib APIs.
 
@@ -46,7 +47,7 @@ Lean4/
 - `Basic Algebra` reuses native algebraic structures. `BasicAlgebra.lean` prints Mathlib's Semigroup rather than redefining it.
 - `Linear Algebra` contains the textbook `Fulcrum.VectorSpace` (only `Add`, `Zero` and `SMul` parents, with all eight laws declared locally), its operation-preserving Mathlib bridges and the finite-family development. The scalar-field binder is written `𝕂` throughout these notes.
 
-All authored `snl_notation` commands belong in the corresponding folder's `term_macros.lean`. Display prose in these Lean macros is English; canonical `.SNL_Doc` prose keeps its existing languages. Existing upstream default styles remain intact; additional `english` styles are named alternatives. Formula templates preserve complete-argument indices, including hidden type/instance operands. Actual infix formulas carry local binding powers.
+All authored `snl_notation` commands belong in the corresponding folder's `term_macros.lean`. Display prose in these Lean macros is English; canonical `.SNL_Doc` prose keeps its existing languages. Existing upstream default styles remain intact; additional `english` styles are named alternatives. Formula templates preserve complete-argument indices, including hidden type/instance operands. Actual infix formulas carry local binding powers. Coverage is checked against the constants, constructor fields and projections in the real declaration trees, not merely whether existing macros render. Function-valued projections retain separate function/applied Styles. The `Quotient.mk'` presentation uses the definitionally equal explicit-setoid constructor view without changing the raw name or arguments; generated proof/matcher internals are not presented as authored terminology.
 
 The import chain is `Basics → Logic → Functions`, then `Basic Algebra` and `Set Theory`, then the linear-algebra terminology and notes. Each arrow means that the later module imports the earlier one. Shared imports avoid duplicate default-style registrations. The library explicitly lists the authored modules; it does not recursively collect the vendored SNL4Lean tree.
 
@@ -77,6 +78,7 @@ lake update
 lake exe cache get
 lake build Lean4.Basics.term_macros
 lake build Lean4.Logic.term_macros
+lake build Lean4.Logic.term_macros_CN
 lake build Lean4.Functions.term_macros
 lake build 'Lean4.«Set Theory».term_macros'
 lake build 'Lean4.«Set Theory».term_macros_CN'
@@ -84,6 +86,7 @@ lake build 'Lean4.«Basic Algebra».term_macros'
 lake build 'Lean4.«Basic Algebra».term_macros_CN'
 lake build 'Lean4.«Linear Algebra».term_macros'
 lake build 'Lean4.«Linear Algebra».term_macros_CN'
+lake env lean -j 2 'Lean4/Logic/Logic.lean'
 lake env lean -j 2 'Lean4/Set Theory/SetTheory.lean'
 lake env lean -j 2 'Lean4/Basic Algebra/BasicAlgebra.lean'
 lake env lean -j 2 'Lean4/Linear Algebra/LinearAlgebra.lean'

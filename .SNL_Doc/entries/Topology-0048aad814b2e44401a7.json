@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def(Topology.limitPoint(x,A),,Logic.forall-typed(@U,Set[text](T@Fulcrum.SetTheory.T),Logic.implies(Topology.deletedNeighborhood(U,x),Neq(Set.inter[authored](,U,A),EmptyCollection.emptyCollection[round](,))))))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def(Topology.limitPoint(x,A),,Logic.forall-typed(@U,Set[text](T@Fulcrum.SetTheory.T),Logic.implies(Topology.deletedNeighborhood(U,x),Ne[authored_Neq_default](,Set.inter[authored](,U,A),EmptyCollection.emptyCollection[round](,))))))"
     },
     "contribution_info": null,
     "pointer": null,

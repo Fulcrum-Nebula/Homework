@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@F,Analysis.PFun),Type.annotation(__list__(@x,@L),Real)),def(Analysis.funLim(F,@y,x,L),,Logic.and(Logic.exists-typed(@delta,Real,Logic.and($#0 > 0$(delta),Set.Subset[infix](,Analysis.nbhDel(x,delta),Analysis.domain(F)))),Logic.forall-typed(@epsilon,Real,Logic.implies($#0 > 0$(epsilon),Logic.exists-typed(@delta,Real,Logic.and($#0 > 0$(delta),Logic.forall-typed(@y,Real,Logic.implies(Set.Mem[authored](,Analysis.nbhDel(x,delta),y),Set.Mem[authored](,Analysis.nbh(L,epsilon),Type.apply(Analysis.map(F),y)))))))))))",
+      "snl": "variable(__list__(Type.annotation(@F,Analysis.PFun),Type.annotation(__list__(@x,@L),Real)),def(Analysis.funLim(F,@y,x,L),,And[authored_Logic_and_infix](Logic.exists-typed(@delta,Real,And[authored_Logic_and_infix]($#0 > 0$(delta),Set.Subset[infix](,Analysis.nbhDel(x,delta),Analysis.domain(F)))),Logic.forall-typed(@epsilon,Real,Logic.implies($#0 > 0$(epsilon),Logic.exists-typed(@delta,Real,And[authored_Logic_and_infix]($#0 > 0$(delta),Logic.forall-typed(@y,Real,Logic.implies(Set.Mem[authored](,Analysis.nbhDel(x,delta),y),Set.Mem[authored](,Analysis.nbh(L,epsilon),Type.apply(Analysis.map(F),y)))))))))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",

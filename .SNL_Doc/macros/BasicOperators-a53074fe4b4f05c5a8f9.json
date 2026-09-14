@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "BasicOperators",
   "macro": {
+    "name": "Add.add",
     "description": "",
     "source": {
       "entries": [
@@ -60,10 +61,17 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "template": {
+          "mode": "formula_inline",
+          "body": "#2 + #3"
+        },
+        "tags": [],
+        "style_name": "default"
       }
     ],
     "dynamic_arity": false,
-    "tags": [],
-    "name": "Add.add"
+    "tags": []
   }
 }

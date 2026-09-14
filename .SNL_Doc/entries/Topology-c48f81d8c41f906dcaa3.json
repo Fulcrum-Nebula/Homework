@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Logic.and(Type.annotation(@E,Set[text](A@Topology.ctxt.AB)),Set.Subset[infix](,E,X@Topology.ctxt.X)),theorem(Logic.iff(Topology.continuousMap(f@Topology.ctxt.f,E,Y@Topology.ctxt.Y),Logic.forall-typed(@V,Set[text](B@Topology.ctxt.AB),Logic.implies(Topology.openSet[text](V,τ_Y@Topology.ctxt.tauY),Topology.openSet[text](Set.preim(f@Topology.ctxt.f,V),τ_X@Topology.ctxt.tauX))))))"
+      "snl": "variable(And[authored_Logic_and_infix](Type.annotation(@E,Set[text](A@Topology.ctxt.AB)),Set.Subset[infix](,E,X@Topology.ctxt.X)),theorem(Iff[authored_Logic_iff_long](Topology.continuousMap(f@Topology.ctxt.f,E,Y@Topology.ctxt.Y),Logic.forall-typed(@V,Set[text](B@Topology.ctxt.AB),Logic.implies(Topology.openSet[text](V,τ_Y@Topology.ctxt.tauY),Topology.openSet[text](Set.preim(f@Topology.ctxt.f,V),τ_X@Topology.ctxt.tauX))))))"
     },
     "contribution_info": null,
     "pointer": null,

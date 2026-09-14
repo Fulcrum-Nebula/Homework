@@ -4,14 +4,14 @@
   "schema_version": 1,
   "package": "Logic",
   "macro": {
-    "description": "Existential quantifier",
+    "description": "Author syntax view ∃ x, P(x): binder/body notation for existential propositions; not the native Exists constant or its full-slot application. No witness projection is asserted.",
     "source": {
       "entries": [
-        "Logic.def.exists"
+        "Exists"
       ],
       "urls": []
     },
-    "kind": "const",
+    "kind": "rule",
     "dynamic_arity": false,
     "styles": [
       {
