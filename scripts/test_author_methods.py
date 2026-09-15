@@ -170,6 +170,16 @@ class AuthorMethodControls:
                     option += 1
         self.assertGreater(church, 0); self.assertGreater(option, 1)
 
+    def test_legal_expression_authored_are_is_survive(self: Any):
+        value = self.get('macro', 'TypeTheory::Syntax.LegalExpr-UTLC')['value']
+        styles = {s['style_name']: s['template'] for s in value['styles']}
+        self.assertEqual(styles['default']['body'], r'\mathcal{E}_{\lambda}^{\checkmark}')
+        for name, en in [('are', '#0 are legal'), ('is', '#0 is legal')]:
+            self.assertEqual(styles[name]['values']['en']['body'], en)
+            self.assertEqual(styles[name]['values']['zh-CN']['body'], r'#0 是合法 $\lambda$-表达式')
+        self.assertEqual(value['source']['entries'], ['Syntax.def.legalExpression-UTLC'])
+        self.assertIn('x_fulcrum_typst', value)
+
     def test_subgroup_authored_text_style_survives(self: Any):
         value = self.get('macro', 'Algebra::Algebra.Subgroup')['value']
         styles = {s['style_name']: s['template'] for s in value['styles']}
