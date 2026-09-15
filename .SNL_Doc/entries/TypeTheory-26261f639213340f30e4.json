@@ -20,8 +20,8 @@
         "type": "i18n",
         "default_language": "en",
         "values": {
-          "en": "If the global signature declares a transparent constant $c$ with definition body $t$, one $\\delta$-step unfolds $c$ to $t$. Opaque constants are not $\\delta$-reduced.",
-          "zh-CN": "若全局签名声明透明常量 $c$ 的定义体为 $t$，则一步 $\\delta$-规约把 $c$ 展开为 $t$。不透明常量不能作 $\\delta$-规约。"
+          "en": "If the global signature declares a transparent constant $c$ with definition body $t$, one $\\delta$-step unfolds $c$ to $t$. Opaque constants are not $\\delta$-reduced.\n\nA $\\delta$ step is available only relative to a definition environment that maps a global name to a body and marks that definition transparent. It replaces that name by the recorded body. The current `Lambda.defeq` constructors do not include $\\delta$; therefore this entry does **not** claim unconditional definitional equality or unfolding of opaque constants.",
+          "zh-CN": "若全局签名声明透明常量 $c$ 的定义体为 $t$，则一步 $\\delta$-规约把 $c$ 展开为 $t$。不透明常量不能作 $\\delta$-规约。\n\n$\\delta$ 步骤仅相对于某个定义环境成立：该环境把全局名称映射到定义体，并把该定义标记为透明。归约把名称替换为所记录的定义体。当前 `Lambda.defeq` 的构造子不含 $\\delta$，故本条目**不**声称不加条件的依定义相等，也不允许展开不透明常量。"
         }
       }
     },

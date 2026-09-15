@@ -1,0 +1,926 @@
+[
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/config.json",
+    "currentPaths": [
+      ".SNL_Doc/config.json"
+    ],
+    "currentIdentities": [
+      "MathematicianTerms"
+    ],
+    "status": "CURRENT_ACTIVE_PACKAGE_TESTED"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/entries/TypeTheory-133e8c9690e63da744cb.json",
+    "oldIdentity": "Type.rl.Expr-LC",
+    "currentIdentities": [
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-d9a1d515c5db5705ce61.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Old raw signature incorrectly admitted fvar into the closed sort. Current separate open extension preserves its constructor; do not reintroduce the contradictory encoding."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+    "oldIdentity": "Type.ppt.delta-reduction",
+    "currentIdentities": [
+      "Type.ppt.delta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json"
+    ],
+    "status": "MISSING_QUALIFICATION_ADDED_FRESH_CAS"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+    "oldIdentity": "Type.def.UTLC-const",
+    "currentIdentities": [
+      "Type.def.UTLC-const"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json"
+    ],
+    "status": "MISSING_QUALIFICATION_ADDED_FRESH_CAS"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+    "oldIdentity": "Type.def.utlc-let-expression",
+    "currentIdentities": [
+      "Type.def.utlc-let-expression"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json"
+    ],
+    "status": "MISSING_QUALIFICATION_ADDED_FRESH_CAS"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+    "oldIdentity": "Type.ppt.zeta-reduction",
+    "currentIdentities": [
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json"
+    ],
+    "status": "MISSING_QUALIFICATION_ADDED_FRESH_CAS"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+    "oldIdentity": "Lambda.def.beta",
+    "currentIdentities": [
+      "Lambda.def.beta"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+    "oldIdentity": "Lambda.def.beta-single",
+    "currentIdentities": [
+      "Lambda.def.beta-single"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/libraries/Type_Theory/graph.json",
+    "currentPaths": [
+      ".SNL_Doc/libraries/Type_Theory/graph.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json"
+    ],
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "status": "CURRENT_CONCEPT_TOPOLOGY_TESTED",
+    "reason": "Iota remains after recursor. Old let/zeta placeholder occurrence is replaced by the two populated UTLC-design children. Beta children retain order. Free-variable children moved to the separate open signature; no resurrection under the closed signature."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/packages/TypeTheory-a7f84e3045f300355f25.json",
+    "currentPaths": [
+      ".SNL_Doc/packages/TypeTheory-a7f84e3045f300355f25.json"
+    ],
+    "currentIdentities": [
+      "TypeTheory"
+    ],
+    "status": "CURRENT_PACKAGE_MEMBERSHIP_VALIDATED",
+    "reason": "Actual current membership contains renamed concepts; no replay of obsolete package index ordering."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": ".SNL_Doc/relationships.json",
+    "currentPaths": [
+      ".SNL_Doc/relationships.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json"
+    ],
+    "status": "GENERATED_EDGES_REVIEWED"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": "scripts/apply_fulcrum_i18n_inductives.py",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": "scripts/fulcrum-entry-packages.json",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": "scripts/fulcrum-i18n-en-zh.json",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": "scripts/fulcrum-inductive-subentries.json",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": "scripts/fulcrum_authority_validation.py",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "working",
+    "path": "scripts/verify_fulcrum_i18n_inductives.py",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/Mathematicians-7746fb20cfb55da2e409.json",
+    "oldIdentity": "Mathematician.Alonzo-Church",
+    "currentIdentities": [
+      "Mathematician.ctxt.alonzoChurch"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-37652177965e74574bc3.json",
+    "oldIdentity": "Type.def.free-variable",
+    "currentIdentities": [
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-5148986c3de23a673077.json",
+    "oldIdentity": "Lambda.def.beta-single.ctor.lambda",
+    "currentIdentities": [
+      "Lambda.def.beta-single.ctor.lambdaCongruence"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-52e0d04f9fd9fb2a50bd.json",
+    "oldIdentity": "Lambda.def.beta-single.ctor.contract",
+    "currentIdentities": [
+      "Lambda.def.beta-single.ctor.betaContraction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-8457b2a453881b0eb848.json",
+    "oldIdentity": "Lambda.def.beta-single.ctor.app-left",
+    "currentIdentities": [
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-91164a22655b1c2b50b4.json",
+    "oldIdentity": "Lambda.def.beta-single.ctor.app-right",
+    "currentIdentities": [
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Reviewed whole current bilingual body or constructor formula, not ancestry: current variable/theorem wrappers, Syntax constructors, beta relation and substitution implement this concept."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-9f15093ccd49202939a9.json",
+    "oldIdentity": "Type.rmk.closed-expression",
+    "currentIdentities": [
+      "Syntax.rmk.closedExpression-UTLC"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json"
+    ],
+    "status": "MISSING_QUALIFICATION_ADDED_FRESH_CAS"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-ade1cad5a870e786703e.json",
+    "oldIdentity": "Type.rmk.free-variable-open-expression",
+    "currentIdentities": [
+      "Syntax.rmk.freeVariableOpenExpression-UTLC"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json"
+    ],
+    "status": "MISSING_QUALIFICATION_ADDED_FRESH_CAS"
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+    "oldIdentity": "Lambda.def.beta-single.recursor",
+    "currentIdentities": [
+      "Lambda.def.beta-single.recursor"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Both old and current content are empty, not a lost proof; retain placeholder without inventing a recursor or reduction theorem."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/macros/MathematicianTerms-48c483b9b3e720dc7078.json",
+    "oldIdentity": "Mathematician.Alonzo-Church",
+    "currentIdentities": [
+      "Mathematician.alonzoChurch"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/macros/MathematicianTerms-4980e8b6e767a9de4b30.json"
+    ],
+    "status": "CHINESE_NAME_STYLE_ADDED_FRESH_CAS",
+    "reason": "Retained current default style and added the omitted Chinese spelling as zh_CN."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/macros/TypeTheory-3d5952335dd2f47ed280.json",
+    "oldIdentity": "Lambda.OpenExpr",
+    "currentIdentities": [
+      "Syntax.OpenExpr-UTLC"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/macros/TypeTheory-5fb1906c7f502bd3aecd.json"
+    ],
+    "status": "CURRENT_NOTATION_REVIEWED",
+    "reason": "Current const representation replaces retired rule/fvar kind; substitution slots and source identity retained. Open-expression signature replaces the old contradictory closed-sort fvar."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/macros/TypeTheory-67b9a38eb88d1ebcb524.json",
+    "oldIdentity": "Lambda.betaRelation",
+    "currentIdentities": [
+      "Lambda.betaRelation"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/macros/TypeTheory-67b9a38eb88d1ebcb524.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json"
+    ],
+    "status": "CURRENT_NOTATION_REVIEWED",
+    "reason": "Old binary betaRelation is now the relation symbol; Lambda.beta is the binary application renderer. Preserve both roles, not obsolete arity."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/macros/TypeTheory-b94be59fdadd04042b3b.json",
+    "oldIdentity": "Type.Expr-UTLC.fvar",
+    "currentIdentities": [
+      "Syntax.Expr-UTLC.fvar"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/macros/TypeTheory-c3f125eb52315d841422.json"
+    ],
+    "status": "CURRENT_NOTATION_REVIEWED",
+    "reason": "Current const representation replaces retired rule/fvar kind; substitution slots and source identity retained. Open-expression signature replaces the old contradictory closed-sort fvar."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/macros/TypeTheory-ce36e9694e6b2907ff12.json",
+    "oldIdentity": "Relation.transitiveClosure",
+    "currentIdentities": [
+      "Relation.transitiveClosure"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/macros/TypeTheory-ce36e9694e6b2907ff12.json"
+    ],
+    "status": "CURRENT_NOTATION_REVIEWED",
+    "reason": "Current const representation replaces retired rule/fvar kind; substitution slots and source identity retained. Open-expression signature replaces the old contradictory closed-sort fvar."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/macros/TypeTheory-e34a59c6b65ee47a4798.json",
+    "oldIdentity": "Lambda.substitution",
+    "currentIdentities": [
+      "Syntax.substitution-UTLC"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/macros/TypeTheory-65824c00cedb248a2e44.json"
+    ],
+    "status": "CURRENT_NOTATION_REVIEWED",
+    "reason": "Current const representation replaces retired rule/fvar kind; substitution slots and source identity retained. Open-expression signature replaces the old contradictory closed-sort fvar."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/packages/MathematicianTerms-d8f81d277bc229c33aea.json",
+    "currentPaths": [
+      ".SNL_Doc/packages/MathematicianTerms-d8f81d277bc229c33aea.json"
+    ],
+    "currentIdentities": [
+      "MathematicianTerms"
+    ],
+    "status": "CURRENT_PACKAGE_MEMBERSHIP_VALIDATED",
+    "reason": "Actual current membership contains renamed concepts; no replay of obsolete package index ordering."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-church-impl-20260819",
+    "layer": "loose",
+    "path": ".SNL_Doc/packages/Mathematicians-1ae4e20f2e80d8a466e3.json",
+    "currentPaths": [
+      ".SNL_Doc/packages/Mathematicians-1ae4e20f2e80d8a466e3.json"
+    ],
+    "currentIdentities": [
+      "Mathematicians"
+    ],
+    "status": "CURRENT_PACKAGE_MEMBERSHIP_VALIDATED",
+    "reason": "Actual current membership contains renamed concepts; no replay of obsolete package index ordering."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-iota-let",
+    "layer": "staged",
+    "path": ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+    "oldIdentity": "Lambda.def.let-zeta",
+    "currentIdentities": [
+      "Lambda.def.let-zeta",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "The staged content is genuinely empty; preserve honest placeholder identity, use the two populated design Entries for the concept and reading order."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-iota-let",
+    "layer": "staged",
+    "path": ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+    "oldIdentity": "Type.def.iota-reduction",
+    "currentIdentities": [
+      "Type.def.iota-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json"
+    ],
+    "status": "CURRENT_CONCEPT_REVIEWED",
+    "reason": "Both old and current content are empty, not a lost proof; retain placeholder without inventing a recursor or reduction theorem."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-iota-let",
+    "layer": "staged",
+    "path": ".SNL_Doc/libraries/Type_Theory/graph.json",
+    "currentPaths": [
+      ".SNL_Doc/libraries/Type_Theory/graph.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json"
+    ],
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "status": "CURRENT_CONCEPT_TOPOLOGY_TESTED",
+    "reason": "Iota remains after recursor. Old let/zeta placeholder occurrence is replaced by the two populated UTLC-design children. Beta children retain order. Free-variable children moved to the separate open signature; no resurrection under the closed signature."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-iota-let",
+    "layer": "staged",
+    "path": ".SNL_Doc/packages/TypeTheory-a7f84e3045f300355f25.json",
+    "currentPaths": [
+      ".SNL_Doc/packages/TypeTheory-a7f84e3045f300355f25.json"
+    ],
+    "currentIdentities": [
+      "TypeTheory"
+    ],
+    "status": "CURRENT_PACKAGE_MEMBERSHIP_VALIDATED",
+    "reason": "Actual current membership contains renamed concepts; no replay of obsolete package index ordering."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-iota-let",
+    "layer": "staged",
+    "path": "scripts/fulcrum-inductive-subentries.json",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  },
+  {
+    "oldSource": "/tmp/fulcrum-iota-let",
+    "layer": "staged",
+    "path": "scripts/verify_fulcrum_i18n_inductives.py",
+    "currentIdentities": [
+      "Lambda.def.beta",
+      "Lambda.def.beta-single",
+      "Lambda.def.beta-single.ctor.applicationArgumentCongruence",
+      "Lambda.def.beta-single.ctor.applicationFunctionCongruence",
+      "Lambda.def.beta-single.ctor.betaContraction",
+      "Lambda.def.beta-single.ctor.lambdaCongruence",
+      "Lambda.def.beta-single.recursor",
+      "Lambda.def.let-zeta",
+      "Mathematician.ctxt.alonzoChurch",
+      "Syntax.def.expression-UTLC",
+      "Syntax.def.openExpression-UTLC.ctor.freeVariable",
+      "Syntax.rmk.closedExpression-UTLC",
+      "Syntax.rmk.freeVariableOpenExpression-UTLC",
+      "Type.def.UTLC-const",
+      "Type.def.iota-reduction",
+      "Type.def.utlc-let-expression",
+      "Type.ppt.delta-reduction",
+      "Type.ppt.zeta-reduction"
+    ],
+    "currentPaths": [
+      ".SNL_Doc/entries/Mathematicians-163971116d3557c1f965.json",
+      ".SNL_Doc/entries/TypeTheory-26261f639213340f30e4.json",
+      ".SNL_Doc/entries/TypeTheory-2dd262f0df858418f962.json",
+      ".SNL_Doc/entries/TypeTheory-3a861fda31732ddeb050.json",
+      ".SNL_Doc/entries/TypeTheory-46f4394de27a69251293.json",
+      ".SNL_Doc/entries/TypeTheory-49c34488bac26dcad223.json",
+      ".SNL_Doc/entries/TypeTheory-6d1aaa386502cb7d9683.json",
+      ".SNL_Doc/entries/TypeTheory-7f0dfd5634f59a238dd5.json",
+      ".SNL_Doc/entries/TypeTheory-7f81cb4ffa91986f4994.json",
+      ".SNL_Doc/entries/TypeTheory-bceae0d11f4ca8554602.json",
+      ".SNL_Doc/entries/TypeTheory-bd2b88ea92c8b8c7dba9.json",
+      ".SNL_Doc/entries/TypeTheory-c22805bec985bf0abc9b.json",
+      ".SNL_Doc/entries/TypeTheory-c2d814293ea7a4c4a20c.json",
+      ".SNL_Doc/entries/TypeTheory-c9c04c8414589f287f05.json",
+      ".SNL_Doc/entries/TypeTheory-cc2ba0fc0e079e195c5e.json",
+      ".SNL_Doc/entries/TypeTheory-d2b754b008ffdfee0e3f.json",
+      ".SNL_Doc/entries/TypeTheory-d87f69f185b0e2e8c02d.json",
+      ".SNL_Doc/entries/TypeTheory-da12deb960b7bd6c9143.json",
+      "scripts/test_author_convergence.py",
+      "scripts/test_dangling_author_content.py",
+      "scripts/AUTHOR-CONTENT-REGRESSIONS.md"
+    ],
+    "status": "RETIRED_MIGRATION_REPLACED_BY_CURRENT_CONCEPTS_AND_GATES",
+    "reason": "Only old HEAD-to-layer authored changes are in scope. Plan payloads map to full concept bodies above; strict freshCAS/schema/source/package checks use official Toolkit, and current graph order is asserted by the portable regression. Old schema hashes, fixed entry totals and predecessor allowlists are not current authority."
+  }
+]

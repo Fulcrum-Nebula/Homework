@@ -50,3 +50,76 @@ certify this native result or any browser/runtime-exporter acceptance.
 The Semigroup Entry contains the bilingual research interpretation of the two
 historical probes. Full source/ref/layer dispositions are maintained in the
 private consolidation report, not shipped as raw historical dumps.
+
+
+## Bounded iota/let and Church closure (2026-09-15)
+
+`author_content_targets.json` is consumed by the existing public-control runner.
+It records six captured staged layers from `/tmp/fulcrum-iota-let` and the 17
+working + 17 loose layers from `/tmp/fulcrum-church-impl-20260819`; it is not a
+family-wide retirement certificate. Full source/body and fresh-CAS readbacks
+are in the parent campaign's `Notes-dangling-close` evidence.
+
+- The staged iota and combined let/zeta Entries really had empty bodies. Iota
+  remains after the recursor. The combined placeholder stays honest; the actual
+  let/zeta exposition is in the two populated UTLC-design children, not a
+  restored duplicate graph occurrence.
+- Closed expressions do not acquire `fvar`. The current separate open signature
+  carries the free-variable constructor. Two current remarks now explain the
+  well-scoped/closed distinction and the scope of open-expression recursion.
+- The four beta constructors remain contraction, abstraction congruence,
+  function-position congruence and argument-position congruence. The relation
+  symbol is separate from binary application; multi-step reduction uses strict
+  transitive closure, not a newly asserted reflexive step.
+- Four existing bilingual constant/delta/let/zeta bodies retain their text and
+  now include the donor's missing noncapture, transparency and surface-expansion
+  qualifications. Church's existing biography remains authoritative; its name
+  macro retains its default style and gains the missing Chinese `zh_CN` style.
+- Retired migration scripts' lexical/structural shape selectors, predecessor
+  snapshots, fixed totals and hash writers are not runtime APIs. Their resulting
+  concepts, package activation, source entries, nested graph placement and
+  ordered children are checked by `AuthorSemantics`; schema, fresh/stale CAS,
+  localized/structural styles and reference rejection use `PublicAuthorControls`.
+  No old coordinator is imported or executed.
+
+### Portable declaration and binding audits
+
+Both Toolkit handoff scripts now live in this runner, not just in a checksum
+ledger. `test_author_convergence.py <official snl.mjs>` discovers the installed
+Basics core next to that CLI; `SNL_BASICS_CORE` can select another maintained
+core explicitly. The audit commands themselves are read-only:
+
+```
+node scripts/audit_decl_semantics.mjs input.json census.json /path/to/core.js
+node scripts/audit_binding_semantics.mjs input.json bindings.json /path/to/core.js
+node scripts/audit_binding_semantics.mjs input.json proposal.json /path/to/core.js legacy-proposal
+```
+
+Input contains `entries` and `macros` arrays of entity values (not storage
+wrappers). Output paths are caller-owned evidence files. Identity mode does not
+rename declarations. `legacy-proposal` only evaluates the historical family
+proposal; even a passing comparison is **not** authorization to migrate current
+identities or replay old schema/macros.
+
+Full capability correspondence:
+
+| Donor check | Maintained implementation |
+|---|---|
+| All Entry AST nodes, family name/arity/style and affected Entry census | declaration `walk`, `uses`, `counts` |
+| Parse failures and resolver diagnostic totals | declaration `errors`, `diags` (nonzero exit on errors) |
+| env declarations, explicit binder children, postfix exceptions | declaration `special` |
+| Macro/template strings and non-content Entry metadata | declaration `stringsWalk`, `strings` |
+| Historical declaration family → variable wrapper, opaque/notation styles | binding `trans`, explicit `legacy-proposal` only |
+| Old→new node origin map, env-ID remapping | binding `origins`, `oldToNew`, `env_mode` walk |
+| Binder normalization, serialization/reparse, complete AST equality/diffs | binding `serialTree`, `reparse`, `syntax-roundtrip` |
+| Diagnostic equality and node-kind census/comparison | binding resolver pair, `diagnostics`, `nodeKinds`, `kind` |
+| Local binding targets translated through origin map | binding `tree_path`, `want`, `binding` |
+| External source identity | binding `entry source` comparison |
+| Postfix totals, wrapper/node totals, empty hypotheses, full samples | binding `postfixes`, `wrappers`, `totalNodes`, `emptyH`, `samples` |
+| Continue and retain failures instead of silently skipping Entries | binding per-Entry catch and nonzero exit |
+
+The maintained parser executed both the real current corpus and the real frozen
+historical input: current identity audit covered 480 Entries, 12,809 nodes,
+2,718 local bindings and 1,873 postfixes; the historical proposal covered 439
+Entries and 272 wrappers. Both had zero comparison failures. This is an AST
+and binding audit, not a Lean proof or a runtime-exporter acceptance claim.

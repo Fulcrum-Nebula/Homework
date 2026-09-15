@@ -16,7 +16,15 @@
       }
     },
     "content": {
-      "snl": "Syntax.OneOffI18N.ClosedExpression.GlobalAvailability(Syntax.Expr-UTLC,Syntax.OpenExpr-UTLC,Syntax.Expr-UTLC.fvar[text])"
+      "snl": "Syntax.OneOffI18N.ClosedExpression.GlobalAvailability(Syntax.Expr-UTLC,Syntax.OpenExpr-UTLC,Syntax.Expr-UTLC.fvar[text])",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "The closed signature and the open-expression extension are separate: fvar belongs only to the latter. Globally resolved names are context-independent constants, not free-variable nodes. This project convention is not a substitute for standard closedness: being well-scoped only excludes dangling de Bruijn indices and does not exclude free variables in the open extension.",
+          "zh-CN": "闭表达式签名与开表达式扩展是分开的：fvar 仅属于后者。全局已解析名称是与语境无关的常量，不是自由变量节点。本项目约定不能代替标准闭性：良作用域仅排除悬空的 de Bruijn 指数，并不排除开表达式扩展中的自由变量。"
+        }
+      }
     },
     "contribution_info": null,
     "pointer": null

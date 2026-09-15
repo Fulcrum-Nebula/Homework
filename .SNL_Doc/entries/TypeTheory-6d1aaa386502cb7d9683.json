@@ -20,8 +20,8 @@
         "type": "i18n",
         "default_language": "en",
         "values": {
-          "en": "A local definition `let x := t; u` binds $x$ in $u$ and denotes evaluating $u$ with $t$ substituted for $x$. The substitution is capture-avoiding.",
-          "zh-CN": "局部定义 `let x := t; u` 在 $u$ 中绑定 $x$，其含义是把 $t$ 捕获规避地替换进 $u$ 中 $x$ 的位置后求值。"
+          "en": "A local definition `let x := t; u` binds $x$ in $u$ and denotes evaluating $u$ with $t$ substituted for $x$. The substitution is capture-avoiding.\n\n`let x := s; t` is presentation syntax, not an additional raw `Syntax.Expr-UTLC` constructor. It expands to the application $(\\lambda x.\\,t)\\,s$; binding in the expansion is represented by de Bruijn indices, and the corresponding elimination uses the capture-avoiding substitution defined above.",
+          "zh-CN": "局部定义 `let x := t; u` 在 $u$ 中绑定 $x$，其含义是把 $t$ 捕获规避地替换进 $u$ 中 $x$ 的位置后求值。\n\n`let x := s; t` 是展示层语法，并非原始 `Syntax.Expr-UTLC` 的额外构造子。它展开为应用 $(\\lambda x.\\,t)\\,s$；展开式中的绑定由 de Bruijn 指数表示，相应的消去使用上文定义的避免捕获替换。"
         }
       }
     },

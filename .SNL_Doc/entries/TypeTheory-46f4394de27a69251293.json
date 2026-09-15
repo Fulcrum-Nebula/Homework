@@ -20,8 +20,8 @@
         "type": "i18n",
         "default_language": "en",
         "values": {
-          "en": "A constant is a globally named closed expression. A global signature records its name, definition body, and whether that body is transparent. Unlike a free variable, a constant does not require a local free-variable assignment.",
-          "zh-CN": "常量是在全局语境中具名的闭表达式。全局签名记录其名称、定义体以及该定义体是否透明。常量不同于自由变量，不需要局部的自由变量赋值。"
+          "en": "A constant is a globally named closed expression. A global signature records its name, definition body, and whether that body is transparent. Unlike a free variable, a constant does not require a local free-variable assignment.\n\nA global signature may assign a name to a context-independent expression. In this project such resolved names are treated as closed constants; they are not the genuine `fvar` constructor and are never captured by a $\\lambda$-binder. This entry introduces only that convention, not an unfolding rule.",
+          "zh-CN": "常量是在全局语境中具名的闭表达式。全局签名记录其名称、定义体以及该定义体是否透明。常量不同于自由变量，不需要局部的自由变量赋值。\n\n全局签名可以把名称指派给一个与局部语境无关的表达式。本项目把这类已解析名称视为闭常量；它们并非真正的 `fvar` 构造子，也不会被 $\\lambda$-绑定子捕获。本条目只约定这种表示，不自行引入展开规则。"
         }
       }
     },

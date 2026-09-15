@@ -20,8 +20,8 @@
         "type": "i18n",
         "default_language": "en",
         "values": {
-          "en": "$\\zeta$-reduction eliminates a local definition: `let x := t; u` reduces in one $\\zeta$-step to `u[x ↦ t]`, using capture-avoiding substitution.",
-          "zh-CN": "$\\zeta$-规约消去局部定义：`let x := t; u` 通过一步 $\\zeta$-规约化为 `u[x ↦ t]`，其中替换采用捕获规避语义。"
+          "en": "$\\zeta$-reduction eliminates a local definition: `let x := t; u` reduces in one $\\zeta$-step to `u[x ↦ t]`, using capture-avoiding substitution.\n\nAfter expanding `let x := s; t` as $(\\lambda x.\\,t)\\,s$, one $\\beta$ contraction yields the capture-avoiding top substitution $t[0\\mapsto s]$. Thus $\\zeta$ is justified here by the surface expansion plus the existing one-step $\\beta$ rule; no separate raw-expression constructor or unsupported equality constructor is asserted.",
+          "zh-CN": "$\\zeta$-规约消去局部定义：`let x := t; u` 通过一步 $\\zeta$-规约化为 `u[x ↦ t]`，其中替换采用捕获规避语义。\n\n把 `let x := s; t` 展开为 $(\\lambda x.\\,t)\\,s$ 后，一次 $\\beta$ 收缩得到避免捕获的顶层替换 $t[0\\mapsto s]$。因此这里的 $\\zeta$ 由表层展开与既有单步 $\\beta$ 规则共同说明；并不假设额外的原始表达式构造子或未经支持的相等构造子。"
         }
       }
     },

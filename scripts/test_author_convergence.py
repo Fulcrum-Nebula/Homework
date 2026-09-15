@@ -12,6 +12,9 @@ import subprocess
 import sys
 import tempfile
 import unittest
+import os
+from test_semantic_audits import SemanticAudits
+from test_dangling_author_content import AuthorSemantics
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CLI = pathlib.Path(sys.argv.pop(1)).resolve() if len(sys.argv) > 1 else None
@@ -112,4 +115,5 @@ class PublicAuthorControls(unittest.TestCase):
 if __name__ == '__main__':
     if CLI is None:
         raise SystemExit('Pass the official Toolkit CLI path')
+    os.environ.setdefault('SNL_BASICS_CORE', str(CLI.parents[2] / 'node_modules/@sjtu-ai4math/snl-basics/dist-lib/core.js'))
     unittest.main()

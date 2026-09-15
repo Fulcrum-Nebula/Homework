@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "MathematicianTerms",
   "macro": {
+    "name": "Mathematician.alonzoChurch",
     "description": "Alonzo Church",
     "source": {
       "entries": [
@@ -37,9 +38,16 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "style_name": "zh_CN",
+        "tags": [],
+        "template": {
+          "mode": "text",
+          "body": "阿隆佐·邱奇"
+        }
       }
     ],
-    "tags": [],
-    "name": "Mathematician.alonzoChurch"
+    "tags": []
   }
 }

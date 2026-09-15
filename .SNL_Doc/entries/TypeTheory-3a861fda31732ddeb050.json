@@ -16,7 +16,15 @@
       }
     },
     "content": {
-      "snl": "Syntax.OneOffI18N.FreeVariable.OpenExpression(Syntax.Expr-UTLC.fvar(@x),Syntax.OpenExpr-UTLC)"
+      "snl": "Syntax.OneOffI18N.FreeVariable.OpenExpression(Syntax.Expr-UTLC.fvar(@x),Syntax.OpenExpr-UTLC)",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "A free-variable node is an object-language node, not a meta-level binder. Bound-index shifting and substitution leave that node unchanged when extended to open expressions. An expression containing one is open even when all its bound indices are well-scoped. The present shift and substitution definitions have the closed signature as their domain; this observation does not silently add fvar to that signature or claim an already implemented open-expression recursion.",
+          "zh-CN": "自由变量节点是对象语言节点，不是元层绑定子。将受束指数位移与替换扩展到开表达式时，该节点保持不变。含有该节点的表达式是开放的，即使其所有受束指数均为良作用域。当前位移与替换定义以闭表达式签名为定义域；这段说明并不暗中向该签名加入 fvar，也不声称已经实现开表达式递归。"
+        }
+      }
     },
     "contribution_info": null,
     "pointer": null
