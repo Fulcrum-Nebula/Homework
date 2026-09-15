@@ -15,7 +15,7 @@ ENV = dict(os.environ, LEAN_PATH=str(BUILD))
 
 
 def lean(path, output=None):
-    command = ["lean", "+" + TOOLCHAIN]
+    command = ["lean", "+" + TOOLCHAIN, "-j2"]
     if output:
         output.parent.mkdir(parents=True, exist_ok=True)
         command += ["-o", str(output)]

@@ -2,6 +2,15 @@ import Convincer
 
 namespace Convincer.Tests
 
+-- Forward port of the ignored DirectProbe: all public constructor spellings
+-- must work without opening the implementation namespace.
+convince qualifiedConstructor : True := Convincer.Convincing.proof True.intro
+convince shortConstructor : True := Convincing.proof True.intro
+convince dottedConstructor : True := .proof True.intro
+example : qualifiedConstructor.evidenceLeaves = [] := rfl
+example : shortConstructor.evidenceLeaves = [] := rfl
+example : dottedConstructor.evidenceLeaves = [] := rfl
+
 def firstSource : String := "first"
 def secondSource : Nat := 37
 

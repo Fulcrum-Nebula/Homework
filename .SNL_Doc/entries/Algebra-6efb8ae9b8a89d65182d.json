@@ -5,7 +5,15 @@
   "package": "Algebra",
   "entry": {
     "content": {
-      "snl": "def[predicateDisplay](Algebra.Semigroup(G@Algebra.ctxt.G,$\\cdot$@Algebra.ctxt.mul),,__enum__[enumerate](member[colon](%Associativity%,Logic.forall-typed[paren](__list__(@x,@y,@z),G@Algebra.ctxt.G,Eq(,Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,Fulcrum.BinaryOperation.apply[paren](,$\\cdot$@Algebra.ctxt.mul,x,y),z),Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,x,Fulcrum.BinaryOperation.apply[paren](,$\\cdot$@Algebra.ctxt.mul,y,z)))))))"
+      "snl": "def[predicateDisplay](Algebra.Semigroup(G@Algebra.ctxt.G,$\\cdot$@Algebra.ctxt.mul),,__enum__[enumerate](member[colon](%Associativity%,Logic.forall-typed[paren](__list__(@x,@y,@z),G@Algebra.ctxt.G,Eq(,Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,Fulcrum.BinaryOperation.apply[paren](,$\\cdot$@Algebra.ctxt.mul,x,y),z),Fulcrum.BinaryOperation.apply[conj](,$\\cdot$@Algebra.ctxt.mul,x,Fulcrum.BinaryOperation.apply[paren](,$\\cdot$@Algebra.ctxt.mul,y,z)))))))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "### 声明导出的诊断边界\n\n这里的半群直接复用 Mathlib 的 `Semigroup` 声明，不另造平行 class。配套 Lean 笔记先执行 `#print Semigroup`，再执行 `#snl_print Semigroup`。\n\n历史 `ProbeSemigroup.lean` 检查完整 `declarationToSnlEntry` JSON；`ProbeHMul.lean` 则递归查看 `declarationTree?` 中的 `HMul.hMul` 节点、它们的 children，以及环境注册的默认模板。二者回答不同问题：声明是否完整，与乘法操作数是否对齐，不能只凭打印出一份 JSON 就判定后者成立。当前目录中的 `SemigroupExportProbe.lean` 合并这两个诊断，并对缺少声明树、乘法节点和模板所引用的孩子缺失直接报错。\n\n当前 Macro 目录的 `Logic::HMul.hMul` 模板使用 `#4`、`#5`，而不是把六个语义参数缩成两个展示参数。展示两个因子不等于原生 AST 只有两个孩子。本文是导出回归的研究注记，不宣称重新导出了本 Entry；其原有 SNL 正文、Pointer 和所有原生字段均保留。运行原生检查需要仓库所固定的 Lean、Mathlib 和 SNL4Lean 依赖；公共 Toolkit 验证与 JSON/CAS 回归并不能替代该编译检查。",
+          "en": "### Declaration-export diagnostic boundary\n\nThis note reuses Mathlib’s `Semigroup`; it does not introduce a parallel class. The companion Lean note pairs `#print Semigroup` with `#snl_print Semigroup`. The historical full-entry JSON probe and the recursive `HMul.hMul`/registered-template probe test different boundaries: declaration completeness and operand alignment. `SemigroupExportProbe.lean` combines them and fails on a missing declaration tree, missing multiplication nodes, or a template operand whose child is absent.\n\nThe current `Logic::HMul.hMul` template selects `#4` and `#5`: displaying two factors does not reduce the native AST to two children. This is a research/regression note, not a fresh native export. Existing SNL, Pointer and native fields are retained. A native run requires the pinned Lean, Mathlib and SNL4Lean dependencies; public Toolkit validation and JSON/CAS tests do not certify native compilation."
+        }
+      }
     },
     "contribution_info": null,
     "id": "Algebra.def.semigroup",
