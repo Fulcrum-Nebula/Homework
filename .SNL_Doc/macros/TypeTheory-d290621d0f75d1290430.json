@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Church.or",
     "description": "Church or — λp q. p p q",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Church.or"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Church_or_6366d72530",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Church_or_6366d72530 = (children, style: none) => optionLink(\"Church.or\", snl-render-macro-template(\"TypeTheory\", \"Church.or\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Church_or_6366d72530 = (children, style: none) => optionLink(\"Church.or\", snl-render-macro-template(\"TypeTheory\", \"Church.or\", children, style: style))"
+        }
+      }
+    }
   }
 }

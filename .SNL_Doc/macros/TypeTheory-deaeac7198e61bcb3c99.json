@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Type",
     "description": "",
     "source": {
       "entries": [
@@ -64,6 +65,16 @@
       }
     ],
     "tags": [],
-    "name": "Type"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_2e870332ab",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_2e870332ab = (children, style: none) => optionLink(\"Type\", snl-render-macro-template(\"TypeTheory\", \"Type\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_2e870332ab = (children, style: none) => optionLink(\"Type\", snl-render-macro-template(\"TypeTheory\", \"Type\", children, style: style))"
+        }
+      }
+    }
   }
 }

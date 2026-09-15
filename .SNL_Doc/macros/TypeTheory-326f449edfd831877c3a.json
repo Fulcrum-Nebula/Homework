@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Church.Nat",
     "description": "",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Church.Nat"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Church_Nat_57bc70ed8f",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Church_Nat_57bc70ed8f = (children, style: none) => optionLink(\"Church.Nat\", snl-render-macro-template(\"TypeTheory\", \"Church.Nat\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Church_Nat_57bc70ed8f = (children, style: none) => optionLink(\"Church.Nat\", snl-render-macro-template(\"TypeTheory\", \"Church.Nat\", children, style: style))"
+        }
+      }
+    }
   }
 }

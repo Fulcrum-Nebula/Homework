@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Type.Pi",
     "description": "",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
       }
     ],
     "tags": [],
-    "name": "Type.Pi"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_Pi_d4296435e1",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_Pi_d4296435e1 = (children, style: none) => optionLink(\"Type.Pi\", snl-render-macro-template(\"TypeTheory\", \"Type.Pi\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_Pi_d4296435e1 = (children, style: none) => optionLink(\"Type.Pi\", snl-render-macro-template(\"TypeTheory\", \"Type.Pi\", children, style: style))"
+        }
+      }
+    }
   }
 }

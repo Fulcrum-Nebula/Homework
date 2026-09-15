@@ -32,6 +32,17 @@
         }
       }
     ],
-    "tags": []
+    "tags": [],
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Nat_succ_2697d6de94",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Nat_succ_2697d6de94 = (children, style: none) => optionLink(\"Nat.succ\", snl-render-macro-template(\"TypeTheory\", \"Nat.succ\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Nat_succ_2697d6de94 = (children, style: none) => optionLink(\"Nat.succ\", snl-render-macro-template(\"TypeTheory\", \"Nat.succ\", children, style: style))"
+        }
+      }
+    }
   }
 }

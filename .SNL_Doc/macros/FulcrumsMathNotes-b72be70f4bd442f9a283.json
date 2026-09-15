@@ -402,6 +402,17 @@
         "style_name": "prop"
       }
     ],
-    "tags": []
+    "tags": [],
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_FulcrumsMathNotes_def_6ab4e1d4c6",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_FulcrumsMathNotes_def_6ab4e1d4c6 = (children, style: none) => optionLink(\"def\", snl-render-macro-template(\"FulcrumsMathNotes\", \"def\", children, style: style))",
+          "en": "#let snl_macro_FulcrumsMathNotes_def_6ab4e1d4c6 = (children, style: none) => optionLink(\"def\", snl-render-macro-template(\"FulcrumsMathNotes\", \"def\", children, style: style))"
+        }
+      }
+    }
   }
 }

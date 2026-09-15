@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Church.not",
     "description": "Church not — λp x y. p y x",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Church.not"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Church_not_cce31414cd",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Church_not_cce31414cd = (children, style: none) => optionLink(\"Church.not\", snl-render-macro-template(\"TypeTheory\", \"Church.not\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Church_not_cce31414cd = (children, style: none) => optionLink(\"Church.not\", snl-render-macro-template(\"TypeTheory\", \"Church.not\", children, style: style))"
+        }
+      }
+    }
   }
 }

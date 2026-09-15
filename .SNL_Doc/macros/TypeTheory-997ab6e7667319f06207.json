@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Lambda.defeq.eta",
     "description": "",
     "source": {
       "entries": [
@@ -66,6 +67,16 @@
       }
     ],
     "tags": [],
-    "name": "Lambda.defeq.eta"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_defeq_eta_af5e7a1de2",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_defeq_eta_af5e7a1de2 = (children, style: none) => optionLink(\"Lambda.defeq.eta\", snl-render-macro-template(\"TypeTheory\", \"Lambda.defeq.eta\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_defeq_eta_af5e7a1de2 = (children, style: none) => optionLink(\"Lambda.defeq.eta\", snl-render-macro-template(\"TypeTheory\", \"Lambda.defeq.eta\", children, style: style))"
+        }
+      }
+    }
   }
 }

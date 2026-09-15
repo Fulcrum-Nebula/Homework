@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "Logic",
   "macro": {
+    "name": "Logic.forall-typed",
     "description": "Author syntax view ∀ x : T, P(x): dependent-function/Pi notation with binder, domain, body slots; not a Lean native constant.",
     "source": {
       "entries": [
@@ -88,6 +89,16 @@
       }
     ],
     "tags": [],
-    "name": "Logic.forall-typed"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_Logic_Logic_forall_typed_fb75c8f0b2",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_Logic_Logic_forall_typed_fb75c8f0b2 = (children, style: none) => optionLink(\"Logic.forall-typed\", snl-render-macro-template(\"Logic\", \"Logic.forall-typed\", children, style: style))",
+          "en": "#let snl_macro_Logic_Logic_forall_typed_fb75c8f0b2 = (children, style: none) => optionLink(\"Logic.forall-typed\", snl-render-macro-template(\"Logic\", \"Logic.forall-typed\", children, style: style))"
+        }
+      }
+    }
   }
 }

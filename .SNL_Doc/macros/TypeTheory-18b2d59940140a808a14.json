@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Type.judge",
     "description": "",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
       }
     ],
     "tags": [],
-    "name": "Type.judge"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Type_judge_cdeb6698c2",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Type_judge_cdeb6698c2 = (children, style: none) => optionLink(\"Type.judge\", snl-render-macro-template(\"TypeTheory\", \"Type.judge\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Type_judge_cdeb6698c2 = (children, style: none) => optionLink(\"Type.judge\", snl-render-macro-template(\"TypeTheory\", \"Type.judge\", children, style: style))"
+        }
+      }
+    }
   }
 }

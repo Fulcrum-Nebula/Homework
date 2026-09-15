@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Lambda.omega",
     "description": "Omega combinator (little omega) — the self-application combinator",
     "source": {
       "entries": [],
@@ -38,6 +39,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Lambda.omega"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_omega_8559f51f7a",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_omega_8559f51f7a = (children, style: none) => optionLink(\"Lambda.omega\", snl-render-macro-template(\"TypeTheory\", \"Lambda.omega\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_omega_8559f51f7a = (children, style: none) => optionLink(\"Lambda.omega\", snl-render-macro-template(\"TypeTheory\", \"Lambda.omega\", children, style: style))"
+        }
+      }
+    }
   }
 }

@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "MeasureTheory",
   "macro": {
+    "name": "Measure.MeasureSpace",
     "description": "Measure-space predicate",
     "source": {
       "entries": [
@@ -66,6 +67,16 @@
       }
     ],
     "tags": [],
-    "name": "Measure.MeasureSpace"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_MeasureTheory_Measure_MeasureSpace_42e561cc47",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_MeasureTheory_Measure_MeasureSpace_42e561cc47 = (children, style: none) => optionLink(\"Measure.MeasureSpace\", snl-render-macro-template(\"MeasureTheory\", \"Measure.MeasureSpace\", children, style: style))",
+          "en": "#let snl_macro_MeasureTheory_Measure_MeasureSpace_42e561cc47 = (children, style: none) => optionLink(\"Measure.MeasureSpace\", snl-render-macro-template(\"MeasureTheory\", \"Measure.MeasureSpace\", children, style: style))"
+        }
+      }
+    }
   }
 }

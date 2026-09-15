@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "MeasureTheory",
   "macro": {
+    "name": "Measure.Measure",
     "description": "Measure predicate on a sigma-algebra",
     "source": {
       "entries": [
@@ -24,6 +25,16 @@
       }
     ],
     "tags": [],
-    "name": "Measure.Measure"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_MeasureTheory_Measure_Measure_13c87d4b50",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_MeasureTheory_Measure_Measure_13c87d4b50 = (children, style: none) => optionLink(\"Measure.Measure\", snl-render-macro-template(\"MeasureTheory\", \"Measure.Measure\", children, style: style))",
+          "en": "#let snl_macro_MeasureTheory_Measure_Measure_13c87d4b50 = (children, style: none) => optionLink(\"Measure.Measure\", snl-render-macro-template(\"MeasureTheory\", \"Measure.Measure\", children, style: style))"
+        }
+      }
+    }
   }
 }

@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "MeasureTheory",
   "macro": {
+    "name": "Measure.SigmaAlgebra",
     "description": "Sigma-algebra predicate",
     "source": {
       "entries": [
@@ -24,6 +25,16 @@
       }
     ],
     "tags": [],
-    "name": "Measure.SigmaAlgebra"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_MeasureTheory_Measure_SigmaAlgebra_8213492a89",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_MeasureTheory_Measure_SigmaAlgebra_8213492a89 = (children, style: none) => optionLink(\"Measure.SigmaAlgebra\", snl-render-macro-template(\"MeasureTheory\", \"Measure.SigmaAlgebra\", children, style: style))",
+          "en": "#let snl_macro_MeasureTheory_Measure_SigmaAlgebra_8213492a89 = (children, style: none) => optionLink(\"Measure.SigmaAlgebra\", snl-render-macro-template(\"MeasureTheory\", \"Measure.SigmaAlgebra\", children, style: style))"
+        }
+      }
+    }
   }
 }

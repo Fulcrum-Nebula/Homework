@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Lambda.beta-closure",
     "description": "",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Lambda.beta-closure"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_beta_closure_a8695292ee",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_beta_closure_a8695292ee = (children, style: none) => optionLink(\"Lambda.beta-closure\", snl-render-macro-template(\"TypeTheory\", \"Lambda.beta-closure\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_beta_closure_a8695292ee = (children, style: none) => optionLink(\"Lambda.beta-closure\", snl-render-macro-template(\"TypeTheory\", \"Lambda.beta-closure\", children, style: style))"
+        }
+      }
+    }
   }
 }

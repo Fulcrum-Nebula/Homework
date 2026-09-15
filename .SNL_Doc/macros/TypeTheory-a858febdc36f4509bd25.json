@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Church.false",
     "description": "Church boolean false — λx y. y",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Church.false"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Church_false_94f21606c6",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Church_false_94f21606c6 = (children, style: none) => optionLink(\"Church.false\", snl-render-macro-template(\"TypeTheory\", \"Church.false\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Church_false_94f21606c6 = (children, style: none) => optionLink(\"Church.false\", snl-render-macro-template(\"TypeTheory\", \"Church.false\", children, style: style))"
+        }
+      }
+    }
   }
 }

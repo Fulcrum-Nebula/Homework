@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Lambda.iota",
     "description": "Iota combinator — the one-combinator basis for SKI",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Lambda.iota"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Lambda_iota_236fbeb4c2",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Lambda_iota_236fbeb4c2 = (children, style: none) => optionLink(\"Lambda.iota\", snl-render-macro-template(\"TypeTheory\", \"Lambda.iota\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Lambda_iota_236fbeb4c2 = (children, style: none) => optionLink(\"Lambda.iota\", snl-render-macro-template(\"TypeTheory\", \"Lambda.iota\", children, style: style))"
+        }
+      }
+    }
   }
 }

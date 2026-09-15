@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Church.mul",
     "description": "Church multiplication — λm n f. m (n f)",
     "source": {
       "entries": [
@@ -40,6 +41,16 @@
     ],
     "tags": [],
     "kind": "const",
-    "name": "Church.mul"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Church_mul_60300d6472",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Church_mul_60300d6472 = (children, style: none) => optionLink(\"Church.mul\", snl-render-macro-template(\"TypeTheory\", \"Church.mul\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Church_mul_60300d6472 = (children, style: none) => optionLink(\"Church.mul\", snl-render-macro-template(\"TypeTheory\", \"Church.mul\", children, style: style))"
+        }
+      }
+    }
   }
 }
