@@ -10,7 +10,8 @@
       "type": "i18n",
       "default_language": "zh-CN",
       "values": {
-        "zh-CN": "分离性质"
+        "zh-CN": "分离性质",
+        "en": "Separation Axioms"
       }
     },
     "content": {},

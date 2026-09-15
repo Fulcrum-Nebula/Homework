@@ -6,7 +6,14 @@
   "entry": {
     "id": "Set.ext",
     "package": "SetTheory",
-    "title": "Set.ext",
+    "title": {
+      "type": "i18n",
+      "default_language": "zh-CN",
+      "values": {
+        "en": "Set Extensionality",
+        "zh-CN": "集合外延性"
+      }
+    },
     "kind": "thm",
     "content": {
       "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@$a$,Set($α$@#0.0.0)),Type.annotation[default](@$b$,Set($α$@#0.0.0)),Type.annotation[nameless](@$h$,Type.forall[forall](@$x$,$α$@#0.0.0,Iff[default](Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),$a$@#0.1.0,$x$@#0.3.1.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),$b$@#0.2.0,$x$@#0.3.1.0))))),theorem[native_default](Eq(Set($α$@#0.0.0),$a$@#0.1.0,$b$@#0.2.0)))"

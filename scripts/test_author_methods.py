@@ -180,6 +180,39 @@ class AuthorMethodControls:
         self.assertEqual(value['source']['entries'], ['Syntax.def.legalExpression-UTLC'])
         self.assertIn('x_fulcrum_typst', value)
 
+    def test_restored_author_titles_preserve_native_and_local_context(self: Any):
+        ext = self.get('entry', 'Set.ext')['value']
+        self.assertEqual(ext['title'], {'type': 'i18n', 'default_language': 'zh-CN',
+                         'values': {'en': 'Set Extensionality', 'zh-CN': '集合外延性'}})
+        self.assertEqual(ext['lean']['name'], 'Set.ext')
+        self.assertIn('Membership.mem', ext['content']['snl'])
+        separation = self.get('entry', 'Topology.subsec.separation')['value']
+        self.assertEqual(separation['title']['values'],
+                         {'zh-CN': '分离性质', 'en': 'Separation Axioms'})
+
+    def test_linear_representation_omission_preserves_complete_style(self: Any):
+        # Historical slots (K,V,family,n,index) -> (family,n,index).
+        value = self.get('macro', 'LinearAlgebra::LA.RepresentableByOthers')['value']
+        def template(body):
+            return {'mode': 'text', 'body': body,
+                    'typst': {'built_in': '', 'synthesis': {'mode': 'formula', 'macro': ''}},
+                    'latex': {'built_in': '', 'synthesis': {'mode': 'formula', 'macro': ''}},
+                    'markdown': '', 'text': ''}
+        self.assertEqual(value['styles'], [{'style_name': 'default', 'tags': [],
+            'template': {'type': 'i18n', 'default_language': 'zh-CN', 'values': {
+                'zh-CN': template('#0(#2) 可由删去第 #2 项后的族线性表示'),
+                'en': template('#0(#2) is represented by the family with position #2 removed')}}}])
+
+    def test_cycle_role_and_true_style_preserve_whole_body(self: Any):
+        cycle = self.get('entry', 'Algebra.def.cycle')['value']
+        self.assertEqual(cycle['content']['snl'],
+            'variable(__list__(Type.annotation(@X,Type),Type.annotation(@r,Nat),'
+            'Type.annotation[paren](__list__(@a1,@a2),X)),def(Algebra.Cycle,,True[authored_Logic_true_top]))')
+        truth = self.get('macro', 'SetTheory::True')['value']
+        styles = {s['style_name']: s['template'] for s in truth['styles']}
+        self.assertEqual(styles['default']['body'], r'\top')
+        self.assertEqual(styles['authored_Logic_true_top']['body'], r'\top')
+
     def test_subgroup_authored_text_style_survives(self: Any):
         value = self.get('macro', 'Algebra::Algebra.Subgroup')['value']
         styles = {s['style_name']: s['template'] for s in value['styles']}
