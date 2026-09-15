@@ -131,3 +131,17 @@ Windows 使用 `python Convincer/check.py`。串行检查不下载 Mathlib，产
 
 SNL 收录仍未完成：原始工作区存在集合论条目悬空引用，未改动 `.SNL_Doc`，
 也未补齐本原型的 SNL 条目/Pointer。本分支不是已通过全库收录门禁的发布。
+
+## 条件证明与回退记录
+
+对一个条件论证运行 `#print axioms` 无公理只说明“这个论证数据的构造无公理”，并不说明
+`2 = 1` 成立；必须结合 `#evidence` 看它依赖什么。
+
+混合 `by` 的 effect handler 运行在 Lean 自带的单子化 elaboration/tactic 环境中：
+记录依赖 → 生成暂时的证明洞 → 用普通 tactics 检查推理 → 将所有洞抽象成前提 →
+构造内核复核的条件规则及显式依赖树。journal 存在 Lean 的 metavariable context 中，
+因此随正常的 tactic 回退一起回退，而不是不可回退的全局 `IO.Ref`。
+
+普通 `do` 可以在 `Id`、`StateM`、`IO` 等真正的 Monad 里处理 **论证句柄**，
+再用 `map` / `both` / `mp` 组合；但不能把 `Convincing P` 解包成真正的 `P`。
+完整依赖式 effect/continuation 语义留给后续设计，不在此原型里偷偷近似。
