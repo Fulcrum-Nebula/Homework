@@ -213,6 +213,34 @@ class AuthorMethodControls:
         self.assertEqual(styles['default']['body'], r'\top')
         self.assertEqual(styles['authored_Logic_true_top']['body'], r'\top')
 
+    def test_recovered_sort_locales_do_not_replace_native_styles(self: Any):
+        for identity, en, zh in [('TypeTheory::Type', 'Type', '类型'),
+                                  ('Logic::Proposition', 'Prop', '命题')]:
+            # Proposition ownership is discovered; its syntax view is not a native constant.
+            if en == 'Prop':
+                envelopes = [json.loads(p.read_text()) for p in (self.root / '.SNL_Doc/macros').glob('*.json')]
+                envelope = next(e for e in envelopes if e['macro']['name'] == 'Proposition')
+                identity = envelope['package'] + '::Proposition'
+            value = self.get('macro', identity)['value']
+            styles = {s['style_name']: s['template'] for s in value['styles']}
+            self.assertEqual(styles['authored_localized_text']['values'],
+                {'en': {'mode': 'text', 'body': en}, 'zh-CN': {'mode': 'text', 'body': zh}})
+            self.assertEqual(value['styles'][0]['style_name'], 'text')
+            if en == 'Type':
+                self.assertEqual(styles['univ']['body'], r'\mathrm{Type}_{#0}')
+                self.assertIn('x_fulcrum_typst', value)
+            else:
+                self.assertEqual(styles['text']['body'], 'Prop')
+                self.assertEqual(value['source']['entries'], ['Logic.Proposition'])
+
+    def test_linear_unique_representation_preserves_coefficient_qualification(self: Any):
+        value = self.get('macro', 'LinearAlgebra::LA.UniqueRepresentation')['value']
+        locales = value['styles'][0]['template']['values']
+        self.assertEqual(locales['zh-CN']['body'], '#0 在 #1 中的线性表示系数唯一')
+        self.assertEqual(locales['en']['body'], 'linear representations by #0 in #1 have unique coefficients')
+        self.assertEqual(placeholders(locales['en']['body']), placeholders(locales['zh-CN']['body']))
+        self.assertEqual(value['source']['entries'], ['LinearAlgebra.prop.independentIffUniqueRepresentation'])
+
     def test_subgroup_authored_text_style_survives(self: Any):
         value = self.get('macro', 'Algebra::Algebra.Subgroup')['value']
         styles = {s['style_name']: s['template'] for s in value['styles']}

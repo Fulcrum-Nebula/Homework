@@ -1,9 +1,12 @@
 // Read-only audit: the legacy-proposal mode is research, never migration authority.
 import fs from 'node:fs';
+import path from 'node:path';
 import {isDeepStrictEqual} from 'node:util';
 import {pathToFileURL} from 'node:url';
 const [input, output, core, mode='identity'] = process.argv.slice(2);
 if (!input || !output || !core || !['identity','legacy-proposal'].includes(mode)) throw new Error('Usage: input.json output.json /maintained/Basics/dist-lib/core.js [identity|legacy-proposal]');
+const destination=fs.existsSync(output)?fs.realpathSync(output):path.join(fs.realpathSync(path.dirname(path.resolve(output))),path.basename(output));
+if(destination.split(path.sep).includes('.SNL_Doc')||[input,core].some(p=>fs.realpathSync(p)===destination||(fs.existsSync(output)&&fs.statSync(p).dev===fs.statSync(output).dev&&fs.statSync(p).ino===fs.statSync(output).ino)))throw new Error('Audit output must not overwrite input, parser, or canonical SNL data');
 const {parseSnlSyntaxTree:parse,resolveSnlSemantics:resolve,serializeSnlSyntaxTree:serialize}=await import(pathToFileURL(core).href);
 const data=JSON.parse(fs.readFileSync(input,'utf8'));
 const oldCat=Object.fromEntries(data.macros.map(m=>[m.name,m]));
@@ -14,7 +17,7 @@ const rename={'def-inductive':'inductive','def-struct':'structure','def-notation
 if(mode==='identity'){newCat=oldCat;for(const k of Object.keys(family))delete family[k];for(const k of Object.keys(rename))delete rename[k];}
 function walk(n,f,p=[]){f(n,p);n.children.forEach((c,i)=>walk(c,f,[...p,i]));}
 function at(t,p){return p.reduce((t,i)=>t.children[i],t)}
-let checked=0,transformed=0,totalNodes=0,bindings=0,postfixes=0,wrappers=0;const failures=[],samples=[],nodeKinds={},emptyH=[];
+let checked=0,transformed=0,totalNodes=0,bindings=0,postfixes=0,wrappers=0;const failures=[],samples=[],nodeKinds={},emptyH=[],witnesses=[];
 for(const e of data.entries){const text=e.content?.snl;if(typeof text!=='string'||!text.trim())continue;checked++;
 try {
 const before=parse(text),origins=new WeakMap(),oldToNew=new Map(); let changes=0;
@@ -26,11 +29,23 @@ const serialTree=structuredClone(after);walk(serialTree,n=>{if(n.binder_explicit
 if(!isDeepStrictEqual(after,reparse)){const diffs=[];function diff(x,y,p=[]){if(isDeepStrictEqual(x,y))return;if(x&&y&&typeof x==='object'&&typeof y==='object'){for(const k of new Set([...Object.keys(x),...Object.keys(y)]))diff(x[k],y[k],[...p,k]);}else diffs.push({path:p,before:x,after:y});}diff(after,reparse);failures.push({id:e.id,reason:'syntax-roundtrip',diffs});}
 const a=resolve(before,oldCat),b=resolve(reparse,newCat);
 if(JSON.stringify(a.diagnostics)!==JSON.stringify(b.diagnostics))failures.push({id:e.id,reason:'diagnostics',before:a.diagnostics,after:b.diagnostics});
-walk(a.tree,(n,p)=>{totalNodes++;nodeKinds[n.kind]=(nodeKinds[n.kind]||0)+1;const np=oldToNew.get(JSON.stringify(p));const m=at(b.tree,np);if(n.kind!==m.kind)failures.push({id:e.id,p,np,reason:'kind',before:n.kind,after:m.kind});if(n.source){if(n.source.type==='tree_path'){bindings++;const want=oldToNew.get(JSON.stringify(n.source.path));if(JSON.stringify(want)!==JSON.stringify(m.source?.path))failures.push({id:e.id,p,np,reason:'binding',before:n.source,after:m.source,want});}else if(JSON.stringify(n.source)!==JSON.stringify(m.source))failures.push({id:e.id,p,reason:'entry source'});}if(n.postfix)postfixes++;});
+walk(a.tree,(n,p)=>{
+ totalNodes++;nodeKinds[n.kind]=(nodeKinds[n.kind]||0)+1;
+ const np=oldToNew.get(JSON.stringify(p));const m=at(b.tree,np);
+ if(n.kind!==m.kind)failures.push({id:e.id,p,np,reason:'kind',before:n.kind,after:m.kind});
+ const want=n.source?.type==='tree_path'?oldToNew.get(JSON.stringify(n.source.path)):null;
+ if(n.source?.type==='tree_path'){
+  bindings++;
+  if(!want||m.source?.type!=='tree_path'||!isDeepStrictEqual(want,m.source.path))failures.push({id:e.id,p,np,reason:'binding',before:n.source,after:m.source,want});
+ }else if(!isDeepStrictEqual(n.source,m.source))failures.push({id:e.id,p,np,reason:'entry source',before:n.source??null,after:m.source??null});
+ if(n.postfix)postfixes++;
+ if(!isDeepStrictEqual(n.postfix,m.postfix))failures.push({id:e.id,p,np,reason:'postfix',before:n.postfix??null,after:m.postfix??null});
+ witnesses.push({id:e.id,path:p,mappedPath:np,kind:n.kind,source:n.source??null,mappedSource:m.source??null,expectedBindingPath:want,postfix:n.postfix??null,mappedPostfix:m.postfix??null});
+});
 if(changes&&samples.length<4)samples.push({id:e.id,before:text,after:serialize(after)});
-} catch(error) {failures.push({id:e.id,reason:'entry-exception',error:String(error),original:text});}
+} catch(error) {failures.push({id:e.id,reason:'entry-exception',error:String(error),stack:error?.stack??null,original:text});}
 }
 console.log(JSON.stringify({checked,transformed,totalNodes,bindings,postfixes,wrappers,nodeKinds,emptyH,failures,samples:samples.map(s=>({id:s.id,before:s.before.slice(0,240),after:s.after.slice(0,240)}))},null,2));
-fs.writeFileSync(output,JSON.stringify({checked,transformed,totalNodes,bindings,postfixes,wrappers,nodeKinds,emptyH,failures,samples},null,2));
+fs.writeFileSync(output,JSON.stringify({checked,transformed,totalNodes,bindings,postfixes,wrappers,nodeKinds,emptyH,failures,samples,witnesses},null,2));
 
 if(failures.length) process.exitCode=1;

@@ -62,6 +62,24 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "style_name": "authored_localized_text",
+        "tags": [],
+        "template": {
+          "type": "i18n",
+          "default_language": "zh-CN",
+          "values": {
+            "en": {
+              "mode": "text",
+              "body": "Type"
+            },
+            "zh-CN": {
+              "mode": "text",
+              "body": "类型"
+            }
+          }
+        }
       }
     ],
     "tags": [],

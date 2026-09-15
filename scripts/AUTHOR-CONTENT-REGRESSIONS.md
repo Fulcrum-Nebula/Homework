@@ -124,6 +124,45 @@ historical input: current identity audit covered 480 Entries, 12,809 nodes,
 Entries and 272 wrappers. Both had zero comparison failures. This is an AST
 and binding audit, not a Lean proof or a runtime-exporter acceptance claim.
 
+## Resumed lexical and audit-oracle integration (2026-09-15)
+
+- `Type` and `Proposition` retain every existing ordered style, universe slot,
+  source edge and Typst declaration. The additive `authored_localized_text` style
+  restores the complete English/Chinese lexical pairs `Type`/`类型` and
+  `Prop`/`命题`; it does not relabel Prop as a native constant or replace the
+  default mathematical rendering.
+- `LA.UniqueRepresentation` now explicitly says **系数唯一** in Chinese, matching
+  both the original author and the maintained English coefficient-uniqueness
+  statement. No old field/vector/family operand convention is restored.
+- Both audit scripts are the maintained recipients of `fulcrum-decl-audit.mjs`
+  (`1a77df7bb51eadcb2ab671297a2f1247da3ebce1454c9149aac6c705c743df0c`) and
+  `fulcrum-binding-audit.mjs`
+  (`1ce57d2c368ade41826aa39186ee9a2ea1a92faa75898219ddc79cc48f46ccf2`).
+  Original algorithms were replayed with only input/output/import plumbing
+  redirected, using the same maintained parser as the recipients. Every key of
+  the complete original result matched on the frozen historical input. This is
+  original-oracle parity, not fresh Lean/native or exporter acceptance.
+- Declaration output additionally retains full per-Entry diagnostics, original
+  failing SNL and exception stacks. Binding output retains every origin/tree-path,
+  source and postfix witness, and full before/after failure values. A new source
+  on a previously unbound node and a changed source type are rejected too.
+- Regression controls use actual Linear Algebra ASTs and five isolated
+  resolver-result mutants (kind, diagnostics, external source, local target,
+  postfix). The parser/resolver implementation and canonical source are not
+  modified by those controls. Input and hardlink aliases, parser overwrites and
+  canonical `.SNL_Doc` output destinations are rejected. These are ordinary
+  read-only audit safeguards, not a concurrent hostile-filesystem transaction API.
+
+The resumed field comparison closes only individually reviewed localized-title,
+lexical and typed-definition presentation rows. The linear comparison closes six
+complete surviving Macro payloads under explicit presentation projections; it
+retains full ordered Style/backend/metadata values and official source-Entry
+readbacks. Nine remaining linear rows (eight Entry bodies/contexts and the old
+`LA.Unique` macro) and unreviewed field/operation rows remain open. In particular,
+shorter titles, old `def-hyp`, implicit legacy operands and old schema wrappers
+are not replacements for current authored bodies. The historical declaration
+family table remains a diagnostic proposal, never canonical migration authority.
+
 ## Retained author-method controls (2026-09-15)
 
 The existing runner now imports `test_author_methods.py` (27 total tests,
