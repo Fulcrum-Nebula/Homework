@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Syntax.Term",
     "description": "",
     "source": {
       "entries": [],
@@ -64,6 +65,16 @@
       }
     ],
     "tags": [],
-    "name": "Syntax.Term"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Syntax_Term_9d0bdd3986",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Syntax_Term_9d0bdd3986 = (children, style: none) => optionLink(\"Syntax.Term\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Term\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Syntax_Term_9d0bdd3986 = (children, style: none) => optionLink(\"Syntax.Term\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Term\", children, style: style))"
+        }
+      }
+    }
   }
 }

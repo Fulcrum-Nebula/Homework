@@ -75,7 +75,12 @@ class CorpusValidationTests(unittest.TestCase):
     def test_historical_contract_is_explicit_not_silently_filtered(self):
         self.assertEqual(len(bindings.ORIGINAL_CLOSURE), 63)
         self.assertEqual(len(set(bindings.ORIGINAL_CLOSURE) - set(bindings.CLOSURE)), 17)
-        self.assertTrue(set(bindings.CLOSURE) < set(bindings.ORIGINAL_CLOSURE))
+        self.assertEqual(set(bindings.ORIGINAL_CLOSURE),
+                         set(bindings.SURVIVING_CLOSURE) | set(bindings.MIGRATIONS) | set(bindings.RETIRED))
+        self.assertEqual(len(bindings.MIGRATIONS), 13)
+        self.assertEqual(len(bindings.RETIRED), 4)
+        self.assertTrue(set(bindings.RETIRED).isdisjoint(bindings.CLOSURE))
+        self.assertEqual(set(bindings.CLOSURE) - set(bindings.SURVIVING_CLOSURE), set(bindings.MIGRATIONS.values()))
         items = []
         for package, name in bindings.ORIGINAL_CLOSURE:
             extension = bindings.expected_extension(package, name)
@@ -83,11 +88,19 @@ class CorpusValidationTests(unittest.TestCase):
             items.append((package, name, extension))
         bindings.validate_binding_set(items)
 
+    def test_reserved_macro_typst_is_rejected_by_declaration_gate(self):
+        from unittest.mock import patch
+        index = copy.deepcopy(bindings._macro_index(ROOT))
+        index[("Logic", "False")][1]["macro"]["typst"] = {}
+        with patch.object(bindings, "_macro_index", return_value=index):
+            with self.assertRaisesRegex(bindings.ValidationError, "reserved Macro-level typst"):
+                bindings.validate_workspace(ROOT)
+
     def test_real_workspace_is_exact_validated_closure(self):
         report = bindings.validate_workspace(ROOT)
-        self.assertEqual(report["macro_count"], 46)
-        self.assertEqual(report["package_count"], 5)
-        self.assertEqual(report["bindings"], 46)
+        self.assertEqual(report["macro_count"], 59)
+        self.assertEqual(report["package_count"], 6)
+        self.assertEqual(report["bindings"], 59)
         self.assertEqual(report["duplicate_bindings"], [])
         self.assertEqual(report["identity_errors"], [])
 

@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Syntax.Expr",
     "description": "",
     "source": {
       "entries": [],
@@ -88,6 +89,16 @@
       }
     ],
     "tags": [],
-    "name": "Syntax.Expr"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Syntax_Expr_a75e97d944",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Syntax_Expr_a75e97d944 = (children, style: none) => optionLink(\"Syntax.Expr\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Syntax_Expr_a75e97d944 = (children, style: none) => optionLink(\"Syntax.Expr\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr\", children, style: style))"
+        }
+      }
+    }
   }
 }

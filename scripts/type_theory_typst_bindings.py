@@ -49,6 +49,27 @@ CLOSURE: tuple[tuple[str, str], ...] = (
 ORIGINAL_CLOSURE = CLOSURE
 CLOSURE = (('BasicOperators', 'Nat'), ('BasicOperators', 'parentheses'), ('BasicOperators', 'Eq'), ('FulcrumsMathNotes', 'def'), ('Logic', 'Logic.forall-typed'), ('Logic', 'Eq.refl'), ('Logic', 'Logic.forall'), ('MeasureTheory', 'Measure.Measure'), ('MeasureTheory', 'Measure.MeasureSpace'), ('MeasureTheory', 'Measure.SigmaAlgebra'), ('TypeTheory', 'deBruijnIndex'), ('TypeTheory', 'Type.judge'), ('TypeTheory', 'Lambda.beta'), ('TypeTheory', 'Type.to'), ('TypeTheory', 'Church.and'), ('TypeTheory', 'Church.Nat'), ('TypeTheory', 'Nat.succ'), ('TypeTheory', 'Lambda.Omega'), ('TypeTheory', 'Lambda.omega'), ('TypeTheory', 'Lambda.S'), ('TypeTheory', 'Lambda.defeq.trans'), ('TypeTheory', 'Type.Pi'), ('TypeTheory', 'Church.add'), ('TypeTheory', 'Church.true'), ('TypeTheory', 'Lambda.defeq.eta'), ('TypeTheory', 'Lambda.eta'), ('TypeTheory', 'Type.apply'), ('TypeTheory', 'Lambda.I'), ('TypeTheory', 'Church.not'), ('TypeTheory', 'Church.false'), ('TypeTheory', 'Lambda.defeq.app-cong'), ('TypeTheory', 'Lambda.K'), ('TypeTheory', 'Lambda.defeq'), ('TypeTheory', 'Lambda.defeq.beta'), ('TypeTheory', 'Lambda.defeq.lam-cong'), ('TypeTheory', 'Church.or'), ('TypeTheory', 'Church.mul'), ('TypeTheory', 'Lambda.defeq.symm'), ('TypeTheory', 'cases'), ('TypeTheory', 'match'), ('TypeTheory', 'Lambda.defeq.refl'), ('TypeTheory', 'Type'), ('TypeTheory', 'Church.succ'), ('TypeTheory', 'Lambda.beta-closure'), ('TypeTheory', 'ctors'), ('TypeTheory', 'Lambda.iota'))
 
+# Explicitly reviewed identity migrations; not a name-similarity fallback.
+SURVIVING_CLOSURE = CLOSURE
+MIGRATIONS = {
+    ('FulcrumsMathNotes', 'def-inductive'): ('FulcrumsMathNotes', 'inductive'),
+    ('FulcrumsMathNotes', 'list-partial'): ('FulcrumsMathNotes', '__list__'),
+    ('Logic', 'Logic.false'): ('Logic', 'False'),
+    ('Logic', 'Logic.and'): ('SetTheory', 'And'),
+    ('SetTheory', 'Set.sep-typed'): ('SetTheory', 'setOf'),
+    ('TypeTheory', 'Type.Term'): ('TypeTheory', 'Syntax.Term'),
+    ('TypeTheory', 'Type.Expr'): ('TypeTheory', 'Syntax.Expr'),
+    ('TypeTheory', 'Lambda.Expr'): ('TypeTheory', 'Syntax.Expr-UTLC'),
+    ('TypeTheory', 'Lambda.LegalExpr'): ('TypeTheory', 'Syntax.LegalExpr-UTLC'),
+    ('TypeTheory', 'Lambda.apply'): ('TypeTheory', 'Syntax.apply-UTLC'),
+    ('TypeTheory', 'Type.Expr-UTLC.apply'): ('TypeTheory', 'Syntax.Expr-UTLC.apply'),
+    ('TypeTheory', 'Type.Expr-UTLC.bvar'): ('TypeTheory', 'Syntax.Expr-UTLC.bvar'),
+    ('TypeTheory', 'Type.Expr-UTLC.lambda'): ('TypeTheory', 'Syntax.Expr-UTLC.lambda'),
+}
+RETIRED = tuple(('FulcrumsMathNotes', name) for name in
+                ('def-hyp', 'thm-hyp', 'def-inductive-hyp', 'def-hyp-opq'))
+CLOSURE = SURVIVING_CLOSURE + tuple(MIGRATIONS.values())
+
 # These are the established labels in Mathematics/03-TypeTheory/export.typ.
 TARGET_OVERRIDES = {
     ("BasicOperators", "Nat"): "NaturalNumber",
@@ -185,8 +206,8 @@ def validate_workspace(root: Path | str) -> dict[str, Any]:
     root = Path(root)
     index = _macro_index(root)
     wanted = set(CLOSURE)
-    if len(CLOSURE) != 46 or len(wanted) != 46:
-        raise ValidationError("current subset must contain exactly 46 unique Macro identities")
+    if len(CLOSURE) != 59 or len(wanted) != 59:
+        raise ValidationError("reviewed closure must contain exactly 59 unique Macro identities")
     missing = sorted(wanted - set(index))
     if missing:
         raise ValidationError(f"missing closure Macros: {missing}")
@@ -200,6 +221,8 @@ def validate_workspace(root: Path | str) -> dict[str, Any]:
         if envelope.get("format") != "snl-macro" or envelope.get("version") != 1 or envelope.get("package") != package:
             raise ValidationError(f"invalid Macro envelope for {_logical_key(package, name)}")
         macro = _require_dict(envelope.get("macro"), "macro")
+        if "typst" in macro:
+            raise ValidationError("reserved Macro-level typst key: use x_fulcrum_typst")
         validate_extension(package, name, macro.get(EXTENSION_KEY))
         items.append((package, name, macro[EXTENSION_KEY]))
     validate_binding_set(items)

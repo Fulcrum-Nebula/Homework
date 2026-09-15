@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Syntax.Expr-UTLC.apply",
     "description": "Untyped lambda application",
     "source": {
       "entries": [
@@ -90,6 +91,16 @@
       }
     ],
     "tags": [],
-    "name": "Syntax.Expr-UTLC.apply"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Syntax_Expr_UTLC_apply_5d3a9fc371",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Syntax_Expr_UTLC_apply_5d3a9fc371 = (children, style: none) => optionLink(\"Syntax.Expr-UTLC.apply\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr-UTLC.apply\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Syntax_Expr_UTLC_apply_5d3a9fc371 = (children, style: none) => optionLink(\"Syntax.Expr-UTLC.apply\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr-UTLC.apply\", children, style: style))"
+        }
+      }
+    }
   }
 }

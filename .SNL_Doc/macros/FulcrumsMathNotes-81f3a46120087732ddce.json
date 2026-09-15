@@ -150,6 +150,17 @@
         "style_name": "native_prop"
       }
     ],
-    "tags": []
+    "tags": [],
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_FulcrumsMathNotes_inductive_8b78f85307",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_FulcrumsMathNotes_inductive_8b78f85307 = (children, style: none) => optionLink(\"inductive\", snl-render-macro-template(\"FulcrumsMathNotes\", \"inductive\", children, style: style))",
+          "en": "#let snl_macro_FulcrumsMathNotes_inductive_8b78f85307 = (children, style: none) => optionLink(\"inductive\", snl-render-macro-template(\"FulcrumsMathNotes\", \"inductive\", children, style: style))"
+        }
+      }
+    }
   }
 }

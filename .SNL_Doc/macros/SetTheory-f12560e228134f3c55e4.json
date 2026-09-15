@@ -40,6 +40,17 @@
           "body": "\\left\\{#0:#1\\mid #2\\right\\}"
         }
       }
-    ]
+    ],
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_SetTheory_setOf_28eb92502b",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_SetTheory_setOf_28eb92502b = (children, style: none) => optionLink(\"setOf\", snl-render-macro-template(\"SetTheory\", \"setOf\", children, style: style))",
+          "en": "#let snl_macro_SetTheory_setOf_28eb92502b = (children, style: none) => optionLink(\"setOf\", snl-render-macro-template(\"SetTheory\", \"setOf\", children, style: style))"
+        }
+      }
+    }
   }
 }

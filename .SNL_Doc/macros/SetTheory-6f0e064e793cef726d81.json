@@ -72,6 +72,17 @@
     },
     "kind": "const",
     "dynamic_arity": false,
-    "description": "registered by snl_notation"
+    "description": "registered by snl_notation",
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_SetTheory_And_0d9cb37389",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_SetTheory_And_0d9cb37389 = (children, style: none) => optionLink(\"And\", snl-render-macro-template(\"SetTheory\", \"And\", children, style: style))",
+          "en": "#let snl_macro_SetTheory_And_0d9cb37389 = (children, style: none) => optionLink(\"And\", snl-render-macro-template(\"SetTheory\", \"And\", children, style: style))"
+        }
+      }
+    }
   }
 }

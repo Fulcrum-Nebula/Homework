@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Syntax.Expr-UTLC.lambda",
     "description": "Untyped lambda abstraction",
     "source": {
       "entries": [
@@ -138,6 +139,16 @@
       }
     ],
     "tags": [],
-    "name": "Syntax.Expr-UTLC.lambda"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Syntax_Expr_UTLC_lambda_1ed46df066",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Syntax_Expr_UTLC_lambda_1ed46df066 = (children, style: none) => optionLink(\"Syntax.Expr-UTLC.lambda\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr-UTLC.lambda\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Syntax_Expr_UTLC_lambda_1ed46df066 = (children, style: none) => optionLink(\"Syntax.Expr-UTLC.lambda\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr-UTLC.lambda\", children, style: style))"
+        }
+      }
+    }
   }
 }

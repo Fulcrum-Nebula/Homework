@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "TypeTheory",
   "macro": {
+    "name": "Syntax.Expr-UTLC.bvar",
     "description": "",
     "source": {
       "entries": [
@@ -90,6 +91,16 @@
       }
     ],
     "tags": [],
-    "name": "Syntax.Expr-UTLC.bvar"
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_TypeTheory_Syntax_Expr_UTLC_bvar_914c08094f",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_TypeTheory_Syntax_Expr_UTLC_bvar_914c08094f = (children, style: none) => optionLink(\"Syntax.Expr-UTLC.bvar\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr-UTLC.bvar\", children, style: style))",
+          "en": "#let snl_macro_TypeTheory_Syntax_Expr_UTLC_bvar_914c08094f = (children, style: none) => optionLink(\"Syntax.Expr-UTLC.bvar\", snl-render-macro-template(\"TypeTheory\", \"Syntax.Expr-UTLC.bvar\", children, style: style))"
+        }
+      }
+    }
   }
 }

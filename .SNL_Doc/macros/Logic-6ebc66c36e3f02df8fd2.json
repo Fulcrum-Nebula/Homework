@@ -98,6 +98,17 @@
         "style_name": "default"
       }
     ],
-    "tags": []
+    "tags": [],
+    "x_fulcrum_typst": {
+      "binding": "snl_macro_Logic_False_4f16222339",
+      "declaration": {
+        "type": "i18n",
+        "default_language": "zh-CN",
+        "values": {
+          "zh-CN": "#let snl_macro_Logic_False_4f16222339 = (children, style: none) => optionLink(\"False\", snl-render-macro-template(\"Logic\", \"False\", children, style: style))",
+          "en": "#let snl_macro_Logic_False_4f16222339 = (children, style: none) => optionLink(\"False\", snl-render-macro-template(\"Logic\", \"False\", children, style: style))"
+        }
+      }
+    }
   }
 }
