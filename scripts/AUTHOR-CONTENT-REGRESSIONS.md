@@ -163,6 +163,31 @@ shorter titles, old `def-hyp`, implicit legacy operands and old schema wrappers
 are not replacements for current authored bodies. The historical declaration
 family table remains a diagnostic proposal, never canonical migration authority.
 
+## Declared teaching homes and inductive reading order
+
+`test_concept_ownership.py` retains the original concept declaration table and
+all primary/secondary Library membership assertions. Run it directly with an
+optional workspace-root argument, or with `python3 -m unittest
+scripts.test_concept_ownership`. The table has 13 teaching concepts; secondary
+roles remain explicit applications or syntax variants. Primary is the declared
+teaching home, not an exclusive ownership field in the SNL schema. Additional
+occurrences remain valid. Current identity renames include `Logic.def.eq` → `Eq`
+and the old `Type.rl.Expr-LC/STLC` → `Syntax.def.expression-UTLC/STLC`.
+
+The original ownership loop was replayed against the frozen current data after
+only those identity mappings; all 14 distinct historical concept declarations
+passed. The
+portable checks also remove each declared Entry, Library or occurrence in memory
+to verify detection, reject duplicate declarations/JSON keys and invalid role
+types, and accept unrelated additional occurrences. They never rewrite canonical
+data and do not replace official workspace validation.
+
+The public-Toolkit author runner additionally checks the complete inductive
+example order: W-type, enumeration, naturals, lists, sums, products, unit, void,
+Currying, binary trees, vectors and equality. The recovered Currying placement
+changes only the corresponding branch-edge order, not nodes, counters, metadata
+or any other Library order.
+
 ## Retained author-method controls (2026-09-15)
 
 The existing runner now imports `test_author_methods.py` (27 total tests,

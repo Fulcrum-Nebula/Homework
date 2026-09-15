@@ -51,6 +51,23 @@ class PublicAuthorControls(AuthorMethodControls, unittest.TestCase):
         result = self.cli('validate')
         self.assertFalse(result['ok'], result)
         self.assertEqual(before, digest(self.root / '.SNL_Doc'))
+    def test_inductive_example_reading_order_retains_currying_after_unit_and_void(self):
+        value = self.get('library', 'Type_Theory')['value']
+        graph = value['graph']
+        identities = {n['id']: n.get('props', {}).get('entryId') for n in graph['nodes']}
+        parents = [nid for nid, eid in identities.items() if eid == 'Type.subsec.inductive-types']
+        self.assertEqual(len(parents), 1)
+        children = [identities[e['to']] for e in graph['relationships']
+                    if e['from'] == parents[0] and e['label'] == 'branch']
+        expected = ['Type.def.W', 'Type.def.enum', 'Type.def.nat', 'Type.def.list',
+                    'Type.def.sum', 'Type.def.prod', 'Type.def.unit', 'Type.def.void',
+                    'Type.def.Currying', 'Type.def.bin-tree', 'Type.def.vector', 'Eq']
+        self.assertEqual(children, expected)
+        mutant = list(children)
+        mutant.remove('Type.def.Currying')
+        mutant.insert(mutant.index('Type.def.unit'), 'Type.def.Currying')
+        self.assertNotEqual(mutant, expected)
+
     def test_unknown_entry_field_roundtrip_and_stale_cas(self):
         # file-schema-probe used probe_extension as its whole-file-upgrade sentinel.
         old = self.get('entry', 'Algebra.ctxt.G')
