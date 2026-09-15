@@ -15,6 +15,7 @@ import unittest
 import os
 from test_semantic_audits import SemanticAudits
 from test_dangling_author_content import AuthorSemantics
+from test_author_methods import AuthorMethodControls
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 CLI = pathlib.Path(sys.argv.pop(1)).resolve() if len(sys.argv) > 1 else None
@@ -23,7 +24,7 @@ def digest(root):
     return {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest()
             for p in root.rglob('*') if p.is_file() and p.name != '.data-write.lock'}
 
-class PublicAuthorControls(unittest.TestCase):
+class PublicAuthorControls(AuthorMethodControls, unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(prefix='snl-author-')
         self.root = pathlib.Path(self.temp.name)

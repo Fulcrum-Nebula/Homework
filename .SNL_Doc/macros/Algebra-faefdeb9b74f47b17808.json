@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "Algebra",
   "macro": {
+    "name": "Algebra.Subgroup",
     "description": "Subgroup predicate",
     "source": {
       "entries": [
@@ -38,8 +39,57 @@
           "markdown": "",
           "text": ""
         }
+      },
+      {
+        "style_name": "text",
+        "tags": [],
+        "template": {
+          "type": "i18n",
+          "default_language": "en",
+          "values": {
+            "en": {
+              "mode": "text",
+              "body": "Subgroup",
+              "typst": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "latex": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "markdown": "",
+              "text": ""
+            },
+            "zh-CN": {
+              "mode": "text",
+              "body": "子群",
+              "typst": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "latex": {
+                "built_in": "",
+                "synthesis": {
+                  "mode": "formula",
+                  "macro": ""
+                }
+              },
+              "markdown": "",
+              "text": ""
+            }
+          }
+        }
       }
-    ],
-    "name": "Algebra.Subgroup"
+    ]
   }
 }

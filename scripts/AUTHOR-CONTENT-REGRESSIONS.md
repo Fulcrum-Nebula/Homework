@@ -14,7 +14,7 @@ whole Macro readback including ordered styles/locales/Typst metadata, schema
 markers, retired `partial` kinds, duplicate style names, and dangling endpoints.
 The localized list-separator test reproduces the old migration probe’s actual
 loss of `、`; the maintained catalog keeps it. These are scoped regression
-checks, not a complete replacement for every historical migration test.
+checks; additional exact migration-method controls are documented below.
 
 Native Semigroup diagnostics live beside the relevant Lean note:
 
@@ -123,3 +123,32 @@ historical input: current identity audit covered 480 Entries, 12,809 nodes,
 2,718 local bindings and 1,873 postfixes; the historical proposal covered 439
 Entries and 272 wrappers. Both had zero comparison failures. This is an AST
 and binding audit, not a Lean proof or a runtime-exporter acceptance claim.
+
+## Retained author-method controls (2026-09-15)
+
+The existing runner now imports `test_author_methods.py` (27 total tests,
+including the previous 16). No historical writer is imported or executed.
+
+- `strict_json` rejects duplicate keys, non-finite constants and overflow; it
+  reads current Entry/Macro/Package JSON, not a stored source hash.
+- `placeholders` retains the sorted unique unescaped numbered/star contract;
+  the bilingual non-exhaustive signature has equal slots, with a failing mutant.
+- Public CAS rejects duplicate Library nodes, multi-parent occurrences and
+  invalid style names without changing the value/revision. Boolean envelope
+  versions and missing Library metadata are rejected by current public reads.
+- Independent semantic assertions preserve the limit variable/destination
+  direction, Church's exact parent and each repeated option occurrence's three
+  children. Rewriting an old receipt cannot change these oracles.
+- The read-only tree-manifest helper retains complete directory/file comparison
+  and rejects dangling links and FIFO/special inodes. These checks use a caller's
+  manifest, not a frozen repository hash or a new production transaction writer.
+- The old bilingual `Algebra.Subgroup` lexical output is retained in an additive
+  `text` style via fresh public CAS. The current default predicate rendering and
+  source Entry are unchanged. The test first failed on the missing `text` style.
+
+One-shot localeCompare ordering, raw hash filenames, receipt reconstruction,
+virtual preflight maps and renameat2/lock-token choreography are not public
+interfaces to restore. Current Package canonical ordering, typed CAS/batch
+operations and parser-based references supersede them. An algorithm replacement
+is distinct from certifying every mathematical body/role or historical generator
+output: those exact exceptions remain in the private consolidation evidence.
