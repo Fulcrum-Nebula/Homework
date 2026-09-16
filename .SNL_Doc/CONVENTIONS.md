@@ -63,6 +63,7 @@ macroName := Namespace "." slug ("." qualifier)?
 | `RealAnalysis` | `RealAnalysis` | measure-theoretic real analysis (Lebesgue layer) |
 | `Analysis` | `BasicAnalysis` | elementary real analysis (limits, derivative, Riemann integral) |
 | `FP` | `FunctionalProgramming` | monads, lattices, standard instances |
+| `DG` | `DifferentialGeometry` | space curves, Frenet frame, curvature and torsion, surfaces |
 
 ### Unnamespaced macros
 
