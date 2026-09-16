@@ -6,7 +6,6 @@
   "entry": {
     "id": "DG.def.spaceCurve",
     "kind": "definition",
-    "package": "DifferentialGeometry",
     "title": {
       "type": "i18n",
       "default_language": "en",
@@ -16,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def[prop](DG.def.spaceCurve[text](γ,Icc(a,b)),,__enum__[enumerate](member[colon](DG.SpaceCurve.smoothness[text],ContDiff[text]($\\infty$,γ)),member[colon](DG.SpaceCurve.regularity[text],Logic.forall-typed(@t,Real,Logic.implies(Set.Mem[authored](,Icc(a,b),t),Ne[authored_Neq_default](,Type.apply(Analysis.deriv(γ),t),$0$)))))))",
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@$\\gamma$,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def[prop](DG.def.spaceCurve[text]($\\gamma$,Icc(a,b)),,__enum__[enumerate](member[colon](DG.SpaceCurve.smoothness[text],ContDiff[text]($\\infty$,$\\gamma$)),member[colon](DG.SpaceCurve.regularity[text],Logic.forall-typed(@t,Real,Logic.implies(Set.Mem[authored](,Icc(a,b),t),Ne[authored_Neq_default](,Type.apply(Analysis.deriv($\\gamma$),t),$0$)))))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",
@@ -26,6 +25,8 @@
         }
       }
     },
+    "package": "DifferentialGeometry",
+    "tags": null,
     "contribution_info": null,
     "pointer": null
   }

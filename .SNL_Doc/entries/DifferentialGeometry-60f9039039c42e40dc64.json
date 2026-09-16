@@ -6,7 +6,6 @@
   "entry": {
     "id": "DG.def.arcLengthParam",
     "kind": "definition",
-    "package": "DifferentialGeometry",
     "title": {
       "type": "i18n",
       "default_language": "en",
@@ -16,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$))),Type.annotation(@s,Real),Set.Mem[authored](,Icc(a,b),s)),def(DG.def.arcLengthParam[text](γ,s),,DG.def.arcLengthParam[math](γ,s)))",
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@$\\gamma$,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$))),Type.annotation(@s,Real),Set.Mem[authored](,Icc(a,b),s)),def(DG.def.arcLengthParam[text]($\\gamma$,s),,DG.def.arcLengthParam[math]($\\gamma$,s)))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",
@@ -26,6 +25,8 @@
         }
       }
     },
+    "package": "DifferentialGeometry",
+    "tags": null,
     "contribution_info": null,
     "pointer": null
   }

@@ -6,7 +6,6 @@
   "entry": {
     "id": "DG.thm.frenetSerret",
     "kind": "theorem",
-    "package": "DifferentialGeometry",
     "title": {
       "type": "i18n",
       "default_language": "en",
@@ -16,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),theorem(And[authored_Logic_and_infix](Eq(,Analysis.deriv(DG.def.tangentVector(γ)),LA.Smul(DG.def.curvature(γ),DG.def.principalNormal(γ))),And[authored_Logic_and_infix](Eq(,Analysis.deriv(DG.def.principalNormal(γ)),Sub.sub[infix](LA.Smul(DG.def.curvature(γ),DG.def.tangentVector(γ)),LA.Smul(DG.def.torsion(γ),DG.def.binormal(γ)))),Eq(,Analysis.deriv(DG.def.binormal(γ)),LA.Smul(DG.def.torsion(γ),DG.def.principalNormal(γ)))))))",
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@$\\gamma$,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),theorem(And[authored_Logic_and_infix](Eq(,Analysis.deriv(DG.def.tangentVector($\\gamma$)),LA.Smul(DG.def.curvature($\\gamma$),DG.def.principalNormal($\\gamma$))),And[authored_Logic_and_infix](Eq(,Analysis.deriv(DG.def.principalNormal($\\gamma$)),Sub.sub[infix](LA.Smul(DG.def.curvature($\\gamma$),DG.def.tangentVector($\\gamma$)),LA.Smul(DG.def.torsion($\\gamma$),DG.def.binormal($\\gamma$)))),Eq(,Analysis.deriv(DG.def.binormal($\\gamma$)),LA.Smul(DG.def.torsion($\\gamma$),DG.def.principalNormal($\\gamma$)))))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",
@@ -26,6 +25,8 @@
         }
       }
     },
+    "package": "DifferentialGeometry",
+    "tags": null,
     "contribution_info": null,
     "pointer": null
   }
