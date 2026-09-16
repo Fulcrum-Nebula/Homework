@@ -7,7 +7,7 @@
     "description": "Predicate: f is a continuous map on E",
     "source": {
       "entries": [
-        "Topology.def.continuousMap"
+        "Topology.def.Continuous"
       ],
       "urls": []
     },
@@ -64,6 +64,6 @@
         }
       }
     ],
-    "name": "Topology.continuousMap"
+    "name": "Topology.Continuous"
   }
 }

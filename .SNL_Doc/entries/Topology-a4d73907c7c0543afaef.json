@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Homeomorphic Spaces",
-        "zh-CN": "同胚空间"
+        "en": "Homeomorphic (no Mathlib declaration; written `Nonempty (X ≃ₜ Y)`)",
+        "zh-CN": "同胚空间（Mathlib 无此声明；写作 `Nonempty (X ≃ₜ Y)`）"
       }
     },
     "content": {

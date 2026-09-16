@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Compactness",
-        "zh-CN": "紧性"
+        "en": "Compactness (open-cover form; Mathlib `IsCompact` is filter-based)",
+        "zh-CN": "紧性（开覆盖式；Mathlib 的 `IsCompact` 是滤子式）"
       }
     },
     "content": {

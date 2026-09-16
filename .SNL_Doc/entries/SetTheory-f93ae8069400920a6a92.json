@@ -8,7 +8,7 @@
     "kind": "def",
     "title": "映射的图像",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[default](@$β$,Type.Sort(%u_2+1%)),Type.annotation[default](@$f$,Type.forall[arrow](@$a$,$α$@#0.0.0,$β$@#0.1.0))),def(Function.graph($α$@#0.0.0,$β$@#0.1.0,$f$@#0.2.0),SetRel($α$@#0.0.0,$β$@#0.1.0),setOf[typedBuilder](@$x$,Prod($α$@#0.0.0,$β$@#0.1.0),$\\mathsf{SetRel\\text{\\char\"2e}comp\\text{\\char\"2e}match\\_1}(#0, #1, #2, #3, #4)$($α$@#0.0.0,$β$@#0.1.0,Type.lambda[untyped](@$x\\_1$@x_1,Prod($α$@#0.0.0,$β$@#0.1.0),Type.Sort[prop](%0%)),$x$@#1.2.0,Type.lambda[untyped](@$a$,$α$@#0.0.0,Type.lambda[untyped](@$b$,$β$@#0.1.0,Eq($β$@#0.1.0,Type.app($f$@#0.2.0,__list__[native_formula]($a$@#1.2.2.4.0)),$b$@#1.2.2.4.2.0)))))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[default](@$β$,Type.Sort(%u_2+1%)),Type.annotation[default](@$f$,Type.forall[arrow](@$a$,$α$@#0.0.0,$β$@#0.1.0))),def(Function.graph($α$@#0.0.0,$β$@#0.1.0,$f$@#0.2.0),SetRel($α$@#0.0.0,$β$@#0.1.0),setOf[typedBuilder](@$x$,Prod($α$@#0.0.0,$β$@#0.1.0),$\\mathsf{SetRel\\text{\\char\"2e}comp\\text{\\char\"2e}match\\_1}(#0, #1, #2, #3, #4)$($α$@#0.0.0,$β$@#0.1.0,Type.lambda[untyped](@${x}_{1}$@x₁,Prod($α$@#0.0.0,$β$@#0.1.0),Type.Sort[prop](%0%)),$x$@#1.2.0,Type.lambda[untyped](@$a$,$α$@#0.0.0,Type.lambda[untyped](@$b$,$β$@#0.1.0,Eq($β$@#0.1.0,Type.app($f$@#0.2.0,__list__[native_formula]($a$@#1.2.2.4.0)),$b$@#1.2.2.4.2.0)))))))"
     },
     "package": "SetTheory",
     "contribution_info": null,

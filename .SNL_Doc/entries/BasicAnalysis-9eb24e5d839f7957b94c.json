@@ -15,15 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@f,Type.to(Real,Real)),Type.annotation(@f_1,Type.to(Real,Real)),Type.annotation(@f_2,Type.to(Real,Real)),Type.annotation(__list__(@x_0,@x),Real),Not[authored_Logic_neg_prefix](Eq(,x_0,x)),Analysis.isDeriv(f,f_1),Analysis.isDeriv(f_1,f_2)),theorem(Logic.exists-typed(@xi,Real,And[authored_Logic_and_infix](Set.Mem[authored](,Ioo(min-binary(x_0,x),max-binary(x_0,x)),xi),Eq(,Type.apply(f,x),Add.finite(Type.apply(f,x_0),Mul.mul(Type.apply(f_1,x_0),parentheses(Sub.sub(x,x_0))),Mul.mul(Div.div(Type.apply(f_2,xi),2),Power(parentheses(Sub.sub(x,x_0)),2))))))))",
-      "markdown": {
-        "type": "i18n",
-        "default_language": "en",
-        "values": {
-          "en": "For distinct real points `x₀` and `x`, if `f′` and `f′′` are derivatives of `f` and `f′`, respectively, then the second-order Taylor formula at `x₀` holds at `x` with a Lagrange remainder evaluated at some `ξ` between the two points. The interval is written with `min` and `max`, so the statement handles either endpoint order.",
-          "zh-CN": "对于两个不同的实数点 `x₀` 和 `x`，若 `f′` 和 `f′′` 分别是 `f` 和 `f′` 的导函数，则在 `x₀` 处的二阶泰勒公式在 `x` 处成立，其拉格朗日余项在两点之间的某个 `ξ` 处取值。区间用 `min` 和 `max` 表示，因此该陈述适用于任意端点次序。"
-        }
-      }
+      "snl": "variable(__list__(Type.annotation(@f,Type.to(Real,Real)),Type.annotation(@${f}_{1}$@f₁,Type.to(Real,Real)),Type.annotation(@${f}_{2}$@f₂,Type.to(Real,Real)),Type.annotation(__list__(@${x}_{0}$@x₀,@x),Real),Not[authored_Logic_neg_prefix](Eq(,${x}_{0}$@x₀,x)),Analysis.isDeriv(f,${f}_{1}$@f₁),Analysis.isDeriv(${f}_{1}$@f₁,${f}_{2}$@f₂)),theorem(Logic.exists-typed(@xi,Real,And[authored_Logic_and_infix](Set.Mem[authored](,Ioo(min-binary(${x}_{0}$@x₀,x),max-binary(${x}_{0}$@x₀,x)),xi),Eq(,Type.apply(f,x),Add.finite(Type.apply(f,${x}_{0}$@x₀),Mul.mul(Type.apply(${f}_{1}$@f₁,${x}_{0}$@x₀),parentheses(Sub.sub(x,${x}_{0}$@x₀))),Mul.mul(Div.div(Type.apply(${f}_{2}$@f₂,xi),2),Power(parentheses(Sub.sub(x,${x}_{0}$@x₀)),2))))))))"
     },
     "contribution_info": null,
     "pointer": null,

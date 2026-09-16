@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Path Connectedness",
-        "zh-CN": "道路连通性"
+        "en": "Path Connected (= `IsPathConnected`)",
+        "zh-CN": "道路连通性（= `IsPathConnected`）"
       }
     },
     "content": {

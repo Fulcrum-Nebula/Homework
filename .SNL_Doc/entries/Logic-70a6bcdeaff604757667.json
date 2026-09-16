@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Type.Sort[prop](%0%))),def[prop](Not($a$@#0.0.0),Type.Sort[prop](%0%),Type.forall[forallNameless](@$a\\_1$@a_1,$a$@#0.0.0,False[default])))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$a$,Type.Sort[prop](%0%))),def[prop](Not($a$@#0.0.0),Type.Sort[prop](%0%),Type.forall[forallNameless](@${a}_{1}$@a₁,$a$@#0.0.0,False[default])))"
     },
     "contribution_info": null,
     "pointer": {

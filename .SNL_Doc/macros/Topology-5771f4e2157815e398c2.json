@@ -4,10 +4,10 @@
   "schema_version": 1,
   "package": "Topology",
   "macro": {
-    "description": "Predicate: A is dense in (S, tau)",
+    "description": "Predicate: A is nowhere dense",
     "source": {
       "entries": [
-        "Topology.def.denseSet"
+        "Topology.def.IsNowhereDense"
       ],
       "urls": []
     },
@@ -20,7 +20,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0\\text{ 在 }#1\\text{ 中稠密}",
+          "body": "#0\\text{ 是稀疏集}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.dense"
+    "name": "Topology.IsNowhereDense"
   }
 }

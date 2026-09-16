@@ -4,10 +4,10 @@
   "schema_version": 1,
   "package": "Topology",
   "macro": {
-    "description": "Predicate: (S, tau) is a C2 space",
+    "description": "Predicate: A is dense in (S, tau)",
     "source": {
       "entries": [
-        "Topology.def.C2"
+        "Topology.def.Dense"
       ],
       "urls": []
     },
@@ -20,7 +20,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0\\text{ 是 }C_2\\text{ 空间}",
+          "body": "#0\\text{ 在 }#1\\text{ 中稠密}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.C2"
+    "name": "Topology.Dense"
   }
 }

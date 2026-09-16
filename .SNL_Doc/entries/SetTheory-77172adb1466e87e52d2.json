@@ -8,7 +8,7 @@
     "kind": "def",
     "title": "Fulcrum.BinaryOperation",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%))),def(Fulcrum.BinaryOperation($α$@#0.0.0),Type.Sort(%u+1%),Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$α$@#0.0.0,$α$@#0.0.0))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%))),def(Fulcrum.BinaryOperation($α$@#0.0.0),Type.Sort(%u+1%),Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@${a}_{1}$@a₁,$α$@#0.0.0,$α$@#0.0.0))))"
     },
     "package": "SetTheory",
     "contribution_info": null,

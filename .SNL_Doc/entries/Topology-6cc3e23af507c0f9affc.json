@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Open Cover",
-        "zh-CN": "开覆盖"
+        "en": "Open Cover (no Mathlib constant)",
+        "zh-CN": "开覆盖（Mathlib 无此常量）"
       }
     },
     "content": {

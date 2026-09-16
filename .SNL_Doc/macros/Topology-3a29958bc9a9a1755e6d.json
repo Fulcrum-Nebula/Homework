@@ -4,10 +4,10 @@
   "schema_version": 1,
   "package": "Topology",
   "macro": {
-    "description": "Predicate: A is nowhere dense",
+    "description": "Predicate: (S, tau) is a C1 space",
     "source": {
       "entries": [
-        "Topology.def.nowhereDense"
+        "Topology.def.FirstCountableTopology"
       ],
       "urls": []
     },
@@ -20,7 +20,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0\\text{ 是稀疏集}",
+          "body": "#0\\text{ 是 }C_1\\text{ 空间}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.nowhereDense"
+    "name": "Topology.FirstCountableTopology"
   }
 }

@@ -16,7 +16,7 @@
       }
     },
     "content": {
-      "snl": "Type.forall(@$α$,Type.Sort(%u_1%),Type.forall(@$a$,$α$@#0,Type.forall(@$\\mathsf{motive}$@motive,Type.forall(@$a\\_1$@a_1,$α$@#0,Type.forall[nameless](@$t$,Eq($α$@#0,$a$@#2.0,$a\\_1$@#2.2.1.0),Type.Sort(%u%))),Type.forall[arrow](@$\\mathsf{refl}$@refl,Type.app($\\mathsf{motive}$@#2.2.0,__list__[native_formula]($a$@#2.0,Eq.refl[native_default]($α$@#0,$a$@#2.0))),parentheses[default](Type.forall(@$a\\_1$@a_1,$α$@#0,Type.forall[nameless](@$t$,Eq($α$@#0,$a$@#2.0,$a\\_1$@#2.2.2.2.0.0),Type.app($\\mathsf{motive}$@#2.2.0,__list__[native_formula]($a\\_1$@#2.2.2.2.0.0,$t$@#2.2.2.2.0.2.0)))))))))"
+      "snl": "Type.forall(@$α$,Type.Sort(%u_1%),Type.forall(@$a$,$α$@#0,Type.forall(@$\\mathsf{motive}$@motive,Type.forall(@${a}_{1}$@a₁,$α$@#0,Type.forall[nameless](@$t$,Eq($α$@#0,$a$@#2.0,$a\\_1$@#2.2.1.0),Type.Sort(%u%))),Type.forall[arrow](@$\\mathsf{refl}$@refl,Type.app($\\mathsf{motive}$@#2.2.0,__list__[native_formula]($a$@#2.0,Eq.refl[native_default]($α$@#0,$a$@#2.0))),parentheses[default](Type.forall(@${a}_{1}$@a₁,$α$@#0,Type.forall[nameless](@$t$,Eq($α$@#0,$a$@#2.0,$a\\_1$@#2.2.2.2.0.0),Type.app($\\mathsf{motive}$@#2.2.0,__list__[native_formula]($a\\_1$@#2.2.2.2.0.0,$t$@#2.2.2.2.0.2.0)))))))))"
     },
     "contribution_info": null,
     "pointer": {

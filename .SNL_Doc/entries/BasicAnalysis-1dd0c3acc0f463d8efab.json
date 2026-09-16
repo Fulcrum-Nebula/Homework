@@ -15,15 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@g,Type.to(Real,Real)),Type.annotation(__list__(@x_1,@x_2),Real),Analysis.isContinuousOn(g,Icc(min-binary(x_1,x_2),max-binary(x_1,x_2)))),theorem(Logic.exists-typed(@c,Real,And[authored_Logic_and_infix](Set.Mem[authored](,Icc(min-binary(x_1,x_2),max-binary(x_1,x_2)),c),Eq(,Type.apply(g,c),Div.div(Add.add(Type.apply(g,x_1),Type.apply(g,x_2)),2))))))",
-      "markdown": {
-        "type": "i18n",
-        "default_language": "en",
-        "values": {
-          "en": "A continuous real function assumes the arithmetic mean of its endpoint values at some point between the endpoints.",
-          "zh-CN": "连续实函数在两端点之间的某一点取得其端点函数值的算术平均数。"
-        }
-      }
+      "snl": "variable(__list__(Type.annotation(@g,Type.to(Real,Real)),Type.annotation(__list__(@${x}_{1}$@x₁,@${x}_{2}$@x₂),Real),Analysis.isContinuousOn(g,Icc(min-binary(${x}_{1}$@x₁,${x}_{2}$@x₂),max-binary(${x}_{1}$@x₁,${x}_{2}$@x₂)))),theorem(Logic.exists-typed(@c,Real,And[authored_Logic_and_infix](Set.Mem[authored](,Icc(min-binary(${x}_{1}$@x₁,${x}_{2}$@x₂),max-binary(${x}_{1}$@x₁,${x}_{2}$@x₂)),c),Eq(,Type.apply(g,c),Div.div(Add.add(Type.apply(g,${x}_{1}$@x₁),Type.apply(g,${x}_{2}$@x₂)),2))))))"
     },
     "contribution_info": null,
     "pointer": null,

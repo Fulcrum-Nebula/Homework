@@ -9,7 +9,7 @@
     "kind": "thm",
     "title": "Reverse Implication",
     "content": {
-      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$a$,Type.Sort[prop](%0%)),Type.annotation[default](@$b$,Type.Sort[prop](%0%)),Type.annotation[nameless](@$\\mathsf{self}$@self,Iff[default]($a$@#0.0.0,$b$@#0.1.0)),Type.annotation[nameless](@$a\\_1$@a_1,$b$@#0.1.0)),theorem[native_default]($a$@#0.0.0))"
+      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$a$,Type.Sort[prop](%0%)),Type.annotation[default](@$b$,Type.Sort[prop](%0%)),Type.annotation[nameless](@$\\mathsf{self}$@self,Iff[default]($a$@#0.0.0,$b$@#0.1.0)),Type.annotation[nameless](@${a}_{1}$@a₁,$b$@#0.1.0)),theorem[native_default]($a$@#0.0.0))"
     },
     "contribution_info": null,
     "pointer": {

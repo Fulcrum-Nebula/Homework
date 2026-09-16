@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Sequential Compactness",
-        "zh-CN": "序列紧性"
+        "en": "Sequentially Compact (= `IsSeqCompact`)",
+        "zh-CN": "序列紧性（= `IsSeqCompact`）"
       }
     },
     "content": {

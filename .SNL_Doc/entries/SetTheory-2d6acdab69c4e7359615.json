@@ -8,7 +8,7 @@
     "kind": "def",
     "title": "上界",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def(upperBounds($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0),Set($α$@#0.0.0),setOf[typedBuilder](@$x$,$α$@#0.0.0,Type.forall[forall](@$a$,$α$@#0.0.0,Type.forall[forallNameless](@$a\\_1$@a_1,Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),$s$@#0.2.0,$a$@#1.2.2.0),LE.le($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$a$@#1.2.2.0,$x$@#1.2.0))))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$s$,Set($α$@#0.0.0))),def(upperBounds($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$s$@#0.2.0),Set($α$@#0.0.0),setOf[typedBuilder](@$x$,$α$@#0.0.0,Type.forall[forall](@$a$,$α$@#0.0.0,Type.forall[forallNameless](@${a}_{1}$@a₁,Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),$s$@#0.2.0,$a$@#1.2.2.0),LE.le($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$a$@#1.2.2.0,$x$@#1.2.0))))))"
     },
     "package": "SetTheory",
     "contribution_info": null,

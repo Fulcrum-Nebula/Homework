@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Topological Space",
-        "zh-CN": "拓扑空间"
+        "en": "Topological Space (τ as an explicit object; Mathlib carries it as a class)",
+        "zh-CN": "拓扑空间（τ 为显式对象；Mathlib 由 class 承载）"
       }
     },
     "content": {

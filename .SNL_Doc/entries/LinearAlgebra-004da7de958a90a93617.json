@@ -16,15 +16,7 @@
       }
     },
     "content": {
-      "snl": "variable(LA.VectorSpace(V@LinearAlgebra.ctxt.vectorSpace,$\\mathbb{K}$@LinearAlgebra.ctxt.vectorSpace),theorem(Logic.forall-typed(__list__(@z_1,@z_2),V@LinearAlgebra.ctxt.vectorSpace,Logic.implies(And[authored_Logic_and_infix](Eq(,z_1,LA.Zero(V@LinearAlgebra.ctxt.vectorSpace)),Eq(,z_2,LA.Zero(V@LinearAlgebra.ctxt.vectorSpace))),Eq(,z_1,z_2)))))",
-      "markdown": {
-        "type": "i18n",
-        "default_language": "zh-CN",
-        "values": {
-          "zh-CN": "线性空间的零向量唯一。",
-          "en": "A vector space has a unique zero vector."
-        }
-      }
+      "snl": "variable(LA.VectorSpace(V@LinearAlgebra.ctxt.vectorSpace,$\\mathbb{K}$@LinearAlgebra.ctxt.vectorSpace),theorem(Logic.forall-typed(__list__(@${z}_{1}$@z₁,@${z}_{2}$@z₂),V@LinearAlgebra.ctxt.vectorSpace,Logic.implies(And[authored_Logic_and_infix](Eq(,${z}_{1}$@z₁,LA.Zero(V@LinearAlgebra.ctxt.vectorSpace)),Eq(,${z}_{2}$@z₂,LA.Zero(V@LinearAlgebra.ctxt.vectorSpace))),Eq(,${z}_{1}$@z₁,${z}_{2}$@z₂)))))"
     },
     "contribution_info": null,
     "pointer": {

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@$\\mathcal{B}$,Set[text](Set[text](T@Fulcrum.SetTheory.T))),Set.Subset[infix](,$\\mathcal{B}$,Set.powerset[script](,S@Topology.ctxt.S))),def(Topology.generatedTopology($\\mathcal{B}$),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Logic.forall-typed(@x,T@Fulcrum.SetTheory.T,Logic.implies(Set.Mem[authored](,U,x),Logic.exists-typed(@B_2,Set[text](T@Fulcrum.SetTheory.T),And[authored_Logic_and_infix](Set.Mem[authored](,$\\mathcal{B}$,B_2),And[authored_Logic_and_infix](Set.Mem[authored](,B_2,x),Set.Subset[infix](,B_2,U)))))))))"
+      "snl": "variable(__list__(Type.annotation(@$\\mathcal{B}$,Set[text](Set[text](T@Fulcrum.SetTheory.T))),Set.Subset[infix](,$\\mathcal{B}$,Set.powerset[script](,S@Topology.ctxt.S))),def(Topology.generatedTopology($\\mathcal{B}$),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Logic.forall-typed(@x,T@Fulcrum.SetTheory.T,Logic.implies(Set.Mem[authored](,U,x),Logic.exists-typed(@${B}_{2}$@B₂,Set[text](T@Fulcrum.SetTheory.T),And[authored_Logic_and_infix](Set.Mem[authored](,$\\mathcal{B}$,${B}_{2}$@B₂),And[authored_Logic_and_infix](Set.Mem[authored](,${B}_{2}$@B₂,x),Set.Subset[infix](,${B}_{2}$@B₂,U)))))))))"
     },
     "contribution_info": null,
     "pointer": null,

@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Neighborhood",
-        "zh-CN": "邻域"
+        "en": "Neighborhood (set predicate; Mathlib `nhds` is a filter)",
+        "zh-CN": "邻域（集合谓词；Mathlib 的 `nhds` 是滤子）"
       }
     },
     "content": {
@@ -19,6 +19,12 @@
     },
     "package": "Topology",
     "contribution_info": null,
-    "pointer": null
+    "pointer": null,
+    "tags": [
+      {
+        "key": "mathlib-divergence",
+        "value": "nhds is a Filter, SNL entry is a set predicate"
+      }
+    ]
   }
 }

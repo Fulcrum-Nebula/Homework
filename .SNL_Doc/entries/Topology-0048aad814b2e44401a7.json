@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Limit Point / Accumulation Point",
-        "zh-CN": "极限点／聚点"
+        "en": "Limit Point (Mathlib `ClusterPt`/`AccPt` are filter-based)",
+        "zh-CN": "极限点／聚点（Mathlib 的 `ClusterPt`/`AccPt` 是滤子式）"
       }
     },
     "content": {

@@ -9,7 +9,7 @@
     "kind": "def",
     "title": "Biconditional Introduction",
     "content": {
-      "snl": "Type.forall[forall](__list__[native_formula](@$a$,@$b$),Type.Sort[prop](%0%),Type.forall[forallNameless](@$\\mathsf{mp}$@mp,Type.forall[forallNameless](@$a\\_1$@a_1,$a$@#0.0,$b$@#0.1),Type.forall[forallNameless](@$\\mathsf{mpr}$@mpr,Type.forall[forallNameless](@$a\\_1$@a_1,$b$@#0.1,$a$@#0.0),Iff[default]($a$@#0.0,$b$@#0.1))))"
+      "snl": "Type.forall[forall](__list__[native_formula](@$a$,@$b$),Type.Sort[prop](%0%),Type.forall[forallNameless](@$\\mathsf{mp}$@mp,Type.forall[forallNameless](@${a}_{1}$@a₁,$a$@#0.0,$b$@#0.1),Type.forall[forallNameless](@$\\mathsf{mpr}$@mpr,Type.forall[forallNameless](@${a}_{1}$@a₁,$b$@#0.1,$a$@#0.0),Iff[default]($a$@#0.0,$b$@#0.1))))"
     },
     "contribution_info": null,
     "pointer": {

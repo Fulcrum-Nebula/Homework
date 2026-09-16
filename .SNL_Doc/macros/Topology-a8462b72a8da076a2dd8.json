@@ -7,7 +7,7 @@
     "description": "Predicate: f is continuous at point x",
     "source": {
       "entries": [
-        "Topology.def.continuityAtPoint"
+        "Topology.def.ContinuousAt"
       ],
       "urls": []
     },

@@ -9,7 +9,7 @@
     "kind": "thm",
     "title": "Forward Implication",
     "content": {
-      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$a$,Type.Sort[prop](%0%)),Type.annotation[default](@$b$,Type.Sort[prop](%0%)),Type.annotation[nameless](@$\\mathsf{self}$@self,Iff[default]($a$@#0.0.0,$b$@#0.1.0)),Type.annotation[nameless](@$a\\_1$@a_1,$a$@#0.0.0)),theorem[native_default]($b$@#0.1.0))"
+      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$a$,Type.Sort[prop](%0%)),Type.annotation[default](@$b$,Type.Sort[prop](%0%)),Type.annotation[nameless](@$\\mathsf{self}$@self,Iff[default]($a$@#0.0.0,$b$@#0.1.0)),Type.annotation[nameless](@${a}_{1}$@a₁,$a$@#0.0.0)),theorem[native_default]($b$@#0.1.0))"
     },
     "contribution_info": null,
     "pointer": {

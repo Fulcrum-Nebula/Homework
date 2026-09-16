@@ -8,16 +8,17 @@
     "kind": "definition",
     "title": {
       "type": "i18n",
-      "default_language": "zh-CN",
+      "default_language": "en",
       "values": {
-        "zh-CN": "T3 空间"
+        "en": "T3 Space (here = `RegularSpace`; Mathlib `T3Space` extends T0Space)",
+        "zh-CN": "T3 空间（此处 = `RegularSpace`；Mathlib 的 `T3Space` 还含 T0Space）"
       }
     },
     "content": {
-      "snl": "def[prop](Topology.T3(S@Topology.ctxt.S),,Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@x,S@Topology.ctxt.S,Logic.implies(And[authored_Logic_and_infix](Topology.closedSet[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Set.Mem[authored](,Set.diff[backslash](,S@Topology.ctxt.S,F),x)),Logic.exists-typed(@U,Set[text](S@Topology.ctxt.S),Logic.exists-typed(@V,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,U),Set.Mem[authored](,τ@Topology.ctxt.tau,V)),And[authored_Logic_and_infix](Ne[authored_Neq_default](,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[round](,)),And[authored_Logic_and_infix](Set.Mem[authored](,U,x),Set.Subset[infix](,F,V))))))))))"
+      "snl": "def[prop](Topology.T3(S@Topology.ctxt.S),,Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@x,S@Topology.ctxt.S,Logic.implies(And[authored_Logic_and_infix](Topology.IsClosed[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Set.Mem[authored](,Set.diff[backslash](,S@Topology.ctxt.S,F),x)),Logic.exists-typed(@U,S@Topology.ctxt.S,Logic.exists-typed(@V,S@Topology.ctxt.S,And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,U),And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,V),And[authored_Logic_and_infix](Set.Mem[authored](,U,x),And[authored_Logic_and_infix](Set.Subset[infix](,F,V),Eq(,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[round](,))))))))))))"
     },
-    "package": "Topology",
     "contribution_info": null,
-    "pointer": null
+    "pointer": null,
+    "package": "Topology"
   }
 }

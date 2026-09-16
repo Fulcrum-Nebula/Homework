@@ -10,12 +10,12 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Homeomorphism",
-        "zh-CN": "同胚"
+        "en": "Homeomorphism (predicate; Mathlib prefers bundled `Homeomorph`)",
+        "zh-CN": "同胚（谓词；Mathlib 首选 bundled `Homeomorph`）"
       }
     },
     "content": {
-      "snl": "def(Topology.homeomorphism(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,And[authored_Logic_and_infix](And[authored_Logic_and_infix](Topology.continuousMap[text](f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),Topology.openMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y)),Function.Bijective[authored](,,f)))"
+      "snl": "def(Topology.homeomorphism(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,And[authored_Logic_and_infix](And[authored_Logic_and_infix](Topology.Continuous[text](f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),Topology.IsOpenMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y)),Function.Bijective[authored](,,f)))"
     },
     "contribution_info": null,
     "pointer": null,

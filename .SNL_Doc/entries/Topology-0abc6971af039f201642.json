@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Sequence Convergence",
-        "zh-CN": "序列收敛"
+        "en": "Sequence Convergence (no Mathlib declaration; written `Tendsto u atTop (𝓝 a)`)",
+        "zh-CN": "序列收敛（Mathlib 无此声明；写作 `Tendsto u atTop (𝓝 a)`）"
       }
     },
     "content": {

@@ -7373,7 +7373,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Fulcrum.def",
-      "from": "Topology.def.C1",
+      "from": "Topology.def.FirstCountableTopology",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -7386,7 +7386,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Logic.def.exists",
-      "from": "Topology.def.C1",
+      "from": "Topology.def.FirstCountableTopology",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -7399,7 +7399,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Logic.def.forall",
-      "from": "Topology.def.C1",
+      "from": "Topology.def.FirstCountableTopology",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -7412,7 +7412,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Set.def.countable",
-      "from": "Topology.def.C1",
+      "from": "Topology.def.FirstCountableTopology",
       "to": "Set.Countable",
       "label": "depends",
       "metadata": {
@@ -7425,7 +7425,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Topology.def.neighborhoodBasis",
-      "from": "Topology.def.C1",
+      "from": "Topology.def.FirstCountableTopology",
       "to": "Topology.def.neighborhoodBasis",
       "label": "depends",
       "metadata": {
@@ -7438,7 +7438,7 @@
     },
     {
       "id": "dep.Topology.def.C2.Fulcrum.def",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -7451,7 +7451,7 @@
     },
     {
       "id": "dep.Topology.def.C2.Logic.def.and",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "And",
       "label": "depends",
       "metadata": {
@@ -7464,7 +7464,7 @@
     },
     {
       "id": "dep.Topology.def.C2.Logic.def.exists",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -7477,7 +7477,7 @@
     },
     {
       "id": "dep.Topology.def.C2.Set.def.countable",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "Set.Countable",
       "label": "depends",
       "metadata": {
@@ -7490,7 +7490,7 @@
     },
     {
       "id": "dep.Topology.def.C2.Set.def.set",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -7503,7 +7503,7 @@
     },
     {
       "id": "dep.Topology.def.C2.Topology.def.topologicalBasis",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "Topology.def.topologicalBasis",
       "label": "depends",
       "metadata": {
@@ -7516,7 +7516,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Fulcrum.def",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -7529,7 +7529,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Logic.def.and",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "And",
       "label": "depends",
       "metadata": {
@@ -7542,7 +7542,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Logic.def.eq",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Eq",
       "label": "depends",
       "metadata": {
@@ -7555,7 +7555,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Logic.def.exists",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -7568,7 +7568,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Logic.def.forall",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -7581,7 +7581,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Logic.def.implies",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -7594,7 +7594,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Logic.def.neg",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Not",
       "label": "depends",
       "metadata": {
@@ -7607,7 +7607,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Logic.def.or",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Or",
       "label": "depends",
       "metadata": {
@@ -7620,7 +7620,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Set.def.mem",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -7633,7 +7633,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Set.def.set",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -7646,7 +7646,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Topology.def.neighborhood",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Topology.def.neighborhood",
       "label": "depends",
       "metadata": {
@@ -7659,7 +7659,7 @@
     },
     {
       "id": "dep.Topology.def.T0.Type.def.annotation",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -7672,7 +7672,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Fulcrum.def",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -7685,7 +7685,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.and",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "And",
       "label": "depends",
       "metadata": {
@@ -7698,7 +7698,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.eq",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Eq",
       "label": "depends",
       "metadata": {
@@ -7711,7 +7711,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.exists",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -7724,7 +7724,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.forall",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -7737,7 +7737,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.implies",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -7750,7 +7750,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.neg",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Not",
       "label": "depends",
       "metadata": {
@@ -7763,7 +7763,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Set.def.mem",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -7776,7 +7776,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Set.def.set",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -7789,7 +7789,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Topology.def.neighborhood",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Topology.def.neighborhood",
       "label": "depends",
       "metadata": {
@@ -7802,7 +7802,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Type.def.annotation",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -7815,7 +7815,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Fulcrum.def",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -7828,7 +7828,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Logic.def.and",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "And",
       "label": "depends",
       "metadata": {
@@ -7841,7 +7841,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Logic.def.eq",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Eq",
       "label": "depends",
       "metadata": {
@@ -7854,7 +7854,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Logic.def.exists",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -7867,7 +7867,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Logic.def.forall",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -7880,7 +7880,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Logic.def.implies",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -7893,7 +7893,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Logic.def.neg",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Not",
       "label": "depends",
       "metadata": {
@@ -7906,7 +7906,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Set.def.emptyset",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Set.instEmptyCollection",
       "label": "depends",
       "metadata": {
@@ -7919,7 +7919,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Set.def.inter",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Set.inter",
       "label": "depends",
       "metadata": {
@@ -7932,7 +7932,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Set.def.set",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -7945,7 +7945,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Topology.def.neighborhood",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Topology.def.neighborhood",
       "label": "depends",
       "metadata": {
@@ -7958,7 +7958,7 @@
     },
     {
       "id": "dep.Topology.def.T2.Type.def.annotation",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -8141,12 +8141,12 @@
     {
       "id": "dep.Topology.def.T3.Topology.def.closedSet",
       "from": "Topology.def.T3",
-      "to": "Topology.def.closedSet",
+      "to": "Topology.def.IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.closedSet"
+          "Topology.IsClosed"
         ],
         "isAtomic": true
       }
@@ -8310,19 +8310,19 @@
     {
       "id": "dep.Topology.def.T4.Topology.def.closedSet",
       "from": "Topology.def.T4",
-      "to": "Topology.def.closedSet",
+      "to": "Topology.def.IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.closedSet"
+          "Topology.IsClosed"
         ],
         "isAtomic": true
       }
     },
     {
       "id": "dep.Topology.def.boundary.Fulcrum.def",
-      "from": "Topology.def.boundary",
+      "from": "Topology.def.frontier",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -8335,7 +8335,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Set.def.diff",
-      "from": "Topology.def.boundary",
+      "from": "Topology.def.frontier",
       "to": "Set.diff",
       "label": "depends",
       "metadata": {
@@ -8348,7 +8348,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Set.def.set",
-      "from": "Topology.def.boundary",
+      "from": "Topology.def.frontier",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -8361,7 +8361,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Topology.def.closure",
-      "from": "Topology.def.boundary",
+      "from": "Topology.def.frontier",
       "to": "Topology.def.closure",
       "label": "depends",
       "metadata": {
@@ -8374,7 +8374,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Topology.def.interior",
-      "from": "Topology.def.boundary",
+      "from": "Topology.def.frontier",
       "to": "Topology.def.interior",
       "label": "depends",
       "metadata": {
@@ -8387,7 +8387,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Type.def.annotation",
-      "from": "Topology.def.boundary",
+      "from": "Topology.def.frontier",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -8530,7 +8530,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Fulcrum.def",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -8543,7 +8543,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Set.def.mem",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -8556,7 +8556,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Set.def.set",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -8569,7 +8569,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Type.def.annotation",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -8687,12 +8687,12 @@
     {
       "id": "dep.Topology.def.closure.Topology.def.closedSet",
       "from": "Topology.def.closure",
-      "to": "Topology.def.closedSet",
+      "to": "Topology.def.IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.closedSet"
+          "Topology.IsClosed"
         ],
         "isAtomic": true
       }
@@ -9128,7 +9128,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Fulcrum.def",
-      "from": "Topology.def.continuityAtPoint",
+      "from": "Topology.def.ContinuousAt",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -9141,7 +9141,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Topology.def.mapLimit",
-      "from": "Topology.def.continuityAtPoint",
+      "from": "Topology.def.ContinuousAt",
       "to": "Topology.def.mapLimit",
       "label": "depends",
       "metadata": {
@@ -9154,7 +9154,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Type.def.annotation",
-      "from": "Topology.def.continuityAtPoint",
+      "from": "Topology.def.ContinuousAt",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -9167,7 +9167,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Type.rl.Expr-LC.ctor.application",
-      "from": "Topology.def.continuityAtPoint",
+      "from": "Topology.def.ContinuousAt",
       "to": "Syntax.def.expression-UTLC.ctor.application",
       "label": "depends",
       "metadata": {
@@ -9180,7 +9180,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Fulcrum.def",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -9193,7 +9193,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Logic.def.forall",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -9206,7 +9206,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Logic.def.implies",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -9219,7 +9219,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Set.def.mem",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -9232,7 +9232,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Set.def.set",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -9245,8 +9245,8 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Topology.def.continuityAtPoint",
-      "from": "Topology.def.continuousMap",
-      "to": "Topology.def.continuityAtPoint",
+      "from": "Topology.def.Continuous",
+      "to": "Topology.def.ContinuousAt",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -9258,7 +9258,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Type.def.annotation",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -9271,7 +9271,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Type.rl.fun",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Type.rl.fun",
       "label": "depends",
       "metadata": {
@@ -9544,7 +9544,7 @@
     },
     {
       "id": "dep.Topology.def.denseSet.Fulcrum.def",
-      "from": "Topology.def.denseSet",
+      "from": "Topology.def.Dense",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -9557,7 +9557,7 @@
     },
     {
       "id": "dep.Topology.def.denseSet.Logic.def.eq",
-      "from": "Topology.def.denseSet",
+      "from": "Topology.def.Dense",
       "to": "Eq",
       "label": "depends",
       "metadata": {
@@ -9570,7 +9570,7 @@
     },
     {
       "id": "dep.Topology.def.denseSet.Set.def.set",
-      "from": "Topology.def.denseSet",
+      "from": "Topology.def.Dense",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -9583,7 +9583,7 @@
     },
     {
       "id": "dep.Topology.def.denseSet.Topology.def.closure",
-      "from": "Topology.def.denseSet",
+      "from": "Topology.def.Dense",
       "to": "Topology.def.closure",
       "label": "depends",
       "metadata": {
@@ -9596,7 +9596,7 @@
     },
     {
       "id": "dep.Topology.def.denseSet.Type.def.annotation",
-      "from": "Topology.def.denseSet",
+      "from": "Topology.def.Dense",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -9987,12 +9987,12 @@
     {
       "id": "dep.Topology.def.homeomorphism.Topology.def.continuousMap",
       "from": "Topology.def.homeomorphism",
-      "to": "Topology.def.continuousMap",
+      "to": "Topology.def.Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.continuousMap"
+          "Topology.Continuous"
         ],
         "isAtomic": true
       }
@@ -10000,12 +10000,12 @@
     {
       "id": "dep.Topology.def.homeomorphism.Topology.def.openMap",
       "from": "Topology.def.homeomorphism",
-      "to": "Topology.def.openMap",
+      "to": "Topology.def.IsOpenMap",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.openMap"
+          "Topology.IsOpenMap"
         ],
         "isAtomic": true
       }
@@ -11078,7 +11078,7 @@
     },
     {
       "id": "dep.Topology.def.nowhereDense.Fulcrum.def",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -11091,7 +11091,7 @@
     },
     {
       "id": "dep.Topology.def.nowhereDense.Logic.def.eq",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Eq",
       "label": "depends",
       "metadata": {
@@ -11104,7 +11104,7 @@
     },
     {
       "id": "dep.Topology.def.nowhereDense.Set.def.emptyset",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Set.instEmptyCollection",
       "label": "depends",
       "metadata": {
@@ -11117,7 +11117,7 @@
     },
     {
       "id": "dep.Topology.def.nowhereDense.Set.def.set",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -11130,7 +11130,7 @@
     },
     {
       "id": "dep.Topology.def.nowhereDense.Topology.def.closure",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Topology.def.closure",
       "label": "depends",
       "metadata": {
@@ -11143,7 +11143,7 @@
     },
     {
       "id": "dep.Topology.def.nowhereDense.Topology.def.interior",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Topology.def.interior",
       "label": "depends",
       "metadata": {
@@ -11156,7 +11156,7 @@
     },
     {
       "id": "dep.Topology.def.nowhereDense.Type.def.annotation",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -11351,7 +11351,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Fulcrum.def",
-      "from": "Topology.def.openMap",
+      "from": "Topology.def.IsOpenMap",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -11364,7 +11364,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Logic.def.forall",
-      "from": "Topology.def.openMap",
+      "from": "Topology.def.IsOpenMap",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -11377,7 +11377,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Logic.def.implies",
-      "from": "Topology.def.openMap",
+      "from": "Topology.def.IsOpenMap",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -11390,7 +11390,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Set.def.set",
-      "from": "Topology.def.openMap",
+      "from": "Topology.def.IsOpenMap",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -11403,20 +11403,20 @@
     },
     {
       "id": "dep.Topology.def.openMap.Topology.def.openSet",
-      "from": "Topology.def.openMap",
-      "to": "Topology.def.openSet",
+      "from": "Topology.def.IsOpenMap",
+      "to": "Topology.def.IsOpen",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.openSet"
+          "Topology.IsOpen"
         ],
         "isAtomic": true
       }
     },
     {
       "id": "dep.Topology.def.openSet.Fulcrum.def",
-      "from": "Topology.def.openSet",
+      "from": "Topology.def.IsOpen",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -11429,7 +11429,7 @@
     },
     {
       "id": "dep.Topology.def.openSet.Set.def.mem",
-      "from": "Topology.def.openSet",
+      "from": "Topology.def.IsOpen",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -11442,7 +11442,7 @@
     },
     {
       "id": "dep.Topology.def.openSet.Set.def.set",
-      "from": "Topology.def.openSet",
+      "from": "Topology.def.IsOpen",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -11455,7 +11455,7 @@
     },
     {
       "id": "dep.Topology.def.openSet.Type.def.annotation",
-      "from": "Topology.def.openSet",
+      "from": "Topology.def.IsOpen",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -12002,12 +12002,12 @@
     {
       "id": "dep.Topology.def.separable.Topology.def.denseSet",
       "from": "Topology.def.separable",
-      "to": "Topology.def.denseSet",
+      "to": "Topology.def.Dense",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.dense"
+          "Topology.Dense"
         ],
         "isAtomic": true
       }
@@ -13029,12 +13029,12 @@
     {
       "id": "dep.Topology.prop.T0IfT1.Topology.def.T0",
       "from": "Topology.prop.T0IfT1",
-      "to": "Topology.def.T0",
+      "to": "Topology.def.T0Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T0"
+          "Topology.T0Space"
         ],
         "isAtomic": true
       }
@@ -13042,12 +13042,12 @@
     {
       "id": "dep.Topology.prop.T0IfT1.Topology.def.T1",
       "from": "Topology.prop.T0IfT1",
-      "to": "Topology.def.T1",
+      "to": "Topology.def.T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1"
+          "Topology.T1Space"
         ],
         "isAtomic": true
       }
@@ -13133,12 +13133,12 @@
     {
       "id": "dep.Topology.prop.T1Equivalent.Topology.def.T1",
       "from": "Topology.prop.T1Equivalent",
-      "to": "Topology.def.T1",
+      "to": "Topology.def.T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1"
+          "Topology.T1Space"
         ],
         "isAtomic": true
       }
@@ -13146,12 +13146,12 @@
     {
       "id": "dep.Topology.prop.T1Equivalent.Topology.def.closedSet",
       "from": "Topology.prop.T1Equivalent",
-      "to": "Topology.def.closedSet",
+      "to": "Topology.def.IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.closedSet"
+          "Topology.IsClosed"
         ],
         "isAtomic": true
       }
@@ -13172,12 +13172,12 @@
     {
       "id": "dep.Topology.prop.T1IfT2.Topology.def.T1",
       "from": "Topology.prop.T1IfT2",
-      "to": "Topology.def.T1",
+      "to": "Topology.def.T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1"
+          "Topology.T1Space"
         ],
         "isAtomic": true
       }
@@ -13185,12 +13185,12 @@
     {
       "id": "dep.Topology.prop.T1IfT2.Topology.def.T2",
       "from": "Topology.prop.T1IfT2",
-      "to": "Topology.def.T2",
+      "to": "Topology.def.T2Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T2"
+          "Topology.T2Space"
         ],
         "isAtomic": true
       }
@@ -13211,12 +13211,12 @@
     {
       "id": "dep.Topology.prop.T2IfT3UnderT1.Topology.def.T1",
       "from": "Topology.prop.T2IfT3UnderT1",
-      "to": "Topology.def.T1",
+      "to": "Topology.def.T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1"
+          "Topology.T1Space"
         ],
         "isAtomic": true
       }
@@ -13224,12 +13224,12 @@
     {
       "id": "dep.Topology.prop.T2IfT3UnderT1.Topology.def.T2",
       "from": "Topology.prop.T2IfT3UnderT1",
-      "to": "Topology.def.T2",
+      "to": "Topology.def.T2Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T2"
+          "Topology.T2Space"
         ],
         "isAtomic": true
       }
@@ -13549,12 +13549,12 @@
     {
       "id": "dep.Topology.prop.closureClosed.Topology.def.closedSet",
       "from": "Topology.prop.closureClosed",
-      "to": "Topology.def.closedSet",
+      "to": "Topology.def.IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.closedSet"
+          "Topology.IsClosed"
         ],
         "isAtomic": false
       }
@@ -13705,12 +13705,12 @@
     {
       "id": "dep.Topology.prop.compactClosedInT2.Topology.def.T2",
       "from": "Topology.prop.compactClosedInT2",
-      "to": "Topology.def.T2",
+      "to": "Topology.def.T2Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T2"
+          "Topology.T2Space"
         ],
         "isAtomic": true
       }
@@ -13731,12 +13731,12 @@
     {
       "id": "dep.Topology.prop.compactClosedInT2.Topology.def.openSet",
       "from": "Topology.prop.compactClosedInT2",
-      "to": "Topology.def.openSet",
+      "to": "Topology.def.IsOpen",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.openSet"
+          "Topology.IsOpen"
         ],
         "isAtomic": true
       }
@@ -13926,12 +13926,12 @@
     {
       "id": "dep.Topology.prop.compositionPreservesContinuity.Topology.def.continuousMap",
       "from": "Topology.prop.compositionPreservesContinuity",
-      "to": "Topology.def.continuousMap",
+      "to": "Topology.def.Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.continuousMap"
+          "Topology.Continuous"
         ],
         "isAtomic": true
       }
@@ -14108,7 +14108,7 @@
     {
       "id": "dep.Topology.prop.continuityViaNeighborhood.Topology.def.continuityAtPoint",
       "from": "Topology.prop.continuityViaNeighborhood",
-      "to": "Topology.def.continuityAtPoint",
+      "to": "Topology.def.ContinuousAt",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -14225,12 +14225,12 @@
     {
       "id": "dep.Topology.prop.continuityViaPreimage.Topology.def.continuousMap",
       "from": "Topology.prop.continuityViaPreimage",
-      "to": "Topology.def.continuousMap",
+      "to": "Topology.def.Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.continuousMap"
+          "Topology.Continuous"
         ],
         "isAtomic": true
       }
@@ -14238,12 +14238,12 @@
     {
       "id": "dep.Topology.prop.continuityViaPreimage.Topology.def.openSet",
       "from": "Topology.prop.continuityViaPreimage",
-      "to": "Topology.def.openSet",
+      "to": "Topology.def.IsOpen",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.openSet"
+          "Topology.IsOpen"
         ],
         "isAtomic": true
       }
@@ -14394,12 +14394,12 @@
     {
       "id": "dep.Topology.prop.continuousPreservesCompactness.Topology.def.continuousMap",
       "from": "Topology.prop.continuousPreservesCompactness",
-      "to": "Topology.def.continuousMap",
+      "to": "Topology.def.Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.continuousMap"
+          "Topology.Continuous"
         ],
         "isAtomic": true
       }
@@ -14563,12 +14563,12 @@
     {
       "id": "dep.Topology.prop.continuousPreservesConnectedness.Topology.def.continuousMap",
       "from": "Topology.prop.continuousPreservesConnectedness",
-      "to": "Topology.def.continuousMap",
+      "to": "Topology.def.Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.continuousMap"
+          "Topology.Continuous"
         ],
         "isAtomic": true
       }
@@ -14641,12 +14641,12 @@
     {
       "id": "dep.Topology.prop.continuousPreservesConvergenceInT2.Topology.def.T2",
       "from": "Topology.prop.continuousPreservesConvergenceInT2",
-      "to": "Topology.def.T2",
+      "to": "Topology.def.T2Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T2"
+          "Topology.T2Space"
         ],
         "isAtomic": true
       }
@@ -14654,7 +14654,7 @@
     {
       "id": "dep.Topology.prop.continuousPreservesConvergenceInT2.Topology.def.continuityAtPoint",
       "from": "Topology.prop.continuousPreservesConvergenceInT2",
-      "to": "Topology.def.continuityAtPoint",
+      "to": "Topology.def.ContinuousAt",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -15083,12 +15083,12 @@
     {
       "id": "dep.Topology.prop.inverseOfContinuousOnCompact.Topology.def.continuousMap",
       "from": "Topology.prop.inverseOfContinuousOnCompact",
-      "to": "Topology.def.continuousMap",
+      "to": "Topology.def.Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.continuousMap"
+          "Topology.Continuous"
         ],
         "isAtomic": true
       }
@@ -15174,12 +15174,12 @@
     {
       "id": "dep.Topology.prop.limitUniqueInT2.Topology.def.T2",
       "from": "Topology.prop.limitUniqueInT2",
-      "to": "Topology.def.T2",
+      "to": "Topology.def.T2Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T2"
+          "Topology.T2Space"
         ],
         "isAtomic": true
       }
@@ -15252,12 +15252,12 @@
     {
       "id": "dep.Topology.prop.metricOfT2.Topology.def.T2",
       "from": "Topology.prop.metricOfT2",
-      "to": "Topology.def.T2",
+      "to": "Topology.def.T2Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T2"
+          "Topology.T2Space"
         ],
         "isAtomic": true
       }
@@ -15967,12 +15967,12 @@
     {
       "id": "dep.Topology.thm.T4Urysohn.Topology.def.closedSet",
       "from": "Topology.thm.T4Urysohn",
-      "to": "Topology.def.closedSet",
+      "to": "Topology.def.IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.closedSet"
+          "Topology.IsClosed"
         ],
         "isAtomic": false
       }
@@ -15980,7 +15980,7 @@
     {
       "id": "dep.Topology.thm.T4Urysohn.Topology.def.continuousMap",
       "from": "Topology.thm.T4Urysohn",
-      "to": "Topology.def.continuousMap",
+      "to": "Topology.def.Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -16071,12 +16071,12 @@
     {
       "id": "dep.Topology.thm.lindelof.Topology.def.C2",
       "from": "Topology.thm.lindelof",
-      "to": "Topology.def.C2",
+      "to": "Topology.def.SecondCountableTopology",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.C2"
+          "Topology.SecondCountableTopology"
         ],
         "isAtomic": true
       }
@@ -26949,7 +26949,7 @@
     },
     {
       "id": "ctx.Topology.def.boundary.Topology.ctxt.S",
-      "from": "Topology.def.boundary",
+      "from": "Topology.def.frontier",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -26988,7 +26988,7 @@
     },
     {
       "id": "ctx.Topology.def.C1.Topology.ctxt.S",
-      "from": "Topology.def.C1",
+      "from": "Topology.def.FirstCountableTopology",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27001,7 +27001,7 @@
     },
     {
       "id": "ctx.Topology.def.C2.Topology.ctxt.S",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27014,7 +27014,7 @@
     },
     {
       "id": "ctx.Topology.def.C2.Fulcrum.SetTheory.T",
-      "from": "Topology.def.C2",
+      "from": "Topology.def.SecondCountableTopology",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27027,7 +27027,7 @@
     },
     {
       "id": "ctx.Topology.def.closedSet.Fulcrum.SetTheory.T",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27040,7 +27040,7 @@
     },
     {
       "id": "ctx.Topology.def.closedSet.Topology.ctxt.tau",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Topology.ctxt.tau",
       "label": "uses_context",
       "metadata": {
@@ -27053,7 +27053,7 @@
     },
     {
       "id": "ctx.Topology.def.closedSet.Topology.ctxt.S",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27066,7 +27066,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Set.diff",
-      "from": "Topology.def.closedSet",
+      "from": "Topology.def.IsClosed",
       "to": "Set.diff",
       "label": "depends",
       "metadata": {
@@ -27183,7 +27183,7 @@
     },
     {
       "id": "ctx.Topology.def.continuousMap.Topology.ctxt.X",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Topology.ctxt.X",
       "label": "uses_context",
       "metadata": {
@@ -27196,7 +27196,7 @@
     },
     {
       "id": "ctx.Topology.def.continuousMap.Topology.ctxt.Y",
-      "from": "Topology.def.continuousMap",
+      "from": "Topology.def.Continuous",
       "to": "Topology.ctxt.Y",
       "label": "uses_context",
       "metadata": {
@@ -27248,7 +27248,7 @@
     },
     {
       "id": "ctx.Topology.def.denseSet.Fulcrum.SetTheory.T",
-      "from": "Topology.def.denseSet",
+      "from": "Topology.def.Dense",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27261,7 +27261,7 @@
     },
     {
       "id": "ctx.Topology.def.denseSet.Topology.ctxt.S",
-      "from": "Topology.def.denseSet",
+      "from": "Topology.def.Dense",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27690,7 +27690,7 @@
     },
     {
       "id": "ctx.Topology.def.nowhereDense.Fulcrum.SetTheory.T",
-      "from": "Topology.def.nowhereDense",
+      "from": "Topology.def.IsNowhereDense",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27768,7 +27768,7 @@
     },
     {
       "id": "ctx.Topology.def.openMap.Topology.ctxt.X",
-      "from": "Topology.def.openMap",
+      "from": "Topology.def.IsOpenMap",
       "to": "Topology.ctxt.X",
       "label": "uses_context",
       "metadata": {
@@ -27781,7 +27781,7 @@
     },
     {
       "id": "ctx.Topology.def.openMap.Topology.ctxt.Y",
-      "from": "Topology.def.openMap",
+      "from": "Topology.def.IsOpenMap",
       "to": "Topology.ctxt.Y",
       "label": "uses_context",
       "metadata": {
@@ -27794,7 +27794,7 @@
     },
     {
       "id": "ctx.Topology.def.openMap.Topology.ctxt.AB",
-      "from": "Topology.def.openMap",
+      "from": "Topology.def.IsOpenMap",
       "to": "Topology.ctxt.AB",
       "label": "uses_context",
       "metadata": {
@@ -27807,7 +27807,7 @@
     },
     {
       "id": "ctx.Topology.def.openSet.Fulcrum.SetTheory.T",
-      "from": "Topology.def.openSet",
+      "from": "Topology.def.IsOpen",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27820,7 +27820,7 @@
     },
     {
       "id": "ctx.Topology.def.openSet.Topology.ctxt.tau",
-      "from": "Topology.def.openSet",
+      "from": "Topology.def.IsOpen",
       "to": "Topology.ctxt.tau",
       "label": "uses_context",
       "metadata": {
@@ -27976,7 +27976,7 @@
     },
     {
       "id": "ctx.Topology.def.T0.Topology.ctxt.S",
-      "from": "Topology.def.T0",
+      "from": "Topology.def.T0Space",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27989,7 +27989,7 @@
     },
     {
       "id": "ctx.Topology.def.T1.Topology.ctxt.S",
-      "from": "Topology.def.T1",
+      "from": "Topology.def.T1Space",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -28002,7 +28002,7 @@
     },
     {
       "id": "ctx.Topology.def.T2.Topology.ctxt.S",
-      "from": "Topology.def.T2",
+      "from": "Topology.def.T2Space",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -36248,7 +36248,7 @@
     },
     {
       "id": "ctx.Topology.def.continuityAtPoint.Topology.ctxt.X",
-      "from": "Topology.def.continuityAtPoint",
+      "from": "Topology.def.ContinuousAt",
       "to": "Topology.ctxt.X",
       "label": "uses_context",
       "metadata": {
@@ -36261,7 +36261,7 @@
     },
     {
       "id": "ctx.Topology.def.continuityAtPoint.Topology.ctxt.f",
-      "from": "Topology.def.continuityAtPoint",
+      "from": "Topology.def.ContinuousAt",
       "to": "Topology.ctxt.f",
       "label": "uses_context",
       "metadata": {

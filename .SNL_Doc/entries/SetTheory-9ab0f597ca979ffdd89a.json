@@ -8,7 +8,7 @@
     "kind": "def",
     "title": "Rel",
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_6+1%)),Type.annotation[default](@$β$,Type.Sort(%u_7+1%))),def(Rel($α$@#0.0.0,$β$@#0.1.0),Type.Sort(%(max u_6 u_7)+1%),Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@$a\\_1$@a_1,$β$@#0.1.0,Type.Sort[prop](%0%)))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_6+1%)),Type.annotation[default](@$β$,Type.Sort(%u_7+1%))),def(Rel($α$@#0.0.0,$β$@#0.1.0),Type.Sort(%(max u_6 u_7)+1%),Type.forall[arrow](@$a$,$α$@#0.0.0,Type.forall[arrow](@${a}_{1}$@a₁,$β$@#0.1.0,Type.Sort[prop](%0%)))))"
     },
     "package": "SetTheory",
     "contribution_info": null,

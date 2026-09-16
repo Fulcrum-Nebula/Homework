@@ -4,10 +4,10 @@
   "schema_version": 1,
   "package": "Topology",
   "macro": {
-    "description": "Predicate: U is open in (S, tau)",
+    "description": "Predicate: U is closed in (S, tau)",
     "source": {
       "entries": [
-        "Topology.def.openSet"
+        "Topology.def.IsClosed"
       ],
       "urls": []
     },
@@ -16,11 +16,11 @@
     "tags": [],
     "styles": [
       {
-        "style_name": "default",
+        "style_name": "notation",
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0\\in #1",
+          "body": "#2\\setminus #0\\in #1",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -48,7 +48,7 @@
           "values": {
             "en": {
               "mode": "text",
-              "body": "#0 is open in topology #1",
+              "body": "#0 is closed in the topological space (#2, #1)",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -68,7 +68,7 @@
             },
             "zh-CN": {
               "mode": "text",
-              "body": "#0 是 #1 拓扑下的开集",
+              "body": "#0 是拓扑空间 (#2, #1) 的闭集",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -90,6 +90,6 @@
         }
       }
     ],
-    "name": "Topology.openSet"
+    "name": "Topology.IsClosed"
   }
 }

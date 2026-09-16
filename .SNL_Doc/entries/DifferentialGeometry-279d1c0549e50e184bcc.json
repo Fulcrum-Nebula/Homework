@@ -6,6 +6,7 @@
   "entry": {
     "id": "DG.def.spaceCurve",
     "kind": "definition",
+    "package": "DifferentialGeometry",
     "title": {
       "type": "i18n",
       "default_language": "en",
@@ -15,7 +16,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.spaceCurve[math](γ,Icc(a,b)),,Analysis.def.smoothMapRn[text](γ,Icc(a,b))))",
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def[prop](DG.def.spaceCurve[text](γ,Icc(a,b)),,__enum__[enumerate](member[colon](%Smooth%,Analysis.def.smoothMapRn[text](γ,Icc(a,b))),member[colon](%Regular%,Logic.forall-typed(@t,Icc(a,b),Ne[authored_Neq_default](,Type.apply(Analysis.def.vectorValuedDeriv(γ),t),$0$))))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",
@@ -26,7 +27,6 @@
       }
     },
     "contribution_info": null,
-    "pointer": null,
-    "package": "DifferentialGeometry"
+    "pointer": null
   }
 }

@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Topological Basis",
-        "zh-CN": "拓扑基"
+        "en": "Topological Basis (relative predicate; Mathlib `IsTopologicalBasis` is a self-contained structure)",
+        "zh-CN": "拓扑基（相对谓词；Mathlib 的 `IsTopologicalBasis` 是自足结构）"
       }
     },
     "content": {

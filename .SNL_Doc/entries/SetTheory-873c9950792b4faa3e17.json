@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@${s}_{1}$@s₁,Set($α$@#0.0.0)),Type.annotation[default](@${s}_{2}$@s₂,Set($α$@#0.0.0))),def[prop](Set.Subset($α$@#0.0.0,${s}_{1}$@#0.1.0,${s}_{2}$@#0.2.0),Type.Sort[prop](%0%),Type.forall[forall](@$a$,$α$@#0.0.0,Type.forall[forallNameless](@$a\\_1$@a_1,Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),${s}_{1}$@#0.1.0,$a$@#1.2.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),${s}_{2}$@#0.2.0,$a$@#1.2.0)))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u+1%)),Type.annotation[default](@${s}_{1}$@s₁,Set($α$@#0.0.0)),Type.annotation[default](@${s}_{2}$@s₂,Set($α$@#0.0.0))),def[prop](Set.Subset($α$@#0.0.0,${s}_{1}$@#0.1.0,${s}_{2}$@#0.2.0),Type.Sort[prop](%0%),Type.forall[forall](@$a$,$α$@#0.0.0,Type.forall[forallNameless](@${a}_{1}$@a₁,Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),${s}_{1}$@#0.1.0,$a$@#1.2.0),Membership.mem($α$@#0.0.0,Set($α$@#0.0.0),Set.instMembership[native_default]($α$@#0.0.0),${s}_{2}$@#0.2.0,$a$@#1.2.0)))))"
     },
     "contribution_info": null,
     "pointer": {

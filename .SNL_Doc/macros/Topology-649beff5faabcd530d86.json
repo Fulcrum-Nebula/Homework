@@ -4,10 +4,10 @@
   "schema_version": 1,
   "package": "Topology",
   "macro": {
-    "description": "Predicate: (S, tau) is a T1 (Frechet) space",
+    "description": "Predicate: (S, tau) is a T0 (Kolmogorov) space",
     "source": {
       "entries": [
-        "Topology.def.T1"
+        "Topology.def.T0Space"
       ],
       "urls": []
     },
@@ -20,7 +20,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0\\text{ 是 }T_1\\text{ 空间}",
+          "body": "#0\\text{ 是 }T_0\\text{ 空间}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.T1"
+    "name": "Topology.T0Space"
   }
 }

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1%)),Type.annotation[default](@$a$,$α$@#0.0.0),Type.annotation[default](@$a\\_1$@a_1,$α$@#0.0.0)),inductive[native_prop](Eq($α$@#0.0.0,$a$@#0.1.0,$a\\_1$@#0.2.0),ctors[native_default](Type.annotation[default]($\\mathsf{Eq\\text{\\char\"2e}refl}$,Type.forall[forall](@$α$,Type.Sort(%u_1%),Type.forall[forall](@$a$,$α$@#1.1.0.1.0,Eq($α$@#1.1.0.1.0,$a$@#1.1.0.1.2.0,$a$@#1.1.0.1.2.0)))))))"
+      "snl": "variable[native_default](__list__[native_default](Type.annotation[default](@$α$,Type.Sort(%u_1%)),Type.annotation[default](@$a$,$α$@#0.0.0),Type.annotation[default](@${a}_{1}$@a₁,$α$@#0.0.0)),inductive[native_prop](Eq($α$@#0.0.0,$a$@#0.1.0,$a\\_1$@#0.2.0),ctors[native_default](Type.annotation[default]($\\mathsf{Eq\\text{\\char\"2e}refl}$,Type.forall[forall](@$α$,Type.Sort(%u_1%),Type.forall[forall](@$a$,$α$@#1.1.0.1.0,Eq($α$@#1.1.0.1.0,$a$@#1.1.0.1.2.0,$a$@#1.1.0.1.2.0)))))))"
     },
     "contribution_info": null,
     "pointer": {

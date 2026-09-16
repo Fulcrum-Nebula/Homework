@@ -9,8 +9,7 @@
     "kind": "def",
     "title": "极小元",
     "content": {
-      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$P$,Type.forall[arrow](@$a$,$α$@#0.0.0,Type.Sort[prop](%0%))),Type.annotation[default](@$x$,$α$@#0.0.0)),def[prop](Minimal[native_default]($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$P$@#0.2.0,$x$@#0.3.0),Type.Sort[prop](%0%),And(Type.app($P$@#0.2.0,__list__[native_formula]($x$@#0.3.0)),parentheses[default](Type.forall[forall](@$y$,$α$@#0.0.0,Type.forall[forallNameless](@$a$,Type.app($P$@#0.2.0,__list__[native_formula]($y$@#1.2.1.0.0)),Type.forall[forallNameless](@$a\\_1$@a_1,LE.le($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$y$@#1.2.1.0.0,$x$@#0.3.0),LE.le($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$x$@#0.3.0,$y$@#1.2.1.0.0))))))))",
-      "markdown": "Minimality is relative to a predicate and the ambient ≤ relation. It is weaker than being least in a partial order; no extremum is selected."
+      "snl": "variable[enumerated](__enum__[native_enumerate](Type.annotation[default](@$α$,Type.Sort(%u_1+1%)),Type.annotation[nameless](@$\\mathsf{inst}$@inst,LE($α$@#0.0.0)),Type.annotation[default](@$P$,Type.forall[arrow](@$a$,$α$@#0.0.0,Type.Sort[prop](%0%))),Type.annotation[default](@$x$,$α$@#0.0.0)),def[prop](Minimal[native_default]($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$P$@#0.2.0,$x$@#0.3.0),Type.Sort[prop](%0%),And(Type.app($P$@#0.2.0,__list__[native_formula]($x$@#0.3.0)),parentheses[default](Type.forall[forall](@$y$,$α$@#0.0.0,Type.forall[forallNameless](@$a$,Type.app($P$@#0.2.0,__list__[native_formula]($y$@#1.2.1.0.0)),Type.forall[forallNameless](@${a}_{1}$@a₁,LE.le($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$y$@#1.2.1.0.0,$x$@#0.3.0),LE.le($α$@#0.0.0,$\\mathsf{inst}$@#0.1.0,$x$@#0.3.0,$y$@#1.2.1.0.0))))))))"
     },
     "contribution_info": null,
     "pointer": {

@@ -81,14 +81,14 @@
       "id": "n_11",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.openSet"
+        "entryId": "Topology.def.IsOpen"
       }
     },
     {
       "id": "n_12",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.closedSet"
+        "entryId": "Topology.def.IsClosed"
       }
     },
     {
@@ -130,7 +130,7 @@
       "id": "n_18",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.boundary"
+        "entryId": "Topology.def.frontier"
       }
     },
     {
@@ -221,14 +221,14 @@
       "id": "n_31",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.denseSet"
+        "entryId": "Topology.def.Dense"
       }
     },
     {
       "id": "n_32",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.nowhereDense"
+        "entryId": "Topology.def.IsNowhereDense"
       }
     },
     {
@@ -459,14 +459,14 @@
       "id": "n_66",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.continuityAtPoint"
+        "entryId": "Topology.def.ContinuousAt"
       }
     },
     {
       "id": "n_67",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.continuousMap"
+        "entryId": "Topology.def.Continuous"
       }
     },
     {
@@ -522,7 +522,7 @@
       "id": "n_75",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.openMap"
+        "entryId": "Topology.def.IsOpenMap"
       }
     },
     {
@@ -585,21 +585,21 @@
       "id": "n_93",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.T0"
+        "entryId": "Topology.def.T0Space"
       }
     },
     {
       "id": "n_94",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.T1"
+        "entryId": "Topology.def.T1Space"
       }
     },
     {
       "id": "n_95",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.T2"
+        "entryId": "Topology.def.T2Space"
       }
     },
     {
@@ -683,14 +683,14 @@
       "id": "n_97",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.C1"
+        "entryId": "Topology.def.FirstCountableTopology"
       }
     },
     {
       "id": "n_98",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.C2"
+        "entryId": "Topology.def.SecondCountableTopology"
       }
     },
     {

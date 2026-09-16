@@ -10,8 +10,8 @@
       "type": "i18n",
       "default_language": "en",
       "values": {
-        "en": "Neighborhood Family",
-        "zh-CN": "邻域系"
+        "en": "Neighborhood Family (Mathlib `nhdsSet` is a filter)",
+        "zh-CN": "邻域系（Mathlib 的 `nhdsSet` 是滤子）"
       }
     },
     "content": {
