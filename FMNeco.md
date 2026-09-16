@@ -4,6 +4,22 @@
 
 写作的基本规范是，主分支任何提交必须保证可以通过 `snl validate` 检查，否则请先开分支后让 Agent 完成检查再提交。
 
+## 规范文件的分工
+
+| 文件 | 管什么 |
+|---|---|
+| `FMNeco.md`（本文件） | 仓库规范入口；命名原则、kind 词表。与其他文件冲突时以本文件为准。 |
+| `SNL-CONVENTIONS.md`（仓库根） | **书写规范**：宏树优先、根节点唯一、binder 作用域、`def` 三槽、公式节点、点态与函数级、Entry 内容形状、标签语义、验证纪律。 |
+| `.SNL_Doc/CONVENTIONS.md` | **身份规范**：macro 名、包归属、style 名、Entry ID、Library slug、语义来源、I18N、构造子、区间实参。只管身份，不管写法。 |
+
+命名与身份的完整规则见 `.SNL_Doc/CONVENTIONS.md`；本文件与它不冲突——本文件是入口与总纲，它管身份细则。
+
+## 提交前的最低要求
+
+1. `snl validate --json` 返回 `ok: true`、`issues: []`。
+2. **`validate` 通过不等于阅读器能载。** 改动过内容的，必须上浏览器看一次受影响 Library 的渲染。
+3. 执行 `snl` 的二进制必须是当前 Toolkit 树构建出的那一份，否则现场会出现「代码对、Spec 全，但结果对不上」的矛盾。核查方法与修法见 `SNL-CONVENTIONS.md` §13。
+
 ## SNL-Lean 同步规范
 
 1. 一个条目被 Fulcrum 笔记收容的标准是存在 SNL 条目。Lean 是可选项，而非必须项。

@@ -7,7 +7,7 @@
 > by the author.
 >
 > Prose conventions for *writing* SNL content (macro-tree-first, binder scoping,
-> `def` vs `def-hyp`) live in `../SNL-CONVENTIONS.md`. This file owns
+> `def` vs `def-hyp`) live in `../../SNL-CONVENTIONS.md`. This file owns
 > **identities** only.
 
 ## 1. Macro names
