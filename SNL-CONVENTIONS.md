@@ -266,3 +266,46 @@ readlink -f ~/.local/bin/snl.mjs
 
 Keep the `snl` launcher as a thin wrapper that `exec`s `snl.mjs`; the symlink is
 what must be replaced, not the wrapper.
+
+## 14. The reader watches a directory, not a branch
+
+The reader serves whatever is **on disk under `--root`**. It watches the
+filesystem and reloads on save, so it never needs a restart — but it also cannot
+know that the branch checked out there is not the one you just pushed.
+
+This produces a failure mode that looks like a broken reader and is a wrong
+checkout:
+
+1. The reader runs with `--root <repo>` and keeps running for days.
+2. Some agent checks out a feature branch in that same directory to do its work.
+3. Work lands on `main` elsewhere; the directory under the reader is still on the
+   feature branch.
+4. The page does not change. Nothing is broken — the reader is faithfully
+   serving an older tree.
+
+**Diagnosis.** Identify the serving process and its root first, then ask which
+commit that directory is at:
+
+```bash
+ps aux | grep "snl.mjs --root" | grep -v grep
+cd <root> && git log --oneline -1 && git branch --show-current
+```
+
+**Confirmation.** Compare the served tree against the commit you expect:
+
+```bash
+git merge-base --is-ancestor <expected-commit> HEAD && echo current || echo stale
+```
+
+**Rules.**
+- Do not use the reader's `--root` directory as a scratch checkout. Do branch
+  work in a separate worktree or a separate clone.
+- A long-lived reader should point at a directory that stays on the branch it is
+  meant to show. If the branch must move, expect to reconcile the reader root
+  explicitly — a reader that has been running for hours is not evidence that its
+  tree is current.
+- `validate` inside the reader root reports on that tree, so a clean validate
+  there certifies only what the reader is already serving.
+
+**Review:** before reporting that "the page did not update", resolve the serving
+process, its `--root`, and that directory's current commit — in that order.
