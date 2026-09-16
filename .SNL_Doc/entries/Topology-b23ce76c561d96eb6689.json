@@ -5,12 +5,12 @@
   "package": "Topology",
   "entry": {
     "id": "Topology.def.T4",
-    "package": "Topology",
     "kind": "definition",
     "title": "T4 空间",
     "content": {
-      "snl": "def[predicate](Topology.T4(S@Topology.ctxt.S),,Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@E,Set[text](S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](Topology.closedSet[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Topology.closedSet[text](E,τ@Topology.ctxt.tau,S@Topology.ctxt.S)),Logic.exists-typed(@U,Set[text](S@Topology.ctxt.S),Logic.exists-typed(@V,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,U),Set.Mem[authored](,τ@Topology.ctxt.tau,V)),And[authored_Logic_and_infix](Ne[authored_Neq_default](,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[round](,)),And[authored_Logic_and_infix](Set.Subset[infix](,F,U),Set.Subset[infix](,E,V))))))))))"
+      "snl": "def[prop](Topology.T4(S@Topology.ctxt.S),,Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@E,Set[text](S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](Topology.closedSet[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Topology.closedSet[text](E,τ@Topology.ctxt.tau,S@Topology.ctxt.S)),Logic.exists-typed(@U,Set[text](S@Topology.ctxt.S),Logic.exists-typed(@V,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,U),Set.Mem[authored](,τ@Topology.ctxt.tau,V)),And[authored_Logic_and_infix](Ne[authored_Neq_default](,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[round](,)),And[authored_Logic_and_infix](Set.Subset[infix](,F,U),Set.Subset[infix](,E,V))))))))))"
     },
+    "package": "Topology",
     "contribution_info": null,
     "pointer": null
   }

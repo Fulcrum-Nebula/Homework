@@ -15,10 +15,10 @@
       }
     },
     "content": {
-      "snl": "def[predicateDisplay](Measure.regular(mu@Measure.ctxt.mu), ,__enum__[enumerate](member[colon](%Outer regularity%,Measure.outerRegular(mu@Measure.ctxt.mu)),member[colon](%Inner regularity%,Measure.innerRegular(mu@Measure.ctxt.mu))))"
+      "snl": "def[prop](Measure.regular(mu@Measure.ctxt.mu), ,__enum__[enumerate](member[colon](%Outer regularity%,Measure.outerRegular(mu@Measure.ctxt.mu)),member[colon](%Inner regularity%,Measure.innerRegular(mu@Measure.ctxt.mu))))"
     },
+    "package": "MeasureTheory",
     "contribution_info": null,
-    "pointer": null,
-    "package": "MeasureTheory"
+    "pointer": null
   }
 }

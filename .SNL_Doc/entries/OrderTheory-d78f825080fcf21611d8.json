@@ -5,12 +5,12 @@
   "package": "OrderTheory",
   "entry": {
     "id": "Order.def.maximal",
-    "package": "OrderTheory",
     "kind": "definition",
     "title": "最大元",
     "content": {
-      "snl": "variable(Type.annotation(@a,S@Order.ctxt.S),def[predicate](Order.maximal(a,S@Order.ctxt.S,T@Order.ctxt.T),,Logic.forall-typed(@x,S@Order.ctxt.S,Not[authored_Logic_neg_prefix](Set.Mem(,$\\lt$@Order.def.partialOrder,Prod.mk(,,a,x))))))"
+      "snl": "variable(Type.annotation(@a,S@Order.ctxt.S),def[prop](Order.maximal(a,S@Order.ctxt.S,T@Order.ctxt.T),,Logic.forall-typed(@x,S@Order.ctxt.S,Not[authored_Logic_neg_prefix](Set.Mem(,$\\lt$@Order.def.partialOrder,Prod.mk(,,a,x))))))"
     },
+    "package": "OrderTheory",
     "contribution_info": null,
     "pointer": null
   }

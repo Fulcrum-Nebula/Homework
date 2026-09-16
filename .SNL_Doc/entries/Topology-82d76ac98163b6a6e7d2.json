@@ -15,10 +15,10 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x),Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T))),def[predicate](Topology.neighborhood(U,x),,Logic.exists-typed(@O,Set[text](T@Fulcrum.SetTheory.T),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,O),Set.Mem[authored](,O,x)),Set.Subset[infix](,O,U)))))"
+      "snl": "variable(__list__(Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x),Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T))),def[prop](Topology.neighborhood(U,x),,Logic.exists-typed(@O,Set[text](T@Fulcrum.SetTheory.T),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,O),Set.Mem[authored](,O,x)),Set.Subset[infix](,O,U)))))"
     },
+    "package": "Topology",
     "contribution_info": null,
-    "pointer": null,
-    "package": "Topology"
+    "pointer": null
   }
 }

@@ -15,10 +15,10 @@
       }
     },
     "content": {
-      "snl": "def[predicateDisplay](Measure.Complete(X@Measure.ctxt.X,Sigma@Measure.ctxt.Sigma,mu@Measure.ctxt.mu),,Logic.forall-typed(@N,Sigma@Measure.ctxt.Sigma,Logic.implies(Eq(,Measure.apply(mu@Measure.ctxt.mu,N),Measure.zero),Set.Subset[infix](,Set.powerset[script](,N),Sigma@Measure.ctxt.Sigma))))"
+      "snl": "def[prop](Measure.Complete(X@Measure.ctxt.X,Sigma@Measure.ctxt.Sigma,mu@Measure.ctxt.mu),,Logic.forall-typed(@N,Sigma@Measure.ctxt.Sigma,Logic.implies(Eq(,Measure.apply(mu@Measure.ctxt.mu,N),Measure.zero),Set.Subset[infix](,Set.powerset[script](,N),Sigma@Measure.ctxt.Sigma))))"
     },
+    "package": "MeasureTheory",
     "contribution_info": null,
-    "pointer": null,
-    "package": "MeasureTheory"
+    "pointer": null
   }
 }

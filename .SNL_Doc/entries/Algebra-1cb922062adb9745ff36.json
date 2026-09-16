@@ -15,10 +15,10 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@H,Set[text](G@Algebra.ctxt.G)),def[predicate](Algebra.Subgroup(H,G@Algebra.ctxt.G),,Algebra.Group(H,$\\cdot$@Algebra.ctxt.mul)))"
+      "snl": "variable(Type.annotation(@H,Set[text](G@Algebra.ctxt.G)),def[prop](Algebra.Subgroup(H,G@Algebra.ctxt.G),,Algebra.Group(H,$\\cdot$@Algebra.ctxt.mul)))"
     },
+    "package": "Algebra",
     "contribution_info": null,
-    "pointer": null,
-    "package": "Algebra"
+    "pointer": null
   }
 }

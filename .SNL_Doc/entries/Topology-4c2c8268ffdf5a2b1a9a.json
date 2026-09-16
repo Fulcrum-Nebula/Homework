@@ -5,12 +5,12 @@
   "package": "Topology",
   "entry": {
     "id": "Topology.def.neighborhoodBasis",
-    "package": "Topology",
     "kind": "definition",
     "title": "邻域基",
     "content": {
-      "snl": "variable(Type.annotation(@x,S@Topology.ctxt.S),def[predicate](Topology.neighborhoodBasis(x),,Logic.forall-typed(@U,Set[text](S@Topology.ctxt.S),Logic.implies(Set.Mem[authored](,Topology.Nbr(x),U),Logic.exists-typed(@V,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](Set.Mem[authored](,Topology.neighborhoodBasis(x),V),Set.Subset[infix](,V,U)))))))"
+      "snl": "variable(Type.annotation(@x,S@Topology.ctxt.S),def[prop](Topology.neighborhoodBasis(x),,Logic.forall-typed(@U,Set[text](S@Topology.ctxt.S),Logic.implies(Set.Mem[authored](,Topology.Nbr(x),U),Logic.exists-typed(@V,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](Set.Mem[authored](,Topology.neighborhoodBasis(x),V),Set.Subset[infix](,V,U)))))))"
     },
+    "package": "Topology",
     "contribution_info": null,
     "pointer": null
   }
