@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.prop.trivialTopologyProps",
+    "kind": "property",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Properties of the Trivial Topology",
+        "zh-CN": "平凡拓扑空间的性质"
+      }
+    },
+    "content": {
+      "snl": "theorem(And[authored_Logic_and_infix](Topology.connected(S@Topology.ctxt.S),Topology.compact(S@Topology.ctxt.S)))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

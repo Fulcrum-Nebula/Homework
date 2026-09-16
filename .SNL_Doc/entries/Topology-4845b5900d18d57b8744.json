@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.example.limitNotUniqueInT1",
+    "kind": "example",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Limits May Not Be Unique in T1 Spaces",
+        "zh-CN": "T1 空间上的极限可能不唯一"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@a,Type.to(Nat,S@Topology.ctxt.S))),theorem(Logic.exists-typed(@x,S@Topology.ctxt.S,Logic.exists-typed(@y,S@Topology.ctxt.S,And[authored_Logic_and_infix](Not(Eq(,x,y)),And[authored_Logic_and_infix](Topology.seqLimit[default](n,a(n),x),Topology.seqLimit[default](n,a(n),y)))))))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

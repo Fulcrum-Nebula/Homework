@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.prop.absolutenessOfCompactness",
+    "kind": "property",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Absoluteness of Compactness",
+        "zh-CN": "紧致性的绝对性"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@X,Set[text](T@Fulcrum.SetTheory.T)),Type.annotation(@K,Set[text](X@Topology.ctxt.X))),theorem(Iff[authored_Logic_iff_long](Topology.subspaceCompact[default](K,X@Topology.ctxt.X),Topology.compact(K))))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

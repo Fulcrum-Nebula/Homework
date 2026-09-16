@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.prop.discreteTopologyProps",
+    "kind": "property",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Properties of the Discrete Topology",
+        "zh-CN": "离散拓扑空间的性质"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T))),theorem(And[authored_Logic_and_infix](Topology.openSet(A,Topology.discreteTopology(S@Topology.ctxt.S)),Topology.closedSet[text](A,Topology.discreteTopology(S@Topology.ctxt.S),S@Topology.ctxt.S))))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

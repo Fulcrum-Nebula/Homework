@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.example.continuousNotOpenMap",
+    "kind": "example",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "A Continuous Map Is Not Necessarily Open",
+        "zh-CN": "连续映射不一定是开映射"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@f,Type.to(X@Topology.ctxt.X,Y@Topology.ctxt.Y))),theorem(And[authored_Logic_and_infix](Topology.continuousMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),Not(Topology.openMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y)))))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

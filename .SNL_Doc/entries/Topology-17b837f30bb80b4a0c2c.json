@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.example.cofiniteTopology",
+    "kind": "example",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Cofinite Topology",
+        "zh-CN": "无限集合上的有限补拓扑"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@X,Set[text](T@Fulcrum.SetTheory.T))),def(Topology.cofiniteTopology(X),,Topology.topology(setOf[typedBuilder](@U,Set[text](S@Topology.ctxt.S),Or[authored_Logic_or_infix](Set.Finite[text](,Set.diff[relative_sup](,S@Topology.ctxt.S,U)),Eq(,U,EmptyCollection.emptyCollection[round]()))),S@Topology.ctxt.S)))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

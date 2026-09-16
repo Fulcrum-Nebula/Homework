@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.example.closedBoundedNotCompact",
+    "kind": "example",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "A Closed and Bounded Set in a Topological Space Is Not Necessarily Compact",
+        "zh-CN": "一般拓扑空间中的有界闭集不一定是紧致集"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T))),theorem(And[authored_Logic_and_infix](And[authored_Logic_and_infix](Topology.closedSet[text](A,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Topology.bounded(A)),Not(Topology.compact(A)))))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}
