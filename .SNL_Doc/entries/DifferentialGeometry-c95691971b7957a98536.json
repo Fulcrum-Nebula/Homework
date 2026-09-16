@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "DifferentialGeometry",
+  "entry": {
+    "id": "DG.def.tangentVector",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Tangent Vector",
+        "zh-CN": "切向量"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.tangentVector(γ),,Analysis.def.vectorValuedDeriv(γ)))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "For an arc-length parametrized curve $\\gamma$, the **tangent vector** is $\\mathbf{t}:=\\gamma'$, i.e. $\\mathbf{t}(s)=\\gamma'(s)$. Since $s$ is an arc-length parameter, $\\lVert\\mathbf{t}(s)\\rVert=1$ for every $s$, so $\\mathbf{t}$ is the unit tangent field of $\\gamma$.",
+          "zh-CN": "对以弧长为参数的曲线 $\\gamma$，**切向量**定义为 $\\mathbf{t}:=\\gamma'$，即 $\\mathbf{t}(s)=\\gamma'(s)$。由于 $s$ 是弧长参数，对每个 $s$ 都有 $\\lVert\\mathbf{t}(s)\\rVert=1$，故 $\\mathbf{t}$ 是 $\\gamma$ 的单位切向量场。"
+        }
+      }
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "DifferentialGeometry"
+  }
+}

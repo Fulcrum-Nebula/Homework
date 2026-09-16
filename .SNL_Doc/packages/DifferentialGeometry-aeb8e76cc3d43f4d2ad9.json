@@ -5,5 +5,11 @@
   "format": "snl-package",
   "version": 1,
   "schema_version": 2,
-  "entry_ids": []
+  "entry_ids": [
+    "DG.def.arcLengthParam",
+    "DG.def.curvature",
+    "DG.def.principalNormal",
+    "DG.def.spaceCurve",
+    "DG.def.tangentVector"
+  ]
 }

@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "DifferentialGeometry",
+  "entry": {
+    "id": "DG.def.curvature",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Curvature",
+        "zh-CN": "曲率"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.curvature(γ),,LA.def.normRn(Analysis.def.vectorValuedDeriv[second](γ))))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "For an arc-length parametrized curve $\\gamma$, the **curvature** is the function $\\kappa:=\\lVert\\gamma''\\rVert$, i.e. $\\kappa(s)=\\lVert\\gamma''(s)\\rVert$ at each value $s$ of the arc-length parameter. It measures how fast the tangent direction turns, and $\\kappa(s)=0$ exactly at points where the curve is locally straight.",
+          "zh-CN": "对以弧长为参数的曲线 $\\gamma$，**曲率**定义为函数 $\\kappa:=\\lVert\\gamma''\\rVert$，即在弧长参数 $s$ 的每个取值处 $\\kappa(s)=\\lVert\\gamma''(s)\\rVert$。它度量切方向转动的快慢；$\\kappa(s)=0$ 恰好对应于曲线在该点局部为直线的情形。"
+        }
+      }
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "DifferentialGeometry"
+  }
+}
