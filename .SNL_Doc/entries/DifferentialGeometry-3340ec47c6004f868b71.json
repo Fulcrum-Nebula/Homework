@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "DifferentialGeometry",
+  "entry": {
+    "id": "DG.def.torsion",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Torsion",
+        "zh-CN": "挠率"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.torsion[text](γ),,Eq(,Analysis.def.vectorValuedDeriv(DG.def.binormal(γ)),LA.Smul(DG.def.torsion(γ),DG.def.principalNormal(γ)))))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "For an arc-length parametrized curve $\\gamma$ with $\\gamma''\\neq 0$, the **torsion** of $\\gamma$ is the function $\\tau$ characterized by $\\mathbf{b}'(s)=\\tau(s)\\,\\mathbf{n}(s)$ for every value $s$ of the arc-length parameter, that is $\\mathbf{b}'=\\tau\\,\\mathbf{n}$. Since $\\mathbf{b}$ is a unit vector field, $\\mathbf{b}'\\perp\\mathbf{b}$; and since $\\mathbf{t},\\mathbf{n},\\mathbf{b}$ is an orthonormal frame, $\\mathbf{b}'$ must be a multiple of $\\mathbf{n}$. Hence such a $\\tau$ exists and is unique, and equivalently $\\tau=\\langle\\mathbf{b}',\\mathbf{n}\\rangle$. The torsion measures how fast the osculating plane rotates along the curve; $\\tau\\equiv 0$ exactly when $\\gamma$ is planar.",
+          "zh-CN": "对满足 $\\gamma''\\neq 0$ 的以弧长为参数的曲线 $\\gamma$，**挠率**是由 $\\mathbf{b}'(s)=\\tau(s)\\,\\mathbf{n}(s)$ 刻画的函数 $\\tau$，即在弧长参数 $s$ 的每个取值处成立，亦即 $\\mathbf{b}'=\\tau\\,\\mathbf{n}$。由于 $\\mathbf{b}$ 是单位向量场，$\\mathbf{b}'\\perp\\mathbf{b}$；又因 $\\mathbf{t},\\mathbf{n},\\mathbf{b}$ 是正交标架，$\\mathbf{b}'$ 必为 $\\mathbf{n}$ 的倍数。故这样的 $\\tau$ 存在且唯一，等价地 $\\tau=\\langle\\mathbf{b}',\\mathbf{n}\\rangle$。挠率度量密切平面沿曲线转动的快慢；$\\tau\\equiv 0$ 恰好对应于 $\\gamma$ 是平面曲线。"
+        }
+      }
+    },
+    "package": "DifferentialGeometry",
+    "contribution_info": null,
+    "pointer": null
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "DifferentialGeometry",
+  "entry": {
+    "id": "DG.def.binormal",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Binormal Vector",
+        "zh-CN": "副法向量"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.binormal(γ),,LA.def.crossProductR3[wedge](DG.def.tangentVector(γ),DG.def.principalNormal(γ))))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "For an arc-length parametrized curve $\\gamma$ with $\\gamma''\\neq 0$, the **binormal vector** is $\\mathbf{b}:=\\mathbf{t}\\wedge\\mathbf{n}$, i.e. $\\mathbf{b}(s)=\\mathbf{t}(s)\\wedge\\mathbf{n}(s)$: the cross product of the unit tangent vector and the principal normal vector. As the cross product of two orthogonal unit vectors it is again a unit vector, and $\\mathbf{t},\\mathbf{n},\\mathbf{b}$ form a right-handed orthonormal frame along the curve. Geometrically $\\mathbf{b}$ is the unit normal of the osculating plane, the plane spanned by $\\mathbf{t}$ and $\\mathbf{n}$.",
+          "zh-CN": "对满足 $\\gamma''\\neq 0$ 的以弧长为参数的曲线 $\\gamma$，**副法向量**定义为 $\\mathbf{b}:=\\mathbf{t}\\wedge\\mathbf{n}$，即 $\\mathbf{b}(s)=\\mathbf{t}(s)\\wedge\\mathbf{n}(s)$，也就是单位切向量与主法向量的叉积。两个正交单位向量的叉积仍为单位向量，故 $\\mathbf{t},\\mathbf{n},\\mathbf{b}$ 沿曲线构成右手正交标架。几何上 $\\mathbf{b}$ 是由 $\\mathbf{t}$ 与 $\\mathbf{n}$ 张成的密切平面的单位法向量。"
+        }
+      }
+    },
+    "package": "DifferentialGeometry",
+    "contribution_info": null,
+    "pointer": null
+  }
+}

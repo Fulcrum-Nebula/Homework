@@ -7,9 +7,17 @@
   "schema_version": 2,
   "entry_ids": [
     "DG.def.arcLengthParam",
+    "DG.def.binormal",
     "DG.def.curvature",
+    "DG.def.frenetFrame",
     "DG.def.principalNormal",
     "DG.def.spaceCurve",
-    "DG.def.tangentVector"
+    "DG.def.tangentVector",
+    "DG.def.torsion",
+    "DG.lem.unitVectorOrthogonalDeriv",
+    "DG.sec.curveAndSurfaceLocalTheory",
+    "DG.subsec.spaceCurveTheory",
+    "DG.subsec.surfaces",
+    "DG.thm.frenetSerret"
   ]
 }

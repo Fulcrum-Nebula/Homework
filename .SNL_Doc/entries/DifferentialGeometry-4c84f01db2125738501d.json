@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "DifferentialGeometry",
+  "entry": {
+    "id": "DG.def.frenetFrame",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Frenet Frame",
+        "zh-CN": "Frenet 标架"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.frenetFrame[text](γ),,DG.def.frenetFrame(γ)))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "For an arc-length parametrized curve $\\gamma$ with $\\gamma''\\neq 0$, the **Frenet frame** is the triple $\\{\\mathbf{t},\\mathbf{n},\\mathbf{b}\\}$ consisting of the tangent vector, the principal normal vector and the binormal vector of $\\gamma$. At every value $s$ of the arc-length parameter the three vectors are pairwise orthogonal unit vectors, so $\\{\\mathbf{t}(s),\\mathbf{n}(s),\\mathbf{b}(s)\\}$ is an orthonormal basis of $\\mathbb{R}^{3}$; it is right-handed, because $\\mathbf{b}=\\mathbf{t}\\wedge\\mathbf{n}$. The plane spanned by $\\mathbf{t}$ and $\\mathbf{n}$ is called the **osculating plane** of $\\gamma$ at $\\gamma(s)$; it is orthogonal to $\\mathbf{b}(s)$. The Frenet frame therefore attaches a moving orthonormal basis to the curve, and the curvature and torsion measure how that frame turns.",
+          "zh-CN": "对满足 $\\gamma''\\neq 0$ 的以弧长为参数的曲线 $\\gamma$，**Frenet 标架**是它的切向量、主法向量与副法向量组成的三元组 $\\{\\mathbf{t},\\mathbf{n},\\mathbf{b}\\}$。在弧长参数 $s$ 的每个取值处，这三个向量两两正交且均为单位向量，故 $\\{\\mathbf{t}(s),\\mathbf{n}(s),\\mathbf{b}(s)\\}$ 是 $\\mathbb{R}^{3}$ 的一组正交基；又因 $\\mathbf{b}=\\mathbf{t}\\wedge\\mathbf{n}$，它是右手系的。由 $\\mathbf{t}$ 与 $\\mathbf{n}$ 张成的平面称为 $\\gamma$ 在 $\\gamma(s)$ 处的**密切平面**，它与 $\\mathbf{b}(s)$ 正交。因此 Frenet 标架在曲线上给出一个活动的正交基，曲率与挠率刻画该标架的转动。"
+        }
+      }
+    },
+    "package": "DifferentialGeometry",
+    "contribution_info": null,
+    "pointer": null
+  }
+}
