@@ -2,10 +2,10 @@
   "format": "snl-macro",
   "version": 1,
   "schema_version": 1,
-  "package": "BasicAnalysis",
+  "package": "LinearAlgebra",
   "macro": {
-    "name": "Analysis.def.vectorValuedDeriv",
-    "description": "Derivative of a vector-valued map; the second style is the second derivative.",
+    "name": "inner",
+    "description": "Euclidean inner product on R^n.",
     "source": {
       "entries": [],
       "urls": []
@@ -19,7 +19,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0'",
+          "body": "\\left\\langle #0, #1 \\right\\rangle",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -39,11 +39,11 @@
         }
       },
       {
-        "style_name": "second",
+        "style_name": "dot",
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "#0''",
+          "body": "#0 \\cdot #1",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -71,7 +71,7 @@
           "values": {
             "zh-CN": {
               "mode": "text",
-              "body": "#0 的向量值导数",
+              "body": "#0 与 #1 的内积",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -91,7 +91,7 @@
             },
             "en": {
               "mode": "text",
-              "body": "the derivative of the vector-valued map #0",
+              "body": "the inner product of #0 and #1",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -112,6 +112,11 @@
           }
         }
       }
-    ]
+    ],
+    "pointer": {
+      "file": "Mathlib/Analysis/InnerProductSpace/Defs.lean",
+      "mode": "lines",
+      "line": 79
+    }
   }
 }

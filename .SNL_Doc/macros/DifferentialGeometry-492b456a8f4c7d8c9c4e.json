@@ -2,15 +2,15 @@
   "format": "snl-macro",
   "version": 1,
   "schema_version": 1,
-  "package": "BasicAnalysis",
+  "package": "DifferentialGeometry",
   "macro": {
-    "name": "Analysis.def.smoothMapRn",
-    "description": "Smoothness predicate C^infinity for a map from #1 into R^n.",
+    "name": "DG.SpaceCurve.regularity",
+    "kind": "const",
+    "description": "Regularity of a space curve",
     "source": {
       "entries": [],
       "urls": []
     },
-    "kind": "const",
     "dynamic_arity": false,
     "tags": [],
     "styles": [
@@ -21,9 +21,9 @@
           "type": "i18n",
           "default_language": "en",
           "values": {
-            "zh-CN": {
+            "en": {
               "mode": "text",
-              "body": "#0 在 #1 上光滑（C∞）",
+              "body": "Regularity",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -41,9 +41,9 @@
               "markdown": "",
               "text": ""
             },
-            "en": {
+            "zh-CN": {
               "mode": "text",
-              "body": "#0 is smooth (C^inf) on #1",
+              "body": "正则性",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -62,30 +62,6 @@
               "text": ""
             }
           }
-        }
-      },
-      {
-        "style_name": "default",
-        "tags": [],
-        "template": {
-          "mode": "formula_inline",
-          "body": "C^{\\infty}",
-          "typst": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "latex": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "markdown": "",
-          "text": ""
         }
       }
     ]

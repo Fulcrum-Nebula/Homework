@@ -2,10 +2,10 @@
   "format": "snl-macro",
   "version": 1,
   "schema_version": 1,
-  "package": "LinearAlgebra",
+  "package": "BasicAnalysis",
   "macro": {
-    "name": "LA.def.normRn",
-    "description": "Euclidean norm on R^n, induced by the inner product.",
+    "name": "ContDiff",
+    "description": "Smoothness predicate: #1 is C^#0. Mathlib: `ContDiff (n : WithTop ℕ∞) (f : E → F)`; the scalar field 𝕜 is not displayed (same convention as `deriv`).",
     "source": {
       "entries": [],
       "urls": []
@@ -15,30 +15,6 @@
     "tags": [],
     "styles": [
       {
-        "style_name": "default",
-        "tags": [],
-        "template": {
-          "mode": "formula_inline",
-          "body": "\\left\\| #0 \\right\\|",
-          "typst": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "latex": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "markdown": "",
-          "text": ""
-        }
-      },
-      {
         "style_name": "text",
         "tags": [],
         "template": {
@@ -47,7 +23,7 @@
           "values": {
             "zh-CN": {
               "mode": "text",
-              "body": "#0 的范数",
+              "body": "#1 是 C^#0 的",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -67,7 +43,7 @@
             },
             "en": {
               "mode": "text",
-              "body": "the norm of #0",
+              "body": "#1 is C^#0",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -87,7 +63,36 @@
             }
           }
         }
+      },
+      {
+        "style_name": "default",
+        "tags": [],
+        "template": {
+          "mode": "formula_inline",
+          "body": "C^{#0}(#1)",
+          "typst": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "latex": {
+            "built_in": "",
+            "synthesis": {
+              "mode": "formula",
+              "macro": ""
+            }
+          },
+          "markdown": "",
+          "text": ""
+        }
       }
-    ]
+    ],
+    "pointer": {
+      "file": "Mathlib/Analysis/Calculus/ContDiff/Defs.lean",
+      "mode": "lines",
+      "line": 1037
+    }
   }
 }

@@ -12,6 +12,28 @@
 
 ## 1. Macro names
 
+### Mathlib-identical names
+
+**If this document needs exactly the Mathlib concept — the same definition, not
+merely a similar one — the macro takes Mathlib's name verbatim**: a bare name,
+with no namespace, no `.def.` prefix, and no specialisation prefix. This rule
+outranks every other rule in this section, including dotted qualification and the
+specialisation prefix below; the general rules apply only where Mathlib has no
+identical concept. Ownership is a separate axis — the owning package still
+follows the mathematical theory that owns the concept.
+
+| bare macro | owning package | Mathlib name | notation | Mathlib source |
+|---|---|---|---|---|
+| `norm` | `LinearAlgebra` | `norm` | `‖x‖` | `Mathlib/Analysis/Normed/Group/Defs.lean` |
+| `inner` | `LinearAlgebra` | `inner` | `⟪x, y⟫` | `Mathlib/Analysis/InnerProductSpace/Defs.lean` |
+| `crossProduct` | `LinearAlgebra` | `crossProduct` | `⨯₃` | `Mathlib/LinearAlgebra/CrossProduct.lean` |
+| `ContDiff` | `BasicAnalysis` | `ContDiff` | — | `Mathlib/Analysis/Calculus/ContDiff/Defs.lean` |
+| `deriv` | `BasicAnalysis` | `deriv` | — | `Mathlib/Analysis/Calculus/Deriv/Basic.lean` |
+
+The rendered notation may be localized — a book may write `∧` where Mathlib
+writes `⨯₃` — but the macro name may not. These bare names are the third category
+of `Unnamespaced macros` below, and they do not appear in `Namespaces in use`.
+
 Grammar:
 
 ```text
@@ -51,6 +73,18 @@ macroName := Namespace "." slug ("." qualifier)?
 - Hyphens are legal but reserved for such qualifier suffixes. Do not use a
   hyphen to separate words inside a slug; use camelCase.
 
+### Structure members
+
+A structure's property macros are named `<Structure>.<property>` with a dot, the
+counterpart of Mathlib's `Structure.property` convention. The structure is the
+slug, the property is the dotted qualifier, the property keeps its own casing,
+and the macro stays in the package that owns the structure.
+
+| macro | content (en) | zh-CN | owning package |
+|---|---|---|---|
+| `DG.SpaceCurve.smoothness` | `Smoothness` | 光滑性 | `DifferentialGeometry` |
+| `DG.SpaceCurve.regularity` | `Regularity` | 正则性 | `DifferentialGeometry` |
+
 ### Namespaces in use
 
 | namespace | owning package | scope |
@@ -67,7 +101,7 @@ macroName := Namespace "." slug ("." qualifier)?
 
 ### Unnamespaced macros
 
-Exactly two categories may carry a bare name:
+Exactly three categories may carry a bare name:
 
 1. **Structural macros** that describe the shape of a mathematical statement
    rather than any mathematical object: `def`, `def-hyp`, `thm-hyp`,
@@ -90,8 +124,14 @@ Exactly two categories may carry a bare name:
    was never domain-specific to begin with. If you catch yourself writing
    `Foo.Nat`, `Foo.Int`, `Foo.Real`, `Foo.Complex` or similar, the macro belongs
    in `BasicOperators` under its bare name.
+3. **Mathlib-identical macros** that reuse Mathlib's name verbatim (see
+   "Mathlib-identical names" above): `norm`, `inner`, `crossProduct`,
+   `ContDiff`, `deriv`. Here the name is not chosen at all — it is copied from
+   Mathlib so that the two terminologies stay greppable against each other — and
+   ownership still follows the theory that owns the concept.
 
-Anything else gets a namespace. New bare names are not accepted.
+Anything else gets a namespace: a bare name outside these three categories is not
+accepted.
 
 ## 2. Package ownership
 
@@ -104,6 +144,13 @@ Anything else gets a namespace. New bare names are not accepted.
   theory does not redefine it.
 - A concept is added to `BasicOperators` only when at least two unrelated
   theories already need it. Do not pre-emptively generalise.
+- **Symbols, not concepts.** `BasicOperators` holds only the elementary notation
+  listed in §1 — `Eq`, `Power`, `Icc`, the number systems, the arithmetic
+  `Add.add` / `Sub.sub` / `Mul.mul` / `Div.div`. A mathematical concept stays
+  with the theory that owns it even when it is general and widely reused: the
+  norm and the inner product are `LinearAlgebra` macros (§1, "Mathlib-identical
+  names"), not `BasicOperators` ones. The test is **"is this a symbol, or a
+  concept?"**
 - Every package must be listed in `config.json#active_macro_packages`.
 
 ### Known deviation
@@ -254,3 +301,20 @@ in its domain Macro Package and is localized in place when its style is prose.
   attached below every intended parent occurrence with the Library's
   `Subentry` counter. Their `content` remains `{}` until the corresponding
   definitions are authored.
+
+## 9. Interval arguments
+
+An interval is a predicate on a real number, never a type. A binder whose value
+is meant to lie in `[a, b]` is written
+
+```text
+s : Real   with   s ∈ [a, b]
+```
+
+not `s : Icc(a, b)`. Declare the primitive type and state interval membership as
+a separate constraint; `Icc` is the elementary interval symbol of §1, not a type
+constructor. The same applies to `Ioo`, `Ico`, `Ioc`.
+
+A function whose domain genuinely *is* an interval may still take `Icc(a, b)` as
+its domain type (`γ : Icc(a, b) → ℝ³`): this rule governs binders, where the
+interval constrains a point rather than typing it.

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.binormal(γ),,LA.def.crossProductR3[wedge](DG.def.tangentVector(γ),DG.def.principalNormal(γ))))",
+      "snl": "variable(__list__(Type.annotation(@a,Real),Type.annotation(@b,Real),Type.annotation(@γ,Type.to(Icc(a,b),LA.def.realVecSpaceRn($3$)))),def(DG.def.binormal(γ),,crossProduct[wedge](DG.def.tangentVector(γ),DG.def.principalNormal(γ))))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",

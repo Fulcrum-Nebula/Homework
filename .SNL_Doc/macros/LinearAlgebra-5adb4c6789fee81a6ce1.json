@@ -4,8 +4,8 @@
   "schema_version": 1,
   "package": "LinearAlgebra",
   "macro": {
-    "name": "LA.def.innerProductRn",
-    "description": "Euclidean inner product on R^n.",
+    "name": "norm",
+    "description": "Euclidean norm on R^n, induced by the inner product.",
     "source": {
       "entries": [],
       "urls": []
@@ -19,31 +19,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "\\left\\langle #0, #1 \\right\\rangle",
-          "typst": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "latex": {
-            "built_in": "",
-            "synthesis": {
-              "mode": "formula",
-              "macro": ""
-            }
-          },
-          "markdown": "",
-          "text": ""
-        }
-      },
-      {
-        "style_name": "dot",
-        "tags": [],
-        "template": {
-          "mode": "formula_inline",
-          "body": "#0 \\cdot #1",
+          "body": "\\left\\| #0 \\right\\|",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -71,7 +47,7 @@
           "values": {
             "zh-CN": {
               "mode": "text",
-              "body": "#0 与 #1 的内积",
+              "body": "#0 的范数",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -91,7 +67,7 @@
             },
             "en": {
               "mode": "text",
-              "body": "the inner product of #0 and #1",
+              "body": "the norm of #0",
               "typst": {
                 "built_in": "",
                 "synthesis": {
@@ -112,6 +88,11 @@
           }
         }
       }
-    ]
+    ],
+    "pointer": {
+      "file": "Mathlib/Analysis/Normed/Group/Defs.lean",
+      "mode": "lines",
+      "line": 56
+    }
   }
 }

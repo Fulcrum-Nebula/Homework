@@ -4,7 +4,7 @@
   "schema_version": 1,
   "package": "LinearAlgebra",
   "macro": {
-    "name": "LA.def.crossProductR3",
+    "name": "crossProduct",
     "description": "Cross product of two vectors in R^3 (specialisation of the general vector product to dimension three).",
     "source": {
       "entries": [],
@@ -112,6 +112,11 @@
           }
         }
       }
-    ]
+    ],
+    "pointer": {
+      "file": "Mathlib/LinearAlgebra/CrossProduct.lean",
+      "mode": "lines",
+      "line": 50
+    }
   }
 }
