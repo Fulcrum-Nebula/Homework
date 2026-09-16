@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "def(Topology.IsOpenMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,Logic.forall-typed(@U,Set[text](A@Topology.ctxt.AB),Logic.implies(Topology.IsOpen(U,τ_X),Topology.IsOpen(Set.fun(f,U),τ_Y))))"
+      "snl": "def[prop](Topology.IsOpenMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,Logic.forall-typed(@U,Set[text](A@Topology.ctxt.AB),Logic.implies(Topology.IsOpen(U,${τ}_{X}$@τₓ),Topology.IsOpen(Set.fun(f,U),${τ}_{Y}$@τᵧ))))"
     },
     "contribution_info": null,
     "pointer": {

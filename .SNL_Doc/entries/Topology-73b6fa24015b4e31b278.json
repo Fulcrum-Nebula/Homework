@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.IsNowhereDense(A),,Eq(,Topology.interior(Topology.closure(A)),EmptyCollection.emptyCollection[round](,))))"
+      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def[prop](Topology.IsNowhereDense(A),,Eq(,Topology.interior(Topology.closure(A)),EmptyCollection.emptyCollection[round](,))))"
     },
     "contribution_info": null,
     "pointer": {

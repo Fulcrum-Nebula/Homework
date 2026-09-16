@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "And[authored_Logic_and_infix](Type.annotation(@τ_X,Set[text](X@Topology.ctxt.X)),Topology.topology(τ_X,X@Topology.ctxt.X))"
+      "snl": "And[authored_Logic_and_infix](Type.annotation(@${τ}_{X}$@τₓ,Set[text](X@Topology.ctxt.X)),Topology.topology(${τ}_{X}$@τₓ,X@Topology.ctxt.X))"
     },
     "contribution_info": null,
     "pointer": null,

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.perfect(A),,Eq(,Topology.derivedSet(A),A)))"
+      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def[prop](Topology.perfect(A),,Eq(,Topology.derivedSet(A),A)))"
     },
     "contribution_info": null,
     "pointer": null,

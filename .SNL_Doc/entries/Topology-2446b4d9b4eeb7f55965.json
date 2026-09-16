@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Topology.T2Space(S@Topology.ctxt.S),Type.annotation(@n,Nat),Type.annotation(@${x}_{1}$@x₁,S@Topology.ctxt.S),Type.annotation(@${x}_{2}$@x₂,S@Topology.ctxt.S)),theorem(Logic.forall-typed(@x_n,Type.to(Nat,S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](Topology.seqConv(n,x_n,${x}_{1}$@x₁),Topology.seqConv(n,x_n,${x}_{2}$@x₂)),Eq(,${x}_{1}$@x₁,${x}_{2}$@x₂)))))"
+      "snl": "variable(__list__(Topology.T2Space(S@Topology.ctxt.S),Type.annotation(@n,Nat),Type.annotation(@${x}_{1}$@x₁,S@Topology.ctxt.S),Type.annotation(@${x}_{2}$@x₂,S@Topology.ctxt.S)),theorem(Logic.forall-typed(@${x}_{n}$@xₙ,Type.to(Nat,S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](Topology.seqConv(n,${x}_{n}$@xₙ,${x}_{1}$@x₁),Topology.seqConv(n,${x}_{n}$@xₙ,${x}_{2}$@x₂)),Eq(,${x}_{1}$@x₁,${x}_{2}$@x₂)))))"
     },
     "contribution_info": null,
     "pointer": null,

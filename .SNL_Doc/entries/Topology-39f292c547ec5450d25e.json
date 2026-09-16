@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@f,Type.to(X@Topology.ctxt.X,Y@Topology.ctxt.Y)),Type.annotation(@τ_X,Set[text](Set[text](X@Topology.ctxt.X))),Type.annotation(@τ_Y,Set[text](Set[text](Y@Topology.ctxt.Y)))),def(Topology.lipschitz(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,True[authored_Logic_true_top]))"
+      "snl": "variable(__list__(Type.annotation(@f,Type.to(X@Topology.ctxt.X,Y@Topology.ctxt.Y)),Type.annotation(@${τ}_{X}$@τₓ,Set[text](Set[text](X@Topology.ctxt.X))),Type.annotation(@${τ}_{Y}$@τᵧ,Set[text](Set[text](Y@Topology.ctxt.Y)))),def[prop](Topology.lipschitz(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,True[authored_Logic_true_top]))"
     },
     "contribution_info": "待相关依赖建设完成后再补全",
     "pointer": null,

@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@K_n,Type.to(Nat,Set[text](S@Topology.ctxt.S))),Type.annotation(@τ,Set[text](Set[text](S@Topology.ctxt.S)))),theorem(True[authored_Logic_true_top]))"
+      "snl": "variable(__list__(Type.annotation(@${K}_{n}$@Kₙ,Type.to(Nat,Set[text](S@Topology.ctxt.S))),Type.annotation(@τ,Set[text](Set[text](S@Topology.ctxt.S)))),theorem(True[authored_Logic_true_top]))"
     },
     "contribution_info": null,
     "pointer": null,
