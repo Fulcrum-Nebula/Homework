@@ -7,7 +7,7 @@
     "description": "Predicate: A is a (metric) bounded set",
     "source": {
       "entries": [
-        "Topology.def.bounded"
+        "IsBounded"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.bounded"
+    "name": "IsBounded"
   }
 }
