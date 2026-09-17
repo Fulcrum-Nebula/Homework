@@ -522,7 +522,7 @@
       "id": "n_75",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.IsOpenMap"
+        "entryId": "IsOpenMap"
       }
     },
     {

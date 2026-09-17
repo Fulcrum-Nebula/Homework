@@ -10000,12 +10000,12 @@
     {
       "id": "dep.Topology.def.homeomorphism.Topology.def.openMap",
       "from": "Topology.def.homeomorphism",
-      "to": "Topology.def.IsOpenMap",
+      "to": "IsOpenMap",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsOpenMap"
+          "IsOpenMap"
         ],
         "isAtomic": true
       }
@@ -11351,7 +11351,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Fulcrum.def",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -11364,7 +11364,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Logic.def.forall",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -11377,7 +11377,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Logic.def.implies",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -11390,7 +11390,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Set.def.set",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -11403,7 +11403,7 @@
     },
     {
       "id": "dep.Topology.def.openMap.Topology.def.openSet",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "IsOpen",
       "label": "depends",
       "metadata": {
@@ -27768,7 +27768,7 @@
     },
     {
       "id": "ctx.Topology.def.openMap.Topology.ctxt.X",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "Topology.ctxt.X",
       "label": "uses_context",
       "metadata": {
@@ -27781,7 +27781,7 @@
     },
     {
       "id": "ctx.Topology.def.openMap.Topology.ctxt.Y",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "Topology.ctxt.Y",
       "label": "uses_context",
       "metadata": {
@@ -27794,7 +27794,7 @@
     },
     {
       "id": "ctx.Topology.def.openMap.Topology.ctxt.AB",
-      "from": "Topology.def.IsOpenMap",
+      "from": "IsOpenMap",
       "to": "Topology.ctxt.AB",
       "label": "uses_context",
       "metadata": {

@@ -7,7 +7,7 @@
     "description": "Predicate: f is an open map",
     "source": {
       "entries": [
-        "Topology.def.IsOpenMap"
+        "IsOpenMap"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.IsOpenMap"
+    "name": "IsOpenMap"
   }
 }

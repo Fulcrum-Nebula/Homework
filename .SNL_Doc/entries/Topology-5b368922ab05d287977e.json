@@ -4,7 +4,7 @@
   "schema_version": 1,
   "package": "Topology",
   "entry": {
-    "id": "Topology.def.IsOpenMap",
+    "id": "IsOpenMap",
     "kind": "definition",
     "title": {
       "type": "i18n",
@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "def[prop](Topology.IsOpenMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,Logic.forall-typed(@U,Set[text](A@Topology.ctxt.AB),Logic.implies(IsOpen(U,${τ}_{X}$@τₓ),IsOpen(Set.fun(f,U),${τ}_{Y}$@τᵧ))))"
+      "snl": "def[prop](IsOpenMap(f,X@Topology.ctxt.X,Y@Topology.ctxt.Y),,Logic.forall-typed(@U,Set[text](A@Topology.ctxt.AB),Logic.implies(IsOpen(U,${τ}_{X}$@τₓ),IsOpen(Set.fun(f,U),${τ}_{Y}$@τᵧ))))"
     },
     "contribution_info": null,
     "pointer": {
