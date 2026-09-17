@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "IsConnected",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Connected (= `IsConnected`, i.e. nonempty + preconnected)",
+        "zh-CN": "连通性（= `IsConnected`，即非空 + 预连通）"
+      }
+    },
+    "content": {
+      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def[prop](IsConnected(A),,And[authored_Logic_and_infix](Ne[authored_Neq_default](,A,EmptyCollection.emptyCollection[round](,)),Not[authored_Logic_neg_prefix](Logic.exists-typed(@U,Set[text](T@Fulcrum.SetTheory.T),Logic.exists-typed(@V,Set[text](T@Fulcrum.SetTheory.T),And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,U),And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,V),And[authored_Logic_and_infix](Set.Subset[infix](,U,A),And[authored_Logic_and_infix](Set.Subset[infix](,V,A),And[authored_Logic_and_infix](Ne[authored_Neq_default](,U,EmptyCollection.emptyCollection[slim](,)),And[authored_Logic_and_infix](Ne[authored_Neq_default](,V,EmptyCollection.emptyCollection[slim](,)),And[authored_Logic_and_infix](Eq(,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[slim](,)),Eq(,A,Set.union[authored](,U,V)))))))))))))))"
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

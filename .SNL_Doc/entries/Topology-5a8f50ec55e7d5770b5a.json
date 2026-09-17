@@ -1,0 +1,24 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "IsPathConnected",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Path Connected (= `IsPathConnected`)",
+        "zh-CN": "道路连通性（= `IsPathConnected`）"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](S@Topology.ctxt.S)),Type.annotation(@τ,Set[text](Set[text](S@Topology.ctxt.S)))),def[prop](IsPathConnected(A),,Logic.forall-typed(@x,S@Topology.ctxt.S,Logic.forall-typed(@y,S@Topology.ctxt.S,Logic.implies(And[authored_Logic_and_infix](Set.Mem[authored](,A,x),Set.Mem[authored](,A,y)),Logic.exists-typed(@f,Type.to(Set.inter[authored](,setOf[typedBuilder](@t,Type,And[authored_Logic_and_infix](True[authored_Logic_true_top],True[authored_Logic_true_top])),setOf[typedBuilder](@t,Type,True[authored_Logic_true_top])),S@Topology.ctxt.S),True[authored_Logic_true_top]))))))"
+    },
+    "contribution_info": "先放着，将来再改",
+    "pointer": null,
+    "package": "Topology"
+  }
+}

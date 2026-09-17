@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@E,Set[text](X@Topology.ctxt.X)),Type.annotation(@f,Type.to(X@Topology.ctxt.X,Y@Topology.ctxt.Y)),Type.annotation(@${τ}_{X}$@τₓ,Set[text](Set[text](X@Topology.ctxt.X))),Type.annotation(@${τ}_{Y}$@τᵧ,Set[text](Set[text](Y@Topology.ctxt.Y)))),theorem(Logic.implies(And[authored_Logic_and_infix](Topology.compact(E),Topology.Continuous(f,E,Y@Topology.ctxt.Y)),True[authored_Logic_true_top])))"
+      "snl": "variable(__list__(Type.annotation(@E,Set[text](X@Topology.ctxt.X)),Type.annotation(@f,Type.to(X@Topology.ctxt.X,Y@Topology.ctxt.Y)),Type.annotation(@${τ}_{X}$@τₓ,Set[text](Set[text](X@Topology.ctxt.X))),Type.annotation(@${τ}_{Y}$@τᵧ,Set[text](Set[text](Y@Topology.ctxt.Y)))),theorem(Logic.implies(And[authored_Logic_and_infix](Topology.compact(E),Continuous(f,E,Y@Topology.ctxt.Y)),True[authored_Logic_true_top])))"
     },
     "contribution_info": null,
     "pointer": null,

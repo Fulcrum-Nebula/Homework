@@ -1,0 +1,22 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "AlgebraicTopology",
+  "entry": {
+    "id": "AlgebraicTopology.subsec.fundamentalGroup",
+    "kind": "subsection",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "The Fundamental Group",
+        "zh-CN": "基本群"
+      }
+    },
+    "content": {},
+    "contribution_info": null,
+    "pointer": null,
+    "package": "AlgebraicTopology"
+  }
+}

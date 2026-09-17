@@ -9,7 +9,7 @@
     "kind": "theorem",
     "title": "T4 空间的乌里松引理",
     "content": {
-      "snl": "variable(Topology.T4(S@Topology.ctxt.S),theorem(Logic.forall-typed(@E,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](And[authored_Logic_and_infix](Topology.IsClosed[text](E,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Topology.IsClosed[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S)),Eq(,Set.inter[authored](,E,F),EmptyCollection.emptyCollection[round](,))),Logic.exists-typed(@f,Topology.cont(S@Topology.ctxt.S,Real),And[authored_Logic_and_infix](Logic.forall-typed(@x,E,Eq(,Type.apply(f,x),0)),Logic.forall-typed(@x,F,Eq(,Type.apply(f,x),1)))))))))"
+      "snl": "variable(Topology.T4(S@Topology.ctxt.S),theorem(Logic.forall-typed(@E,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](And[authored_Logic_and_infix](IsClosed[text](E,τ@Topology.ctxt.tau,S@Topology.ctxt.S),IsClosed[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S)),Eq(,Set.inter[authored](,E,F),EmptyCollection.emptyCollection[round](,))),Logic.exists-typed(@f,Type.to(S@Topology.ctxt.S,Real),And[authored_Logic_and_infix](Continuous(f,S@Topology.ctxt.S,Real),And[authored_Logic_and_infix](Logic.forall-typed(@x,E,Eq(,Type.apply(f,x),0)),Logic.forall-typed(@x,F,Eq(,Type.apply(f,x),1))))))))))"
     },
     "contribution_info": null,
     "pointer": null

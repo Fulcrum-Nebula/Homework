@@ -1,0 +1,31 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "IsClosed",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Closed Set",
+        "zh-CN": "闭集"
+      }
+    },
+    "content": {
+      "snl": "variable(Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),def[prop](IsClosed[text](U,τ@Topology.ctxt.tau,S@Topology.ctxt.S),,Set.Mem[authored](,τ,Set.diff[relative_sup](,S@Topology.ctxt.S,U))))"
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Topology/Defs/Basic.lean",
+      "mode": "lines",
+      "line": 101,
+      "endLine": 102,
+      "column": 1,
+      "endColumn": 47
+    },
+    "package": "Topology"
+  }
+}

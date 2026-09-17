@@ -1,0 +1,22 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "AlgebraicTopology",
+  "entry": {
+    "id": "AlgebraicTopology.subsec.singularHomology",
+    "kind": "subsection",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Singular Homology",
+        "zh-CN": "奇异同调"
+      }
+    },
+    "content": {},
+    "contribution_info": null,
+    "pointer": null,
+    "package": "AlgebraicTopology"
+  }
+}

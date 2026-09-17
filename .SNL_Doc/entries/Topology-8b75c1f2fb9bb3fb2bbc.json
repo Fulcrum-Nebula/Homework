@@ -1,0 +1,39 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Path.symm",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Inverse Path",
+        "zh-CN": "逆道路"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@X,Type),Type.annotation(@x,X),Type.annotation(@y,X),Type.annotation(@f,Path(x,y))),def(Path.symm(f), , ))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "The **inverse path** $\\overline{f}$ of a path $f$ from $x_0$ to $x_1$ is the path from $x_1$ back to $x_0$ defined by $\\overline{f}(s)=f(1-s)$. Up to homotopy it is a two-sided inverse of $f$ (Hatcher p. 27).",
+          "zh-CN": "从 $x_0$ 到 $x_1$ 的道路 $f$ 的**逆道路** $\\overline{f}$ 是由 $\\overline{f}(s)=f(1-s)$ 定义的、从 $x_1$ 回到 $x_0$ 的道路。在同伦意义下它是 $f$ 的双边逆（Hatcher 第 27 页）。"
+        }
+      }
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/Topology/Path.lean",
+      "mode": "lines",
+      "line": 150,
+      "endLine": 150,
+      "column": 1,
+      "endColumn": 41
+    },
+    "package": "Topology"
+  }
+}
