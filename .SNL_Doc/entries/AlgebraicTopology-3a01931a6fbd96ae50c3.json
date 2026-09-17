@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@X,Type),Type.annotation(@x,X),Type.annotation(@y,X)),def(FundamentalGroup.fundamentalGroupMulEquivOfPathConnected, , ))",
+      "snl": "variable(__list__(Type.annotation(@X,Type),Type.annotation(@x,X),Type.annotation(@y,X)),def(FundamentalGroup.fundamentalGroupMulEquivOfPathConnected(x, y), , ))",
       "markdown": {
         "type": "i18n",
         "default_language": "en",
