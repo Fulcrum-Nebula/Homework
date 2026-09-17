@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@${x}_{n}$@xₙ,Type.to(Nat,X@Topology.ctxt.X)),Type.annotation(@x,X@Topology.ctxt.X),Type.annotation(@f,Type.to(X@Topology.ctxt.X,Y@Topology.ctxt.Y))),theorem(Logic.implies(And[authored_Logic_and_infix](Topology.T2Space(X@Topology.ctxt.X),ContinuousAt(f,x)),Logic.implies(Topology.seqConvergence(${x}_{n}$@xₙ,x),Topology.seqConvergence(Type.apply(f,${x}_{n}$@xₙ),Type.apply(f,x))))))"
+      "snl": "variable(__list__(Type.annotation(@${x}_{n}$@xₙ,Type.to(Nat,X@Topology.ctxt.X)),Type.annotation(@x,X@Topology.ctxt.X),Type.annotation(@f,Type.to(X@Topology.ctxt.X,Y@Topology.ctxt.Y))),theorem(Logic.implies(And[authored_Logic_and_infix](T2Space(X@Topology.ctxt.X),ContinuousAt(f,x)),Logic.implies(Topology.seqConvergence(${x}_{n}$@xₙ,x),Topology.seqConvergence(Type.apply(f,${x}_{n}$@xₙ),Type.apply(f,x))))))"
     },
     "contribution_info": null,
     "pointer": null,
