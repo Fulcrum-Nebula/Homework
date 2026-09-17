@@ -9180,7 +9180,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Fulcrum.def",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -9193,7 +9193,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Logic.def.forall",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -9206,7 +9206,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Logic.def.implies",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -9219,7 +9219,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Set.def.mem",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -9232,7 +9232,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Set.def.set",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -9245,7 +9245,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Topology.def.continuityAtPoint",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Topology.def.ContinuousAt",
       "label": "depends",
       "metadata": {
@@ -9258,7 +9258,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Type.def.annotation",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -9271,7 +9271,7 @@
     },
     {
       "id": "dep.Topology.def.continuousMap.Type.rl.fun",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Type.rl.fun",
       "label": "depends",
       "metadata": {
@@ -9987,7 +9987,7 @@
     {
       "id": "dep.Topology.def.homeomorphism.Topology.def.continuousMap",
       "from": "Topology.def.homeomorphism",
-      "to": "Topology.def.Continuous",
+      "to": "Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -13926,7 +13926,7 @@
     {
       "id": "dep.Topology.prop.compositionPreservesContinuity.Topology.def.continuousMap",
       "from": "Topology.prop.compositionPreservesContinuity",
-      "to": "Topology.def.Continuous",
+      "to": "Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -14225,7 +14225,7 @@
     {
       "id": "dep.Topology.prop.continuityViaPreimage.Topology.def.continuousMap",
       "from": "Topology.prop.continuityViaPreimage",
-      "to": "Topology.def.Continuous",
+      "to": "Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -14394,7 +14394,7 @@
     {
       "id": "dep.Topology.prop.continuousPreservesCompactness.Topology.def.continuousMap",
       "from": "Topology.prop.continuousPreservesCompactness",
-      "to": "Topology.def.Continuous",
+      "to": "Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -14563,7 +14563,7 @@
     {
       "id": "dep.Topology.prop.continuousPreservesConnectedness.Topology.def.continuousMap",
       "from": "Topology.prop.continuousPreservesConnectedness",
-      "to": "Topology.def.Continuous",
+      "to": "Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -15083,7 +15083,7 @@
     {
       "id": "dep.Topology.prop.inverseOfContinuousOnCompact.Topology.def.continuousMap",
       "from": "Topology.prop.inverseOfContinuousOnCompact",
-      "to": "Topology.def.Continuous",
+      "to": "Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -15980,7 +15980,7 @@
     {
       "id": "dep.Topology.thm.T4Urysohn.Topology.def.continuousMap",
       "from": "Topology.thm.T4Urysohn",
-      "to": "Topology.def.Continuous",
+      "to": "Continuous",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -27183,7 +27183,7 @@
     },
     {
       "id": "ctx.Topology.def.continuousMap.Topology.ctxt.X",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Topology.ctxt.X",
       "label": "uses_context",
       "metadata": {
@@ -27196,7 +27196,7 @@
     },
     {
       "id": "ctx.Topology.def.continuousMap.Topology.ctxt.Y",
-      "from": "Topology.def.Continuous",
+      "from": "Continuous",
       "to": "Topology.ctxt.Y",
       "label": "uses_context",
       "metadata": {

@@ -7,7 +7,7 @@
     "description": "Operator: continuous function space C(X, Y)",
     "source": {
       "entries": [
-        "Topology.def.Continuous"
+        "Continuous"
       ],
       "urls": []
     },

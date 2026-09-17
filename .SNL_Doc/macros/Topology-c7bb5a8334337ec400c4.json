@@ -7,7 +7,7 @@
     "description": "Predicate: f is a continuous map on E",
     "source": {
       "entries": [
-        "Topology.def.Continuous"
+        "Continuous"
       ],
       "urls": []
     },
