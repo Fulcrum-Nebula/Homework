@@ -81,7 +81,7 @@
       "id": "n_11",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.IsOpen"
+        "entryId": "IsOpen"
       }
     },
     {

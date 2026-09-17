@@ -11404,7 +11404,7 @@
     {
       "id": "dep.Topology.def.openMap.Topology.def.openSet",
       "from": "Topology.def.IsOpenMap",
-      "to": "Topology.def.IsOpen",
+      "to": "IsOpen",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -11416,7 +11416,7 @@
     },
     {
       "id": "dep.Topology.def.openSet.Fulcrum.def",
-      "from": "Topology.def.IsOpen",
+      "from": "IsOpen",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -11429,7 +11429,7 @@
     },
     {
       "id": "dep.Topology.def.openSet.Set.def.mem",
-      "from": "Topology.def.IsOpen",
+      "from": "IsOpen",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -11442,7 +11442,7 @@
     },
     {
       "id": "dep.Topology.def.openSet.Set.def.set",
-      "from": "Topology.def.IsOpen",
+      "from": "IsOpen",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -11455,7 +11455,7 @@
     },
     {
       "id": "dep.Topology.def.openSet.Type.def.annotation",
-      "from": "Topology.def.IsOpen",
+      "from": "IsOpen",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -13731,7 +13731,7 @@
     {
       "id": "dep.Topology.prop.compactClosedInT2.Topology.def.openSet",
       "from": "Topology.prop.compactClosedInT2",
-      "to": "Topology.def.IsOpen",
+      "to": "IsOpen",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -14238,7 +14238,7 @@
     {
       "id": "dep.Topology.prop.continuityViaPreimage.Topology.def.openSet",
       "from": "Topology.prop.continuityViaPreimage",
-      "to": "Topology.def.IsOpen",
+      "to": "IsOpen",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -27807,7 +27807,7 @@
     },
     {
       "id": "ctx.Topology.def.openSet.Fulcrum.SetTheory.T",
-      "from": "Topology.def.IsOpen",
+      "from": "IsOpen",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27820,7 +27820,7 @@
     },
     {
       "id": "ctx.Topology.def.openSet.Topology.ctxt.tau",
-      "from": "Topology.def.IsOpen",
+      "from": "IsOpen",
       "to": "Topology.ctxt.tau",
       "label": "uses_context",
       "metadata": {

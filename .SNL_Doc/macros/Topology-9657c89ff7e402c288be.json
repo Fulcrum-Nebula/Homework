@@ -7,7 +7,7 @@
     "description": "Predicate: U is open in (S, tau)",
     "source": {
       "entries": [
-        "Topology.def.IsOpen"
+        "IsOpen"
       ],
       "urls": []
     },
