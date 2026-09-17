@@ -1,0 +1,20 @@
+{
+  "id": "AlgebraicTopology",
+  "name": "Algebraic Topology",
+  "description": "Algebraic topology: the fundamental group, covering spaces, singular homology and cohomology. Namespace AlgebraicTopology.",
+  "format": "snl-package",
+  "version": 1,
+  "schema_version": 2,
+  "entry_ids": [
+    "AlgebraicTopology.sec.algebraicTopology",
+    "AlgebraicTopology.subsec.cohomology",
+    "AlgebraicTopology.subsec.coveringSpaces",
+    "AlgebraicTopology.subsec.fundamentalGroup",
+    "AlgebraicTopology.subsec.singularHomology",
+    "AlgebraicTopology.thm.fundamentalGroupCircle",
+    "FundamentalGroup",
+    "FundamentalGroup.fundamentalGroupMulEquivOfPath",
+    "FundamentalGroup.fundamentalGroupMulEquivOfPathConnected",
+    "FundamentalGroup.map"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "AlgebraicTopology",
+  "entry": {
+    "id": "FundamentalGroup.fundamentalGroupMulEquivOfPathConnected",
+    "kind": "definition",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Independence of the Basepoint",
+        "zh-CN": "基本群与基点选取无关"
+      }
+    },
+    "content": {
+      "snl": "variable(__list__(Type.annotation(@X,Type),Type.annotation(@x,X),Type.annotation(@y,X)),def(FundamentalGroup.fundamentalGroupMulEquivOfPathConnected, , ))",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "If $X$ is path-connected, then $\\pi_1(X,x_0)$ is independent of the chosen basepoint up to isomorphism, since any two points are joined by a path (Hatcher p. 28).",
+          "zh-CN": "若 $X$ 道路连通，则任意两点都可由道路相连，故 $\\pi_1(X,x_0)$ 在同构意义下与基点的选取无关（Hatcher 第 28 页）。"
+        }
+      }
+    },
+    "contribution_info": null,
+    "pointer": {
+      "file": ".lake/packages/mathlib/Mathlib/AlgebraicTopology/FundamentalGroupoid/FundamentalGroup.lean",
+      "mode": "lines",
+      "line": 54,
+      "endLine": 54,
+      "column": 1,
+      "endColumn": 69
+    },
+    "package": "AlgebraicTopology"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "Topology.sec.pointSet",
+    "kind": "section",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Point-Set Topology",
+        "zh-CN": "点集拓扑"
+      }
+    },
+    "content": {},
+    "contribution_info": null,
+    "pointer": null,
+    "package": "Topology"
+  }
+}

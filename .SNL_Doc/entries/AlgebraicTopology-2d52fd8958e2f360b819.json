@@ -1,0 +1,32 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "AlgebraicTopology",
+  "entry": {
+    "id": "AlgebraicTopology.thm.fundamentalGroupCircle",
+    "kind": "theorem",
+    "title": {
+      "type": "i18n",
+      "default_language": "en",
+      "values": {
+        "en": "Fundamental Group of the Circle",
+        "zh-CN": "圆的基本群"
+      }
+    },
+    "content": {
+      "snl": "theorem()",
+      "markdown": {
+        "type": "i18n",
+        "default_language": "en",
+        "values": {
+          "en": "The calculation of the fundamental group of the circle, $\\pi_1(S^1)\\cong\\mathbb{Z}$ (Hatcher Theorem 1.7, p. 29). The formal SNL statement is intentionally left as an empty slot because the dependency Entries `Circle` and `Int` do not yet exist; no proof is written.",
+          "zh-CN": "圆的基本群的计算 $\\pi_1(S^1)\\cong\\mathbb{Z}$（Hatcher 定理 1.7，第 29 页）。由于依赖条目 `Circle` 与 `Int` 尚不存在，其 SNL 陈述有意留空槽；本条目不写证明。"
+        }
+      }
+    },
+    "contribution_info": null,
+    "pointer": null,
+    "package": "AlgebraicTopology"
+  }
+}

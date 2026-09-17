@@ -888,6 +888,13 @@
       "props": {
         "entryId": "Topology.example.limitNotUniqueInT1"
       }
+    },
+    {
+      "id": "n_127",
+      "label": "Entry",
+      "props": {
+        "entryId": "Topology.sec.pointSet"
+      }
     }
   ],
   "relationships": [
@@ -1504,6 +1511,26 @@
     {
       "from": "n_94",
       "to": "n_126",
+      "label": "branch"
+    },
+    {
+      "from": "n_127",
+      "to": "n_0",
+      "label": "branch"
+    },
+    {
+      "from": "n_127",
+      "to": "n_54",
+      "label": "branch"
+    },
+    {
+      "from": "n_127",
+      "to": "n_91",
+      "label": "branch"
+    },
+    {
+      "from": "n_127",
+      "to": "n_102",
       "label": "branch"
     }
   ]
