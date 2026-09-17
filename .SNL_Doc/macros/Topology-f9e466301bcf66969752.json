@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.pathConnected"
+    "name": "IsPathConnected"
   }
 }

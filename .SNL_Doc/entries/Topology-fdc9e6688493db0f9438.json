@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T))),theorem(And[authored_Logic_and_infix](IsConnected(A),Not(Topology.pathConnected(A)))))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T))),theorem(And[authored_Logic_and_infix](IsConnected(A),Not(IsPathConnected(A)))))"
     },
     "contribution_info": null,
     "pointer": null,

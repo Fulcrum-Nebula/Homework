@@ -15725,7 +15725,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.pathConnected"
+          "IsPathConnected"
         ],
         "isAtomic": true
       }
