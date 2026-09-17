@@ -4,7 +4,7 @@
   "schema_version": 1,
   "package": "Topology",
   "entry": {
-    "id": "Topology.def.IsClosed",
+    "id": "IsClosed",
     "kind": "definition",
     "title": {
       "type": "i18n",

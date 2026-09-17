@@ -7,7 +7,7 @@
     "description": "Predicate: U is closed in (S, tau)",
     "source": {
       "entries": [
-        "Topology.def.IsClosed"
+        "IsClosed"
       ],
       "urls": []
     },

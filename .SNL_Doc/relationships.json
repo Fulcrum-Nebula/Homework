@@ -8141,7 +8141,7 @@
     {
       "id": "dep.Topology.def.T3.Topology.def.closedSet",
       "from": "Topology.def.T3",
-      "to": "Topology.def.IsClosed",
+      "to": "IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -8310,7 +8310,7 @@
     {
       "id": "dep.Topology.def.T4.Topology.def.closedSet",
       "from": "Topology.def.T4",
-      "to": "Topology.def.IsClosed",
+      "to": "IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -8530,7 +8530,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Fulcrum.def",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -8543,7 +8543,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Set.def.mem",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -8556,7 +8556,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Set.def.set",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -8569,7 +8569,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Type.def.annotation",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -8687,7 +8687,7 @@
     {
       "id": "dep.Topology.def.closure.Topology.def.closedSet",
       "from": "Topology.def.closure",
-      "to": "Topology.def.IsClosed",
+      "to": "IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -13146,7 +13146,7 @@
     {
       "id": "dep.Topology.prop.T1Equivalent.Topology.def.closedSet",
       "from": "Topology.prop.T1Equivalent",
-      "to": "Topology.def.IsClosed",
+      "to": "IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -13549,7 +13549,7 @@
     {
       "id": "dep.Topology.prop.closureClosed.Topology.def.closedSet",
       "from": "Topology.prop.closureClosed",
-      "to": "Topology.def.IsClosed",
+      "to": "IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -15967,7 +15967,7 @@
     {
       "id": "dep.Topology.thm.T4Urysohn.Topology.def.closedSet",
       "from": "Topology.thm.T4Urysohn",
-      "to": "Topology.def.IsClosed",
+      "to": "IsClosed",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -27027,7 +27027,7 @@
     },
     {
       "id": "ctx.Topology.def.closedSet.Fulcrum.SetTheory.T",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27040,7 +27040,7 @@
     },
     {
       "id": "ctx.Topology.def.closedSet.Topology.ctxt.tau",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Topology.ctxt.tau",
       "label": "uses_context",
       "metadata": {
@@ -27053,7 +27053,7 @@
     },
     {
       "id": "ctx.Topology.def.closedSet.Topology.ctxt.S",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27066,7 +27066,7 @@
     },
     {
       "id": "dep.Topology.def.closedSet.Set.diff",
-      "from": "Topology.def.IsClosed",
+      "from": "IsClosed",
       "to": "Set.diff",
       "label": "depends",
       "metadata": {
