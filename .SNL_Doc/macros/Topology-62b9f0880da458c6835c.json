@@ -7,7 +7,7 @@
     "description": "Predicate: A is nowhere dense",
     "source": {
       "entries": [
-        "Topology.def.IsNowhereDense"
+        "IsNowhereDense"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.IsNowhereDense"
+    "name": "IsNowhereDense"
   }
 }

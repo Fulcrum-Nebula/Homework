@@ -4,7 +4,7 @@
   "schema_version": 1,
   "package": "Topology",
   "entry": {
-    "id": "Topology.def.IsNowhereDense",
+    "id": "IsNowhereDense",
     "kind": "definition",
     "title": {
       "type": "i18n",
@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def[prop](Topology.IsNowhereDense(A),,Eq(,Topology.interior(Topology.closure(A)),EmptyCollection.emptyCollection[round](,))))"
+      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def[prop](IsNowhereDense(A),,Eq(,Topology.interior(Topology.closure(A)),EmptyCollection.emptyCollection[round](,))))"
     },
     "contribution_info": null,
     "pointer": {
