@@ -729,13 +729,6 @@
       }
     },
     {
-      "id": "n_104",
-      "label": "Entry",
-      "props": {
-        "entryId": "Topology.def.metric"
-      }
-    },
-    {
       "id": "n_105",
       "label": "Entry",
       "props": {
@@ -1396,11 +1389,6 @@
     {
       "from": "n_102",
       "to": "n_103",
-      "label": "branch"
-    },
-    {
-      "from": "n_103",
-      "to": "n_104",
       "label": "branch"
     },
     {

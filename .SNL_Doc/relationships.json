@@ -10583,123 +10583,6 @@
       }
     },
     {
-      "id": "dep.Topology.def.metric.Logic.def.eq",
-      "from": "Topology.def.metric",
-      "to": "Eq",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Eq"
-        ],
-        "isAtomic": false
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Logic.def.forall",
-      "from": "Topology.def.metric",
-      "to": "Logic.Forall",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Logic.forall-typed"
-        ],
-        "isAtomic": true
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Logic.def.iff",
-      "from": "Topology.def.metric",
-      "to": "Iff",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Iff"
-        ],
-        "isAtomic": true
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Real.real",
-      "from": "Topology.def.metric",
-      "to": "Real.real",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Real"
-        ],
-        "isAtomic": true
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Syntax.def.expression-UTLC.ctor.application",
-      "from": "Topology.def.metric",
-      "to": "Syntax.def.expression-UTLC.ctor.application",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Type.apply"
-        ],
-        "isAtomic": false
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Type.def.annotation",
-      "from": "Topology.def.metric",
-      "to": "Type.def.annotation",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Type.annotation"
-        ],
-        "isAtomic": false
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Type.def.prod",
-      "from": "Topology.def.metric",
-      "to": "Type.def.prod",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Type.prod"
-        ],
-        "isAtomic": true
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Type.def.prod.ctor.pair",
-      "from": "Topology.def.metric",
-      "to": "Type.def.prod.ctor.pair",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Prod.mk"
-        ],
-        "isAtomic": false
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Type.rl.fun",
-      "from": "Topology.def.metric",
-      "to": "Type.rl.fun",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Type.to"
-        ],
-        "isAtomic": false
-      }
-    },
-    {
       "id": "dep.Topology.def.metricSpace.Fulcrum.def",
       "from": "MetricSpace",
       "to": "Fulcrum.def",
@@ -10723,19 +10606,6 @@
           "Real"
         ],
         "isAtomic": false
-      }
-    },
-    {
-      "id": "dep.Topology.def.metricSpace.Topology.def.metric",
-      "from": "MetricSpace",
-      "to": "Topology.def.metric",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "macros": [
-          "Topology.metric"
-        ],
-        "isAtomic": true
       }
     },
     {
@@ -26976,13 +26846,13 @@
     {
       "id": "ctx.Topology.def.bounded.Topology.def.metric",
       "from": "Bornology.IsBounded",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
@@ -27301,13 +27171,13 @@
     {
       "id": "ctx.Topology.def.diameter.Topology.def.metric",
       "from": "diam",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
@@ -27585,32 +27455,6 @@
       }
     },
     {
-      "id": "ctx.Topology.def.metric.Topology.ctxt.S",
-      "from": "Topology.def.metric",
-      "to": "Topology.ctxt.S",
-      "label": "uses_context",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "isAtomic": true,
-        "postfixes": [
-          "Topology.ctxt.S"
-        ]
-      }
-    },
-    {
-      "id": "dep.Topology.def.metric.Algebra.example.nat.add",
-      "from": "Topology.def.metric",
-      "to": "Algebra.example.nat.add",
-      "label": "depends",
-      "metadata": {
-        "generator": "macro-source-scan",
-        "isAtomic": true,
-        "macros": [
-          "Add.add"
-        ]
-      }
-    },
-    {
       "id": "ctx.Topology.def.neighborhood.Fulcrum.SetTheory.T",
       "from": "Fulcrum.isNhd",
       "to": "Fulcrum.SetTheory.T",
@@ -27717,13 +27561,13 @@
     {
       "id": "ctx.Topology.def.openBall.Topology.def.metric",
       "from": "Topology.def.openBall",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
@@ -28289,13 +28133,13 @@
     {
       "id": "ctx.Topology.prop.closureDiameter.Topology.def.metric",
       "from": "Topology.prop.closureDiameter",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
@@ -28731,13 +28575,13 @@
     {
       "id": "ctx.Topology.prop.metricOfTopology.Topology.def.metric",
       "from": "Topology.prop.metricOfTopology",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
@@ -28796,13 +28640,13 @@
     {
       "id": "ctx.Topology.prop.openBallOfNeighborhood.Topology.def.metric",
       "from": "Topology.prop.openBallOfNeighborhood",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
@@ -36509,13 +36353,13 @@
     {
       "id": "ctx.Topology.prop.metricOfT2.Topology.def.metric",
       "from": "Topology.prop.metricOfT2",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
@@ -36535,13 +36379,13 @@
     {
       "id": "ctx.Topology.prop.metricOfT4.Topology.def.metric",
       "from": "Topology.prop.metricOfT4",
-      "to": "Topology.def.metric",
+      "to": "MetricSpace",
       "label": "uses_context",
       "metadata": {
         "generator": "macro-source-scan",
         "isAtomic": true,
         "postfixes": [
-          "Topology.def.metric"
+          "MetricSpace"
         ]
       }
     },
