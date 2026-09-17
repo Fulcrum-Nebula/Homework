@@ -284,7 +284,7 @@
       "id": "n_40",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.connected"
+        "entryId": "IsConnected"
       }
     },
     {

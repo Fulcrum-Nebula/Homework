@@ -7,7 +7,7 @@
     "description": "Predicate: A is connected",
     "source": {
       "entries": [
-        "Topology.def.connected"
+        "IsConnected"
       ],
       "urls": []
     },
