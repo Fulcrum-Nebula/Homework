@@ -7,7 +7,7 @@
     "description": "Predicate: (S, tau) is a C2 space",
     "source": {
       "entries": [
-        "Topology.def.SecondCountableTopology"
+        "SecondCountableTopology"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.SecondCountableTopology"
+    "name": "SecondCountableTopology"
   }
 }
