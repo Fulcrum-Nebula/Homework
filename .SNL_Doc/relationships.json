@@ -9128,7 +9128,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Fulcrum.def",
-      "from": "Topology.def.ContinuousAt",
+      "from": "ContinuousAt",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -9141,7 +9141,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Topology.def.mapLimit",
-      "from": "Topology.def.ContinuousAt",
+      "from": "ContinuousAt",
       "to": "Topology.def.mapLimit",
       "label": "depends",
       "metadata": {
@@ -9154,7 +9154,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Type.def.annotation",
-      "from": "Topology.def.ContinuousAt",
+      "from": "ContinuousAt",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -9167,7 +9167,7 @@
     },
     {
       "id": "dep.Topology.def.continuityAtPoint.Type.rl.Expr-LC.ctor.application",
-      "from": "Topology.def.ContinuousAt",
+      "from": "ContinuousAt",
       "to": "Syntax.def.expression-UTLC.ctor.application",
       "label": "depends",
       "metadata": {
@@ -9246,7 +9246,7 @@
     {
       "id": "dep.Topology.def.continuousMap.Topology.def.continuityAtPoint",
       "from": "Continuous",
-      "to": "Topology.def.ContinuousAt",
+      "to": "ContinuousAt",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -14108,7 +14108,7 @@
     {
       "id": "dep.Topology.prop.continuityViaNeighborhood.Topology.def.continuityAtPoint",
       "from": "Topology.prop.continuityViaNeighborhood",
-      "to": "Topology.def.ContinuousAt",
+      "to": "ContinuousAt",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -14654,7 +14654,7 @@
     {
       "id": "dep.Topology.prop.continuousPreservesConvergenceInT2.Topology.def.continuityAtPoint",
       "from": "Topology.prop.continuousPreservesConvergenceInT2",
-      "to": "Topology.def.ContinuousAt",
+      "to": "ContinuousAt",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -36248,7 +36248,7 @@
     },
     {
       "id": "ctx.Topology.def.continuityAtPoint.Topology.ctxt.X",
-      "from": "Topology.def.ContinuousAt",
+      "from": "ContinuousAt",
       "to": "Topology.ctxt.X",
       "label": "uses_context",
       "metadata": {
@@ -36261,7 +36261,7 @@
     },
     {
       "id": "ctx.Topology.def.continuityAtPoint.Topology.ctxt.f",
-      "from": "Topology.def.ContinuousAt",
+      "from": "ContinuousAt",
       "to": "Topology.ctxt.f",
       "label": "uses_context",
       "metadata": {
