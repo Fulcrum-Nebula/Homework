@@ -7,7 +7,7 @@
     "description": "Predicate: A is path-connected",
     "source": {
       "entries": [
-        "Topology.def.pathConnected"
+        "IsPathConnected"
       ],
       "urls": []
     },

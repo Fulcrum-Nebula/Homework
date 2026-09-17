@@ -11468,7 +11468,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Fulcrum.def",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -11481,7 +11481,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Logic.def.and",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "And",
       "label": "depends",
       "metadata": {
@@ -11494,7 +11494,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Logic.def.exists",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -11507,7 +11507,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Logic.def.forall",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -11520,7 +11520,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Logic.def.implies",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -11533,7 +11533,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Logic.def.true",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "True",
       "label": "depends",
       "metadata": {
@@ -11546,7 +11546,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Set.def.inter",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Set.inter",
       "label": "depends",
       "metadata": {
@@ -11559,7 +11559,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Set.def.mem",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -11572,7 +11572,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Set.def.sep",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "setOf",
       "label": "depends",
       "metadata": {
@@ -11585,7 +11585,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Set.def.set",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -11598,7 +11598,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Type.def.annotation",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -11611,7 +11611,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Type.rl.fun",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Type.rl.fun",
       "label": "depends",
       "metadata": {
@@ -11624,7 +11624,7 @@
     },
     {
       "id": "dep.Topology.def.pathConnected.Type.rl.univ",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Type.rl.univ",
       "label": "depends",
       "metadata": {
@@ -15720,7 +15720,7 @@
     {
       "id": "dep.Topology.prop.pathConnectedImpliesConnected.Topology.def.pathConnected",
       "from": "Topology.prop.pathConnectedImpliesConnected",
-      "to": "Topology.def.pathConnected",
+      "to": "IsPathConnected",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
@@ -27833,7 +27833,7 @@
     },
     {
       "id": "ctx.Topology.def.pathConnected.Topology.ctxt.S",
-      "from": "Topology.def.pathConnected",
+      "from": "IsPathConnected",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {

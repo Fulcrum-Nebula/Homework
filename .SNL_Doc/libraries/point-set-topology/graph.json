@@ -291,7 +291,7 @@
       "id": "n_41",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.pathConnected"
+        "entryId": "IsPathConnected"
       }
     },
     {
