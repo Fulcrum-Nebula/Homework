@@ -45,7 +45,13 @@ Library 身份名使用大驼峰 `UpperCamelCase`，例如 `LinearAlgebra`、`Se
 
 ### Mathlib 兼容边界
 
-1. 若 Entry 或 Macro 所指称的概念与某个 Lean 常量精确对应，采用该常量的完整 Lean 名称，包括命名空间和大小写；不另加 `Mathlib.` 前缀、领域缩写或 kind 段。
+1. 若 Entry 或 Macro 所指称的概念与某个 Lean 常量精确对应，采用该常量的**完整 Lean 名称，包括命名空间和大小写**；不另加 `Mathlib.` 前缀、领域缩写或 kind 段。
+
+   例：`TopologicalSpace.IsSeparable`、`TopologicalSpace.IsTopologicalBasis`、`Bornology.IsBounded`、`Set.Frontier` —— 命名空间是该常量完整名的一部分，**不得省略**。
+
+   **与「条目 ID 与宏名同步」的关系**：同步条款要求 Entry id 与 Macro 名逐字相同；两者**都**取 Mathlib 的完整名。故裸名 `IsBounded` 是错的，应为 `Bornology.IsBounded`。
+
+   **例外（作者 2026-09-17 定的裸名白名单）**：当且仅当 Mathlib 该常量本身就在**根命名空间**下（无前缀）时，才取裸名。已确认的根级常量包括 `IsOpen`、`IsClosed`、`Continuous`、`ContinuousAt`、`IsConnected`、`IsPathConnected`、`TopologicalSpace`、`T2Space`、`T0Space`、`T1Space`、`Dense`、`IsOpenMap`、`IsClosedMap`、`IsCompact`、`closure`、`frontier`、`interior`、`ClusterPt`、`MetricSpace`、`Homeomorph`、`diam`、`heineBorel`。
 2. 是否来自或精确对应 Mathlib，使用 Tag 区分，不通过命名空间区分。具体来源 Tag 的键名另行统一，本规范不据此创建新 Tag。
 3. 精确对应须核对对象、参数及其语义、假设和陈述；中文标题相同、数学上相关或存在某种等价，均不足以判定精确对应。
 4. 不允许语义不同的概念占用已有 Lean 常量的完整名称并冒充该常量。此时应取能说明差异的自有名称。
