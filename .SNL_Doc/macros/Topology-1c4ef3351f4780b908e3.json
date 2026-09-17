@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.continuous"
+    "name": "ContinuousAt"
   }
 }

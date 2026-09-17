@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@x, X@Topology.ctxt.X),Type.annotation(@${x}_{0}$@x₀, X@Topology.ctxt.X)),def[prop](Topology.continuous(f@Topology.ctxt.f, ${x}_{0}$@x₀), , Topology.mapLimit(x, ${x}_{0}$@x₀, f@Topology.ctxt.f, Type.apply(f@Topology.ctxt.f, ${x}_{0}$@x₀))))"
+      "snl": "variable(__list__(Type.annotation(@x, X@Topology.ctxt.X),Type.annotation(@${x}_{0}$@x₀, X@Topology.ctxt.X)),def[prop](ContinuousAt(f@Topology.ctxt.f, ${x}_{0}$@x₀), , Topology.mapLimit(x, ${x}_{0}$@x₀, f@Topology.ctxt.f, Type.apply(f@Topology.ctxt.f, ${x}_{0}$@x₀))))"
     },
     "contribution_info": null,
     "pointer": {
