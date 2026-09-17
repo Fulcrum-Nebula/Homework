@@ -8322,7 +8322,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Fulcrum.def",
-      "from": "Topology.def.frontier",
+      "from": "frontier",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -8335,7 +8335,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Set.def.diff",
-      "from": "Topology.def.frontier",
+      "from": "frontier",
       "to": "Set.diff",
       "label": "depends",
       "metadata": {
@@ -8348,7 +8348,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Set.def.set",
-      "from": "Topology.def.frontier",
+      "from": "frontier",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -8361,7 +8361,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Topology.def.closure",
-      "from": "Topology.def.frontier",
+      "from": "frontier",
       "to": "closure",
       "label": "depends",
       "metadata": {
@@ -8374,7 +8374,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Topology.def.interior",
-      "from": "Topology.def.frontier",
+      "from": "frontier",
       "to": "Topology.def.interior",
       "label": "depends",
       "metadata": {
@@ -8387,7 +8387,7 @@
     },
     {
       "id": "dep.Topology.def.boundary.Type.def.annotation",
-      "from": "Topology.def.frontier",
+      "from": "frontier",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -26949,7 +26949,7 @@
     },
     {
       "id": "ctx.Topology.def.boundary.Topology.ctxt.S",
-      "from": "Topology.def.frontier",
+      "from": "frontier",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
