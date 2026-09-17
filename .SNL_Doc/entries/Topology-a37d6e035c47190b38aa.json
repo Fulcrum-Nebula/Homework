@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](S@Topology.ctxt.S)),def[prop](Topology.separable(A),,Logic.exists-typed(@E,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Subset[infix](,E,A),Topology.Dense(E,A)),Set.Countable[text](,E)))))"
+      "snl": "variable(Type.annotation(@A,Set[text](S@Topology.ctxt.S)),def[prop](Topology.separable(A),,Logic.exists-typed(@E,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Set.Subset[infix](,E,A),Dense(E,A)),Set.Countable[text](,E)))))"
     },
     "package": "Topology",
     "contribution_info": null,

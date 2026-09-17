@@ -7,7 +7,7 @@
     "description": "Predicate: A is dense in (S, tau)",
     "source": {
       "entries": [
-        "Topology.def.Dense"
+        "Dense"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.Dense"
+    "name": "Dense"
   }
 }

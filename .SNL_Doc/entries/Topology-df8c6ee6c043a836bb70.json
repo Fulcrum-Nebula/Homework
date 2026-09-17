@@ -4,7 +4,7 @@
   "schema_version": 1,
   "package": "Topology",
   "entry": {
-    "id": "Topology.def.Dense",
+    "id": "Dense",
     "kind": "definition",
     "title": {
       "type": "i18n",
@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def[prop](Topology.Dense(A,S@Topology.ctxt.S),,Eq(,Topology.closure(A),S@Topology.ctxt.S)))"
+      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def[prop](Dense(A,S@Topology.ctxt.S),,Eq(,Topology.closure(A),S@Topology.ctxt.S)))"
     },
     "package": "Topology",
     "contribution_info": null,
