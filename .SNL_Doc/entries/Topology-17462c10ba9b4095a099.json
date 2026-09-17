@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "def[prop](Topology.ts(S@Topology.ctxt.S,τ@Topology.ctxt.tau), ,Topology.topology(τ@Topology.ctxt.tau,S@Topology.ctxt.S))"
+      "snl": "def[prop](TopologicalSpace(S@Topology.ctxt.S,τ@Topology.ctxt.tau), ,Topology.topology(τ@Topology.ctxt.tau,S@Topology.ctxt.S))"
     },
     "package": "Topology",
     "contribution_info": null,

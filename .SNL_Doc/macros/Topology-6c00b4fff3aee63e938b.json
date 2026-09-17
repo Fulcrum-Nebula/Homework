@@ -4,6 +4,7 @@
   "schema_version": 1,
   "package": "Topology",
   "macro": {
+    "name": "TopologicalSpace",
     "description": "Predicate: (S, tau) is a topological space",
     "source": {
       "entries": [
@@ -20,7 +21,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "(#0,#1)\\text{ 是拓扑空间}",
+          "body": "#0\\text{ 是拓扑空间}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -39,7 +40,6 @@
           "text": ""
         }
       }
-    ],
-    "name": "Topology.ts"
+    ]
   }
 }
