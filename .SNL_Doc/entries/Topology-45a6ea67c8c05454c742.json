@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "theorem(And[authored_Logic_and_infix](Topology.connected(S@Topology.ctxt.S),Topology.compact(S@Topology.ctxt.S)))"
+      "snl": "theorem(And[authored_Logic_and_infix](IsConnected(S@Topology.ctxt.S),Topology.compact(S@Topology.ctxt.S)))"
     },
     "contribution_info": null,
     "pointer": null,

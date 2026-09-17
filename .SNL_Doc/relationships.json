@@ -14555,7 +14555,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.connected"
+          "IsConnected"
         ],
         "isAtomic": true
       }
@@ -15712,7 +15712,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.connected"
+          "IsConnected"
         ],
         "isAtomic": true
       }
