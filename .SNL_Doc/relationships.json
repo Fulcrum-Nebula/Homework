@@ -7672,7 +7672,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Fulcrum.def",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -7685,7 +7685,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.and",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "And",
       "label": "depends",
       "metadata": {
@@ -7698,7 +7698,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.eq",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Eq",
       "label": "depends",
       "metadata": {
@@ -7711,7 +7711,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.exists",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -7724,7 +7724,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.forall",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -7737,7 +7737,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.implies",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Logic.Implication",
       "label": "depends",
       "metadata": {
@@ -7750,7 +7750,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Logic.def.neg",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Not",
       "label": "depends",
       "metadata": {
@@ -7763,7 +7763,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Set.def.mem",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -7776,7 +7776,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Set.def.set",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -7789,7 +7789,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Topology.def.neighborhood",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
@@ -7802,7 +7802,7 @@
     },
     {
       "id": "dep.Topology.def.T1.Type.def.annotation",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -13042,12 +13042,12 @@
     {
       "id": "dep.Topology.prop.T0IfT1.Topology.def.T1",
       "from": "Topology.prop.T0IfT1",
-      "to": "Topology.def.T1Space",
+      "to": "T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1Space"
+          "T1Space"
         ],
         "isAtomic": true
       }
@@ -13133,12 +13133,12 @@
     {
       "id": "dep.Topology.prop.T1Equivalent.Topology.def.T1",
       "from": "Topology.prop.T1Equivalent",
-      "to": "Topology.def.T1Space",
+      "to": "T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1Space"
+          "T1Space"
         ],
         "isAtomic": true
       }
@@ -13172,12 +13172,12 @@
     {
       "id": "dep.Topology.prop.T1IfT2.Topology.def.T1",
       "from": "Topology.prop.T1IfT2",
-      "to": "Topology.def.T1Space",
+      "to": "T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1Space"
+          "T1Space"
         ],
         "isAtomic": true
       }
@@ -13211,12 +13211,12 @@
     {
       "id": "dep.Topology.prop.T2IfT3UnderT1.Topology.def.T1",
       "from": "Topology.prop.T2IfT3UnderT1",
-      "to": "Topology.def.T1Space",
+      "to": "T1Space",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.T1Space"
+          "T1Space"
         ],
         "isAtomic": true
       }
@@ -27989,7 +27989,7 @@
     },
     {
       "id": "ctx.Topology.def.T1.Topology.ctxt.S",
-      "from": "Topology.def.T1Space",
+      "from": "T1Space",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {

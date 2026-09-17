@@ -7,7 +7,7 @@
     "description": "Predicate: (S, tau) is a T1 (Frechet) space",
     "source": {
       "entries": [
-        "Topology.def.T1Space"
+        "T1Space"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.T1Space"
+    "name": "T1Space"
   }
 }
