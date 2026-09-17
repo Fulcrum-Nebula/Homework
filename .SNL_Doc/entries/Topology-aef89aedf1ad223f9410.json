@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),def[prop](Topology.IsOpen[text](U,τ@Topology.ctxt.tau),,Set.Mem[authored](,τ@Topology.ctxt.tau,U)))"
+      "snl": "variable(Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),def[prop](IsOpen[text](U,τ@Topology.ctxt.tau),,Set.Mem[authored](,τ@Topology.ctxt.tau,U)))"
     },
     "package": "Topology",
     "contribution_info": null,

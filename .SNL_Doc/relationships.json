@@ -11409,7 +11409,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsOpen"
+          "IsOpen"
         ],
         "isAtomic": true
       }
@@ -13736,7 +13736,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsOpen"
+          "IsOpen"
         ],
         "isAtomic": true
       }
@@ -14243,7 +14243,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsOpen"
+          "IsOpen"
         ],
         "isAtomic": true
       }

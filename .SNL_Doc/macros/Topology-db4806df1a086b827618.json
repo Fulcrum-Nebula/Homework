@@ -90,6 +90,6 @@
         }
       }
     ],
-    "name": "Topology.IsOpen"
+    "name": "IsOpen"
   }
 }
