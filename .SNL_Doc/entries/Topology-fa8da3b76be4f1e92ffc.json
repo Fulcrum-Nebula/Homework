@@ -4,7 +4,7 @@
   "schema_version": 1,
   "package": "Topology",
   "entry": {
-    "id": "Topology.def.neighborhoodFamily",
+    "id": "Fulcrum.nhdsFamily",
     "kind": "definition",
     "title": {
       "type": "i18n",
@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def(Topology.Nbr(x),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Fulcrum.isNhd(U,x))))"
+      "snl": "variable(__list__(Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def(Fulcrum.nhdsFamily(x),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Fulcrum.isNhd(U,x))))"
     },
     "contribution_info": null,
     "pointer": null,

@@ -7,7 +7,7 @@
     "description": "Operator: neighborhood family of x in (S, tau)",
     "source": {
       "entries": [
-        "Topology.def.neighborhoodFamily"
+        "Fulcrum.nhdsFamily"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.Nbr"
+    "name": "Fulcrum.nhdsFamily"
   }
 }
