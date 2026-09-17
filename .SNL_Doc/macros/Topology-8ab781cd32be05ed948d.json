@@ -7,7 +7,7 @@
     "description": "",
     "source": {
       "entries": [
-        "Topology.def.diameter"
+        "diam"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
       }
     ],
     "tags": [],
-    "name": "Topology.diam"
+    "name": "diam"
   }
 }

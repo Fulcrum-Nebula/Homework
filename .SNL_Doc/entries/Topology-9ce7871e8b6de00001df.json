@@ -1,0 +1,17 @@
+{
+  "format": "snl-entry",
+  "version": 1,
+  "schema_version": 1,
+  "package": "Topology",
+  "entry": {
+    "id": "diam",
+    "package": "Topology",
+    "kind": "definition",
+    "title": "直径",
+    "content": {
+      "snl": "variable(__list__(Topology.ms(S@Topology.ctxt.S,d@Topology.def.metric),Type.annotation(@A,Set[text](S@Topology.ctxt.S))),def(diam(A),,sSup(,,Set.image(,,d@Topology.def.metric,Set.prod[authored](S@Topology.ctxt.S,S@Topology.ctxt.S,A,A)))))"
+    },
+    "contribution_info": null,
+    "pointer": null
+  }
+}

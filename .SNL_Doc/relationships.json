@@ -9674,7 +9674,7 @@
     },
     {
       "id": "dep.Topology.def.diameter.Fulcrum.def",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -9687,7 +9687,7 @@
     },
     {
       "id": "dep.Topology.def.diameter.Set.def.set",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -9700,7 +9700,7 @@
     },
     {
       "id": "dep.Topology.def.diameter.Topology.def.metricSpace",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Topology.def.metricSpace",
       "label": "depends",
       "metadata": {
@@ -9713,7 +9713,7 @@
     },
     {
       "id": "dep.Topology.def.diameter.Type.def.annotation",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -13627,12 +13627,12 @@
     {
       "id": "dep.Topology.prop.closureDiameter.Topology.def.diameter",
       "from": "Topology.prop.closureDiameter",
-      "to": "Topology.def.diameter",
+      "to": "diam",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.diam"
+          "diam"
         ],
         "isAtomic": true
       }
@@ -27287,7 +27287,7 @@
     },
     {
       "id": "ctx.Topology.def.diameter.Topology.ctxt.S",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27300,7 +27300,7 @@
     },
     {
       "id": "ctx.Topology.def.diameter.Topology.def.metric",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Topology.def.metric",
       "label": "uses_context",
       "metadata": {
@@ -27313,7 +27313,7 @@
     },
     {
       "id": "dep.Topology.def.diameter.Set.image",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Set.image",
       "label": "depends",
       "metadata": {
@@ -27326,7 +27326,7 @@
     },
     {
       "id": "dep.Topology.def.diameter.Set.prod",
-      "from": "Topology.def.diameter",
+      "from": "diam",
       "to": "Set.prod",
       "label": "depends",
       "metadata": {
