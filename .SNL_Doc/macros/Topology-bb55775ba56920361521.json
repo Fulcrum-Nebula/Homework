@@ -7,7 +7,7 @@
     "description": "Predicate: B is a basis for topology tau",
     "source": {
       "entries": [
-        "IsTopologicalBasis"
+        "TopologicalSpace.IsTopologicalBasis"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "IsTopologicalBasis"
+    "name": "TopologicalSpace.IsTopologicalBasis"
   }
 }
