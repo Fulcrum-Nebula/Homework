@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T))),theorem(And[authored_Logic_and_infix](IsOpen(A,Topology.discreteTopology(S@Topology.ctxt.S)),Topology.IsClosed[text](A,Topology.discreteTopology(S@Topology.ctxt.S),S@Topology.ctxt.S))))"
+      "snl": "variable(__list__(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T))),theorem(And[authored_Logic_and_infix](IsOpen(A,Topology.discreteTopology(S@Topology.ctxt.S)),IsClosed[text](A,Topology.discreteTopology(S@Topology.ctxt.S),S@Topology.ctxt.S))))"
     },
     "contribution_info": null,
     "pointer": null,

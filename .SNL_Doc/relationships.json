@@ -8146,7 +8146,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsClosed"
+          "IsClosed"
         ],
         "isAtomic": true
       }
@@ -8315,7 +8315,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsClosed"
+          "IsClosed"
         ],
         "isAtomic": true
       }
@@ -8692,7 +8692,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsClosed"
+          "IsClosed"
         ],
         "isAtomic": true
       }
@@ -13151,7 +13151,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsClosed"
+          "IsClosed"
         ],
         "isAtomic": true
       }
@@ -13554,7 +13554,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsClosed"
+          "IsClosed"
         ],
         "isAtomic": false
       }
@@ -15972,7 +15972,7 @@
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.IsClosed"
+          "IsClosed"
         ],
         "isAtomic": false
       }

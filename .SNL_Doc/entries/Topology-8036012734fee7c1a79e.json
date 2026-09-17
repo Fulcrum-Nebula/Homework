@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),def[prop](Topology.IsClosed[text](U,τ@Topology.ctxt.tau,S@Topology.ctxt.S),,Set.Mem[authored](,τ,Set.diff[relative_sup](,S@Topology.ctxt.S,U))))"
+      "snl": "variable(Type.annotation(@U,Set[text](T@Fulcrum.SetTheory.T)),def[prop](IsClosed[text](U,τ@Topology.ctxt.tau,S@Topology.ctxt.S),,Set.Mem[authored](,τ,Set.diff[relative_sup](,S@Topology.ctxt.S,U))))"
     },
     "contribution_info": null,
     "pointer": {

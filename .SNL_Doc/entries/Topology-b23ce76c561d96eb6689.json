@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "def[prop](Topology.T4(S@Topology.ctxt.S),,Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@E,Set[text](S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](Topology.IsClosed[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Topology.IsClosed[text](E,τ@Topology.ctxt.tau,S@Topology.ctxt.S)),Logic.exists-typed(@U,S@Topology.ctxt.S,Logic.exists-typed(@V,S@Topology.ctxt.S,And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,U),And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,V),And[authored_Logic_and_infix](Set.Subset[infix](,F,U),And[authored_Logic_and_infix](Set.Subset[infix](,E,V),Eq(,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[round](,))))))))))))"
+      "snl": "def[prop](Topology.T4(S@Topology.ctxt.S),,Logic.forall-typed(@F,Set[text](S@Topology.ctxt.S),Logic.forall-typed(@E,Set[text](S@Topology.ctxt.S),Logic.implies(And[authored_Logic_and_infix](IsClosed[text](F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),IsClosed[text](E,τ@Topology.ctxt.tau,S@Topology.ctxt.S)),Logic.exists-typed(@U,S@Topology.ctxt.S,Logic.exists-typed(@V,S@Topology.ctxt.S,And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,U),And[authored_Logic_and_infix](Set.Mem[authored](,τ@Topology.ctxt.tau,V),And[authored_Logic_and_infix](Set.Subset[infix](,F,U),And[authored_Logic_and_infix](Set.Subset[infix](,E,V),Eq(,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[round](,))))))))))))"
     },
     "contribution_info": null,
     "pointer": null,

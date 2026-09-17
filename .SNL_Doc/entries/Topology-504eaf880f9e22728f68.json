@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.closure(A),,setOf[typedBuilder](@x,S@Topology.ctxt.S,Logic.forall-typed(@F,Set[text](T@Fulcrum.SetTheory.T),Logic.implies(And[authored_Logic_and_infix](Topology.IsClosed(F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Set.Subset[infix](,A,F)),Set.Mem[authored](,F,x))))))"
+      "snl": "variable(Type.annotation(@A,Set[text](T@Fulcrum.SetTheory.T)),def(Topology.closure(A),,setOf[typedBuilder](@x,S@Topology.ctxt.S,Logic.forall-typed(@F,Set[text](T@Fulcrum.SetTheory.T),Logic.implies(And[authored_Logic_and_infix](IsClosed(F,τ@Topology.ctxt.tau,S@Topology.ctxt.S),Set.Subset[infix](,A,F)),Set.Mem[authored](,F,x))))))"
     },
     "contribution_info": null,
     "pointer": {
