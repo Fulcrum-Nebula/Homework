@@ -8400,7 +8400,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Fulcrum.def",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -8413,7 +8413,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Logic.def.exists",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -8426,7 +8426,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Logic.def.forall",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -8439,7 +8439,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Real.real",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Real.real",
       "label": "depends",
       "metadata": {
@@ -8452,7 +8452,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Set.def.set",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -8465,7 +8465,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Syntax.def.expression-UTLC.ctor.application",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Syntax.def.expression-UTLC.ctor.application",
       "label": "depends",
       "metadata": {
@@ -8478,7 +8478,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Topology.def.metricSpace",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Topology.def.metricSpace",
       "label": "depends",
       "metadata": {
@@ -8491,7 +8491,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Type.def.annotation",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -8504,7 +8504,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Type.def.prod",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Type.def.prod",
       "label": "depends",
       "metadata": {
@@ -8517,7 +8517,7 @@
     },
     {
       "id": "dep.Topology.def.bounded.Type.def.prod.ctor.pair",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Type.def.prod.ctor.pair",
       "label": "depends",
       "metadata": {
@@ -26962,7 +26962,7 @@
     },
     {
       "id": "ctx.Topology.def.bounded.Topology.ctxt.S",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -26975,7 +26975,7 @@
     },
     {
       "id": "ctx.Topology.def.bounded.Topology.def.metric",
-      "from": "IsBounded",
+      "from": "Bornology.IsBounded",
       "to": "Topology.def.metric",
       "label": "uses_context",
       "metadata": {

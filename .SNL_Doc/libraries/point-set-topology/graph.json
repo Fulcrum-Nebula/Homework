@@ -781,7 +781,7 @@
       "id": "n_111",
       "label": "Entry",
       "props": {
-        "entryId": "IsBounded"
+        "entryId": "Bornology.IsBounded"
       }
     },
     {

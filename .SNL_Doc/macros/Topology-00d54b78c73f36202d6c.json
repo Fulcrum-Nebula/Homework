@@ -7,7 +7,7 @@
     "description": "Predicate: A is a (metric) bounded set",
     "source": {
       "entries": [
-        "IsBounded"
+        "Bornology.IsBounded"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "IsBounded"
+    "name": "Bornology.IsBounded"
   }
 }
