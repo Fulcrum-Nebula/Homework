@@ -7,7 +7,7 @@
     "description": "",
     "source": {
       "entries": [
-        "Topology.def.separable"
+        "TopologicalSpace.IsSeparable"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
       }
     ],
     "tags": [],
-    "name": "Topology.separable"
+    "name": "TopologicalSpace.IsSeparable"
   }
 }

@@ -697,7 +697,7 @@
       "id": "n_99",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.separable"
+        "entryId": "TopologicalSpace.IsSeparable"
       }
     },
     {
