@@ -4,10 +4,10 @@
   "schema_version": 1,
   "package": "Topology",
   "macro": {
-    "description": "Operator: topological basis B (typographic)",
+    "description": "Predicate: B is a basis for topology tau",
     "source": {
       "entries": [
-        "Topology.def.topologicalBasis"
+        "IsTopologicalBasis"
       ],
       "urls": []
     },
@@ -20,7 +20,7 @@
         "tags": [],
         "template": {
           "mode": "formula_inline",
-          "body": "\\mathcal{B}",
+          "body": "#0\\text{ 是 }#1\\text{ 的拓扑基}",
           "typst": {
             "built_in": "",
             "synthesis": {
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.basis"
+    "name": "IsTopologicalBasis"
   }
 }

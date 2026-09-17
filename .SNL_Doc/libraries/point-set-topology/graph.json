@@ -144,7 +144,7 @@
       "id": "n_20",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.topologicalBasis"
+        "entryId": "IsTopologicalBasis"
       }
     },
     {
