@@ -7373,7 +7373,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Fulcrum.def",
-      "from": "Topology.def.FirstCountableTopology",
+      "from": "FirstCountableTopology",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -7386,7 +7386,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Logic.def.exists",
-      "from": "Topology.def.FirstCountableTopology",
+      "from": "FirstCountableTopology",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -7399,7 +7399,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Logic.def.forall",
-      "from": "Topology.def.FirstCountableTopology",
+      "from": "FirstCountableTopology",
       "to": "Logic.Forall",
       "label": "depends",
       "metadata": {
@@ -7412,7 +7412,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Set.def.countable",
-      "from": "Topology.def.FirstCountableTopology",
+      "from": "FirstCountableTopology",
       "to": "Set.Countable",
       "label": "depends",
       "metadata": {
@@ -7425,7 +7425,7 @@
     },
     {
       "id": "dep.Topology.def.C1.Topology.def.neighborhoodBasis",
-      "from": "Topology.def.FirstCountableTopology",
+      "from": "FirstCountableTopology",
       "to": "Topology.def.neighborhoodBasis",
       "label": "depends",
       "metadata": {
@@ -26988,7 +26988,7 @@
     },
     {
       "id": "ctx.Topology.def.C1.Topology.ctxt.S",
-      "from": "Topology.def.FirstCountableTopology",
+      "from": "FirstCountableTopology",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {

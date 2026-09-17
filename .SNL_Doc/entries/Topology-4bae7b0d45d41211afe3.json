@@ -4,11 +4,11 @@
   "schema_version": 1,
   "package": "Topology",
   "entry": {
-    "id": "Topology.def.FirstCountableTopology",
+    "id": "FirstCountableTopology",
     "kind": "definition",
     "title": "第一可数空间 / C1空间",
     "content": {
-      "snl": "def[prop](Topology.FirstCountableTopology(S@Topology.ctxt.S),,Logic.forall-typed(@x,S@Topology.ctxt.S,Logic.exists(Topology.neighborhoodBasis(x),Set.Countable[text](,Topology.neighborhoodBasis(x)))))"
+      "snl": "def[prop](FirstCountableTopology(S@Topology.ctxt.S),,Logic.forall-typed(@x,S@Topology.ctxt.S,Logic.exists(Topology.neighborhoodBasis(x),Set.Countable[text](,Topology.neighborhoodBasis(x)))))"
     },
     "package": "Topology",
     "contribution_info": null,
