@@ -53,6 +53,28 @@ Library 身份名使用大驼峰 `UpperCamelCase`，例如 `LinearAlgebra`、`Se
 
 例如：集合并的 Entry 和 Macro 均可名为 `Set.union`，其 Entry kind 为 `def`，Macro kind 为 `const`；并的结合律 Entry 使用 `Set.union_assoc`。类别从 `thm` 调整为 `ppt` 不应导致身份改名。
 
+### 条目 ID 与宏名同步（★ 作者 2026-09-17 定）
+
+**概念类 Entry 的 id 必须与它对应 Macro 的名字同步**，逐字相同，包括命名空间与大小写。不做「宏用裸名、条目带 `Domain.kindAbbrev.` 前缀」的两套写法。
+
+例：概念与 Mathlib 重合时，宏名取 Mathlib 裸名 `MetricSpace`，**条目 id 也就是 `MetricSpace`**，不写成 `Topology.def.metricSpace`。
+
+**例外（仍按 `Domain.kindAbbrev.slug` 形）**：结构性 Entry 没有对应的数学概念宏，不参与同步——
+
+| kind | 说明 |
+|---|---|
+| `section` / `subsection` | 章、节 |
+| `example` | 例 |
+| `counterexample` | 反例 |
+| `remark` | 注 |
+| `problem` | 问题 |
+| `context` | 语境 |
+| `proof` | 证明 |
+
+此条与下方「kind 表达类别」不冲突：kind 仍是 Entry 的类别属性，只是**不再进入概念类 Entry 的 id**。概念类 Entry 的类别由 `kind` 字段承载，不由 id 承载。
+
+**迁移边界**：已存在的旧式 id（如 `Topology.def.IsOpen`）属兼容基线，按 `SNL-CONVENTIONS.md` 的渐进采纳原则，在其整个语义族被显式迁移时一并改掉，不为此单独批量重命名。
+
 ### Lean 语法与常量的命名边界
 
 1. 若概念对应 Lean 的语法、命令或元编程提供的语法构造，而不是环境中的数学常量，优先使用该语法的关键字或保留词作为 Macro 名称，尽量避免与常量名冲突。
