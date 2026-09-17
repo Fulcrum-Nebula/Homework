@@ -8479,12 +8479,12 @@
     {
       "id": "dep.Topology.def.bounded.Topology.def.metricSpace",
       "from": "Bornology.IsBounded",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": true
       }
@@ -9701,12 +9701,12 @@
     {
       "id": "dep.Topology.def.diameter.Topology.def.metricSpace",
       "from": "diam",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": true
       }
@@ -10701,7 +10701,7 @@
     },
     {
       "id": "dep.Topology.def.metricSpace.Fulcrum.def",
-      "from": "Topology.def.metricSpace",
+      "from": "MetricSpace",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -10714,7 +10714,7 @@
     },
     {
       "id": "dep.Topology.def.metricSpace.Real.real",
-      "from": "Topology.def.metricSpace",
+      "from": "MetricSpace",
       "to": "Real.real",
       "label": "depends",
       "metadata": {
@@ -10727,7 +10727,7 @@
     },
     {
       "id": "dep.Topology.def.metricSpace.Topology.def.metric",
-      "from": "Topology.def.metricSpace",
+      "from": "MetricSpace",
       "to": "Topology.def.metric",
       "label": "depends",
       "metadata": {
@@ -10740,7 +10740,7 @@
     },
     {
       "id": "dep.Topology.def.metricSpace.Type.def.annotation",
-      "from": "Topology.def.metricSpace",
+      "from": "MetricSpace",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -10753,7 +10753,7 @@
     },
     {
       "id": "dep.Topology.def.metricSpace.Type.def.prod",
-      "from": "Topology.def.metricSpace",
+      "from": "MetricSpace",
       "to": "Type.def.prod",
       "label": "depends",
       "metadata": {
@@ -10766,7 +10766,7 @@
     },
     {
       "id": "dep.Topology.def.metricSpace.Type.rl.fun",
-      "from": "Topology.def.metricSpace",
+      "from": "MetricSpace",
       "to": "Type.rl.fun",
       "label": "depends",
       "metadata": {
@@ -11222,12 +11222,12 @@
     {
       "id": "dep.Topology.def.openBall.Topology.def.metricSpace",
       "from": "Topology.def.openBall",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": true
       }
@@ -13640,12 +13640,12 @@
     {
       "id": "dep.Topology.prop.closureDiameter.Topology.def.metricSpace",
       "from": "Topology.prop.closureDiameter",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": false
       }
@@ -15265,12 +15265,12 @@
     {
       "id": "dep.Topology.prop.metricOfT2.Topology.def.metricSpace",
       "from": "Topology.prop.metricOfT2",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": true
       }
@@ -15304,12 +15304,12 @@
     {
       "id": "dep.Topology.prop.metricOfT4.Topology.def.metricSpace",
       "from": "Topology.prop.metricOfT4",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": true
       }
@@ -15395,12 +15395,12 @@
     {
       "id": "dep.Topology.prop.metricOfTopology.Topology.def.metricSpace",
       "from": "Topology.prop.metricOfTopology",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": false
       }
@@ -15538,12 +15538,12 @@
     {
       "id": "dep.Topology.prop.openBallOfNeighborhood.Topology.def.metricSpace",
       "from": "Topology.prop.openBallOfNeighborhood",
-      "to": "Topology.def.metricSpace",
+      "to": "MetricSpace",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.ms"
+          "MetricSpace"
         ],
         "isAtomic": false
       }
@@ -36326,7 +36326,7 @@
     },
     {
       "id": "ctx.Topology.def.metricSpace.Topology.ctxt.S",
-      "from": "Topology.def.metricSpace",
+      "from": "MetricSpace",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {

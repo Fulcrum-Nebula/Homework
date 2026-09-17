@@ -739,7 +739,7 @@
       "id": "n_105",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.metricSpace"
+        "entryId": "MetricSpace"
       }
     },
     {

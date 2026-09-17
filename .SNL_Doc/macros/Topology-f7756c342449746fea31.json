@@ -7,7 +7,7 @@
     "description": "Predicate: (S, d) is a metric space",
     "source": {
       "entries": [
-        "Topology.def.metricSpace"
+        "MetricSpace"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.ms"
+    "name": "MetricSpace"
   }
 }
