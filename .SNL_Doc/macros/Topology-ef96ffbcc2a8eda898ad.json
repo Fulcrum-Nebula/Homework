@@ -7,7 +7,7 @@
     "description": "Typed: Topological Space on a Type",
     "source": {
       "entries": [
-        "Topology.def.topologicalSpace"
+        "TopologicalSpace"
       ],
       "urls": []
     },

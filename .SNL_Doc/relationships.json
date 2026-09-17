@@ -12547,7 +12547,7 @@
     },
     {
       "id": "dep.Topology.def.topologicalSpace.Fulcrum.def",
-      "from": "Topology.def.topologicalSpace",
+      "from": "TopologicalSpace",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -12560,7 +12560,7 @@
     },
     {
       "id": "dep.Topology.def.topologicalSpace.Topology.def.topology",
-      "from": "Topology.def.topologicalSpace",
+      "from": "TopologicalSpace",
       "to": "Topology.def.topology",
       "label": "depends",
       "metadata": {
@@ -36378,7 +36378,7 @@
     },
     {
       "id": "ctx.Topology.def.topologicalSpace.Topology.ctxt.S",
-      "from": "Topology.def.topologicalSpace",
+      "from": "TopologicalSpace",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -36391,7 +36391,7 @@
     },
     {
       "id": "ctx.Topology.def.topologicalSpace.Topology.ctxt.tau",
-      "from": "Topology.def.topologicalSpace",
+      "from": "TopologicalSpace",
       "to": "Topology.ctxt.tau",
       "label": "uses_context",
       "metadata": {
