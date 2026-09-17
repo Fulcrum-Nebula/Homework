@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def(Topology.Nbr(x),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Topology.neighborhood(U,x))))"
+      "snl": "variable(__list__(Type.annotation(@x,T@Fulcrum.SetTheory.T),Set.Mem[authored](,S@Topology.ctxt.S,x)),def(Topology.Nbr(x),,setOf[typedBuilder](@U,Set[text](T@Fulcrum.SetTheory.T),Fulcrum.isNhd(U,x))))"
     },
     "contribution_info": null,
     "pointer": null,

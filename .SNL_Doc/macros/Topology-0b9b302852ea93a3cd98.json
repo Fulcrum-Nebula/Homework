@@ -7,7 +7,7 @@
     "description": "Predicate: U is a neighborhood of x in (S, tau)",
     "source": {
       "entries": [
-        "Topology.def.neighborhood"
+        "Fulcrum.isNhd"
       ],
       "urls": []
     },
@@ -40,6 +40,6 @@
         }
       }
     ],
-    "name": "Topology.neighborhood"
+    "name": "Fulcrum.isNhd"
   }
 }

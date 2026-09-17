@@ -95,7 +95,7 @@
       "id": "n_13",
       "label": "Entry",
       "props": {
-        "entryId": "Topology.def.neighborhood"
+        "entryId": "Fulcrum.isNhd"
       }
     },
     {

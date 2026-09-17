@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(Type.annotation(@x,X@Topology.ctxt.X),theorem(Iff[authored_Logic_iff_long](Topology.continuous(f@Topology.ctxt.f,x),Logic.forall-typed(@V,Set[text](B@Topology.ctxt.AB),Logic.implies(Topology.neighborhood(V,Type.apply(f@Topology.ctxt.f,x)),Logic.exists-typed(@U,Set[text](A@Topology.ctxt.AB),And[authored_Logic_and_infix](Topology.neighborhood(U,x),Set.Subset[infix](,setOf[typedBuilder](@t,A@Topology.ctxt.AB,Set.Mem[authored](,V,Type.apply(f@Topology.ctxt.f,t))),U))))))))"
+      "snl": "variable(Type.annotation(@x,X@Topology.ctxt.X),theorem(Iff[authored_Logic_iff_long](Topology.continuous(f@Topology.ctxt.f,x),Logic.forall-typed(@V,Set[text](B@Topology.ctxt.AB),Logic.implies(Fulcrum.isNhd(V,Type.apply(f@Topology.ctxt.f,x)),Logic.exists-typed(@U,Set[text](A@Topology.ctxt.AB),And[authored_Logic_and_infix](Fulcrum.isNhd(U,x),Set.Subset[infix](,setOf[typedBuilder](@t,A@Topology.ctxt.AB,Set.Mem[authored](,V,Type.apply(f@Topology.ctxt.f,t))),U))))))))"
     },
     "contribution_info": null,
     "pointer": null,

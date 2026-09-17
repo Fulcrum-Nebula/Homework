@@ -7647,12 +7647,12 @@
     {
       "id": "dep.Topology.def.T0.Topology.def.neighborhood",
       "from": "Topology.def.T0Space",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -7790,12 +7790,12 @@
     {
       "id": "dep.Topology.def.T1.Topology.def.neighborhood",
       "from": "Topology.def.T1Space",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -7946,12 +7946,12 @@
     {
       "id": "dep.Topology.def.T2.Topology.def.neighborhood",
       "from": "T2Space",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -8817,12 +8817,12 @@
     {
       "id": "dep.Topology.def.closurePoint.Topology.def.neighborhood",
       "from": "Topology.def.closurePoint",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -9519,12 +9519,12 @@
     {
       "id": "dep.Topology.def.deletedNeighborhood.Topology.def.neighborhood",
       "from": "Topology.def.deletedNeighborhood",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -10779,7 +10779,7 @@
     },
     {
       "id": "dep.Topology.def.neighborhood.Fulcrum.def",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Fulcrum.def",
       "label": "depends",
       "metadata": {
@@ -10792,7 +10792,7 @@
     },
     {
       "id": "dep.Topology.def.neighborhood.Logic.def.and",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "And",
       "label": "depends",
       "metadata": {
@@ -10805,7 +10805,7 @@
     },
     {
       "id": "dep.Topology.def.neighborhood.Logic.def.exists",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Exists",
       "label": "depends",
       "metadata": {
@@ -10818,7 +10818,7 @@
     },
     {
       "id": "dep.Topology.def.neighborhood.Set.def.mem",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Set.Mem",
       "label": "depends",
       "metadata": {
@@ -10831,7 +10831,7 @@
     },
     {
       "id": "dep.Topology.def.neighborhood.Set.def.set",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Set",
       "label": "depends",
       "metadata": {
@@ -10844,7 +10844,7 @@
     },
     {
       "id": "dep.Topology.def.neighborhood.Set.def.subset",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Set.Subset",
       "label": "depends",
       "metadata": {
@@ -10857,7 +10857,7 @@
     },
     {
       "id": "dep.Topology.def.neighborhood.Type.def.annotation",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Type.def.annotation",
       "label": "depends",
       "metadata": {
@@ -11053,12 +11053,12 @@
     {
       "id": "dep.Topology.def.neighborhoodFamily.Topology.def.neighborhood",
       "from": "Topology.def.neighborhoodFamily",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -12197,12 +12197,12 @@
     {
       "id": "dep.Topology.def.seqLimit.Topology.def.neighborhood",
       "from": "Topology.def.seqLimit",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -14121,12 +14121,12 @@
     {
       "id": "dep.Topology.prop.continuityViaNeighborhood.Topology.def.neighborhood",
       "from": "Topology.prop.continuityViaNeighborhood",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": false
       }
@@ -14979,12 +14979,12 @@
     {
       "id": "dep.Topology.prop.interiorPoint.Topology.def.neighborhood",
       "from": "Topology.prop.interiorPoint",
-      "to": "Topology.def.neighborhood",
+      "to": "Fulcrum.isNhd",
       "label": "depends",
       "metadata": {
         "generator": "macro-source-scan",
         "macros": [
-          "Topology.neighborhood"
+          "Fulcrum.isNhd"
         ],
         "isAtomic": true
       }
@@ -27612,7 +27612,7 @@
     },
     {
       "id": "ctx.Topology.def.neighborhood.Fulcrum.SetTheory.T",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Fulcrum.SetTheory.T",
       "label": "uses_context",
       "metadata": {
@@ -27625,7 +27625,7 @@
     },
     {
       "id": "ctx.Topology.def.neighborhood.Topology.ctxt.S",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Topology.ctxt.S",
       "label": "uses_context",
       "metadata": {
@@ -27638,7 +27638,7 @@
     },
     {
       "id": "ctx.Topology.def.neighborhood.Topology.ctxt.tau",
-      "from": "Topology.def.neighborhood",
+      "from": "Fulcrum.isNhd",
       "to": "Topology.ctxt.tau",
       "label": "uses_context",
       "metadata": {

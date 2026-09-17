@@ -15,7 +15,7 @@
       }
     },
     "content": {
-      "snl": "variable(__list__(Type.annotation(@τ,Set[text](Set[text](S@Topology.ctxt.S)))),def[prop](Topology.T2Space(S@Topology.ctxt.S),,Logic.forall-typed(@x,S@Topology.ctxt.S,Logic.forall-typed(@y,S@Topology.ctxt.S,Logic.implies(Not[authored_Logic_neg_prefix](Eq(,x,y)),Logic.exists-typed(@U,Set[text](S@Topology.ctxt.S),Logic.exists-typed(@V,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Topology.neighborhood(U,x),Topology.neighborhood(V,y)),Eq(,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[slim](,))))))))))"
+      "snl": "variable(__list__(Type.annotation(@τ,Set[text](Set[text](S@Topology.ctxt.S)))),def[prop](Topology.T2Space(S@Topology.ctxt.S),,Logic.forall-typed(@x,S@Topology.ctxt.S,Logic.forall-typed(@y,S@Topology.ctxt.S,Logic.implies(Not[authored_Logic_neg_prefix](Eq(,x,y)),Logic.exists-typed(@U,Set[text](S@Topology.ctxt.S),Logic.exists-typed(@V,Set[text](S@Topology.ctxt.S),And[authored_Logic_and_infix](And[authored_Logic_and_infix](Fulcrum.isNhd(U,x),Fulcrum.isNhd(V,y)),Eq(,Set.inter[authored](,U,V),EmptyCollection.emptyCollection[slim](,))))))))))"
     },
     "contribution_info": null,
     "pointer": {
